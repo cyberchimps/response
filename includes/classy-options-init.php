@@ -41,19 +41,19 @@ $options
 	->section("Welcome")
 		->info("<h1>Response</h1>
 		
-<p><strong>A Responsive Starter WordPress Theme</strong></p>
+<p><strong>A Free Responsive Starter WordPress Theme Framework</strong></p>
 
-<p>Response Pro includes a Responsive Design (which magically adjusts to mobile devices such as the iPhone and iPad), Responsive Slider, Drag & Drop Header Elements, Page and Blog Elements, simplified Theme Options, and is built with HTML5 and CSS3.</p>
+<p><a href='http://cyberchimps.com/responsepro/' target='_blank'>Upgrade to Response Pro for just $25!</a></p>
+
+<p>Response includes a Responsive Design (which magically adjusts to mobile devices such as the iPhone and iPad), Responsive Slider, Drag & Drop Header Elements, Page and Blog Elements, simplified Theme Options, and is built with HTML5 and CSS3. Upgrade to Response Pro for even more Drag & Drop Elements.</p>
 
 <p>To get started simply work your way through the options below, add your content, and always remember to hit save after making any changes.</p>
 
 <p>The Response Slider options are under the Response Page Options which are available below the Page content entry area in WP-Admin when you edit a page. This way you can configure each page individually. You will also find the Drag & Drop Page Elements editor within the response Pro Page Options as well.</p>
 
-<p>If you are using the Response Pro Slider on a Page you can upload, and edit your slides from the Feature Slides menu available in the WP-Admin menu. Look for the CyberChimps logo.</p>
-
 <p>We tried to make Response as easy to use as possible, but if you still need help please read the <a href='http://cyberchimps.com/response/docs/' target='_blank'>documentation</a>, and visit our <a href='http://cyberchimps.com/forum/' target='_blank'>support forum</a>.</p>
 
-<p>Thank you for using Response Pro.</p>
+<p>Thank you for using Response.</p>
 ")
 	->section("Design")
 		->subsection("Typopgraphy")
