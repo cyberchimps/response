@@ -1,0 +1,245 @@
+/* Page Elements */
+
+#orbitDemo {border: 1px solid #ccc;}
+
+/*============================*/
+/*===== Carousel Styles ======*/
+/*============================*/
+/* Elastislide Style */
+.es-carousel-wrapper{
+	background: #fff;
+	border: 1px solid #DDD;
+	padding:10px 37px;
+	position:relative;
+	margin-bottom: 15px;
+}
+.es-carousel{
+	overflow:hidden;
+	background:#fff;
+}
+.es-carousel ul{
+	display:none;
+}
+.es-carousel ul li{
+	height:100%;
+	float:left;
+	display:block;
+}
+.es-carousel ul li a{
+	display:block;
+	border-style:solid;
+	border-color:#444;
+}
+.es-carousel ul li a img{
+	display:block;
+	border:none;
+	max-height:100%;
+	max-width:100%;
+}
+.es-nav span{
+	position:absolute;
+	top:50%;
+	left:12px;
+	background:transparent url(../images/nav.png) no-repeat top left;
+	width:14px;
+	height:26px;
+	margin-top:-13px;
+	text-indent:-9000px;
+	cursor:pointer;
+	opacity:0.8;
+}
+.es-nav span.es-nav-next{
+	right:12px;
+	left:auto;
+	background-position:top right;
+}
+.es-nav span:hover{
+	opacity:1.0;
+}
+.carousel_caption {text-align: center; margin-top: -21px; background: rgba(0, 0, 0, .6); color: white; width: 100%; position: relative; }
+/*============================*/
+/*======= Twitter Bar ========*/
+/*============================*/
+
+#twitterbar {
+	background: #fff;
+	border: 1px solid #DDD;
+	overflow: hidden;
+	margin: auto;
+	margin-bottom: 15px;
+}
+
+#twittertext {
+	padding: 10px 15px 10px 15px;
+	font-size: 14px;
+}
+
+/*============================*/
+/*===== Callout Section ======*/
+/*============================*/
+
+#calloutwrap {
+	overflow: hidden;
+	position:relative;
+	display: block;
+	margin: auto;
+	margin-bottom: 15px;
+	background: #fff;
+	border: 1px solid #DDD;
+}
+
+#callout_text {
+	font-size: 14px;
+	margin-left: 0;
+	padding: 15px;
+}
+
+.callout_title {
+	font-size: 20px;
+}
+
+#calloutbutton {
+	padding: 10px 5px 10px 5px;
+	margin-top: 28px;
+	background: #333;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	color: #fff;
+	text-align: center;
+	position: relative;
+	
+}
+
+#calloutimg{
+	padding-top: 10px;
+	
+	float:right;
+}
+
+.callout_link {text-align: center; margin-bottom: 0px;}
+
+#calloutbutton:hover{
+	background: #222;
+}
+
+#calloutbutton a{
+	color: #fff;
+	font-size: 18px;
+	font-weight: 800;
+}
+
+/*============================*/
+/*====== Widgitized Boxes =====*/
+/*============================*/
+
+#box_container ul {
+	list-style: none;
+}
+
+.box-widget-title {
+	color: #222;
+	height: 25px;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+}
+
+#box1 {
+	min-height: 200px;
+	background: #fff;
+	border: 1px solid #ddd;
+	margin-bottom: 15px;
+}
+
+#box2 {
+	min-height: 200px;
+	background: #fff;
+	border: 1px solid #ddd;
+	margin-bottom: 15px;
+}
+
+#box3 {
+	min-height: 200px;
+	background: #fff;
+	border: 1px solid #ddd;
+	right: -1px;
+	margin-bottom: 15px;
+}
+
+#box2.four.columns{margin-left: 4.3%;}
+
+@-moz-document url-prefix() {
+#box2.four.columns, #box3.four.columns {margin-left: 4.1%;}
+#box3 {right: -2px;}
+}
+
+
+.boxes ul { padding-left: 15px; }
+
+/*============================*/
+/*====== Tabbed Widgit =====*/
+/*============================*/
+
+/* Tabs */
+
+.response-tabbed-header li {
+	float: left;
+}
+
+.response-tabbed-popular-posts li, .response-tabbed-recent-posts li {
+	padding: 10px;
+	border-bottom: 1px solid #E2E2E2;
+	padding-bottom: 20px;
+}
+
+.response-tabbed-comments li {
+	padding: 10px 10px 25px 10px;
+	border-bottom: 1px solid #E2E2E2; 
+	padding-bottom: 35px;
+}
+
+.response-tabbed-tab {
+	clear: both;
+}
+
+.ui-tabs-hide {
+	display: none;
+}
+
+.response-tabbed-widget {
+	margin: -10px 0 0 0;
+}
+
+.response-tabbed-header {
+
+}
+
+.tab-image {float: left; margin-right: 10px; border: 2px solid #444; }
+
+.ui-state-default {
+	background: #f4f4f4;
+	border-bottom: 1px solid #d9d9d9;
+	border-left: 1px solid #d9d9d9;
+	border-right: 1px solid #d9d9d9;
+
+}
+
+li.ui-state-default  {
+	margin-left: 0px !important; padding-left: 5px; padding-right: 5px;
+}
+
+.ui-state-active {
+	background: #fff;
+	border-bottom: none;
+}
+
+#tab-4 {padding: 10px;}
+
+#tab-4 a {
+	padding: 3px 8px; background: #f4f4f4; font-size: 12px; margin: 0 4px 4px 0; border-radius: 3px;
+}
+.tabbed-title {font-size: 14px; margin-top: 4px;}
+
+.tabbed-date {font-size: 12px; font-style: italic;}
+
+div.timer {display: none !important;}

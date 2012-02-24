@@ -1,0 +1,98 @@
+/* 
+
+License: GNU General Public License v2.0
+
+License URI: http://www.gnu.org/licenses/gpl-2.0.html  
+
+*/
+
+.buy a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #fff;
+    padding: 2px 6px 2px 6px;
+    background-color: #777;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    border: 1px solid #777;
+}
+
+.buy a:hover{
+	color: #fff;
+    background-color:#444;
+    border: 1px solid #777;
+} 
+
+.menu ul{
+    margin: 0; padding: 0;
+    float: left;}
+ 
+.menu ul li{
+    display: inline;margin-right: 5px;}
+ 
+.menu ul li a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #fff;
+    padding: 2px 6px 2px 6px;
+    background-color: #777;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    border: 1px solid #777;
+  	}
+ 
+.menu ul li a:hover, .menu ul li .current{
+    color: #fff;
+    background-color:#444;
+    border: 1px solid #777; }
+
+input.button-primary, button.button-primary, a.button-primary {
+border-color: #666;
+font-weight: bold;
+color: white;
+background: #000;
+text-shadow: rgba(0, 0, 0, 0.3) 0 -1px 0;
+}
+
+.button:hover,.button-secondary:hover,.submit input:hover,input[type=button]:hover,input[type=submit]:hover{color:#fff;border-color:#666;background-color: #777;}
+
+input.button-primary:active,button.button-primary:active,a.button-primary:active{background:#555;color:#ccc;}
+
+
+.submit input,.button,input.button,.button-primary,input.button-primary,.button-secondary,input.button-secondary,.button-highlighted,input.button-highlighted,#postcustomstuff .submit input{text-decoration:none;font-size:12px!important;line-height:16px;padding: 2px 6px 2px 6px;cursor:pointer;border-width:1px;border-style:solid;-moz-border-radius:3px;-khtml-border-radius:3px;-webkit-border-radius:3px;border-radius:3px;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;-khtml-box-sizing:content-box;box-sizing:content-box;margin-top: -26px;}
+
+input.button-primary {font-size:14px !important;}
+
+#top {
+	float: right;text-decoration: none;padding: 5px;
+}
+
+/* CyberChimps Themes CSS
+----------------------------------*/
+
+#contain {
+	text-align: left;margin: 10px 0 10px 10px;padding: 0px;border:0;width: 850px;
+}
+
+#themesheader {
+	margin: 0 0 30px 0;	
+}
+
+.pro {
+	font-size: 19px;
+}
+
+.theme_images {
+	float: left;width: 294px;height: 250px;margin-bottom: 15px;
+}
+
+.theme_desciptions {
+	margin: 0;float: right;width: 540px;height: 250px;margin-bottom: 15px;
+}
+
+.theme_titles a{
+	font-size: 18px;
+	text-decoration: none !important;
+	font-weight: bold;
+	color: #333;
+}

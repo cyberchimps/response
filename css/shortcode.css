@@ -1,0 +1,107 @@
+/* Shortcodes */
+
+.checklist ul {
+	margin-left:30px;
+	list-style:none!important;
+}
+
+.checklist ul li{
+	padding:5px 5px 5px 30px;
+	background: url(../images/pro/checkbox.png) no-repeat center left;
+}
+
+.boxcode {
+
+	background:#bfe4f9;
+	border:1px solid #68a2cf;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	padding:10px;
+	width: 150px;
+}
+
+/* Shortcode Columns */
+
+/* ------- Fluid Columns ------- */
+.one_half{ width:48%; }
+.one_third{ width:30.66%; }
+.two_third{ width:65.33%; }
+.one_fourth{ width:22%; }
+.three_fourth{ width:74%; }
+.one_fifth{ width:16.8%; }
+.two_fifth{ width:37.6%; }
+.three_fifth{ width:58.4%; }
+.four_fifth{ width:67.2%; }
+.one_half,.one_third,.two_third,.three_fourth,.one_fourth,.one_fifth,.two_fifth,.three_fifth,.four_fifth{ position:relative; margin-right:4%; float:left; }
+.last{ margin-right:0 !important; clear:right; }
+.clearboth {clear:both;display:block;font-size:0;height:0;line-height:0;width:100%;}
+
+
+/* Download */
+
+.download {
+	display: inline-block;color:#fff;
+	font-weight:bold;
+	font-size:1.2em;
+	background: -webkit-gradient(linear, left top, left bottom, from(#88c841), to(#73b338));
+	background: -moz-linear-gradient(center top, #88c841, #73b338);
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	padding: 5px 20px;
+	text-align: center;
+	-shadow: 0px 1px 0px #6c0909;
+}
+
+.download:hover {
+	background: -webkit-gradient(linear, left top, left bottom, from(#73b338), to(#88c841));
+	background: -moz-linear-gradient(center top, #73b338, #88c841);
+}
+
+/* ------- Default Sliding Door Buttons ------- */
+.button_link{
+	font-family: Tahoma, Arial, sans-serif;
+	background: #777;
+	text-decoration:none !important;
+	color:#eee !important;
+	text-shadow:0 -1px 0 #888888;
+	display:inline-block;
+	font-size:11px;
+	letter-spacing:1.6px;
+	margin:5px 10px 5px 0;
+	padding:0 24px 0 0;
+	text-transform:uppercase;
+	border-radius: 3px;
+}
+
+.button_link span{
+	background: #777;
+	text-decoration:none !important;
+	display:block;
+	line-height:10px;
+	padding:15px 0 17px 21px;
+	border-radius: 3px;
+}
+
+.button_link span:hover{
+	background: #444;
+	text-decoration:none !important;
+	display:block;
+	line-height:10px;
+	padding:15px 0 17px 21px;
+	border-radius: 3px;
+}
+
+.button_link.large_button{
+	font-size:24px;
+	height:56px;
+	padding-right:24px;
+}
+
+.button_link.large_button span{
+	line-height:20px;
+	padding:17px 0 20px 20px;
+	text-transform:none;
+}
+
+.button_link:hover{ text-decoration:none !important; background: #444; }

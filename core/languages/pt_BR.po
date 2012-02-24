@@ -1,0 +1,346 @@
+#Copyright (C) 2011 
+msgid ""
+msgstr ""
+"Project-Id-Version: Core 1.0\n"
+"Report-Msgid-Bugs-To: http://cyberchimps.com/forum\n"
+"POT-Creation-Date: 10-17-11\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Textdomain-Support: yes\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Marcelo Kannami Gimenez <mkgimenez@gmail.com>\n"
+"Language-Team: \n"
+"X-Poedit-SearchPath-0: .\n"
+
+#@ response
+#: core/actions/archive-actions.php:36
+msgid "Archive for the &#8216;"
+msgstr "Arquivar para &#8216;"
+
+#@ response
+#: core/actions/archive-actions.php:36
+msgid "&#8217; Category:"
+msgstr "&#8217; Categoria:"
+
+#@ response
+#: core/actions/archive-actions.php:39
+msgid "Posts Tagged &#8216;"
+msgstr "Posts Marcados &#8216;"
+
+#@ response
+#: core/actions/archive-actions.php:39
+msgid "&#8217;:"
+msgstr "&#8217;:"
+
+#@ response
+#: core/actions/archive-actions.php:42
+#: core/actions/archive-actions.php:45
+msgid "Archive for"
+msgstr "Arquivar para"
+
+#@ response
+#: core/actions/archive-actions.php:48
+msgid "Archive for:"
+msgstr "Arquivar para:"
+
+#@ response
+#: core/actions/archive-actions.php:51
+msgid "Author Archive:"
+msgstr "Arquivo de Autor:"
+
+#@ response
+#: core/actions/archive-actions.php:54
+msgid "Blog Archives:"
+msgstr "Arquivo de Blog:"
+
+#@ response
+#: core/actions/comments-actions.php:49
+msgid "No Responses"
+msgstr "Nenhuma resposta"
+
+#@ response
+#: core/actions/comments-actions.php:49
+msgid "One Response"
+msgstr "Uma resposta"
+
+#@ response
+#: core/actions/comments-actions.php:49
+msgid "% Responses"
+msgstr "% Respostas"
+
+#@ response
+#: core/actions/comments-actions.php:88
+msgid "You must be"
+msgstr "Você deve estar"
+
+#@ response
+#: core/actions/comments-actions.php:88
+msgid "logged in"
+msgstr "logado"
+
+#@ ifeture
+#: core/actions/comments-actions.php:88
+msgid "to post a comment."
+msgstr "para postar um comentário."
+
+#@ response
+#: core/actions/footer-actions.php:39
+msgid "Recent Posts"
+msgstr "Posts Recentes"
+
+#@ response
+#@ response
+#: core/actions/footer-actions.php:46
+#: sidebar.php:26
+msgid "Archives"
+msgstr "Arquivados"
+
+#@ response
+#: core/actions/footer-actions.php:53
+msgid "Links"
+msgstr "Links"
+
+#@ response
+#@ response
+#: core/actions/footer-actions.php:60
+#: core/actions/footer-actions.php:64
+#: sidebar.php:40
+#: sidebar.php:44
+msgid "WordPress"
+msgstr "WordPress"
+
+#@ response
+#@ response
+#: core/actions/footer-actions.php:64
+#: sidebar.php:44
+msgid "http://wordpress.org/"
+msgstr "http://wordpress.org/"
+
+#@ response
+#@ response
+#: core/actions/footer-actions.php:64
+#: sidebar.php:44
+msgid "Powered by WordPress, state-of-the-art semantic personal publishing platform."
+msgstr "Produzido com WordPress, o estado-da-arte de plataformas pessoais de publicação."
+
+#@ response
+#: core/actions/global-actions.php:43
+msgid "Published on"
+msgstr "Publicado em"
+
+#@ response
+#: core/actions/global-actions.php:44
+msgid "by"
+msgstr "por"
+
+#@ response
+#: core/actions/global-actions.php:45
+msgid "in"
+msgstr "em"
+
+#@ response
+#: core/actions/global-actions.php:70
+msgid "No Comments &#187;"
+msgstr "Nenhum comentário &#187;"
+
+#@ response
+#: core/actions/global-actions.php:70
+msgid "1 Comment &#187;"
+msgstr "1 Comentário &#187;"
+
+#@ response
+#: core/actions/global-actions.php:70
+msgid "% Comments &#187;"
+msgstr "% Comentários &#187;"
+
+#@ default
+#: core/actions/index-actions.php:276
+msgid "Page"
+msgstr "Página"
+
+#@ default
+#: core/classy-options/classy-options-framework/classy-options.php:82
+msgid "Save Options"
+msgstr "Salvar Opções"
+
+#@ response
+#: core/classy-options/classy-options-framework/classy-options.php:86
+msgid "Support"
+msgstr "Suporte"
+
+#@ response
+#: core/classy-options/classy-options-framework/classy-options.php:87
+msgid "Documentation"
+msgstr "Documentação"
+
+#@ response
+#: core/classy-options/classy-options-framework/classy-options.php:88
+msgid "Forum"
+msgstr "Fórum"
+
+#@ response
+#: core/classy-options/classy-options-framework/classy-options.php:89
+msgid "Twitter"
+msgstr "Twitter"
+
+#@ response
+#: core/classy-options/classy-options-framework/classy-options.php:90
+msgid "Facebook"
+msgstr "Facebook"
+
+#@ response
+#: core/classy-options/classy-options-framework/classy-options.php:91
+msgid "CyberChimps Store"
+msgstr "Loja CyberChimps"
+
+#@ response
+#: core/classy-options/classy-options-framework/classy-options.php:92
+msgid "CyberChimps Pro"
+msgstr "CyberChimps Pro"
+
+#@ default
+#: core/classy-options/classy-options-framework/classy-options.php:111
+msgid "Restore Defaults"
+msgstr "Restaurar Padrões"
+
+#@ default
+#: core/classy-options/classy-options-framework/classy-options.php:111
+msgid "Click OK to reset. Any theme settings will be lost!"
+msgstr "Clique em OK para restaurar. Qualquer configuração do tema será perdida!"
+
+#@ optionsframework
+#: core/classy-options/classy-options-framework/classy-options.php:141
+msgid "Default options restored."
+msgstr "Configurações padrão restauradas."
+
+#@ optionsframework
+#: core/classy-options/classy-options-framework/classy-options.php:150
+msgid "Options Imported"
+msgstr "Opções Importadas"
+
+#@ optionsframework
+#: core/classy-options/classy-options-framework/classy-options.php:153
+msgid "Invalid Data for Import"
+msgstr "Dados inválidos para importação"
+
+#@ optionsframework
+#: core/classy-options/classy-options-framework/classy-options.php:209
+msgid "Options saved."
+msgstr "Opções salvas."
+
+#@ default
+#: core/classy-options/classy-options-framework/options-medialibrary-uploader.php:26
+msgid "Options Framework Internal Container"
+msgstr "Contêiner interno de opções do Framework"
+
+#@ default
+#: core/classy-options/classy-options-framework/options-medialibrary-uploader.php:128
+msgid "Upload"
+msgstr "Upload"
+
+#@ optionsframework
+#: core/classy-options/classy-options-framework/options-medialibrary-uploader.php:151
+msgid "View File"
+msgstr "Vsualizar arquivo"
+
+#@ optionsframework
+#: core/classy-options/classy-options-framework/options-medialibrary-uploader.php:288
+msgid "Gallery"
+msgstr "Galeria"
+
+#@ optionsframework
+#: core/classy-options/classy-options-framework/options-medialibrary-uploader.php:288
+msgid "Previously Uploaded"
+msgstr "Enviados anteriormente"
+
+#@ default
+#: core/pro/inc/meta-box.php:22
+msgid "You don't have permission to delete this file."
+msgstr "Você não tem permissão para excluir este arquivo."
+
+#@ default
+#: core/pro/inc/meta-box.php:26
+msgid "File has been successfully deleted."
+msgstr "Arquivo excluído com sucesso."
+
+#@ default
+#: functions.php:82
+#, php-format
+msgid "<cite class=\"fn\">%s</cite> <span class=\"says\"></span>"
+msgstr "<cite class=\"fn\">%s</cite> <span class=\"says\"></span>"
+
+#@ default
+#: functions.php:85
+msgid "Your comment is awaiting moderation."
+msgstr "Seu comentário está aguardando moderação."
+
+#@ default
+#: functions.php:89
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s de %2$s"
+
+#@ default
+#: functions.php:89
+msgid "(Edit)"
+msgstr "(Editar)"
+
+#@ default
+#: functions.php:221
+msgid "response Slides"
+msgstr "response Slides"
+
+#@ default
+#: functions.php:222
+msgid "Slides"
+msgstr "Slides"
+
+#@ default
+#: functions.php:237
+msgid "Carousel"
+msgstr "Carousel"
+
+#@ default
+#: functions.php:238
+msgid "Posts"
+msgstr "Posts"
+
+#@ default
+#: functions.php:390
+msgid "Header Menu"
+msgstr "Menu do Cabeçalho"
+
+#@ default
+#: functions.php:390
+msgid "Footer Menu"
+msgstr "Menu do Rodapé"
+
+#@ response
+#: sidebar.php:19
+msgid "Pages"
+msgstr "Páginas"
+
+#@ response
+#: sidebar.php:33
+msgid "Categories"
+msgstr "Categorias"
+
+#@ response
+#: sidebar.php:50
+msgid "Subscribe"
+msgstr "Assinar"
+
+#@ response
+#: sidebar.php:52
+msgid "Entries (RSS)"
+msgstr "Entradas (RSS)"
+
+#@ response
+#: sidebar.php:53
+msgid "Comments (RSS)"
+msgstr "Comentários (RSS)"
+
