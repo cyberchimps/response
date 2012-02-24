@@ -126,8 +126,6 @@ TEMPLATE_URL . '/images/social/thumbs/icons-default.png' ), 'default' => 'defaul
 		->subsection_end()
 		->subsection("Callout Options")
 			->textarea($themeslug."_blog_callout_text", "Enter your Callout text")
-			->checkbox($themeslug."_blog_custom_callout_options", "Custom Callout Options")
-			->color($themeslug."_blog_callout_text_color", "Custom Callout Text Color")
 		->subsection_end()
 		->section("Templates")
 		->subsection("Single Post")
