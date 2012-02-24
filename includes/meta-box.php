@@ -40,7 +40,7 @@ function initialize_the_meta_boxes() {
 			->image_select('page_sidebar', 'Select Page Layout', '',  array('options' => array(TEMPLATE_URL . '/images/options/right.png' , TEMPLATE_URL . '/images/options/left.png', TEMPLATE_URL . '/images/options/rightleft.png', TEMPLATE_URL . '/images/options/tworight.png', TEMPLATE_URL . '/images/options/none.png')))
 			->checkbox('hide_page_title', 'Page Title', '', array('std' => 'on'))
 			->section_order('page_section_order', 'Page Elements', '', array('options' => array(
-					'page_slider' => 'Feature Slider',
+					'page_slider_lite' => 'Feature Slider',
 					'callout_section' => 'Callout',
 					'page_section' => 'Page',
 					'breadcrumbs' => 'Breadcrumbs',
@@ -50,12 +50,12 @@ function initialize_the_meta_boxes() {
 
 			->pagehelp('', 'Need Help?', '')
 		->tab($themenamefull." Slider Options")
-			->single_image('page_slide_one', 'Slide One Image', '', array('std' =>  TEMPLATE_URL . '/images/responseslider.jpg'))
-			->text('slide_one_url', 'Slide One Link', '', array('std' => 'http://cyberchimps.com'))
-			->single_image('page_slide_two', 'Slide Two Image', '', array('std' =>  TEMPLATE_URL . '/images/responseslider.jpg'))
-			->text('slide_two_url', 'Slide Two Link', '', array('std' => 'http://cyberchimps.com'))
-			->single_image('page_slide_three', 'Slide Three Image', '', array('std' =>  TEMPLATE_URL . '/images/responseslider.jpg'))
-			->text('slide_three_url', 'Slide Three Link', '', array('std' => 'http://cyberchimps.com'))
+			->single_image('page_slide_one_image', 'Slide One Image', '', array('std' =>  TEMPLATE_URL . '/images/responseslider.jpg'))
+			->text('page_slide_one_url', 'Slide One Link', '', array('std' => 'http://cyberchimps.com'))
+			->single_image('page_slide_two_image', 'Slide Two Image', '', array('std' =>  TEMPLATE_URL . '/images/responseslider.jpg'))
+			->text('page_slide_two_url', 'Slide Two Link', '', array('std' => 'http://cyberchimps.com'))
+			->single_image('page_slide_three_image', 'Slide Three Image', '', array('std' =>  TEMPLATE_URL . '/images/responseslider.jpg'))
+			->text('page_slide_three_url', 'Slide Three Link', '', array('std' => 'http://cyberchimps.com'))
 			->sliderhelp('', 'Need Help?', '')
 		->tab("Callout Options")
 			->textarea('callout_text', 'Callout Text', '')
