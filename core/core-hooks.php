@@ -512,6 +512,16 @@ function response_banner() {
 }
 
 /**
+* Callout Section element
+*
+* @since 1.0
+*/
+function response_callout_section() {
+	do_action('response_callout_section');
+}
+
+
+/**
 * End
 */
 

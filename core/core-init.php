@@ -26,6 +26,7 @@ require_once ( get_template_directory() . '/core/core-hooks.php' );
 require_once ( get_template_directory() . '/core/actions/sidebar-actions.php' );
 require_once ( get_template_directory() . '/core/actions/404-actions.php' );
 require_once ( get_template_directory() . '/core/actions/archive-actions.php' ); 
+require_once ( get_template_directory() . '/core/actions/callout-actions.php' );
 require_once ( get_template_directory() . '/core/actions/comments-actions.php' );
 require_once ( get_template_directory() . '/core/actions/index-actions.php' );
 require_once ( get_template_directory() . '/core/actions/global-actions.php' );
@@ -44,8 +45,6 @@ require_once ( get_template_directory() . '/core/metabox/meta-box-class.php' );
 //CyberChimps Themes Page
 require_once ( get_template_directory() . '/core/classy-options/options-themes.php' );
 
-//Widgets
-require_once ( get_template_directory() . '/core/widgets/tabbed-widget.php' );
 
 /**
 * End
