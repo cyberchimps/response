@@ -94,7 +94,7 @@ class ClassyOptions {
 				<h2><?php echo $themenamefull; ?> Options</h2>
 				</div>
 				<div class="upgradepro">
-				<a href="http://cyberchimps.com/responsepro/" target="_blank">Upgrade to Response Pro</a>
+				<a href="http://cyberchimps.com/responsepro/" target="_blank">Upgrade to Response Pro for just $25</a>
 				</div>
 				<div class="clear"></div>
 					<p class="submit">
