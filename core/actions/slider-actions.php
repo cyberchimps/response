@@ -53,29 +53,21 @@ function response_slider_lite_content() {
 		$link3 = $options->get($themeslug.'_blog_slide_three_url');
 
 	}
-	
-	/* Markup for slides */
+?>
+	<div class="row">
+		<div id="orbitDemo">
+			<a href="<?php echo $link1; ?>">
+	   			<img src="<?php echo $slide1 ;?>" alt="Slider" />
+	    	</a>
+	    	<a href="<?php echo $link2; ?>">
+	   			<img src="<?php echo $slide2 ;?>" alt="Slider" />
+	    	</a>
+	    	<a href="<?php echo $link3; ?>">
+	   			<img src="<?php echo $slide3 ;?>" alt="Slider" />
+	    	</a>
+		</div>
+	</div>
 
-	$out .= "
-			<div class='row'><div id='orbitDemo'>
-			<a href='$link1'>
-	   			<img src='$slide1' alt='Slider' />
-	    	</a>
-	    	<a href='$link2'>
-	   			<img src='$slide2' alt='Slider' />
-	    	</a>
-	    	<a href='$link3'>
-	   			<img src='$slide3' alt='Slider' />
-	    	</a>
-	";
-
-	    	/* End slide markup */	
-	    
-	      	$out .= "</div>";
-	
-/* Begin NivoSlider javascript */ 
-    
-    $out .= <<<OUT
 <script type="text/javascript">
 	jQuery(document).ready(function ($) {
     $(window).load(function() {
@@ -86,17 +78,7 @@ function response_slider_lite_content() {
      });
      });
 </script>
-OUT;
 
-/* End NivoSlider javascript */ 
-
-echo $out;
-/* END */ 
-
-
-
-?>
-</div>
 <?php
 
 }
