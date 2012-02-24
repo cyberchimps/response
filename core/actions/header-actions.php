@@ -448,7 +448,7 @@ function response_logo_icons_content() {
 function response_banner_content() {
 global $themeslug, $options, $root; //Call global variables
 $banner = $options->get($themeslug.'_banner'); //Calls the logo URL from the theme options
-$default = "$root/images/pro/banner.jpg";
+$default = "$root/images/banner.jpg";
 
 ?>
 	<div class="container">
