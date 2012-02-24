@@ -2,6 +2,26 @@
 /* OptionsFramework Admin Styles */
 /*-------------------------------------------------------------------------------------------*/
 
+.upgradepro a {
+font-family: Helvetica, Arial, Serif;
+text-decoration: none;
+font-size: 14px;
+color: white;
+padding: 5px;
+background-color: black;
+-moz-border-radius: 3px;
+border-radius: 3px;
+border: 1px solid #777;
+float: right;
+margin-top: 8px;
+margin-right: 10px;
+}
+
+.upgradepro a:hover{
+    color: #fff;
+    background-color:#444;
+    border: 1px solid #777; }
+
 .nav {margin-top: -1px;}
 
 .jetpack-message .squeezer {display: none;}
