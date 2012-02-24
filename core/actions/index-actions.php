@@ -76,12 +76,10 @@ function response_index_content() {
 			</div></div>		
 				<?php endif;?>
 
-			
 			<?php if (is_single()):?>
 			<?php comments_template(); ?>
 			<?php endif ?>
 			
-	
 			<?php endwhile; ?>
 		
 			<?php else : ?>
