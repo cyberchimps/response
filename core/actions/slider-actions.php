@@ -96,7 +96,7 @@ echo $out;
 
 
 ?>
-<div class="slider_nav"></div></div>
+</div>
 <?php
 
 }
