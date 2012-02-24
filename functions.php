@@ -269,11 +269,11 @@ require_once ( get_template_directory() . '/includes/options-functions.php' ); /
 require_once ( get_template_directory() . '/includes/meta-box.php' ); // Meta options markup.
 
 // Presstrends
-function presstrends() {
+function response_presstrends() {
 
 // Add your PressTrends and Theme API Keys
 $api_key = 'zwhgyc1lnt56hki8cpwobb47bblas4er226b';
-$auth = 'ulc38mkshvmycifb7lzmvsz6354gi18zg';
+$auth = 'cfbu300xh4uq7o584ne59vwluhht0rign';
 
 // NO NEED TO EDIT BELOW
 $data = get_transient( 'presstrends_data' );
@@ -309,7 +309,7 @@ $url .= $k . '/' . $v . '/';
 $response = wp_remote_get( $url );
 set_transient('presstrends_data', $data, 60*60*24);
 }}
-add_action('admin_init', 'presstrends');
+add_action('admin_init', 'response_presstrends');
 
 /**
 * End
