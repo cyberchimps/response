@@ -42,7 +42,7 @@ jQuery(document).ready(function($) {
 	
 	$("#subsection-Page-Options > h4").click();
 	var page_subsection_map = {
-		page_slider_lite: "subsection-Response-Slider-Options",
+		page_slider: "subsection-Response-Slider-Options",
 		callout_section: "subsection-Callout-Options",
 	};
 	$("#page_section_order").change(function(){

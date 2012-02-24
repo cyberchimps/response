@@ -40,7 +40,7 @@ function initialize_the_meta_boxes() {
 			->image_select('page_sidebar', 'Select Page Layout', '',  array('options' => array(TEMPLATE_URL . '/images/options/right.png' , TEMPLATE_URL . '/images/options/left.png', TEMPLATE_URL . '/images/options/rightleft.png', TEMPLATE_URL . '/images/options/tworight.png', TEMPLATE_URL . '/images/options/none.png')))
 			->checkbox('hide_page_title', 'Page Title', '', array('std' => 'on'))
 			->section_order('page_section_order', 'Page Elements', '', array('options' => array(
-					'page_slider_lite' => 'Feature Slider',
+					'page_slider' => 'Feature Slider',
 					'callout_section' => 'Callout',
 					'page_section' => 'Page',
 					'breadcrumbs' => 'Breadcrumbs',

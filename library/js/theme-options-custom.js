@@ -136,7 +136,7 @@ jQuery(function($) {
 	$("input[name='response[re_blog_section_order]']").change(function(){
 		var show = $(this).val().split(",");
 		var map = {
-			response_blog_slider_lite: "subsection-featureslider",
+			response_blog_slider: "subsection-featureslider",
 			response_callout_section: "subsection-calloutoptions",
 			response_twitterbar_section: "subsection-twtterbaroptions",
 			response_index_carousel_section: "subsection-carouseloptions"

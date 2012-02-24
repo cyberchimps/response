@@ -19,8 +19,8 @@
 * Response slider actions
 */
 
-add_action ('response_blog_slider_lite', 'response_slider_lite_content' );
-add_action ('response_page_slider_lite', 'response_slider_lite_content' );
+add_action ('response_blog_slider', 'response_slider_lite_content' );
+add_action ('response_page_slider', 'response_slider_lite_content' );
 
 /**
 * Lite slider function
