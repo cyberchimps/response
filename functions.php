@@ -171,23 +171,6 @@ function response_featured_image() {
 add_action( 'init', 'response_featured_image', 11);	
 
 /**
-* Attach CSS3PIE behavior to elements
-*/   
-function response_pie() { ?>
-	
-	<style type="text/css" media="screen">
-		#wrapper input, textarea, #twitterbar, input[type=submit], input[type=reset], #imenu, .searchform, .post_container, .postformats, .postbar, .post-edit-link, .widget-container, .widget-title, .footer-widget-title, .comments_container, ol.commentlist li.even, ol.commentlist li.odd, .slider_nav, ul.metabox-tabs li, .tab-content, .list_item, .section-info, #of_container #header, .menu ul li a, .submit input, #of_container textarea, #of_container input, #of_container select, #of_container .screenshot img, #of_container .of_admin_bar, #of_container .subsection > h3, .subsection, #of_container #content .outersection .section, #carousel_list, #calloutwrap, #calloutbutton, .box1, .box2, .box3, .es-carousel-wrapper
-  		
-  	{
-  		behavior: url('<?php echo get_template_directory_uri();  ?>/core/library/pie/PIE.htc');
-	}
-	</style>
-<?php
-}
-
-add_action('wp_head', 'response_pie', 8);
-
-/**
 * Add Google Analytics support based on theme option.
 */ 
 function response_google_analytics() {

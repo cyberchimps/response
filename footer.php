@@ -26,13 +26,12 @@
     <div id="footer" class="container">
      		<div class="row" id="footer_container">
     			<div id="footer_wrap">	
-	<!-- Begin @response footer hook content-->
-		<?php response_footer(); ?>
-	<!-- End @response footer hook content-->
+					<!-- Begin @response footer hook content-->
+						<?php response_footer(); ?>
+					<!-- End @response footer hook content-->
 				</div>
 	<?php endif;?>
 	
-
 			</div><!--end footer_wrap-->
 	</div><!--end footer-->
 </div> 

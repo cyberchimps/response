@@ -33,7 +33,6 @@
 	
 		<div id="content" class="<?php echo $content_grid; ?>">
 		
-					
 		<!--Begin @response before_archive hook-->
 			<?php response_before_archive(); ?>
 		<!--End @response before_archive hook-->
