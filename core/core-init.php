@@ -37,7 +37,6 @@ require_once ( get_template_directory() . '/core/actions/page-actions.php' );
 require_once ( get_template_directory() . '/core/actions/search-actions.php' );
 require_once ( get_template_directory() . '/core/actions/slider-actions.php' );
 
-
 //Call metabox class file
 require_once ( get_template_directory() . '/core/metabox/meta-box-class.php' );
 
