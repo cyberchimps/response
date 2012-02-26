@@ -2,6 +2,9 @@ Response Changelog
 
 ****************************
 
+Version 1.0.2 (02-25-12)
+-Margin fix for HTML tables.
+
 Version 1.0.1 (02-24-12)
 -Initial release.
 
