@@ -154,10 +154,7 @@ TEMPLATE_URL . '/images/social/thumbs/icons-default.png' ), 'default' => 'defaul
 		->subsection_end()
 	->section("Footer")
 		->open_outersection()
-			->checkbox($themeslug."_disable_footer", "Footer", array('default' => true))
 			->text($themeslug."_footer_text", "Footer Copyright Text")
-			->checkbox($themeslug."_disable_afterfooter", "Afterfooter", array('default' => true))
-		->close_outersection()
-	
+		->close_outersection()	
 ;
 }
