@@ -5,6 +5,7 @@ Response Changelog
 Version 1.0.2 (02-27-12)
 -Margin fix for HTML tables.
 -Removed several options.
+-Updated Foundation CSS.
 
 Version 1.0.1 (02-24-12)
 -Initial release.
