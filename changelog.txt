@@ -2,6 +2,9 @@ Response Changelog
 
 ****************************
 
+Version 1.0.3 (02-29-12)
+-Adjusted doctype. 
+
 Version 1.0.2 (02-27-12)
 -Margin fix for HTML tables.
 -Removed several options.
