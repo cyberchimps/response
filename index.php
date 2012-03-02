@@ -14,7 +14,6 @@
 * @package Response
 * @since 1.0
 */
-
 	global $options, $themeslug, $post; // call globals
 	$reorder = $options->get($themeslug.'_blog_section_order');		
 ?>

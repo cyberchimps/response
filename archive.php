@@ -23,9 +23,6 @@
 
 <div class="container">
 	<div class="row">
-		<?php if ($options->get($themeslug.'_archive_breadcrumbs') == "1") { response_breadcrumbs();}?>
-	</div>
-	<div class="row">
 	<!--Begin @response before content sidebar hook-->
 		<?php response_before_content_sidebar(); ?>
 	<!--End @response before content sidebar hook-->
@@ -79,6 +76,9 @@
 	
 		</div><!--end content-->
 	</div><!--end row-->
+	
+	<?php if ($options->get($themeslug.'_archive_breadcrumbs') == "1") { response_breadcrumbs();}?>
+	
 </div><!--end container-->
 
 <?php get_footer(); ?>

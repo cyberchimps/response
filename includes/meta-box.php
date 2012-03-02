@@ -45,7 +45,7 @@ function initialize_the_meta_boxes() {
 					'page_section' => 'Page',
 					'breadcrumbs' => 'Breadcrumbs',
 					),
-					'std' => 'breadcrumbs,page_section'
+					'std' => 'page_section,breadcrumbs'
 				))
 
 			->pagehelp('', 'Need Help?', '')
