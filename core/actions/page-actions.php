@@ -33,6 +33,7 @@ function response_page_section_content() {
 	
 	$hidetitle = get_post_meta($post->ID, 'hide_page_title' , true);
 
+	var_dump($hidetitle);
 
 ?>
 <div class="row">
@@ -47,11 +48,9 @@ function response_page_section_content() {
 			<div class="post_container">
 			
 				<div class="post" id="post-<?php the_ID(); ?>">
-				<?php if ($hidetitle == "on"): ?>
-				
-
+				<?php if ($hidetitle == "on" OR $hidetitle == ""): ?>
 					<h2 class="posts_title"><?php the_title(); ?></h2>
-						<?php endif;?>
+				<?php endif;?>
 
 					<div class="entry">
 
