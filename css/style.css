@@ -311,6 +311,14 @@ header {margin-top: 15px;}
 
 #post_pagination {border: 1px solid #DDD; margin-bottom: 15px; background: #FFF;}
 
+#image_pagination {border: 1px solid #DDD; margin-bottom: 15px; background: #FFF; display: block;}
+
+.image_wrap {padding: 10px 15px 5px 15px; height: 105px;}
+
+.previous_image {float: left;}
+
+.next_image {float: right;}
+
 .pagination_text {padding: 10px 15px 10px 15px;}
 
 .pagnext-posts {float: left;padding: 5px;margin-bottom: 10px;}

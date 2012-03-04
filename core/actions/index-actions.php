@@ -68,11 +68,22 @@ function response_index_content() {
 				</div><!--end post_class-->
 			</div><!--end post container-->
 			
+			<?php if (is_attachment()) : ?>
+			
+			<div id="image_pagination">
+				<div class="image_wrap">
+					<div class="previous_image"> <?php previous_image_link( array( 100, 1000 ) ); ?></div>
+					<div class="next_image"><?php next_image_link( array( 100, 100 )); ?></div>
+				</div>
+			</div>
+			<?php endif; ?>
+			
 			<?php if (is_single() && $options->get($themeslug.'_post_pagination') == "1") : ?>
 			<div id="post_pagination"><div class="pagination_text">
 				<!--Begin @response post pagination hook-->
 					<?php response_post_pagination(); ?>
 				<!--End @response post pagination hook-->	
+			
 			</div></div>		
 				<?php endif;?>
 
@@ -88,9 +99,12 @@ function response_index_content() {
 
 			<?php endif; ?>
 			
-				<!--Begin @response pagination hook-->
+			<!--Begin @response pagination hook-->
 			<?php response_pagination(); ?>
 			<!--End @response pagination loop hook-->
+			
+		
+
 		
 		</div><!--end content-->
 

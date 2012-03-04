@@ -33,8 +33,6 @@ function response_page_section_content() {
 	
 	$hidetitle = get_post_meta($post->ID, 'hide_page_title' , true);
 
-	var_dump($hidetitle);
-
 ?>
 <div class="row">
 	<!--Begin @response before content sidebar hook-->

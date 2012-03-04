@@ -2,13 +2,14 @@ Response Changelog
 
 ****************************
 
-Version 1.0.3 (03-03-12)
+Version 1.0.3 (03-04-12)
 -Fixed bug related to IE quirks mode.
 -Adjusted doctype. 
 -CSS tweaks.
 -Moved breadcrumbs below content.
 -Fixed typo in theme options.
 -Fixed page titles not showing up by default.
+-Added next/previous image pagination for attachments.
 
 Version 1.0.2 (02-27-12)
 -Margin fix for HTML tables.
