@@ -2,10 +2,12 @@ Response Changelog
 
 ****************************
 
-Version 1.0.3 (03-02-12)
+Version 1.0.3 (03-03-12)
+-Fixed bug related to IE quirks mode.
 -Adjusted doctype. 
 -CSS tweaks.
 -Moved breadcrumbs below content.
+-Fixed typo in theme options.
 
 Version 1.0.2 (02-27-12)
 -Margin fix for HTML tables.

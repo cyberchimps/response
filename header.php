@@ -18,10 +18,7 @@
 	global $options, $themeslug, $themename; // call globals
 
 ?>
-
-<!-- Begin @response head_tag hook content-->
 	<?php response_head_tag(); ?>
-<!-- End @response head_tag hook content-->
 
 <?php if ( is_singular() ) wp_enqueue_script( 'comment-reply' ); ?> <!-- wp_enqueue_script( 'comment-reply' );-->
 <?php wp_head(); ?> <!-- wp_head();-->
