@@ -2,6 +2,9 @@ Response Changelog
 
 ****************************
 
+Version 1.0.4 (03-06-12)
+-Responsive design tweak.
+
 Version 1.0.3 (03-04-12)
 -Fixed bug related to IE quirks mode.
 -Adjusted doctype. 

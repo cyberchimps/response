@@ -1141,7 +1141,7 @@ div.slider-nav span.left {
     #calloutbutton {width: 200px !important; margin: auto !important; margin-bottom: 30px !important;}
     #banner {margin-top: 10px !important;}
     #orbitDemo.orbit img {width: 710px !important;}
-  
+    #sidebar.four.columns {margin-left: 0% !important; right: 0px !important;}
 }
 
 @media handheld, only screen and (max-width: 400px) {
@@ -1165,5 +1165,4 @@ div.slider-nav span.left {
     height: 15px;
     margin-bottom: -1px; }
     #slider-wrapper, .nivoslider_nav{display: none;}
-   
 }
