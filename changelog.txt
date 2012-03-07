@@ -8,6 +8,7 @@ Version 1.0.4 (03-07-12)
 -Added browser specific HTML classes for IE.
 -Added Banner Element URL option.
 -Removed some unecessary code.
+-HTML table fix for calendar widget. 
 
 Version 1.0.3 (03-04-12)
 -Fixed bug related to IE quirks mode.
