@@ -1,9 +1,9 @@
 <?php
 /**
-* Initializes the response Pro Theme Options
+* Initializes the Response Theme Options
 *
 * Author: Tyler Cunningham
-* Copyright: © 2011
+* Copyright: © 2012
 * {@link http://cyberchimps.com/ CyberChimps LLC}
 *
 * Released under the terms of the GNU General Public License.
@@ -11,8 +11,8 @@
 * along with this software. In the main directory, see: /licensing/
 * If not, see: {@link http://www.gnu.org/licenses/}.
 *
-* @package response Pro
-* @since 3.0
+* @package Response 
+* @since 1.0.4
 */
 
 require( get_template_directory() . '/core/classy-options/classy-options-framework/classy-options-framework.php');
@@ -35,8 +35,6 @@ $terms2 = get_terms('category', 'hide_empty=0');
         	$blogoptions[$term->slug] = $term->name;
 
         }
-
-
 $options
 	->section("Welcome")
 		->info("<h1>Response</h1>

@@ -352,67 +352,6 @@ function response_nav() {
 }
 
 /**
-* Custom HTML header element.
-*
-* @since 1.0
-*/
-function response_custom_header_element_content() { 
-	global $themeslug, $options; ?>
-	
-	<div class="container">
-		<div class="row">
-		
-			<div class="twelve columns">
-				
-				<?php echo stripslashes ($options->get($themeslug.'_custom_header_element')); 	?>
-						
-			</div>	
-		</div><!--end row-->
-	</div>	
-
-<?php	
-}
-
-/**
-* Sitename/Register
-*
-* @since 1.0
-*/
-function response_logo_register_content() {
-global $current_user;
-?>
-
-	<div class="container">
-		<div class="row">
-		
-			<div class="seven columns">
-				
-				<!-- Begin @Core header sitename hook -->
-					<?php response_header_sitename(); ?> 
-				<!-- End @Core header sitename hook -->
-		
-			</div>	
-			
-			<div id="register" class="five columns">
-			
-			<?php if(!is_user_logged_in()) :?>
-
-		<li><?php wp_loginout(); ?></li> <?php wp_meta(); ?><li> |<?php wp_register(); ?>  </li>
-
-			<?php else :?>
-
-			Welcome back <strong><?php global $current_user; get_currentuserinfo(); echo ($current_user->user_login); ?></strong> | <?php wp_loginout(); ?>
-
-		<?php endif;?>
-				
-			</div>	
-		</div><!--end row-->
-	</div>
-
-<?php
-}
-
-/**
 * Logo/Icons header element.
 *
 * @since 1.0
@@ -445,9 +384,9 @@ function response_logo_icons_content() {
 }
 
 /**
-* Full-Width Logo
+* Banner
 *
-* @since 3.0
+* @since 1.0.4
 */
 function response_banner_content() {
 global $themeslug, $options, $root; //Call global variables
@@ -477,7 +416,6 @@ $default = "$root/images/banner.jpg";
 
 <?php
 }
-
 
 /**
 * End
