@@ -2,8 +2,11 @@ Response Changelog
 
 ****************************
 
-Version 1.0.4 (03-06-12)
+Version 1.0.4 (03-07-12)
 -Responsive design tweak.
+-Fixed Google Font library call for SSL support.
+-Added browser specific HTML classes for IE.
+-Added Banner Element URL option.
 
 Version 1.0.3 (03-04-12)
 -Fixed bug related to IE quirks mode.

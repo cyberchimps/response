@@ -66,7 +66,7 @@ $options
 		->open_outersection()
 			->section_order("header_section_order", "Drag & Drop Header Elements", array('options' => array("response_logo_icons" => "Logo + Icons", "response_banner" => "Banner", "response_custom_header_element" => "Custom", "response_navigation" => "Menu"), 'default' => 'response_logo_icons,response_navigation'))
 			->upload($themeslug."_banner", "Banner Image")
-			->textarea($themeslug."_header_contact", "Contact Information")
+			->text($themeslug."_banner_url", "Banner URL", array('default' => home_url()))
 			->textarea($themeslug."_custom_header_element", "Custom HTML")
 		->close_outersection()
 			->subsection("Header Options")
