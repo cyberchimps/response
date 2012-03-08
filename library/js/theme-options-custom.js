@@ -6,21 +6,7 @@
 jQuery(document).ready(function($) {
 
 	
-  $("#section-re_font").change(function() {
-    if($(this).find(":selected").val() == 'custom') {
-      $('#section-re_custom_font').fadeIn();
-    } else {
-      $('#section-re_custom_font').hide();
-    }
-  }).change();
-  $("#section-re_menu_font").change(function() {
-    if($(this).find(":selected").val() == 'custom') {
-      $('#section-re_custom_menu_font').fadeIn();
-    } else {
-      $('#section-re_custom_menu_font').hide();
-    }
-  }).change();
-  $("#re_show_excerpts").change(function() {
+   $("#re_show_excerpts").change(function() {
     var toShow = $("#section-re_excerpt_link_text, #section-re_excerpt_length");
     if($(this).is(':checked')) {
       toShow.show();
@@ -36,15 +22,7 @@ jQuery(document).ready(function($) {
       toShow.hide();
     }
   }).change();
-    $("#re_disable_footer").change(function() {
-    var toShow = $("#section-re_footer_text, #section-re_hide_link");
-    if($(this).is(':checked')) {
-      toShow.fadeIn();
-    } else {
-      toShow.fadeOut();
-    }
-  }).change();
-    $("#re_custom_logo").change(function() {
+  $("#re_custom_logo").change(function() {
     var toShow = $("#section-re_logo");
     if($(this).is(':checked')) {
       toShow.show();
@@ -52,26 +30,7 @@ jQuery(document).ready(function($) {
       toShow.hide();
     }
   }).change();
-    $("#re_blog_custom_callout_options").change(function() {
-    var toShow = $("#section-re_blog_callout_text_color");
-    if($(this).is(':checked')) {
-      toShow.fadeIn();
-    } else {
-      toShow.fadeOut();
-    }
-  }).change();
-  $("#re_slider_type").change(function(){
-    var val = $(this).val(),
-      post = $("#section-re_slider_category"),
-      custom = $("#section-re_customslider_category");
-    if(val == 'custom') {
-      post.hide(); custom.show();
-    } else {
-      post.show(); custom.hide();
-    }
-  }).change();
-  
-  
+   
   $.each(['twitter', 'facebook', 'gplus', 'flickr', 'linkedin', 'youtube', 'googlemaps', 'email', 'rsslink'], function(i, val) {
 	  $("#section-re_" + val).each(function(){
 		  var $this = $(this), $next = $(this).next();
