@@ -839,14 +839,8 @@ function metabox_enqueue() {
 	$color = get_user_meta( get_current_user_id(), 'admin_color', true );
 
 	wp_register_style(  'metabox-tabs-css', $path2. 'metabox-tabs.css');
-
 	wp_register_script ( 'jf-metabox-tabs', $path. 'metabox-tabs.js');
-
 	wp_enqueue_script('jf-metabox-tabs');
-	
-	wp_enqueue_script('jf-metabox-tabs');
-	wp_enqueue_script('jquerycustom', get_template_directory_uri().'/core/library/js/jquery-custom.js', array('jquery') );
-	
 	wp_enqueue_style('metabox-tabs-css');
 }
 
