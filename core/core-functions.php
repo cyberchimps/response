@@ -143,7 +143,7 @@ function response_breadcrumbs() {
   $before = '<span class="current">'; // tag before the current crumb
   $after = '</span>'; // tag after the current crumb
  
-  if ( !is_home() && !is_front_page() || is_paged() ) {
+  if ( !is_home() && !is_front_page() && !is_attachment() || is_paged() ) {
  
     echo '<div class="row"><div id="crumbs" class="twelve columns"><div class="crumbs_text">';
  
