@@ -12,19 +12,19 @@
 * If not, see: {@link http://www.gnu.org/licenses/}.
 *
 * @package Response
-* @since 1.0
+* @since 1.0.5
 */
 
 ?>
 
-<!-- Begin @response response_before_comments hook content-->
+<!--Begin response_before_comments hook-->
 	<?php response_before_comments(); ?>
-<!-- Begin @response response_before_comments hook content-->
+<!--End response_before_comments hook-->
 
-<!-- Begin @response response_comments hook content-->
+<!--Begin response_comments hook-->
 	<?php response_comments(); ?>
-<!-- Begin @response response_comments hook content-->
+<!--End response_comments hook-->
 
-<!-- Begin @response response_after_comments hook content-->
+<!--Begin response_after_comments hook-->
 	<?php response_after_comments(); ?>
-<!-- Begin @response response_after_comments hook content-->
+<!--End response_after_comments hook-->

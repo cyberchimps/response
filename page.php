@@ -12,23 +12,16 @@
 * If not, see: {@link http://www.gnu.org/licenses/}.
 *
 * @package Response
-* @since 1.0
+* @since 1.0.5
 */
-
-/* Header call. */
-
-	get_header(); 
-	
-/* End header. */	
-
-/* Define global variables. */
 	global $options, $post, $themeslug;
 	$page_section_order = get_post_meta($post->ID, 'page_section_order' , true);
+	
 	if(!$page_section_order) {
-		$page_section_order = 'breadcrumbs,page_section';
+		$page_section_order = 'page_section,breadcrumbs';
 	}
-/* End define global variables. */
-
+	
+	get_header(); 
 ?>
 
 <div class="container">

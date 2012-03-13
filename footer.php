@@ -12,11 +12,9 @@
 * If not, see: {@link http://www.gnu.org/licenses/}.
 *
 * @package Response
-* @since 1.0
+* @since 1.0.5
 */
-
 	global $options, $themeslug // call globals
-
 ?>
 	
 <?php if ($options->get($themeslug.'_disable_footer') != "0"):?>	
@@ -26,9 +24,9 @@
     <div id="footer" class="container">
      		<div class="row" id="footer_container">
     			<div id="footer_wrap">	
-					<!-- Begin @response footer hook content-->
+					<!--Begin response_footer hook-->
 						<?php response_footer(); ?>
-					<!-- End @response footer hook content-->
+					<!--End response_footer hook-->
 				</div>
 	<?php endif;?>
 	
@@ -40,9 +38,9 @@
 
 	<div id="afterfooter" class="container">
 		<div class="row" id="afterfooterwrap">	
-		<!-- Begin @response afterfooter hook content-->
+		<!--Begin response_secondary_footer hook-->
 			<?php response_secondary_footer(); ?>
-		<!-- End @response afterfooter hook content-->
+		<!--End response_secondary_footer hook-->
 				
 		</div> <!--end afterfooter-->	
 	</div> 	

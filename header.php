@@ -12,11 +12,9 @@
 * If not, see: {@link http://www.gnu.org/licenses/}.
 *
 * @package Response
-* @since 1.0
+* @since 1.0.5
 */
-
-	global $options, $themeslug, $themename; // call globals
-
+	global $options, $themeslug; // call globals
 ?>
 	<?php response_head_tag(); ?>
 
@@ -25,13 +23,13 @@
 	
 </head><!-- closing head tag-->
 
-<!-- Begin @response after_head_tag hook content-->
+<!--Begin response_after_head_tag hook-->
 	<?php response_after_head_tag(); ?>
-<!-- End @response after_head_tag hook content-->
+<!--End response_after_head_tag hook-->
 	
-<!-- Begin @response before_header hook  content-->
+<!--Begin response_before_header hook-->
 	<?php response_before_header(); ?> 
-<!-- End @response before_header hook content -->
+<!--End response_before_header hook-->
 			
 <header>		
 	<?php
@@ -43,6 +41,6 @@
 	?>
 </header>
 
-<!-- Begin @response after_header hook -->
+<!--Begin response_after_header-->
 	<?php response_after_header(); ?> 
-<!-- End @response after_header hook -->
+<!--End response after_header hook-->

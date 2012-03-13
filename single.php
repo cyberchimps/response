@@ -12,20 +12,18 @@
 * If not, see: {@link http://www.gnu.org/licenses/}.
 *
 * @package Response
-* @since 1.0
+* @since 1.0.5
 */
-
 	global $options, $themeslug, $post, $sidebar, $content_grid; // call globals
 	response_sidebar_init(); // sidebar init
 	get_header(); // call header
-
 ?>
 
 <div class="container">
 	<div class="row">
-	<!--Begin @Core post area-->
+	<!--Begin response_index hook (to be renamed response_post in 2.0)-->
 		<?php response_index(); ?>
-	<!--End @Core post area-->
+	<!--End response_index hook (to be renamed response_post in 2.0)-->
 	</div>
 	
 	<?php if ($options->get($themeslug.'_single_breadcrumbs') == "1") { response_breadcrumbs();}?>

@@ -12,10 +12,9 @@
 * If not, see: {@link http://www.gnu.org/licenses/}.
 *
 * @package Response
-* @since 1.0
+* @since 1.0.5
 */
-	global $options, $themeslug, $post; // call globals
-	$reorder = $options->get($themeslug.'_blog_section_order');		
+	global $options, $themeslug; // call globals	
 ?>
 
 <?php get_header(); ?>

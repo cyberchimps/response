@@ -12,7 +12,7 @@
 * If not, see: {@link http://www.gnu.org/licenses/}.
 *
 * @package Response
-* @since 1.0
+* @since 1.0.5
 */
 
 	global $options, $themeslug, $post, $sidebar, $content_grid; // call globals
@@ -23,25 +23,25 @@
 
 <div class="container">
 	<div class="row">
-		<!--Begin @response before content sidebar hook-->
+		<!--Begin response_before_content_sidebar hook-->
 			<?php response_before_content_sidebar(); ?>
-		<!--End @response before content sidebar hook-->
+		<!--End response_before_content_sidebar hook-->
 		<div id="content" class="<?php echo $content_grid; ?>">
-			<!-- Begin @response before_search hook -->
+			<!--Begin response_before_search hook-->
 				<?php response_before_search(); ?>
-			<!-- End @response before_search hook -->
+			<!--End response_before_search hook-->
 	
-			<!-- Begin @response search hook -->
+			<!--Begin response_search hook-->
 				<?php response_search(); ?>
-			<!-- End @response search hook -->
+			<!--End response_search hook-->
 	
-			<!-- Begin @response after_search hook -->
+			<!--Begin response_after_search hook-->
 				<?php response_after_search(); ?>
-			<!-- End @response after_search hook -->		
+			<!--End response_after_search hook-->		
 		</div>	
-		<!--Begin @response after content sidebar hook-->
+		<!--Begin response_after_content_sidebar hook-->
 			<?php response_after_content_sidebar(); ?>
-		<!--End @response after content sidebar hook-->
+		<!--End response_after_content_sidebar hook-->
 	</div><!--end row-->
 </div><!--end container-->
 
