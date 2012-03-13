@@ -65,8 +65,9 @@ function response_loop_content($content) {
 			</div><!--end format-icon-->
 			<?php endif; ?>
 				<h2 class="posts_title"><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h2>
-					<!--Call @response Meta hook-->
-			<?php response_post_byline(); ?>
+					<!--begin response_post_byline hook-->
+						<?php response_post_byline(); ?>
+					<!--end response_post_byline hook-->
 				<?php
 				if ( has_post_thumbnail() && $featured_images == '1') {
  		 			echo '<div class="featured-image">';

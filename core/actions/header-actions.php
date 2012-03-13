@@ -354,7 +354,7 @@ function response_nav() {
 /**
 * Logo/Icons header element.
 *
-* @since 1.0
+* @since 1.0.5
 */
 function response_logo_icons_content() {
 ?>
@@ -363,18 +363,18 @@ function response_logo_icons_content() {
 		
 			<div class="seven columns">
 				
-				<!-- Begin @Core header sitename hook -->
+				<!--Begin response_header_sitename hook -->
 					<?php response_header_sitename(); ?> 
-				<!-- End @Core header sitename hook -->
+				<!--End response_header_sitename hook -->
 			
 				
 			</div>	
 			
 			<div id ="register" class="five columns">
 				
-			<!-- Begin @Core header social icon hook -->
+			<!--Begin response_header_social_icons hook -->
 				<?php response_header_social_icons(); ?> 
-			<!-- End @Core header contact social icon hook -->	
+			<!-- End response_header_social_icons hook -->	
 				
 			</div>	
 		</div><!--end row-->

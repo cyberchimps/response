@@ -30,13 +30,13 @@ function response_index_content() {
 
 	global $options, $themeslug, $post, $sidebar, $content_grid; // call globals ?>
 	
-	<!--Begin @response sidebar init-->
+	<!--Begin response_sidebar_init-->
 		<?php response_sidebar_init(); ?>
-	<!--End @response sidebar init-->
+	<!--End response_sidebar_init-->
 	<div class="row">
-<!--Begin @response before content sidebar hook-->
+<!--Begin response_before_content_sidebar hook-->
 		<?php response_before_content_sidebar(); ?>
-	<!--End @response before content sidebar hook-->
+	<!--End response_before_content_sidebar hook-->
 
 		<div id="content" class="<?php echo $content_grid; ?>">
 	
@@ -45,25 +45,25 @@ function response_index_content() {
 			<div class="post_container">
 				<div <?php post_class() ?> id="post-<?php the_ID(); ?>">
 		
-				<!--Begin @response index loop hook-->
+				<!--Begin response_loop hook-->
 					<?php response_loop(); ?>
-				<!--End @response index loop hook-->	
+				<!--End response_loop hook-->	
 			
-				<!--Begin @response link pages hook-->
+				<!--Begin response_link_pages hook-->
 					<?php response_link_pages(); ?>
-				<!--End @response link pages hook-->
+				<!--End response_link_pages hook-->
 			
-				<!--Begin @response post edit link hook-->
+				<!--Begin response_post_edit_link hook-->
 					<?php response_edit_link(); ?>
-				<!--End @response post edit link hook-->		
+				<!--End response_post_edit_link hook-->		
 							
-				<!--Begin @response post tags hook-->
+				<!--Begin response_post_tags hook-->
 					<?php response_post_tags(); ?>
-				<!--End @response post tags hook-->
+				<!--End response_post_tags hook-->
 							
-				<!--Begin @response post tags hook-->
+				<!--Begin response_post_bar hook-->
 					<?php response_post_bar(); ?>
-				<!--End @response post tags hook-->
+				<!--End response_post_bar hook-->
 				
 				</div><!--end post_class-->
 			</div><!--end post container-->
@@ -99,18 +99,15 @@ function response_index_content() {
 
 			<?php endif; ?>
 			
-			<!--Begin @response pagination hook-->
+			<!--Begin response_pagination hook-->
 			<?php response_pagination(); ?>
-			<!--End @response pagination loop hook-->
+			<!--End response_pagination hook-->
 			
-		
-
-		
 		</div><!--end content-->
 
-	<!--Begin @response after content sidebar hook-->
+	<!--Begin response_after_content_sidebar hook-->
 		<?php response_after_content_sidebar(); ?>
-	<!--End @response after content sidebar hook-->
+	<!--End response_after_content_sidebar hook-->
 
 </div>
 <?php }

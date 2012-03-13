@@ -35,9 +35,9 @@ function response_page_section_content() {
 
 ?>
 <div class="row">
-	<!--Begin @response before content sidebar hook-->
+	<!--Begin response_before_content_sidebar hook-->
 		<?php response_before_content_sidebar(); ?>
-	<!--End @response before content sidebar hook-->
+	<!--End response_before_content_sidebar hook-->
 			
 		<div id="content" class="<?php echo $content_grid; ?>">
 		
@@ -71,9 +71,9 @@ function response_page_section_content() {
 				
 	</div><!--end content_left-->
 	
-	<!--Begin @response after content sidebar hook-->
+	<!--Begin response_after_content_sidebar hook-->
 		<?php response_after_content_sidebar(); ?>
-	<!--End @response after content sidebar hook-->
+	<!--End response_after_content_sidebar hook-->
 </div>
 <?php
 }
