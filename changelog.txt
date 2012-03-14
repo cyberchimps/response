@@ -2,12 +2,13 @@ Response Changelog
 
 ****************************
 
-Version 1.0.5 (03-13-12)
+Version 1.0.5 (03-14-12)
 -Removed PressTrends function.
 -Conditional to stop breadcrumb links from appearing on attachment pages.
 -Removed some unnecessary images.
 -Additional code and script cleanup.
 -Updated HTML comment wrappers around hooks.
+-Updated some theme images/copy.
 
 Version 1.0.4 (03-07-12)
 -Responsive design tweak.
