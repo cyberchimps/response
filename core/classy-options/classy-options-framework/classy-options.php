@@ -612,6 +612,27 @@ class ClassyOptions {
 		return $this;
 	}
 
+	function remove_section( $name ) {
+		$started = false;
+		foreach($this->options as $k => $option) {
+			if( $started && $option['type'] == 'heading' ) {
+				$end_index = $k;
+				break;
+			}
+			if($option['type'] == 'heading' && $option['name'] == $name) {
+				$started = true;
+				$start_index = $k;
+			}
+
+		}
+		if(!isset($end_index) ) {
+			$end_index = count($this->options) - 1;
+		}
+
+		array_splice($this->options, $start_index, $end_index - $start_index );
+		return $this;
+	}
+	
 	function subsection($text) {
 		$this->add( array( 'type' => 'subsection', 'name' => $text) );
 		return $this;
@@ -619,6 +640,16 @@ class ClassyOptions {
 
 	function subsection_end() {
 		$this->add( array( 'type' => 'subsection_end' ) );
+		return $this;
+	}
+	
+	function open_outersection() {
+		$this->add( array( 'type' => 'open_outersection' ) );
+		return $this;
+	}
+
+	function close_outersection() {
+		$this->add( array( 'type' => 'close_outersection' ) );
 		return $this;
 	}
 
@@ -689,37 +720,6 @@ class ClassyOptions {
 
 	function import( $label ) {
 		$this->add( array( 'type' => 'import', 'name' => $label ) );
-		return $this;
-	}
-
-	function open_outersection() {
-		$this->add( array( 'type' => 'open_outersection' ) );
-		return $this;
-	}
-
-	function close_outersection() {
-		$this->add( array( 'type' => 'close_outersection' ) );
-		return $this;
-	}
-
-	function remove_section( $name ) {
-		$started = false;
-		foreach($this->options as $k => $option) {
-			if( $started && $option['type'] == 'heading' ) {
-				$end_index = $k;
-				break;
-			}
-			if($option['type'] == 'heading' && $option['name'] == $name) {
-				$started = true;
-				$start_index = $k;
-			}
-
-		}
-		if(!isset($end_index) ) {
-			$end_index = count($this->options) - 1;
-		}
-
-		array_splice($this->options, $start_index, $end_index - $start_index );
 		return $this;
 	}
 }

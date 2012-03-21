@@ -114,9 +114,8 @@ jQuery(function($) {
 	$("input[name='response[header_section_order]']").change(function(){
 		var show = $(this).val().split(",");
 		var map = {
-			response_sitename_contact: "section-re_header_contact",
 			response_custom_header_element: "section-re_custom_header_element",
-			response_banner: "section-re_banner"
+			response_banner: "section-re_banner,section-re_banner_url"
 			// , response_box_section: ""
 		};
 

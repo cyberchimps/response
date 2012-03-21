@@ -16,7 +16,7 @@
 */
 
 /**
-* Facebook like and plus one. 
+* Sets up sidebar layouts based on theme options. 
 *
 * @since 1.0
 */
