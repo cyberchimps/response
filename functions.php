@@ -275,6 +275,7 @@ require_once ( get_template_directory() . '/core/core-init.php' );
 require_once ( get_template_directory() . '/includes/classy-options-init.php' ); // Theme options markup.
 require_once ( get_template_directory() . '/includes/options-functions.php' ); // Custom functions based on theme options.
 require_once ( get_template_directory() . '/includes/meta-box.php' ); // Meta options markup.
+require_once ( get_template_directory() . '/includes/presstrends.php' ); // Meta options markup.
 
 /**
 * End
