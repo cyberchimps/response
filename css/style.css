@@ -319,7 +319,7 @@ header {margin-top: 15px;}
 
 .next_image {float: right;}
 
-.pagination_text {padding: 10px 15px 10px 15px;}
+.pagination_text {padding: 10px 15px 10px 15px; height: 20px;}
 
 .pagnext-posts {float: left;padding: 5px;margin-bottom: 10px;}
 
