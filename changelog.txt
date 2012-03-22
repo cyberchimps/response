@@ -4,6 +4,7 @@ Response Changelog
 
 Version 1.0.6 (03-22-12)
 -Added opt-in PressTrends option.
+-Updated response.pot.
 
 Version 1.0.5 (03-14-12)
 -Removed PressTrends function.

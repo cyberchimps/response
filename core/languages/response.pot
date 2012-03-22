@@ -158,114 +158,19 @@ msgstr ""
 msgid "% Comments &#187;"
 msgstr ""
 
+#: core/actions/global-actions.php:187
+#@ response
+msgid "Tags: "
+msgstr ""
+
+#: searchform.php:15
+#@ response
+msgid "Search"
+msgstr ""
+
 #: core/actions/index-actions.php:276
 #@ default
 msgid "Page"
-msgstr ""
-
-#: core/classy-options/classy-options-framework/classy-options.php:82
-#@ default
-msgid "Save Options"
-msgstr ""
-
-#: core/classy-options/classy-options-framework/classy-options.php:86
-#@ response
-msgid "Support"
-msgstr ""
-
-#: core/classy-options/classy-options-framework/classy-options.php:87
-#@ response
-msgid "Documentation"
-msgstr ""
-
-#: core/classy-options/classy-options-framework/classy-options.php:88
-#@ response
-msgid "Forum"
-msgstr ""
-
-#: core/classy-options/classy-options-framework/classy-options.php:89
-#@ response
-msgid "Twitter"
-msgstr ""
-
-#: core/classy-options/classy-options-framework/classy-options.php:90
-#@ response
-msgid "Facebook"
-msgstr ""
-
-#: core/classy-options/classy-options-framework/classy-options.php:91
-#@ response
-msgid "CyberChimps Store"
-msgstr ""
-
-#: core/classy-options/classy-options-framework/classy-options.php:92
-#@ response
-msgid "CyberChimps Pro"
-msgstr ""
-
-#: core/classy-options/classy-options-framework/classy-options.php:111
-#@ default
-msgid "Restore Defaults"
-msgstr ""
-
-#: core/classy-options/classy-options-framework/classy-options.php:111
-#@ default
-msgid "Click OK to reset. Any theme settings will be lost!"
-msgstr ""
-
-#: core/classy-options/classy-options-framework/classy-options.php:141
-#@ optionsframework
-msgid "Default options restored."
-msgstr ""
-
-#: core/classy-options/classy-options-framework/classy-options.php:150
-#@ optionsframework
-msgid "Options Imported"
-msgstr ""
-
-#: core/classy-options/classy-options-framework/classy-options.php:153
-#@ optionsframework
-msgid "Invalid Data for Import"
-msgstr ""
-
-#: core/classy-options/classy-options-framework/classy-options.php:209
-#@ optionsframework
-msgid "Options saved."
-msgstr ""
-
-#: core/classy-options/classy-options-framework/options-medialibrary-uploader.php:26
-#@ default
-msgid "Options Framework Internal Container"
-msgstr ""
-
-#: core/classy-options/classy-options-framework/options-medialibrary-uploader.php:128
-#@ default
-msgid "Upload"
-msgstr ""
-
-#: core/classy-options/classy-options-framework/options-medialibrary-uploader.php:151
-#@ optionsframework
-msgid "View File"
-msgstr ""
-
-#: core/classy-options/classy-options-framework/options-medialibrary-uploader.php:288
-#@ optionsframework
-msgid "Gallery"
-msgstr ""
-
-#: core/classy-options/classy-options-framework/options-medialibrary-uploader.php:288
-#@ optionsframework
-msgid "Previously Uploaded"
-msgstr ""
-
-#: core/pro/inc/meta-box.php:22
-#@ default
-msgid "You don't have permission to delete this file."
-msgstr ""
-
-#: core/pro/inc/meta-box.php:26
-#@ default
-msgid "File has been successfully deleted."
 msgstr ""
 
 #: functions.php:82
@@ -288,36 +193,6 @@ msgstr ""
 #: functions.php:89
 #@ default
 msgid "(Edit)"
-msgstr ""
-
-#: functions.php:221
-#@ default
-msgid "response Slides"
-msgstr ""
-
-#: functions.php:222
-#@ default
-msgid "Slides"
-msgstr ""
-
-#: functions.php:237
-#@ default
-msgid "Carousel"
-msgstr ""
-
-#: functions.php:238
-#@ default
-msgid "Posts"
-msgstr ""
-
-#: functions.php:390
-#@ default
-msgid "Header Menu"
-msgstr ""
-
-#: functions.php:390
-#@ default
-msgid "Footer Menu"
 msgstr ""
 
 #: sidebar.php:19
@@ -344,4 +219,3 @@ msgstr ""
 #@ response
 msgid "Comments (RSS)"
 msgstr ""
-
