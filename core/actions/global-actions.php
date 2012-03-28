@@ -83,7 +83,7 @@ function response_loop_content($content) {
 						the_excerpt();
 						}
 						else {
-							the_content();
+							the_content(__('Read more…', 'response'));
 						}
 					 ?>
 				</div><!--end entry-->
