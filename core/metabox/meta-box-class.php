@@ -606,8 +606,8 @@ class RW_Meta_Box {
 			foreach ($tab['fields'] as $field) {
 				$name = $field['id'];
 				$type = $field['type'];
-				$old = get_post_meta($post_id, $name, !$field['multiple']);
-				$new = isset($_POST[$name]) ? $_POST[$name] : ($field['multiple'] ? array() : '');
+				$old = get_post_meta($post_id, $name, !(isset($field['multiple']) && $field['multiple']));
+				$new = isset($_POST[$name]) ? $_POST[$name] : ((isset($field['multiple']) && $field['multiple']) ? array() : '');
 
 				// validate meta value
 				if (class_exists('RW_Meta_Box_Validate') && method_exists('RW_Meta_Box_Validate', $field['validate_func'])) {
@@ -630,7 +630,7 @@ class RW_Meta_Box {
 		$name = $field['id'];
 
 		// single value
-		if (!$field['multiple']) {
+		if (!(isset($field['multiple']) && $field['multiple'])) {
 			if ('' != $new && $new != $old) {
 				update_post_meta($post_id, $name, $new);
 			} elseif ('' == $new) {
@@ -839,8 +839,14 @@ function metabox_enqueue() {
 	$color = get_user_meta( get_current_user_id(), 'admin_color', true );
 
 	wp_register_style(  'metabox-tabs-css', $path2. 'metabox-tabs.css');
+
 	wp_register_script ( 'jf-metabox-tabs', $path. 'metabox-tabs.js');
+
 	wp_enqueue_script('jf-metabox-tabs');
+	
+	wp_enqueue_script('jf-metabox-tabs');
+	wp_enqueue_script('jquerycustom', get_template_directory_uri().'/core/library/js/jquery-custom.js', array('jquery') );
+	
 	wp_enqueue_style('metabox-tabs-css');
 }
 

@@ -25,9 +25,9 @@
 			<?php response_before_content_sidebar(); ?>
 		<!--End response_before_content_sidebar hook-->
 		
-		<?php if (have_posts()) : ?>
-	
 		<div id="content" class="<?php echo $content_grid; ?>">
+		
+		<?php if (have_posts()) : ?>
 		
 		<!--Begin response_before_archive hook-->
 			<?php response_before_archive(); ?>
