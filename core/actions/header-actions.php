@@ -83,7 +83,7 @@ function response_meta_tags() {
 <meta http-equiv="Content-Type" content="<?php bloginfo('html_type'); ?>; charset=<?php bloginfo('charset'); ?>" />
 <meta name="distribution" content="global" />
 <meta name="language" content="en" /> 
-<meta name="viewport" content="initial-scale=1.6; maximum-scale=1.0; width=device-width; "/><?php
+<meta name="viewport" content="initial-scale=1.0; maximum-scale=1.0; width=device-width"/><?php
 }
 
 /**
@@ -163,12 +163,7 @@ global $themeslug, $options; //Call global variables
 	else {
 		$font = $options->get($themeslug.'_font'); 
 	} 
-	if ($options->get($themeslug.'_color_scheme') == '') {
-		$color = 'blue';
-	}
-	else {
-		$color = $options->get($themeslug.'_color_scheme');
-	}?>
+?>
 	
 <link rel="shortcut icon" href="<?php echo stripslashes($favicon['url']); ?>" type="image/x-icon" />
 
@@ -178,7 +173,6 @@ global $themeslug, $options; //Call global variables
 <link rel="stylesheet" href="<?php bloginfo( 'template_url' ); ?>/css/shortcode.css" type="text/css" />
 <link rel="stylesheet" href="<?php bloginfo( 'template_url' ); ?>/css/elements.css" type="text/css" />
 <link rel="stylesheet" href="<?php bloginfo( 'template_url' ); ?>/css/style.css" type="text/css" />
-<link rel="stylesheet" href="<?php bloginfo( 'template_url' ); ?>/css/color/<?php echo $color; ?>.css" type="text/css" />
 
 <?php if (is_child_theme()) :  //add support for child themes?>
 	<link rel="stylesheet" href="<?php echo bloginfo('stylesheet_directory') ; ?>/style.css" type="text/css" />
