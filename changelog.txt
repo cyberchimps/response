@@ -9,7 +9,7 @@ Version 1.0.7 (04-04-12)
 -Removed height: auto from objects in responsive style sheet.
 -Fixed bug with archive of an empty category.
 -Adjusted "viewport" initial scale for full-width mobile device view.  
--Removed unnecessary  color stylesheet call.  
+-Removed unnecessary color stylesheet call.  
 
 Version 1.0.6 (03-22-12)
 -Added opt-in PressTrends option.
