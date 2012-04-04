@@ -2,7 +2,7 @@ Response Changelog
 
 ****************************
 
-Version 1.0.7 (04-04-12)
+Version 1.0.7 (04-03-12)
 -Unidentified index error fix for meta box code. 
 -Changed <!--more--> link text to "Read more…" when the_content() is used.
 -Added French and Romanian translation files.
