@@ -1,0 +1,238 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Core 1.0\n"
+"Report-Msgid-Bugs-To: http://cyberchimps.com/forum\n"
+"POT-Creation-Date: 10-17-11\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: Romanian\n"
+"X-Poedit-Country: Romania\n"
+"Language-Team: Web Geeks\n"
+"Last-Translator: \n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Textdomain-Support: yes\n"
+"PO-Revision-Date: \n"
+"X-Poedit-SearchPath-0: .\n"
+
+#@ response
+#: core/actions/archive-actions.php:36
+msgid "Archive for the ‘"
+msgstr "Arhiva pentru ‘"
+
+#@ response
+#: core/actions/archive-actions.php:36
+msgid "’ Category:"
+msgstr "'S Categorie:"
+
+#@ response
+#: core/actions/archive-actions.php:39
+msgid "Posts Tagged ‘"
+msgstr "Posts Tagged ‘"
+
+#@ response
+#: core/actions/archive-actions.php:39
+msgid "’:"
+msgstr "'s:"
+
+#@ response
+#: core/actions/archive-actions.php:42
+#: core/actions/archive-actions.php:45
+msgid "Archive for"
+msgstr "Arhiva pentru"
+
+#@ response
+#: core/actions/archive-actions.php:48
+msgid "Archive for:"
+msgstr "Arhiva pentru:"
+
+#@ response
+#: core/actions/archive-actions.php:51
+msgid "Author Archive:"
+msgstr "Arhiva de autor:"
+
+#@ response
+#: core/actions/archive-actions.php:54
+msgid "Blog Archives:"
+msgstr "Blog Archives:"
+
+#@ response
+#: core/actions/comments-actions.php:49
+msgid "No Responses"
+msgstr "Nu răspunsuri"
+
+#@ response
+#: core/actions/comments-actions.php:49
+msgid "One Response"
+msgstr "Unul Răspuns"
+
+#@ response
+#: core/actions/comments-actions.php:49
+msgid "% Responses"
+msgstr "Răspuns de la %"
+
+#@ response
+#: core/actions/comments-actions.php:88
+msgid "You must be"
+msgstr "Trebuie să aveţi"
+
+#@ response
+#: core/actions/comments-actions.php:88
+msgid "logged in"
+msgstr "logat"
+
+#@ ifeture
+#: core/actions/comments-actions.php:88
+msgid "to post a comment."
+msgstr "pentru a posta un comentariu."
+
+#@ response
+#: core/actions/footer-actions.php:39
+msgid "Recent Posts"
+msgstr "Recent Posts"
+
+#@ response
+#@ response
+#: core/actions/footer-actions.php:46
+#: sidebar.php:26
+msgid "Archives"
+msgstr "Arhivele"
+
+#@ response
+#: core/actions/footer-actions.php:53
+msgid "Links"
+msgstr "Link-uri"
+
+#@ response
+#@ response
+#: core/actions/footer-actions.php:60
+#: core/actions/footer-actions.php:64
+#: sidebar.php:40
+#: sidebar.php:44
+msgid "WordPress"
+msgstr "WordPress"
+
+#@ response
+#@ response
+#: core/actions/footer-actions.php:64
+#: sidebar.php:44
+msgid "http://wordpress.org/"
+msgstr "http://WordPress.org/"
+
+#@ response
+#@ response
+#: core/actions/footer-actions.php:64
+#: sidebar.php:44
+msgid "Powered by WordPress, state-of-the-art semantic personal publishing platform."
+msgstr "Powered by WordPress, stat-of--art semantică personale platforma publicare."
+
+#@ response
+#: core/actions/global-actions.php:43
+msgid "Published on"
+msgstr "Publicat pe"
+
+#@ response
+#: core/actions/global-actions.php:44
+msgid "by"
+msgstr "de"
+
+#@ response
+#: core/actions/global-actions.php:45
+msgid "in"
+msgstr "în"
+
+#@ response
+#: core/actions/global-actions.php:70
+msgid "No Comments »"
+msgstr "«No Comments»"
+
+#@ response
+#: core/actions/global-actions.php:70
+msgid "1 Comment »"
+msgstr "1 Comentariu»"
+
+#@ response
+#: core/actions/global-actions.php:70
+msgid "% Comments »"
+msgstr "% Comentarii»"
+
+#@ response
+#: core/actions/global-actions.php:187
+msgid "Tags: "
+msgstr "Tag-uri: "
+
+#@ response
+#@ response
+#: searchform.php:15
+#: core/actions/index-actions.php:276
+msgid "Page"
+msgstr "Pagină"
+
+#@ response
+#: functions.php:85
+msgid "Your comment is awaiting moderation."
+msgstr "Comentariu este în aşteptarea moderaţie."
+
+#@ response
+#: functions.php:89
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$ s în %2$ s"
+
+#@ response
+#: functions.php:89
+msgid "(Edit)"
+msgstr "(Editare)"
+
+#@ response
+#: functions.php:222
+msgid "Slides"
+msgstr "Diapozitive"
+
+#@ response
+#: functions.php:237
+msgid "Carousel"
+msgstr "Tip \"carusel\""
+
+#@ response
+#: functions.php:238
+msgid "Posts"
+msgstr "Posturi"
+
+#@ response
+#: functions.php:390
+msgid "Header Menu"
+msgstr "Meniul de antet"
+
+#@ response
+#: functions.php:390
+msgid "Footer Menu"
+msgstr "Meniul de subsol"
+
+#@ response
+#: sidebar.php:19
+msgid "Pages"
+msgstr "Pagini"
+
+#@ response
+#: sidebar.php:33
+msgid "Categories"
+msgstr "Categorii"
+
+#@ response
+#: sidebar.php:50
+msgid "Subscribe"
+msgstr "Aboneaza-te"
+
+#@ response
+#: sidebar.php:52
+msgid "Entries (RSS)"
+msgstr "Entries (RSS)"
+
+#@ response
+#: sidebar.php:53
+msgid "Comments (RSS)"
+msgstr "Comments (RSS)"
+

@@ -2,9 +2,10 @@ Response Changelog
 
 ****************************
 
-Version 1.0.7 (03-28-12)
+Version 1.0.7 (04-04-12)
 -Changed <!--more--> link text to "Read more…" when the_content() is used.
--Added French translation files.
+-Added French and Romanian translation files.
+-Removed height: auto from objects in responsive style sheet. 
 
 Version 1.0.6 (03-22-12)
 -Added opt-in PressTrends option.
