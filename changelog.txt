@@ -2,6 +2,9 @@ Response Changelog
 
 ****************************
 
+Version 1.0.8 (04-10-12)
+-Added Hebrew translation files.
+
 Version 1.0.7 (04-03-12)
 -Unidentified index error fix for meta box code. 
 -Changed <!--more--> link text to "Read more…" when the_content() is used.
