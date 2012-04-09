@@ -1,4 +1,4 @@
-#Copyright (C) 2011 
+#Copyright (C) 2012
 msgid ""
 msgstr ""
 "Project-Id-Version: Core 1.0 \n"
