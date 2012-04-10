@@ -76,7 +76,8 @@ function response_html_attributes() { ?>
 *
 * @since 1.0
 */
-function response_meta_tags() { 
+function response_meta_tags() { ?>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /><?php
 	global $themeslug, $options, $post; //Call global variables
 	if(!$post) return; // in case of 404 page or something?>
 
