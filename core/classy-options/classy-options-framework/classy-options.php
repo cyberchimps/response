@@ -102,13 +102,13 @@ class ClassyOptions {
 					</p>
 				<div class="menu">
 					<ul class="buttons">
-						<li><a href="http://cyberchimps.com/" target="_blank"><?php printf( __( 'CyberChimps', 'response' )); ?></a></li>
-						<li><a href="http://cyberchimps.com/store/" target="_blank"><?php printf( __( 'Store', 'response' )); ?></a></li>
-						<li><a href="http://cyberchimps.com/support" target="_blank"><?php printf( __( 'Support', 'ifeature' )); ?></a></li>
-						<li><a href="http://cyberchimps.com/ifeaturepro/docs/" target="_blank"> <?php printf( __( 'Documentation', 'response' )); ?></a></li>
-						<li><a href="http://cyberchimps.com/forum/" target="_blank"><?php printf( __( 'Forum', 'response' )); ?></a></li>
-						<li><a href="http://twitter.com/#!/cyberchimps" target="_blank"><?php printf( __( 'Twitter', 'response' ));?></a></li>
-						<li><a href="http://facebook.com/cyberchimps/" target="_blank"><?php printf( __( 'Facebook', 'response' ));?></a></li>
+						<li><a href="http://cyberchimps.com/" target="_blank">CyberChimps</a></li>
+						<li><a href="http://cyberchimps.com/store/" target="_blank">Store</a></li>
+						<li><a href="http://cyberchimps.com/support" target="_blank">Support</a></li>
+						<li><a href="http://cyberchimps.com/response/docs/" target="_blank">Documentation</a></li>
+						<li><a href="http://cyberchimps.com/forum/" target="_blank">Forum</a></li>
+						<li><a href="http://twitter.com/#!/cyberchimps" target="_blank">Twitter</a></li>
+						<li><a href="http://facebook.com/cyberchimps/" target="_blank">Facebook</a></li>
 					</ul>
 				</div>
 
