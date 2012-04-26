@@ -162,6 +162,8 @@ color:#fff;
 
 .entry p {clear: none;}
 
+.clear {clear: both;}
+
 .error {font-size:28px; text-align:center; }
 
 a:hover {color: #5ca9d6;}

@@ -195,6 +195,38 @@ msgstr ""
 msgid "(Edit)"
 msgstr ""
 
+#: core/actions/pagination-actions.php:49
+#: core/core-functions.php:241
+#@ core
+#@ default
+msgid "Page"
+msgstr ""
+
+#: core/actions/pagination-actions.php:50
+#@ core
+msgid "&laquo; First"
+msgstr ""
+
+#: core/actions/pagination-actions.php:51
+#@ core
+msgid "&lsaquo; Previous"
+msgstr ""
+
+#: core/actions/pagination-actions.php:61
+#@ core
+msgid "Next &rsaquo;"
+msgstr ""
+
+#: core/actions/pagination-actions.php:62
+#@ core
+msgid "Last &raquo;"
+msgstr ""
+
+#: core/actions/pagination-actions.php:99
+#@ core
+msgid "Pages:"
+msgstr ""
+
 #: sidebar.php:19
 #@ response
 msgid "Pages"

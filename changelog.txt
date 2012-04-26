@@ -4,6 +4,10 @@ Response Changelog
 
 Version 1.1 (04-26-12)
 -Added Pinterest social icon. 
+-Added missing tags hook to archive template.
+-Added missing $content_width global to theme setup function.
+-Updated pagination function with missing translation functions.
+-Updated response.pot.
 
 Version 1.0.9 (04-17-12)
 -Removed ereg_replace from Google Font code for PHP 5.3 compatibility. 

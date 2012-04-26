@@ -42,6 +42,10 @@
 				<?php response_loop(); ?>
 			<!--End response_loop hook-->
 			
+				<!--Begin response_post_tags hook-->
+					<?php response_post_tags(); ?>
+				<!--End response_post_tags hook-->
+			
 			</div><!--end post_class-->
 			
 			<!--Begin response_post_bar hook-->

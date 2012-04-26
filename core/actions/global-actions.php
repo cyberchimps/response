@@ -87,6 +87,7 @@ function response_loop_content($content) {
 						}
 					 ?>
 				</div><!--end entry-->
+	
 		<?php	
 		
 		$content = ob_get_clean();
