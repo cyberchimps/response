@@ -2,6 +2,9 @@ Response Changelog
 
 ****************************
 
+Version 1.1 (04-26-12)
+-Added Pinterest social icon. 
+
 Version 1.0.9 (04-17-12)
 -Removed ereg_replace from Google Font code for PHP 5.3 compatibility. 
 -Removed several unneccessary options from theme options. 

@@ -85,6 +85,8 @@ TEMPLATE_URL . '/images/social/thumbs/icons-default.png' ), 'default' => 'defaul
 			->checkbox($themeslug."_hide_flickr", "Hide Flickr Icon")
 			->text($themeslug."_linkedin", "LinkedIn Icon URL", array('default' => 'http://linkedin.com'))
 			->checkbox($themeslug."_hide_linkedin", "Hide LinkedIn Icon")
+			->text($themeslug."_pinterest", "Pinterest Icon URL", array('default' => 'http://pinterest.com'))
+			->checkbox($themeslug."_hide_pinterest", "Hide Pinterest Icon")
 			->text($themeslug."_youtube", "YouTube Icon URL", array('default' => 'http://youtube.com'))
 			->checkbox($themeslug."_hide_youtube", "Hide YouTube Icon")
 			->text($themeslug."_googlemaps", "Google Maps Icon URL", array('default' => 'http://maps.google.com'))
