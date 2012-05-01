@@ -115,7 +115,7 @@ jQuery(function($) {
 		var show = $(this).val().split(",");
 		var map = {
 			response_custom_header_element: "section-re_custom_header_element",
-			response_banner: "section-re_banner,section-re_banner_url"
+			response_banner: "subsection-banneroptions"
 			// , response_box_section: ""
 		};
 

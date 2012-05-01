@@ -2,6 +2,9 @@ Response Changelog
 
 ****************************
 
+Version 1.1.1 (05-03-12)
+-JS fix for banner url not hiding when option not enabled. 
+
 Version 1.1 (04-26-12)
 -Added Pinterest social icon. 
 -Added missing tags hook to archive template.
