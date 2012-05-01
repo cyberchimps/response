@@ -96,7 +96,7 @@ function response_newer_posts() {
 * @since 1.0
 */
 function response_link_pages_content() {
-	 wp_link_pages(array('before' => 'Pages: ', 'next_or_number' => 'number'));
+	 wp_link_pages(array('before' =>  __('Pages:', 'response' ) , 'next_or_number' => 'number'));
 }
 
 /**
