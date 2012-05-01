@@ -58,7 +58,7 @@ function response_pagination_content($pages = '', $range = 4)
              }
          }
  
-         if ($paged < $pages && $showitems < $pages) echo '<a href=\"'.get_pagenum_link($paged + 1).'"\">'.__( 'Next &rsaquo;', 'core').'</a>';
+         if ($paged < $pages && $showitems < $pages) echo '<a href="'.get_pagenum_link($paged + 1).'"">'.__( 'Next &rsaquo;', 'core').'</a>';
          if ($paged < $pages-1 &&  $paged+$range-1 < $pages && $showitems < $pages) echo '<a href="'.get_pagenum_link($pages).'">'.__( 'Last &raquo;', 'core' ).'</a>';
          echo "</div>\n";
      }

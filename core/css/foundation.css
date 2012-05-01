@@ -1145,6 +1145,11 @@ div.slider-nav span.left {
     #sidebar.four.columns {margin-left: 0% !important; right: 0px !important;}
 }
 
+@media handheld, only screen and (max-width: 500px) {
+	#mobileMenu_nav_menu {float: right !important; margin-top: 10px !important; margin-right: 10px !important;}
+	#menu {height: 35px !important;}
+}
+
 @media handheld, only screen and (max-width: 400px) {
 	#orbitDemo {height: 90px;}
 	.carousel_caption {font-size: 6px !important;}
