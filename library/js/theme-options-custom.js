@@ -15,7 +15,7 @@ jQuery(document).ready(function($) {
     }
   }).change();
   $("#re_show_featured_images").change(function() {
-    var toShow = $("#section-re_featured_image_align, #section-re_featured_image_height, #section-re_featured_image_width");
+    var toShow = $("#section-re_featured_image_align, #section-re_featured_image_height, #section-re_featured_image_width, #section-re_featured_image_crop");
     if($(this).is(':checked')) {
       toShow.show();
     } else {
