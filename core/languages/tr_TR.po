@@ -1,0 +1,195 @@
+#Copyright (C) 2011 
+msgid ""
+msgstr ""
+"Project-Id-Version: Core 1.0 \n"
+"Report-Msgid-Bugs-To: http://cyberchimps.com/forum\n"
+"POT-Creation-Date: 10-17-11 \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: \n"
+"X-Poedit-Country: \n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: core/actions/archive-actions.php:36
+#@ response
+msgid "Archive for the &#8216;"
+msgstr "&#8216 arşivi"
+
+#: core/actions/archive-actions.php:36
+#@ response
+msgid "&#8217; Category:"
+msgstr "&#8217; Kategorisi"
+
+#: core/actions/archive-actions.php:39
+#@ response
+msgid "Posts Tagged &#8216;"
+msgstr "&#8216 Etiketli Mesajlar"
+
+#: core/actions/archive-actions.php:39
+#@ response
+msgid "&#8217;:"
+msgstr "&#8217;:"
+
+#: core/actions/archive-actions.php:42
+#: core/actions/archive-actions.php:45
+#@ response
+msgid "Archive for"
+msgstr "Arşivi"
+
+#: core/actions/archive-actions.php:48
+#@ response
+msgid "Archive for:"
+msgstr "Arşivi"
+
+#: core/actions/archive-actions.php:51
+#@ response
+msgid "Author Archive:"
+msgstr "Yazar Arşivi"
+
+#: core/actions/archive-actions.php:54
+#@ response
+msgid "Blog Archives:"
+msgstr "Blog Arşivi"
+
+#: core/actions/comments-actions.php:49
+#@ response
+msgid "No Responses"
+msgstr "Cevap Yok"
+
+#: core/actions/comments-actions.php:49
+#@ response
+msgid "One Response"
+msgstr "Bir Cevap"
+
+#: core/actions/comments-actions.php:49
+#@ response
+msgid "% Responses"
+msgstr "% Cevap"
+
+#: core/actions/comments-actions.php:88
+#@ response
+msgid "You must be"
+msgstr "Adınız"
+
+#: core/actions/comments-actions.php:88
+#@ response
+msgid "logged in"
+msgstr "giriş yapıldı"
+
+#: core/actions/comments-actions.php:88
+#@ ifeture
+msgid "to post a comment."
+msgstr "yorum yazmak için"
+
+#: core/actions/footer-actions.php:39
+#@ response
+msgid "Recent Posts"
+msgstr "Son Mesajlar"
+
+#: core/actions/footer-actions.php:46
+#: sidebar.php:26
+#@ response
+msgid "Archives"
+msgstr "Arşiv"
+
+#: core/actions/footer-actions.php:53
+#@ response
+msgid "Links"
+msgstr "Bağlantılar"
+
+#: core/actions/footer-actions.php:60
+#: core/actions/footer-actions.php:64
+#: sidebar.php:40
+#: sidebar.php:44
+#@ response
+msgid "WordPress"
+msgstr ""
+
+#: core/actions/footer-actions.php:64
+#: sidebar.php:44
+#@ response
+msgid "http://wordpress.org/"
+msgstr "http://wordpress.org/"
+
+#: core/actions/footer-actions.php:64
+#: sidebar.php:44
+#@ response
+msgid "Powered by WordPress, state-of-the-art semantic personal publishing platform."
+msgstr "Son teknoloji semantik yayıncılık platformu WordPress ile güçlendirilmiştir."
+
+#: core/actions/global-actions.php:43
+#@ response
+msgid "Published on"
+msgstr "Tarih"
+
+#: core/actions/global-actions.php:44
+#@ response
+msgid "by"
+msgstr "yazar"
+
+#: core/actions/global-actions.php:45
+#@ response
+msgid "in"
+msgstr "içinde"
+
+#: core/actions/global-actions.php:70
+#@ response
+msgid "No Comments &#187;"
+msgstr "Yorum yok"
+
+#: core/actions/global-actions.php:70
+#@ response
+msgid "1 Comment &#187;"
+msgstr "1 Yorum &#187"
+
+#: core/actions/global-actions.php:70
+#@ response
+msgid "% Comments &#187;"
+msgstr ""
+
+#: core/actions/global-actions.php:86
+#@ response
+msgid "Read more…"
+msgstr "Devamını oku..."
+
+#: core/actions/global-actions.php:187
+#@ response
+msgid "Tags: "
+msgstr "Etiketler: "
+
+#: searchform.php:15
+#@ response
+msgid "Search"
+msgstr "Arama"
+
+#: sidebar.php:19
+#@ response
+msgid "Pages"
+msgstr "Sayfalar"
+
+#: sidebar.php:33
+#@ response
+msgid "Categories"
+msgstr "Kategoriler"
+
+#: sidebar.php:50
+#@ response
+msgid "Subscribe"
+msgstr "Kayıt Ol"
+
+#: sidebar.php:52
+#@ response
+msgid "Entries (RSS)"
+msgstr "Kayıtlar (RSS)"
+
+#: sidebar.php:53
+#@ response
+msgid "Comments (RSS)"
+msgstr "Yorumlar (RSS)"

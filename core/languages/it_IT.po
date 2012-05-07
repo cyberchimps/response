@@ -1,0 +1,187 @@
+#Copyright (C) 2011 
+msgid ""
+msgstr ""
+"Project-Id-Version: Core 1.0\n"
+"Report-Msgid-Bugs-To: http://cyberchimps.com/forum\n"
+"POT-Creation-Date: 10-17-11\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Textdomain-Support: yes\n"
+"PO-Revision-Date: \n"
+"Last-Translator: max noviello <maxnoviello@gmail.com>\n"
+"Language-Team: \n"
+"X-Poedit-Language: Italian\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+
+# @ response
+#: core/actions/archive-actions.php:36
+msgid "Archive for the &#8216;"
+msgstr "Archivi per &#8216;"
+
+# @ response
+#: core/actions/archive-actions.php:36
+msgid "&#8217; Category:"
+msgstr "&#8217; Categorie:"
+
+# @ response
+#: core/actions/archive-actions.php:39
+msgid "Posts Tagged &#8216;"
+msgstr "Post Taggati &#8216;"
+
+# @ response
+#: core/actions/archive-actions.php:39
+msgid "&#8217;:"
+msgstr ""
+
+# @ response
+#: core/actions/archive-actions.php:42
+#: core/actions/archive-actions.php:45
+msgid "Archive for"
+msgstr "Archivio per"
+
+# @ response
+#: core/actions/archive-actions.php:48
+msgid "Archive for:"
+msgstr "Archivio per:"
+
+# @ response
+#: core/actions/archive-actions.php:51
+msgid "Author Archive:"
+msgstr "Archivio dell'autore:"
+
+# @ response
+#: core/actions/archive-actions.php:54
+msgid "Blog Archives:"
+msgstr "Archivio del blog:"
+
+# @ response
+#: core/actions/comments-actions.php:49
+msgid "No Responses"
+msgstr "Nessuna Risposta"
+
+# @ response
+#: core/actions/comments-actions.php:49
+msgid "One Response"
+msgstr "Una risposta"
+
+# @ response
+#: core/actions/comments-actions.php:49
+msgid "% Responses"
+msgstr "% Risposte"
+
+# @ response
+#: core/actions/comments-actions.php:88
+msgid "You must be"
+msgstr "Tu devi essere"
+
+# @ response
+#: core/actions/comments-actions.php:88
+msgid "logged in"
+msgstr "loggato"
+
+# @ response
+#: core/actions/comments-actions.php:88
+msgid "to post a comment."
+msgstr "per scrivere un commento"
+
+# @ response
+#: core/actions/footer-actions.php:39
+msgid "Recent Posts"
+msgstr "Articoli Recenti"
+
+# @ response
+# @ response
+#: core/actions/footer-actions.php:46
+#: sidebar.php:26
+msgid "Archives"
+msgstr "Archivi"
+
+# @ response
+#: core/actions/footer-actions.php:53
+msgid "Links"
+msgstr "Links"
+
+# @ response
+#: core/actions/footer-actions.php:60
+#: core/actions/footer-actions.php:64
+#: sidebar.php:40
+#: sidebar.php:44
+msgid "WordPress"
+msgstr ""
+
+# @ response
+#: core/actions/footer-actions.php:64
+#: sidebar.php:44
+msgid "http://wordpress.org/"
+msgstr ""
+
+# @ response
+#: core/actions/footer-actions.php:64
+#: sidebar.php:44
+msgid "Powered by WordPress, state-of-the-art semantic personal publishing platform."
+msgstr "Powered by Wordpress"
+
+# @ response
+#: core/actions/global-actions.php:43
+msgid "Published on"
+msgstr "Pubblicato il"
+
+# @ response
+#: core/actions/global-actions.php:44
+msgid "by"
+msgstr "da"
+
+# @ response
+#: core/actions/global-actions.php:45
+msgid "in"
+msgstr "in"
+
+# @ response
+#: core/actions/global-actions.php:70
+msgid "No Comments &#187;"
+msgstr "Nessun Commento &#187;"
+
+# @ response
+#: core/actions/global-actions.php:70
+msgid "1 Comment &#187;"
+msgstr "Un commento &#187;"
+
+# @ response
+#: core/actions/global-actions.php:70
+msgid "% Comments &#187;"
+msgstr "% commenti &#187;"
+
+# @ response
+#: core/actions/index-actions.php:276
+msgid "Page"
+msgstr "Pagina"
+
+# @ response
+#: sidebar.php:19
+msgid "Pages"
+msgstr "Pagine"
+
+# @ response
+#: sidebar.php:33
+msgid "Categories"
+msgstr "Categorie"
+
+# @ response
+#: sidebar.php:50
+msgid "Subscribe"
+msgstr "Iscriviti"
+
+# @ response
+#: sidebar.php:52
+msgid "Entries (RSS)"
+msgstr "Flusso RSS delle pubblicazioni"
+
+# @ response
+#: sidebar.php:53
+msgid "Comments (RSS)"
+msgstr "Commenti (RSS)"

@@ -1,0 +1,276 @@
+#@ response
+msgid ""
+msgstr ""
+"Project-Id-Version: Core 1.0\n"
+"Report-Msgid-Bugs-To: http://cyberchimps.com/forum\n"
+"POT-Creation-Date: 10-17-11\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: \n"
+"X-Poedit-Country: \n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#@ response
+#: core/actions/archive-actions.php:32
+msgid "Archive for the &#8216;"
+msgstr "Archivo para el &#8216;"
+
+#@ response
+#: core/actions/archive-actions.php:32
+msgid "&#8217; Category:"
+msgstr "&#8217; Categoría:"
+
+#@ response
+#: core/actions/archive-actions.php:35
+msgid "Posts Tagged &#8216;"
+msgstr "Entradas Marcadas &#8216;"
+
+#@ response
+#: core/actions/archive-actions.php:35
+msgid "&#8217;:"
+msgstr "&#8217;:"
+
+#@ response
+#: core/actions/archive-actions.php:38
+#: core/actions/archive-actions.php:41
+msgid "Archive for"
+msgstr "Archivo para"
+
+#@ response
+#: core/actions/archive-actions.php:44
+msgid "Archive for:"
+msgstr "Archivo para:"
+
+#@ response
+#: core/actions/archive-actions.php:47
+msgid "Author Archive:"
+msgstr "Autor del Archivo:"
+
+#@ response
+#: core/actions/archive-actions.php:50
+msgid "Blog Archives:"
+msgstr "Archivos del Blog:"
+
+#@ response
+#: core/actions/comments-actions.php:49
+msgid "No Responses"
+msgstr "No hay respuestas"
+
+#@ response
+#: core/actions/comments-actions.php:49
+msgid "One Response"
+msgstr "Una respuesta"
+
+#@ response
+#: core/actions/comments-actions.php:49
+msgid "% Responses"
+msgstr "% de respuestas"
+
+#@ response
+#: core/actions/comments-actions.php:89
+msgid "You must be"
+msgstr "Usted debe ser"
+
+#@ response
+#: core/actions/comments-actions.php:89
+msgid "logged in"
+msgstr "Registrado"
+
+#@ response
+#: core/actions/comments-actions.php:89
+msgid "to post a comment."
+msgstr "para publicar un cometario"
+
+#@ response
+#: core/actions/footer-actions.php:45
+msgid "Recent Posts"
+msgstr "Entradas recientes"
+
+#@ response
+#@ response
+#: core/actions/footer-actions.php:52
+#: sidebar.php:26
+msgid "Archives"
+msgstr "Archivos"
+
+#@ response
+#@ response
+#: core/actions/footer-actions.php:59
+#: core/actions/footer-actions.php:63
+#: sidebar.php:40
+#: sidebar.php:44
+msgid "WordPress"
+msgstr "WordPress"
+
+#@ response
+#@ response
+#: core/actions/footer-actions.php:63
+#: sidebar.php:44
+msgid "http://wordpress.org/"
+msgstr "http://wordpress.org/"
+
+#@ response
+#@ response
+#: core/actions/footer-actions.php:63
+#: sidebar.php:44
+msgid "Powered by WordPress, state-of-the-art semantic personal publishing platform."
+msgstr "Potenciado por WordPress, la última plataforma de publicación semántica personal."
+
+#@ response
+#: core/actions/global-actions.php:162
+msgid "Published on"
+msgstr "Publicado en"
+
+#@ response
+#: core/actions/global-actions.php:163
+msgid "by"
+msgstr "por"
+
+#@ response
+#: core/actions/global-actions.php:164
+msgid "in"
+msgstr "en"
+
+#@ response
+#: core/actions/global-actions.php:95
+msgid "Read more…"
+msgstr "Leer más..."
+
+#@ response
+#: core/actions/global-actions.php:196
+msgid "Tags: "
+msgstr "Etiquetas:"
+
+#@ response
+#: searchform.php:15
+msgid "Search"
+msgstr "Buscar"
+
+#@ response
+#: sidebar.php:19
+msgid "Pages"
+msgstr "Páginas"
+
+#@ response
+#: sidebar.php:33
+msgid "Categories"
+msgstr "Categorías"
+
+#@ response
+#: sidebar.php:50
+msgid "Subscribe"
+msgstr "Suscribirse"
+
+#@ response
+#: sidebar.php:52
+msgid "Entries (RSS)"
+msgstr "Entradas (RSS)"
+
+#@ response
+#: core/actions/footer-actions.php:38
+msgid "Footer Widgets"
+msgstr "Widgets del Pié"
+
+#@ response
+#: core/actions/global-actions.php:137
+msgid "No Comments"
+msgstr "No hay Comentarios"
+
+#@ response
+#: core/actions/global-actions.php:137
+#: core/widgets/tabbed-widget.php:75
+#: core/widgets/tabbed-widget.php:102
+msgid "1 Comment"
+msgstr "1 Comentario"
+
+#@ response
+#: core/actions/global-actions.php:137
+#: core/widgets/tabbed-widget.php:75
+#: core/widgets/tabbed-widget.php:102
+msgid "% Comments"
+msgstr "% Comentarios"
+
+#@ response
+#: core/core-functions.php:131
+#, php-format
+msgid "<cite class=\"fn\">%s</cite> <span class=\"says\"></span>"
+msgstr "<cite class=\"fn\">%s</cite> <span class=\"says\"></span>"
+
+#@ response
+#: core/core-functions.php:134
+msgid "Your comment is awaiting moderation."
+msgstr "Su comentario está esperando moderación."
+
+#@ response
+#: core/core-functions.php:138
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s en %2$s"
+
+#@ response
+#: core/core-functions.php:138
+msgid "(Edit)"
+msgstr "(Editar)"
+
+#@ response
+#: core/core-functions.php:247
+msgid "Page"
+msgstr "Página"
+
+#@ response
+#: core/widgets/tabbed-widget.php:14
+msgid "A tabbed widget that display popular posts, recent posts, comments and tags."
+msgstr "Un Widget con pestañas que muestra entradas populares, entradas recientes, comentarios y etiquetas."
+
+#@ response
+#: core/widgets/tabbed-widget.php:25
+msgid "iFeature Tabbed Widget"
+msgstr "Widget con Pestañas de iFeature "
+
+#@ response
+#: core/widgets/tabbed-widget.php:75
+#: core/widgets/tabbed-widget.php:102
+msgid "No comments"
+msgstr "No hay comentarios"
+
+#@ response
+#: core/widgets/tabbed-widget.php:118
+#: core/widgets/tabbed-widget.php:122
+msgid "on "
+msgstr "en"
+
+#@ response
+#: core/widgets/tabbed-widget.php:166
+msgid "Popular Title:"
+msgstr "Título popular:"
+
+#@ response
+#: core/widgets/tabbed-widget.php:171
+msgid "Recent Title:"
+msgstr "Título reciente:"
+
+#@ ifeture
+#: core/widgets/tabbed-widget.php:176
+msgid "Comment Title:"
+msgstr "Título del comentario:"
+
+#@ response
+#: core/widgets/tabbed-widget.php:181
+msgid "Tag Title:"
+msgstr "Título de la etiqueta:"
+
+#@ response
+#: sidebar.php:53
+msgid "Comments (RSS)"
+msgstr "Comentarios (RSS)"
+
