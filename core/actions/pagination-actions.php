@@ -46,9 +46,9 @@ function response_pagination_content($pages = '', $range = 4)
  
      if(1 != $pages)
      {
-         echo '<div class="pagination"><span>'.__( 'Page', 'core' ).' '.$paged.' of '.$pages.'</span>';
-         if($paged > 2 && $paged > $range+1 && $showitems < $pages) echo '<a href="'.get_pagenum_link(1).'">'.__( '&laquo; First', 'core' ).'</a>';
-         if($paged > 1 && $showitems < $pages) echo '<a href="'.get_pagenum_link($paged - 1).'">'.__( '&lsaquo; Previous', 'core' ).'</a>';
+         echo '<div class="pagination"><span>'.__( 'Page', 'response' ).' '.$paged.' '.__( 'of', 'response' ).' '.$pages.'</span>';
+         if($paged > 2 && $paged > $range+1 && $showitems < $pages) echo '<a href="'.get_pagenum_link(1).'">'.__( '&laquo; First', 'response' ).'</a>';
+         if($paged > 1 && $showitems < $pages) echo '<a href="'.get_pagenum_link($paged - 1).'">'.__( '&lsaquo; Previous', 'response' ).'</a>';
  
          for ($i=1; $i <= $pages; $i++)
          {
@@ -58,8 +58,8 @@ function response_pagination_content($pages = '', $range = 4)
              }
          }
  
-         if ($paged < $pages && $showitems < $pages) echo '<a href="'.get_pagenum_link($paged + 1).'"">'.__( 'Next &rsaquo;', 'core').'</a>';
-         if ($paged < $pages-1 &&  $paged+$range-1 < $pages && $showitems < $pages) echo '<a href="'.get_pagenum_link($pages).'">'.__( 'Last &raquo;', 'core' ).'</a>';
+         if ($paged < $pages && $showitems < $pages) echo '<a href="'.get_pagenum_link($paged + 1).'"">'.__( 'Next &rsaquo;', 'response').'</a>';
+         if ($paged < $pages-1 &&  $paged+$range-1 < $pages && $showitems < $pages) echo '<a href="'.get_pagenum_link($pages).'">'.__( 'Last &raquo;', 'response' ).'</a>';
          echo "</div>\n";
      }
 }
@@ -73,7 +73,7 @@ function response_previous_posts() {
 	$previous_text = apply_filters('response_previous_posts_text', '&laquo; Older Entries' ); 
 	
 	echo "<div class='pagnext-posts'>";
-	next_posts_link( __( $previous_text, 'core' ));
+	next_posts_link( __( $previous_text, 'response' ));
 	echo "</div>";
 }
 
@@ -86,7 +86,7 @@ function response_newer_posts() {
 	$newer_text = apply_filters('response_newer_posts_text', 'Newer Entries &raquo;' );
 	
 	echo "<div class='pagprev-posts'>";
-	previous_posts_link( __( $newer_text, 'core' ));
+	previous_posts_link( __( $newer_text, 'response' ));
 	echo "</div>";
 }
 
