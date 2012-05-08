@@ -4,6 +4,8 @@ Response Changelog
 
 Version 1.1.2 (05-10-12)
 -Added Spanish, Italian, Turkish and Persian language files. 
+-Updated Croatian and Swedish translation files. 
+-Updated response.pot
 -Fixed/added missing translation wrappers to post pagination function.
 
 Version 1.1.1 (05-03-12)

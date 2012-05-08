@@ -167,11 +167,16 @@ msgid "Tags: "
 msgstr "Taggar: "
 
 #: core/actions/pagination-actions.php:49
+#@ core
+msgid "of" 
+msgstr "av"
+
+#: core/actions/pagination-actions.php:49
 #: core/core-functions.php:241
 #@ response
 #@ default
 msgid "Page"
-msgstr "Page"
+msgstr "Sida"
 
 #: core/actions/pagination-actions.php:50
 #@ response
