@@ -167,7 +167,7 @@ msgid "Tags: "
 msgstr "Taggar: "
 
 #: core/actions/pagination-actions.php:49
-#@ core
+#@ response
 msgid "of" 
 msgstr "av"
 
