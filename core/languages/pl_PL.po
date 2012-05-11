@@ -1,0 +1,224 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Core 1.0\n"
+"Report-Msgid-Bugs-To: http://cyberchimps.com/forum\n"
+"POT-Creation-Date: 10-17-11\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: \n"
+"X-Poedit-Country: \n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: core/actions/archive-actions.php:36
+#@ response
+msgid "Archive for the &#8216;"
+msgstr "Archiwum dla &#8216;"
+
+#: core/actions/archive-actions.php:36
+#@ response
+msgid "&#8217; Category:"
+msgstr "&#8217; Kategoria:"
+
+#: core/actions/archive-actions.php:39
+#@ response
+msgid "Posts Tagged &#8216;"
+msgstr "Posty Oznaczone &#8216;"
+
+#: core/actions/archive-actions.php:39
+#@ response
+msgid "&#8217;:"
+msgstr "&#8217;:"
+
+#: core/actions/archive-actions.php:42
+#: core/actions/archive-actions.php:45
+#@ response
+msgid "Archive for"
+msgstr "Archiwum"
+
+#: core/actions/archive-actions.php:48
+#@ response
+msgid "Archive for:"
+msgstr "Archiwum"
+
+#: core/actions/archive-actions.php:51
+#@ response
+msgid "Author Archive:"
+msgstr "Archiwum Autor:"
+
+#: core/actions/archive-actions.php:54
+#@ response
+msgid "Blog Archives:"
+msgstr "Blog Archiwum"
+
+#: core/actions/comments-actions.php:49
+#@ response
+msgid "No Responses"
+msgstr "Nie Odpowiedzi"
+
+#: core/actions/comments-actions.php:49
+#@ response
+msgid "One Response"
+msgstr "Jeden Odpowiedź"
+
+#: core/actions/comments-actions.php:49
+#@ response
+msgid "% Responses"
+msgstr "% Odpowiedzi"
+
+#: core/actions/comments-actions.php:88
+#@ response
+msgid "You must be"
+msgstr "Musisz być"
+
+#: core/actions/comments-actions.php:88
+#@ response
+msgid "logged in"
+msgstr "zalogowany"
+
+#: core/actions/comments-actions.php:88
+#@ ifeture
+msgid "to post a comment."
+msgstr ""
+
+#: core/actions/footer-actions.php:39
+#@ response
+msgid "Recent Posts"
+msgstr "Najnowsze posty"
+
+#: core/actions/footer-actions.php:46
+#: sidebar.php:26
+#@ response
+#@ ifeature
+msgid "Archives"
+msgstr "Archiwum"
+
+#: core/actions/footer-actions.php:53
+#@ response
+msgid "Links"
+msgstr "Linki"
+
+#: core/actions/footer-actions.php:60
+#: core/actions/footer-actions.php:64
+#: sidebar.php:40
+#: sidebar.php:44
+#@ response
+#@ ifeature
+msgid "WordPress"
+msgstr "WordPress"
+
+#: core/actions/footer-actions.php:64
+#: sidebar.php:44
+#@ response
+#@ ifeature
+msgid "http://wordpress.org/"
+msgstr "http://wordpress.org/"
+
+#: core/actions/footer-actions.php:64
+#: sidebar.php:44
+#@ response
+#@ ifeature
+msgid "Powered by WordPress, state-of-the-art semantic personal publishing platform."
+msgstr "Powered by WordPress, state-of-the-art semantic personal publishing platform."
+
+#: core/actions/footer-actions.php:38
+#@ response
+msgid "Footer Widgets"
+msgstr "Stopki Widgety"
+
+#: core/actions/global-actions.php:86
+#@ response
+msgid "Read more…"
+msgstr "Przeczytaj więcej ..."
+
+#: core/actions/global-actions.php:128
+#@ response
+msgid "No Comments"
+msgstr "Brak komentarzy"
+
+#: core/actions/global-actions.php:128
+#@ response
+msgid "1 Comment"
+msgstr "1 komentarz"
+
+#: core/actions/global-actions.php:128
+#@ response
+msgid "% Comments"
+msgstr "% komentarz"
+
+#: core/actions/global-actions.php:187
+#@ response
+msgid "Tags: "
+msgstr "Tagi:"
+
+#: core/actions/pagination-actions.php:49
+#@ response
+msgid "of"
+msgstr "z"
+
+#: core/actions/pagination-actions.php:49
+#: core/core-functions.php:241
+#@ response
+#@ default
+msgid "Page"
+msgstr "Strona"
+
+#: core/actions/pagination-actions.php:50
+#@ response
+msgid "&laquo; First"
+msgstr "&laquo; Pierwszy"
+
+#: core/actions/pagination-actions.php:51
+#@ response
+msgid "&lsaquo; Previous"
+msgstr "&lsaquo; Poprzedni"
+
+#: core/actions/pagination-actions.php:61
+#@ response
+msgid "Next &rsaquo;"
+msgstr "Następny &rsaquo;"
+
+#: core/actions/pagination-actions.php:62
+#@ response
+msgid "Last &raquo;"
+msgstr "Ostatni &raquo;"
+
+#: core/actions/pagination-actions.php:99
+#@ response
+msgid "Pages:"
+msgstr "Strony:"
+
+#: sidebar.php:19
+#@ response
+msgid "Pages"
+msgstr "Strony"
+
+#: sidebar.php:33
+#@ response
+msgid "Categories"
+msgstr "Kategorie"
+
+#: sidebar.php:50
+#@ response
+msgid "Subscribe"
+msgstr "Subskrybować"
+
+#: sidebar.php:52
+#@ response
+msgid "Entries (RSS)"
+msgstr "Wpisy (RSS)"
+
+#: sidebar.php:53
+#@ response
+msgid "Comments (RSS)"
+msgstr "Komentarze (RSS)"
+

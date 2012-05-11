@@ -61,6 +61,12 @@ function response_scripts() {
 	wp_enqueue_script ('modernizr');
 	wp_enqueue_script ('menu');
 	wp_enqueue_script ('mobilemenu');
+	
+	if ($options->get($themeslug.'_responsive_video') == '1' ) {
+	
+		wp_register_script( 'video' ,$path.'/js/video.js');
+		wp_enqueue_script ('video');	
+	}
 }
 add_action('wp_enqueue_scripts', 'response_scripts');	
 
