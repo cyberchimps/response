@@ -419,6 +419,29 @@ $default = "$root/images/banner.jpg";
 }
 
 /**
+* Sets up the header contact area
+*
+* @since 1.0
+*/
+function response_custom_header_element_content() { 
+	global $themeslug, $options; ?>
+	
+	<div class="container">
+		<div class="row">
+		
+			<div class="twelve columns">
+				
+				<?php echo stripslashes ($options->get($themeslug.'_custom_header_element')); 	?>
+						
+			</div>	
+		</div><!--end row-->
+	</div>	
+
+<?php	
+}
+
+
+/**
 * End
 */
 
