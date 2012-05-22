@@ -1,0 +1,225 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Core 1.0\n"
+"Report-Msgid-Bugs-To: http://cyberchimps.com/forum\n"
+"POT-Creation-Date: 10-17-11\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Kristian Risager Larsen <ifeaturepro@kezze.dk>\n"
+"Language-Team: Elementum, http://elementum.dk \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: Dansk\n"
+"X-Poedit-Country: Danmark\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: core/actions/archive-actions.php:36
+#@ core
+msgid "Archive for the &#8216;"
+msgstr "Arkiv for kategorien &#8216;"
+
+#: core/actions/archive-actions.php:36
+#@ core
+msgid "&#8217; Category:"
+msgstr "&#8216;:"
+
+#: core/actions/archive-actions.php:39
+#@ core
+msgid "Posts Tagged &#8216;"
+msgstr "Indlæg med tagget &#8216;"
+
+#: core/actions/archive-actions.php:39
+#@ core
+msgid "&#8217;:"
+msgstr "&#8216;:"
+
+#: core/actions/archive-actions.php:42
+#: core/actions/archive-actions.php:45
+#@ core
+msgid "Archive for"
+msgstr "Arkiv for"
+
+#: core/actions/archive-actions.php:48
+#@ core
+msgid "Archive for:"
+msgstr "Arkiv for:"
+
+#: core/actions/archive-actions.php:51
+#@ core
+msgid "Author Archive:"
+msgstr "Forfatterarkiv:"
+
+#: core/actions/archive-actions.php:54
+#@ core
+msgid "Blog Archives:"
+msgstr "Blogarkiv:"
+
+#: core/actions/comments-actions.php:49
+#@ core
+msgid "No Responses"
+msgstr "Ingen kommentarer"
+
+#: core/actions/comments-actions.php:49
+#@ core
+msgid "One Response"
+msgstr "Én kommentar"
+
+#: core/actions/comments-actions.php:49
+#@ core
+msgid "% Responses"
+msgstr "% kommentarer"
+
+#: core/actions/comments-actions.php:88
+#@ core
+msgid "You must be"
+msgstr "Du skal være"
+
+#: core/actions/comments-actions.php:88
+#@ core
+msgid "logged in"
+msgstr "logget ind"
+
+#: core/actions/comments-actions.php:88
+#@ ifeture
+msgid "to post a comment."
+msgstr "for at skrive en kommentar."
+
+#: core/actions/footer-actions.php:39
+#@ core
+msgid "Recent Posts"
+msgstr "Seneste indlæg"
+
+#: core/actions/footer-actions.php:46
+#: sidebar.php:26
+#@ core
+msgid "Archives"
+msgstr "Arkiv"
+
+#: core/actions/footer-actions.php:53
+#@ core
+msgid "Links"
+msgstr "Links"
+
+#: core/actions/footer-actions.php:60
+#: core/actions/footer-actions.php:64
+#: sidebar.php:40
+#: sidebar.php:44
+#@ core
+msgid "WordPress"
+msgstr "WordPress"
+
+#: core/actions/footer-actions.php:64
+#: sidebar.php:44
+#@ core
+msgid "http://wordpress.org/"
+msgstr "http://da.wordpress.org"
+
+#: core/actions/footer-actions.php:64
+#: sidebar.php:44
+#@ core
+msgid "Powered by WordPress, state-of-the-art semantic personal publishing platform."
+msgstr "Drevet af WordPress; en moderne, semantisk, personlig publiceringsplatform."
+
+#: core/actions/global-actions.php:43
+#@ core
+msgid "Published on"
+msgstr "Publiceret den"
+
+#: core/actions/global-actions.php:44
+#@ core
+msgid "by"
+msgstr "af"
+
+#: core/actions/global-actions.php:45
+#@ core
+msgid "in"
+msgstr "i"
+
+#: core/actions/global-actions.php:70
+#@ core
+msgid "No Comments &#187;"
+msgstr "Ingen kommentarer &#187;"
+
+#: core/actions/global-actions.php:70
+#@ core
+msgid "1 Comment &#187;"
+msgstr "Én kommentar &#187;"
+
+#: core/actions/global-actions.php:70
+#@ core
+msgid "% Comments &#187;"
+msgstr "% kommentarer &#187;"
+
+#: core/actions/global-actions.php:86
+#@ core
+msgid "Read more…"
+msgstr "Læs mere…"
+
+#: core/actions/global-actions.php:187
+#@ core
+msgid "Tags: "
+msgstr "Tags:"
+
+#: core/actions/pagination-actions.php:49
+#: core/core-functions.php:241
+#@ core
+#@ default
+msgid "Page"
+msgstr "Side"
+
+#: core/actions/pagination-actions.php:50
+#@ core
+msgid "&laquo; First"
+msgstr "&laquo; Første"
+
+#: core/actions/pagination-actions.php:51
+#@ core
+msgid "&lsaquo; Previous"
+msgstr "&lsaquo; Forrige"
+
+#: core/actions/pagination-actions.php:61
+#@ core
+msgid "Next &rsaquo;"
+msgstr "Næste &rsaquo;"
+
+#: core/actions/pagination-actions.php:62
+#@ core
+msgid "Last &raquo;"
+msgstr "Sidste &raquo;"
+
+#: core/actions/pagination-actions.php:99
+#@ core
+msgid "Pages:"
+msgstr "Sider:"
+
+#: searchform.php:15
+#@ core
+msgid "Search"
+msgstr "Søg"
+
+#: sidebar.php:19
+#@ core
+msgid "Pages"
+msgstr "Sider"
+
+#: sidebar.php:33
+#@ core
+msgid "Categories"
+msgstr "Kategorier"
+
+#: sidebar.php:50
+#@ core
+msgid "Subscribe"
+msgstr "Abonner"
+
+#: sidebar.php:52
+#@ core
+msgid "Entries (RSS)"
+msgstr "Indlæg (RSS)"
+
