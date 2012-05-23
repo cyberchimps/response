@@ -1,0 +1,272 @@
+#@ core
+msgid ""
+msgstr ""
+"Project-Id-Version: Core 1.0\n"
+"Report-Msgid-Bugs-To: http://cyberchimps.com/forum\n"
+"POT-Creation-Date: 10-17-11\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Marc De Mena <mdemena@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#@ core
+#: core/actions/archive-actions.php:32
+msgid "Archive for the &#8216;"
+msgstr "Arxiu per &#8216;"
+
+#@ core
+#: core/actions/archive-actions.php:32
+msgid "&#8217; Category:"
+msgstr "&#8217; Categoria:"
+
+#@ core
+#: core/actions/archive-actions.php:35
+msgid "Posts Tagged &#8216;"
+msgstr "Entrades Marcades &#8216;"
+
+#@ core
+#: core/actions/archive-actions.php:35
+msgid "&#8217;:"
+msgstr "&#8217;:"
+
+#@ core
+#: core/actions/archive-actions.php:38
+#: core/actions/archive-actions.php:41
+msgid "Archive for"
+msgstr "Arxiu per"
+
+#@ core
+#: core/actions/archive-actions.php:44
+msgid "Archive for:"
+msgstr "Arxiu per:"
+
+#@ core
+#: core/actions/archive-actions.php:47
+msgid "Author Archive:"
+msgstr "Autor del Arxiu:"
+
+#@ core
+#: core/actions/archive-actions.php:50
+msgid "Blog Archives:"
+msgstr "Arxius del Blog:"
+
+#@ core
+#: core/actions/comments-actions.php:49
+msgid "No Responses"
+msgstr "No hi han respostes"
+
+#@ core
+#: core/actions/comments-actions.php:49
+msgid "One Response"
+msgstr "Una resposta"
+
+#@ core
+#: core/actions/comments-actions.php:49
+msgid "% Responses"
+msgstr "% de respostes"
+
+#@ core
+#: core/actions/comments-actions.php:89
+msgid "You must be"
+msgstr "Vostè ha de ser"
+
+#@ core
+#: core/actions/comments-actions.php:89
+msgid "logged in"
+msgstr "Registrat"
+
+#@ core
+#: core/actions/comments-actions.php:89
+msgid "to post a comment."
+msgstr "per publicar un comentari"
+
+#@ core
+#: core/actions/footer-actions.php:45
+msgid "Recent Posts"
+msgstr "Entrades recents"
+
+#@ core
+#@ core
+#: core/actions/footer-actions.php:52
+#: sidebar.php:26
+msgid "Archives"
+msgstr "Arxius"
+
+#@ core
+#@ core
+#: core/actions/footer-actions.php:59
+#: core/actions/footer-actions.php:63
+#: sidebar.php:40
+#: sidebar.php:44
+msgid "WordPress"
+msgstr "WordPress"
+
+#@ core
+#@ core
+#: core/actions/footer-actions.php:63
+#: sidebar.php:44
+msgid "http://wordpress.org/"
+msgstr "http://wordpress.org/"
+
+#@ core
+#@ core
+#: core/actions/footer-actions.php:63
+#: sidebar.php:44
+msgid "Powered by WordPress, state-of-the-art semantic personal publishing platform."
+msgstr "Executat per WordPress, la darrera plataforma de publicació semàntica personal."
+
+#@ core
+#: core/actions/global-actions.php:162
+msgid "Published on"
+msgstr "Publicat a"
+
+#@ core
+#: core/actions/global-actions.php:163
+msgid "by"
+msgstr "per"
+
+#@ core
+#: core/actions/global-actions.php:164
+msgid "in"
+msgstr "a"
+
+#@ core
+#: core/actions/global-actions.php:95
+msgid "Read more…"
+msgstr "Llegir més..."
+
+#@ core
+#: core/actions/global-actions.php:196
+msgid "Tags: "
+msgstr "Etiquetes:"
+
+#@ core
+#: searchform.php:15
+msgid "Search"
+msgstr "Cercar"
+
+#@ core
+#: sidebar.php:19
+msgid "Pages"
+msgstr "Pàgines"
+
+#@ core
+#: sidebar.php:33
+msgid "Categories"
+msgstr "Categories"
+
+#@ core
+#: sidebar.php:50
+msgid "Subscribe"
+msgstr "Suscriu-re"
+
+#@ core
+#: sidebar.php:52
+msgid "Entries (RSS)"
+msgstr "Entrades (RSS)"
+
+#@ core
+#: core/actions/footer-actions.php:38
+msgid "Footer Widgets"
+msgstr "Widgets del Peu"
+
+#@ core
+#: core/actions/global-actions.php:137
+msgid "No Comments"
+msgstr "No hi han Comentaris"
+
+#@ core
+#: core/actions/global-actions.php:137
+#: core/widgets/tabbed-widget.php:75
+#: core/widgets/tabbed-widget.php:102
+msgid "1 Comment"
+msgstr "1 Comentari"
+
+#@ core
+#: core/actions/global-actions.php:137
+#: core/widgets/tabbed-widget.php:75
+#: core/widgets/tabbed-widget.php:102
+msgid "% Comments"
+msgstr "% Comentaris"
+
+#@ core
+#: core/core-functions.php:131
+#, php-format
+msgid "<cite class=\"fn\">%s</cite> <span class=\"says\"></span>"
+msgstr "<cite class=\"fn\">%s</cite> <span class=\"says\"></span>"
+
+#@ core
+#: core/core-functions.php:134
+msgid "Your comment is awaiting moderation."
+msgstr "El seu comentari està esperant moderació."
+
+#@ core
+#: core/core-functions.php:138
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s a %2$s"
+
+#@ core
+#: core/core-functions.php:138
+msgid "(Edit)"
+msgstr "(Editar)"
+
+#@ core
+#: core/core-functions.php:247
+msgid "Page"
+msgstr "Pàgina"
+
+#@ core
+#: core/widgets/tabbed-widget.php:14
+msgid "A tabbed widget that display popular posts, recent posts, comments and tags."
+msgstr "Un Widget amb pestanyes que mostra entrades populars, entrades recents, comentaris i etiquetes."
+
+#@ core
+#: core/widgets/tabbed-widget.php:25
+msgid "iFeature Tabbed Widget"
+msgstr "Widget amb Pestanyes de iFeature "
+
+#@ core
+#: core/widgets/tabbed-widget.php:75
+#: core/widgets/tabbed-widget.php:102
+msgid "No comments"
+msgstr "No hi han comentaris"
+
+#@ core
+#: core/widgets/tabbed-widget.php:118
+#: core/widgets/tabbed-widget.php:122
+msgid "on "
+msgstr "a "
+
+#@ core
+#: core/widgets/tabbed-widget.php:166
+msgid "Popular Title:"
+msgstr "Títol popular:"
+
+#@ core
+#: core/widgets/tabbed-widget.php:171
+msgid "Recent Title:"
+msgstr "Títol recent:"
+
+#@ ifeture
+#: core/widgets/tabbed-widget.php:176
+msgid "Comment Title:"
+msgstr "Títol del comentari:"
+
+#@ core
+#: core/widgets/tabbed-widget.php:181
+msgid "Tag Title:"
+msgstr "Títol de l'etiqueta:"
+
+#@ core
+#: sidebar.php:53
+msgid "Comments (RSS)"
+msgstr "Comentaris (RSS)"
+

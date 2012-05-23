@@ -4,6 +4,7 @@ Response Changelog
 
 Version 1.1.4 (05-24-12)
 -Added Danish language files.
+-Added Catalan language files.
 
 Version 1.1.3 (05-17-12)
 -Added option for responsive embeded videos (Youtube/Vimeo).
