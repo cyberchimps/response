@@ -44,6 +44,20 @@ function response_theme_setup() {
 }
 add_action( 'after_setup_theme', 'response_theme_setup' );
 
+/** Replaces RSS link from HTML 'head' with custom feed also used with the 'social icon' */
+function response_feed_links() {
+	global $themename, $themeslug, $options;
+	$my_feed=$options->get($themeslug.'_rsslink');
+	if ($my_feed) {
+		echo '<link rel="alternate" type="application/rss+xml" title="RSS feed" href="'.$my_feed.'"/>';
+	}
+	else {
+		feed_links();
+	}
+}
+remove_action( 'wp_head', 'feed_links', 2); // Display the links to the general feeds: Post and Comment Feed
+add_action('wp_head', 'response_feed_links');
+
 /**
 * Redirect user to theme options page after activation.
 */ 

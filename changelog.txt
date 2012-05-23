@@ -5,6 +5,7 @@ Response Changelog
 Version 1.1.4 (05-24-12)
 -Added Danish language files.
 -Added Catalan language files.
+-Added function to update RSS link in HTML 'head' with custom feed.
 
 Version 1.1.3 (05-17-12)
 -Added option for responsive embeded videos (Youtube/Vimeo).
