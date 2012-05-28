@@ -2,6 +2,9 @@ Response Changelog
 
 ****************************
 
+Version 1.1.5 (05-31-12)
+-Added Hindi language files.
+
 Version 1.1.4 (05-24-12)
 -Added Danish language files.
 -Added Catalan language files.

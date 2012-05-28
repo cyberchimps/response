@@ -1,0 +1,255 @@
+#Copyright (C) 2012
+msgid ""
+msgstr ""
+"Project-Id-Version: Core 1.0\n"
+"Report-Msgid-Bugs-To: http://cyberchimps.com/forum\n"
+"POT-Creation-Date: 10-17-11\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Textdomain-Support: yes\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+
+# @ response
+#: core/actions/archive-actions.php:36
+msgid "Archive for the &#8216;"
+msgstr "अभिलेख &#8216;"
+
+# @ response
+#: core/actions/archive-actions.php:36
+msgid "&#8217; Category:"
+msgstr "&#8217; श्रेणी:"
+
+# @ response
+#: core/actions/archive-actions.php:39
+msgid "Posts Tagged &#8216;"
+msgstr "पोस्ट टैग किया गया;"
+
+# @ response
+#: core/actions/archive-actions.php:39
+msgid "&#8217;:"
+msgstr "&#8217;:"
+
+# @ response
+#: core/actions/archive-actions.php:42
+#: core/actions/archive-actions.php:45
+msgid "Archive for"
+msgstr "अभिलेख"
+
+# @ response
+#: core/actions/archive-actions.php:48
+msgid "Archive for:"
+msgstr "अभिलेख:"
+
+# @ response
+#: core/actions/archive-actions.php:51
+msgid "Author Archive:"
+msgstr "रचयिता अभिलेख:"
+
+# @ response
+#: core/actions/archive-actions.php:54
+msgid "Blog Archives:"
+msgstr "ब्लॉग अभिलेख:"
+
+# @ response
+#: core/actions/comments-actions.php:49
+msgid "No Responses"
+msgstr "कोई जवाब नहीं"
+
+# @ response
+#: core/actions/comments-actions.php:49
+msgid "One Response"
+msgstr "एक जवाब"
+
+# @ response
+#: core/actions/comments-actions.php:49
+msgid "% Responses"
+msgstr "% जवाब"
+
+# @ response
+#: core/actions/comments-actions.php:88
+msgid "You must be"
+msgstr "आप होना चाहिए"
+
+# @ response
+#: core/actions/comments-actions.php:88
+msgid "logged in"
+msgstr "लॉग इन"
+
+# @ ifeture
+#: core/actions/comments-actions.php:88
+msgid "to post a comment."
+msgstr "एक टिप्पणी पोस्ट करने के लिए"
+
+# @ response
+#: core/actions/footer-actions.php:39
+msgid "Recent Posts"
+msgstr "हाल ही की पोस्ट"
+
+# @ response
+# @ response
+#: core/actions/footer-actions.php:46
+#: sidebar.php:26
+msgid "Archives"
+msgstr "अभिलेख"
+
+# @ response
+#: core/actions/footer-actions.php:53
+msgid "Links"
+msgstr "कड़ियाँ"
+
+# @ response
+# @ response
+#: core/actions/footer-actions.php:60
+#: core/actions/footer-actions.php:64
+#: sidebar.php:40
+#: sidebar.php:44
+msgid "WordPress"
+msgstr "वर्डप्रेस"
+
+# @ response
+# @ response
+#: core/actions/footer-actions.php:64
+#: sidebar.php:44
+msgid "http://wordpress.org/"
+msgstr "http://wordpress.org/"
+
+# @ response
+# @ response
+#: core/actions/footer-actions.php:64
+#: sidebar.php:44
+msgid "Powered by WordPress, state-of-the-art semantic personal publishing platform."
+msgstr "वर्डप्रेस द्वारा संचालित, स्टेट-ऑफ-थे-आर्ट सेमांटिक व्यक्तिगत प्रकाशन मंच"
+
+# @ response
+#: core/actions/global-actions.php:43
+msgid "Published on"
+msgstr "प्रकाशित किया गया"
+
+# @ response
+#: core/actions/global-actions.php:44
+msgid "by"
+msgstr "द्वारा"
+
+# @ response
+#: core/actions/global-actions.php:45
+msgid "in"
+msgstr "में"
+
+# @ response
+#: core/actions/global-actions.php:70
+msgid "No Comments &#187;"
+msgstr "कोई टिप्पणी नहीं &#187;"
+
+# @ response
+#: core/actions/global-actions.php:70
+msgid "1 Comment &#187;"
+msgstr "एक टिप्पणी &#187;"
+
+# @ response
+#: core/actions/global-actions.php:70
+msgid "% Comments &#187;"
+msgstr "% टिप्पणी &#187;"
+
+# @ response
+#: core/actions/global-actions.php:187
+msgid "Tags: "
+msgstr "टैग"
+
+# @ response
+#: searchform.php:15
+msgid "Search"
+msgstr "ढूंढें"
+
+# @ response
+# @ default
+#: core/actions/index-actions.php:276
+#: core/actions/pagination-actions.php:49
+#: core/core-functions.php:230
+msgid "Page"
+msgstr "पृष्ठ"
+
+# @ default
+#: functions.php:82
+#, php-format
+msgid "<cite class=\"fn\">%s</cite> <span class=\"says\"></span>"
+msgstr "<cite class=\"fn\">%s</cite> <span class=\"says\"></span>"
+
+# @ default
+#: functions.php:85
+msgid "Your comment is awaiting moderation."
+msgstr "अपनी टिप्पणी मर्यादित करने के लिए बाकी है."
+
+# @ default
+#: functions.php:89
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s पर %2$s"
+
+# @ default
+#: functions.php:89
+msgid "(Edit)"
+msgstr "संपादन करें"
+
+# @ response
+#: core/actions/pagination-actions.php:49
+msgid "of"
+msgstr "की"
+
+# @ response
+#: core/actions/pagination-actions.php:50
+msgid "&laquo; First"
+msgstr "&laquo; प्रथम"
+
+# @ response
+#: core/actions/pagination-actions.php:51
+msgid "&lsaquo; Previous"
+msgstr "&lsaquo; पिछले"
+
+# @ response
+#: core/actions/pagination-actions.php:61
+msgid "Next &rsaquo;"
+msgstr "अगला &rsaquo;"
+
+# @ response
+#: core/actions/pagination-actions.php:62
+msgid "Last &raquo;"
+msgstr "अन्तिम &raquo;"
+
+# @ response
+#: core/actions/pagination-actions.php:99
+msgid "Pages:"
+msgstr "पृष्ठों:"
+
+# @ response
+#: sidebar.php:19
+msgid "Pages"
+msgstr "पृष्ठों"
+
+# @ response
+#: sidebar.php:33
+msgid "Categories"
+msgstr "श्रेणियां"
+
+# @ response
+#: sidebar.php:50
+msgid "Subscribe"
+msgstr "सदस्यता लें"
+
+# @ response
+#: sidebar.php:52
+msgid "Entries (RSS)"
+msgstr "प्रविष्टियाँ(आर एस एस)"
+
+# @ response
+#: sidebar.php:53
+msgid "Comments (RSS)"
+msgstr "टिप्पणियाँ(आर एस एस)"
+
