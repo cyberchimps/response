@@ -1143,6 +1143,7 @@ div.slider-nav span.left {
     #banner {margin-top: 10px !important;}
     #orbitDemo.orbit img {width: 710px !important;}
     #sidebar.four.columns {margin-left: 0% !important; right: 0px !important;}
+    #register.five.columns {float: none !important;}
 }
 
 @media handheld, only screen and (max-width: 500px) {
@@ -1163,7 +1164,7 @@ div.slider-nav span.left {
 	#afterfootermenu {display:none !important;}
 	#credit {float:right !important; margin-right:15px !important; margin-top:4px !important;}
 	#afterfootercopyright {float: left !important;margin-left:15px !important;margin-bottom:2px !important;}
-	#mobileMenu_nav_menu {float: right !important; margin-top: 10px !important; margin-right: 10px !important;}
+	#mobileMenu_nav_menu {float: right !important; margin-top: 10px !important; margin-right: 105px !important;}
 	#menu {height: 35px !important;}
 	.orbit-bullets li.has-thumb {
     background: none;

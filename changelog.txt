@@ -4,6 +4,8 @@ Response Changelog
 
 Version 1.1.5 (05-31-12)
 -Added Hindi language files.
+-Fixed some code in comments-actions.php. 
+-Several responsive design adjustments in the header.
 
 Version 1.1.4 (05-24-12)
 -Added Danish language files.
