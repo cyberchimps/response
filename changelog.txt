@@ -5,7 +5,8 @@ Response Changelog
 Version 1.1.6 (06-06-12)
 -Added Czech language files.
 -Responsive fix for sidebar.
--Responsive fix for searchbar. 
+-Responsive fix for searchbar.
+-Updated $content_width to 640. 
 
 Version 1.1.5 (05-31-12)
 -Added Hindi language files.
