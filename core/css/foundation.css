@@ -1134,7 +1134,6 @@ div.slider-nav span.left {
 @media handheld, only screen and (max-width: 767px) {
 
 	#box2.four.columns {margin-left: 0% !important;}
-	.searchform {display: none !important;}
     #nav ul ul li:hover ul, #nav ul ul ul li:hover ul {margin: 0px !important;}
     #nav ul ul .parent > a, #nav ul ul .parent:hover > a:hover, #nav ul ul li:hover ul .parent > a, #nav ul ul li:hover ul .parent > a:hover{background-image:url(../images/arrow.png) !important;background-position:right !important;background-repeat:no-repeat !important;}
     .carousel_caption {font-size: 10px !important;}
@@ -1144,6 +1143,7 @@ div.slider-nav span.left {
     #orbitDemo.orbit img {width: 710px !important;}
     #sidebar.four.columns {margin-left: 0% !important; right: 0px !important;}
     #register.five.columns {float: none !important;}
+    #sidebar.four.columns:last-child {float: none;}
 }
 
 @media handheld, only screen and (max-width: 500px) {

@@ -253,7 +253,7 @@ header {margin-top: 15px;}
 	overflow: hidden;
 }
 
-#magnify {float:left;position:absolute;margin: 5px 0 0 5px;}
+#magnify {float:left;position:absolute;margin: 2px 0 0 5px;}
 
 #magnify {margin: 0 0 0 5px\0/IE8+9; /* IE8+9  */}
 
