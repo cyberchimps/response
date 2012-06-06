@@ -2,6 +2,9 @@ Response Changelog
 
 ****************************
 
+Version 1.1.6 (06-06-12)
+-Added Czech language files.
+
 Version 1.1.5 (05-31-12)
 -Added Hindi language files.
 -Fixed some code in comments-actions.php. 

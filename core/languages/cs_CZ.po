@@ -1,0 +1,278 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Core 1.0\n"
+"Report-Msgid-Bugs-To: http://cyberchimps.com/forum\n"
+"POT-Creation-Date: 10-17-11\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: \n"
+"X-Poedit-Country: \n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: core/actions/archive-actions.php:36
+#@ response
+msgid "Archive for the &#8216;"
+msgstr "Archiv pro &#8216;"
+
+#: core/actions/archive-actions.php:36
+#@ response
+msgid "&#8217; Category:"
+msgstr "&#8217; Kategorie:"
+
+#: core/actions/archive-actions.php:39
+#@ response
+msgid "Posts Tagged &#8216;"
+msgstr "Příspěvků: Označen &#8216;"
+
+#: core/actions/archive-actions.php:39
+#@ response
+msgid "&#8217;:"
+msgstr "&#8217;:"
+
+#: core/actions/archive-actions.php:42
+#: core/actions/archive-actions.php:45
+#@ response
+msgid "Archive for"
+msgstr "Archiv pro"
+
+#: core/actions/archive-actions.php:48
+#@ response
+msgid "Archive for:"
+msgstr "Archiv pro:"
+
+#: core/actions/archive-actions.php:51
+#@ response
+msgid "Author Archive:"
+msgstr "Archiv autora:"
+
+#: core/actions/archive-actions.php:54
+#@ response
+msgid "Blog Archives:"
+msgstr "Blog Archiv:"
+
+#: core/actions/comments-actions.php:49
+#@ response
+msgid "No Responses"
+msgstr "Žádné odpovědi"
+
+#: core/actions/comments-actions.php:49
+#@ response
+msgid "One Response"
+msgstr "Jedna reakce"
+
+#: core/actions/comments-actions.php:49
+#@ response
+msgid "% Responses"
+msgstr "% Odpovědi"
+
+#: core/actions/comments-actions.php:88
+#@ response
+msgid "You must be"
+msgstr "Musíte být"
+
+#: core/actions/comments-actions.php:88
+#@ response
+msgid "logged in"
+msgstr "přihlášeni"
+
+#: core/actions/comments-actions.php:88
+#@ ifeture
+msgid "to post a comment."
+msgstr ""
+
+#: core/actions/footer-actions.php:39
+#@ response
+msgid "Recent Posts"
+msgstr "Poslední příspěvky"
+
+#: core/actions/footer-actions.php:46
+#: sidebar.php:26
+#@ response
+#@ response
+msgid "Archives"
+msgstr "Archiv"
+
+#: core/actions/footer-actions.php:53
+#@ response
+msgid "Links"
+msgstr "Odkazy"
+
+#: core/actions/footer-actions.php:60
+#: core/actions/footer-actions.php:64
+#: sidebar.php:40
+#: sidebar.php:44
+#@ response
+#@ response
+msgid "WordPress"
+msgstr "WordPress"
+
+#: core/actions/footer-actions.php:64
+#: sidebar.php:44
+#@ response
+#@ response
+msgid "http://wordpress.org/"
+msgstr "http://wordpress.org/"
+
+#: core/actions/footer-actions.php:64
+#: sidebar.php:44
+#@ response
+#@ response
+msgid "Powered by WordPress, state-of-the-art semantic personal publishing platform."
+msgstr "Powered by WordPress, state-of-the-art semantic personal publishing platform."
+
+#: core/actions/global-actions.php:43
+#@ response
+msgid "Published on"
+msgstr "Publikované dne"
+
+#: core/actions/global-actions.php:44
+#@ response
+msgid "by"
+msgstr "podle"
+
+#: core/actions/global-actions.php:45
+#@ response
+msgid "in"
+msgstr "v"
+
+#: core/actions/global-actions.php:70
+#@ response
+msgid "No Comments &#187;"
+msgstr "Žádné komentáře &#187;"
+
+#: core/actions/global-actions.php:70
+#@ response
+msgid "1 Comment &#187;"
+msgstr "1 komentář &#187;"
+
+#: core/actions/global-actions.php:70
+#@ response
+msgid "% Comments &#187;"
+msgstr "% Komentáře &#187;"
+
+#: core/actions/global-actions.php:86
+#@ response
+msgid "Read more…"
+msgstr "Čtěte více ..."
+
+#: core/actions/global-actions.php:187
+#@ response
+msgid "Tags: "
+msgstr "Tagy:"
+
+#: core/actions/pagination-actions.php:49
+#@ response
+msgid "of"
+msgstr "z"
+
+#: core/actions/index-actions.php:276
+#@ response
+msgid "Page"
+msgstr "Strana"
+
+#: core/actions/pagination-actions.php:50
+#@ response
+msgid "&laquo; First"
+msgstr "&laquo; První"
+
+#: core/actions/pagination-actions.php:51
+#@ response
+msgid "&lsaquo; Previous"
+msgstr "&lsaquo; Předchozí"
+
+#: core/actions/pagination-actions.php:61
+#@ response
+msgid "Next &rsaquo;"
+msgstr "Další &rsaquo;"
+
+#: core/actions/pagination-actions.php:62
+#@ response
+msgid "Last &raquo;"
+msgstr "Poslední &raquo;"
+
+#: core/actions/pagination-actions.php:99
+#@ response
+msgid "Pages:"
+msgstr "Stránky:"
+
+#: searchform.php:15
+#@ response
+msgid "Search"
+msgstr "Hledat"
+
+#: functions.php:85
+#@ response
+msgid "Your comment is awaiting moderation."
+msgstr "Váš komentář čeká na moderování."
+
+#: functions.php:89
+#, php-format
+#@ response
+msgid "%1$s at %2$s"
+msgstr "%1$s at %2$s"
+
+#: functions.php:89
+#@ response
+msgid "(Edit)"
+msgstr "(Upravit)"
+
+#: functions.php:222
+#@ response
+msgid "Slides"
+msgstr "Sklíčka"
+
+#: functions.php:237
+#@ response
+msgid "Carousel"
+msgstr "Kolotoč"
+
+#: functions.php:238
+#@ response
+msgid "Posts"
+msgstr "Příspěvky"
+
+#: functions.php:390
+#@ response
+msgid "Header Menu"
+msgstr "Hlavička Menu"
+
+#: functions.php:390
+#@ response
+msgid "Footer Menu"
+msgstr "Menu zápatí"
+
+#: sidebar.php:19
+#@ response
+msgid "Pages"
+msgstr "Stránky"
+
+#: sidebar.php:33
+#@ response
+msgid "Categories"
+msgstr "Kategorie"
+
+#: sidebar.php:50
+#@ response
+msgid "Subscribe"
+msgstr "Odebírat"
+
+#: sidebar.php:52
+#@ response
+msgid "Entries (RSS)"
+msgstr "Příspěvky (RSS)"
+
+#: sidebar.php:53
+#@ response
+msgid "Comments (RSS)"
+msgstr "Komentáře (RSS)"
+
