@@ -26,20 +26,6 @@
 	$root = get_template_directory_uri(); 
 	
 /**
-* checks is WP is at least a certain version (makes sure it has sufficient comparison decimals.
-*/ 
-function is_wp_version( $is_ver ) {
-    $wp_ver = explode( '.', get_bloginfo( 'version' ) );
-    $is_ver = explode( '.', $is_ver );
-    for( $i=0; $i<=count( $is_ver ); $i++ )
-        if( !isset( $wp_ver[$i] ) ) array_push( $wp_ver, 0 );
- 
-    foreach( $is_ver as $i => $is_val )
-        if( $wp_ver[$i] < $is_val ) return false;
-    return true;
-}
-
-/**
 * Basic theme setup.
 */ 
 function response_theme_setup() {
@@ -55,8 +41,12 @@ function response_theme_setup() {
 	add_theme_support('automatic-feed-links');
 	add_editor_style();
 	
-	if( is_wp_version( '3.4' ) ) add_theme_support( 'custom_background' ); 
-	else add_custom_background();
+	if ( function_exists('get_custom_header')) {
+        add_theme_support('custom-background');
+	} 
+	else {
+       	add_custom_background(); //For WP 3.3 and below.	
+	}
 }
 add_action( 'after_setup_theme', 'response_theme_setup' );
 
