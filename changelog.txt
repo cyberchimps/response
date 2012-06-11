@@ -2,6 +2,9 @@ Response Changelog
 
 ****************************
 
+Version 1.1.7 (06-11-12)
+-3.4 support for Custom Background.
+
 Version 1.1.6 (06-06-12)
 -Added Czech language files.
 -Responsive fix for sidebar.
