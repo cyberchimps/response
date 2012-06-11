@@ -3,7 +3,7 @@ Response Changelog
 ****************************
 
 Version 1.1.7 (06-11-12)
--3.4 support for Custom Background.
+-3.4 support for Custom Background (backwards compatible with 3.3 and below).
 
 Version 1.1.6 (06-06-12)
 -Added Czech language files.
