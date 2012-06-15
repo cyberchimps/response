@@ -2,6 +2,9 @@ Response Changelog
 
 ****************************
 
+Version 1.1.8 (06-15-12)
+-Replaced wp_theme_data() (deprecated) with wp_get_theme() in opt-in PressTrends function, backwards compatible with 3.3 and below.
+
 Version 1.1.7 (06-11-12)
 -3.4 support for Custom Background (backwards compatible with 3.3 and below).
 
