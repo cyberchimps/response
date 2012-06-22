@@ -2,6 +2,9 @@ Response Changelog
 
 ****************************
 
+Version 1.1.9 (06-22-12)
+- Fixed the validation issue with read more link.
+
 Version 1.1.8 (06-15-12)
 -Replaced wp_theme_data() (deprecated) with wp_get_theme() in opt-in PressTrends function, backwards compatible with 3.3 and below.
 
