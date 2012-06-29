@@ -21,6 +21,7 @@
 
 </div><!--end container wrap-->
 
+<div class="footer"> <!-- Footer class for sticky footer -->
     <div id="footer" class="container">
      		<div class="row" id="footer_container">
     			<div id="footer_wrap">	
@@ -32,7 +33,6 @@
 	
 			</div><!--end footer_wrap-->
 	</div><!--end footer-->
-</div> 
 
 <?php if ($options->get($themeslug.'_disable_afterfooter') != "0"):?>
 
@@ -47,6 +47,7 @@
 	<?php endif;?>
 	
 	<?php wp_footer(); ?>	
+</div>  <!--End of footer class for sticky footer -->
 </body>
 
 </html>

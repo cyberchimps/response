@@ -30,6 +30,9 @@
 <!--Begin response_before_header hook-->
 	<?php response_before_header(); ?> 
 <!--End response_before_header hook-->
+
+<!-- Adding wrapper class for sticky footer -->
+<div class="wrapper">	
 			
 <header>		
 	<?php

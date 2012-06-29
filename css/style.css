@@ -170,7 +170,7 @@ a:hover {color: #5ca9d6;}
 
 /* Header  */
 
-header {margin-top: 15px;}
+header {padding-top: 15px;}
 
 #header_contact{ text-align:right;}
 
@@ -727,4 +727,26 @@ figure {
 
 .ui-tabs-hide {
 	display: none;
+}
+
+/* ==========================	For sticky footer =======================================	*/
+* {
+	margin: 0;
+}
+
+html, body {
+	height: 100%;
+	margin:0px !important;
+}
+
+.wrapper {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0px auto -240px auto; /* the bottom margin is the negative value of the footer's height */
+}
+
+.footer, .push{
+	height: 240px;
+	clear:both;
 }
