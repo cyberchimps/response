@@ -2,6 +2,9 @@ Response Changelog
 
 ****************************
 
+Version 1.1.10 (06-22-12)
+- Sidebar blowout issue fixed.
+
 Version 1.1.9 (06-22-12)
 - Fixed the validation issue with read more link.
 
