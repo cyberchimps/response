@@ -3,7 +3,6 @@ Response Changelog
 ****************************
 
 Version 1.1.11 (07-02-12)
-- Removed Custom CSS option.
 - Sticky footer CSS fix.
 
 Version 1.1.10 (06-28-12)
