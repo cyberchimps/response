@@ -2,6 +2,10 @@ Response Changelog
 
 ****************************
 
+Version 1.1.12 (07-06-12)
+- Twitter embed fix.
+- Sticky footer push div.
+
 Version 1.1.11 (07-02-12)
 - Sticky footer CSS fix.
 
