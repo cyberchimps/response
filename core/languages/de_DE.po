@@ -12,7 +12,7 @@ msgstr ""
 "X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
 "X-Textdomain-Support: yes\n"
 "PO-Revision-Date: \n"
-"Last-Translator: CoMPa Technology - T Scholten <info@NOSPAM@compa.nl>\n"
+"Last-Translator: \n"
 "Language-Team: CoMPa Technology <info@compa.nl>\n"
 "X-Poedit-Language: German\n"
 "X-Poedit-Country: GERMANY\n"
@@ -135,7 +135,7 @@ msgstr "Ausgestellt am"
 # @ response
 #: core/actions/global-actions.php:44
 msgid "by"
-msgstr "vom"
+msgstr "von"
 
 # @ response
 #: core/actions/global-actions.php:45
@@ -191,3 +191,4 @@ msgstr "Einträge (RSS)"
 #: sidebar.php:53
 msgid "Comments (RSS)"
 msgstr "Kommentare (RSS)"
+
