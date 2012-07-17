@@ -1,6 +1,41 @@
 /*-------------------------------------------------------------------------------------------*/
 /* OptionsFramework Admin Styles */
 /*-------------------------------------------------------------------------------------------*/
+.upgrade-callout {
+  background: #81c7ef;
+  margin-left: 5px;
+  padding: 5px 10px 20px 10px;
+  font-size: 1.5em;
+  border: 1px solid #5ba9d3;
+  -webkit-border-radius: 3px;
+	border-radius: 3px;
+}
+.upgrade-callout p {
+  color: #FFFFFF;
+  text-align: center;
+  line-height: 1.4em;
+  margin: 0;
+}
+.upgrade-callout p img {
+  position: relative;
+  top: 8px;
+  left: 0;
+  margin-right: 5px;
+}
+.upgrade-callout a:link {
+  color: #FFFFFF;
+}
+.upgrade-callout a:visited {
+  color: #FFFFFF;
+}
+.upgrade-callout a:hover {
+  color: #EEEEEE;
+}
+.upgrade-callout span.twitter {
+  position: relative;
+  top: 8px;
+  left: 10px;
+}
 
 .upgradepro a {
 font-family: Helvetica, Arial, Serif;
