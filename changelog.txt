@@ -2,6 +2,9 @@ Response Changelog
 
 ****************************
 
+Version 1.1.14 (07-17-12)
+-Upgrade bar.
+
 Version 1.1.13 (07-06-12)
 - Footer.php fix.
 
