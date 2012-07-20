@@ -726,3 +726,7 @@ tr {border-top: 1px solid #E7E7E7;}
 #of_container #content .section-section_order .controls {
 	width: 400px;
 }
+
+.upload {
+	max-width: 350px;
+}
