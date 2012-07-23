@@ -85,11 +85,16 @@ class ClassyOptions {
 		settings_errors(); ?>
 <div class="wrap">
 <div class="upgrade-callout">
-<p><img src="<?php echo get_template_directory_uri() ;?>/images/chimp.png" alt="CyberChimps" /><strong><?php echo $themenamefull; ?> has successfully been installed.</strong> Want more features? <a href="http://cyberchimps.com/responsepro/" target="_blank">Learn more about upgrading to <?php echo $themenamefull; ?> Pro.</a>
-<span class="twitter">
-<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://cyberchimps.com" data-text="Check out CyberChimps Wordpress Themes" data-size="large" data-related="cyberchimps" data-dnt="true">Tweet</a>
+<p><img src="<?php echo get_template_directory_uri() ;?>/images/chimp.png" alt="CyberChimps" /><strong>Welcome to <?php echo $themenamefull; ?>! Learn more now about upgrading to <a href="http://cyberchimps.com/responsepro/" target="_blank"><?php echo $themenamefull; ?> Pro</a> today.</p>
+<div class="social-container">
+<div class="social">
+<a href="https://twitter.com/cyberchimps" class="twitter-follow-button" data-show-count="false" data-size="small">Follow @cyberchimps</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-</p>
+</div>
+<div class="social">
+<iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fcyberchimps.com%2F&amp;send=false&amp;layout=button_count&amp;width=200&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;font&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:200px; height:21px;" allowTransparency="true"></iframe>
+</div>
+</div>
 </div>
 	<div id="of_container">
 		<form action="options.php" method="post" enctype="multipart/form-data">

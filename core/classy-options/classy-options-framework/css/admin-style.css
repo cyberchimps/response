@@ -31,31 +31,22 @@
 .upgrade-callout a:hover {
   color: #EEEEEE;
 }
-.upgrade-callout span.twitter {
+.upgrade-callout div.social-container {
   position: relative;
-  top: 8px;
-  left: 10px;
+  left:50%;
+	height: 20px;
+  margin-top: 10px;
+  margin-left: -100px;
 }
-
-.upgradepro a {
-font-family: Helvetica, Arial, Serif;
-text-decoration: none;
-font-size: 14px;
-color: white;
-padding: 5px;
-background-color: black;
--moz-border-radius: 3px;
-border-radius: 3px;
-border: 1px solid #777;
-float: right;
-margin-top: 8px;
-margin-right: 10px;
+.upgrade-callout div.social {
+  float: left;
 }
-
-.upgradepro a:hover{
-    color: #fff;
-    background-color:#444;
-    border: 1px solid #777; }
+.upgrade-callout div.social .twitter-follow-button {
+  height: 21px!important;
+}
+.upgrade-callout div.social:last-child {
+  margin-left: 10px;
+}
 
 .nav {margin-top: -1px;}
 
