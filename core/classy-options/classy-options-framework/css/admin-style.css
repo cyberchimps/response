@@ -23,13 +23,13 @@
   margin-right: 5px;
 }
 .upgrade-callout a:link {
-  color: #FFFFFF;
+  color: #006da8;
 }
 .upgrade-callout a:visited {
-  color: #FFFFFF;
+  color: #006da8;
 }
 .upgrade-callout a:hover {
-  color: #EEEEEE;
+  color: #0085cf;
 }
 .upgrade-callout div.social-container {
   position: relative;
