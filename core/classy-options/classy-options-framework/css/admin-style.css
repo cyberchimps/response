@@ -4,7 +4,7 @@
 .upgrade-callout {
   background: #81c7ef;
   margin-left: 5px;
-  padding: 5px 10px 20px 10px;
+  padding: 0 10px 10px 10px;
   font-size: 1.5em;
   border: 1px solid #5ba9d3;
   -webkit-border-radius: 3px;
@@ -48,6 +48,27 @@
   margin-left: 10px;
 }
 
+.upgradepro a{
+	font-family: Helvetica, Arial, Serif;
+    text-decoration: none;
+    font-size: 14px;
+    color: #fff;
+    padding: 5px;
+    background-color: #000;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    border: 1px solid #777;
+    float:right;
+    margin-top: 10px;
+    margin-right: 11px;
+}
+ 
+.upgradepro a:hover{
+    color: #fff;
+    background-color:#444;
+    border: 1px solid #777; 
+}
+    
 .nav {margin-top: -1px;}
 
 .jetpack-message .squeezer {display: none;}
