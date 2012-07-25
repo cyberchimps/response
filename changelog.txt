@@ -2,7 +2,7 @@ Response Changelog
 
 ****************************
 
-Version 1.1.15 (07-17-12)
+Version 1.1.15 (07-25-12)
 -Apple-touch icon.
 -Upgrade bar adjustments.
 
