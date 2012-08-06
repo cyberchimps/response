@@ -165,8 +165,10 @@ global $themeslug, $options; //Call global variables
 		$font = $options->get($themeslug.'_font'); 
 	} 
 ?>
-	
-<link rel="shortcut icon" href="<?php echo stripslashes($favicon['url']); ?>" type="image/x-icon" />
+
+<?php if( $options->get( $themeslug.'_favicon_toggle' ) == true ): ?> 	
+	<link rel="shortcut icon" href="<?php echo stripslashes($favicon['url']); ?>" type="image/x-icon" />
+<?php endif; ?>
 
 <link rel="stylesheet" href="<?php bloginfo( 'template_url' ); ?>/core/css/foundation.css" type="text/css" />
 <link rel="stylesheet" href="<?php bloginfo( 'template_url' ); ?>/core/css/app.css" type="text/css" />
