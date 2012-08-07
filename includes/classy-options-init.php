@@ -75,7 +75,7 @@ $options
 			->subsection("Header Options")
 			->checkbox($themeslug."_custom_logo", "Custom Logo" , array('default' => true))
 			->upload($themeslug."_logo", "Logo", array('default' => array('url' => TEMPLATE_URL . '/images/responselogo.png')))
-			->checkbox($themeslug."_favicon_toggle", "Favicon Toggle" , array('default' => true))
+			->checkbox($themeslug."_favicon_toggle", "Favicon Toggle" , array('default' => false))
 			->upload($themeslug."_favicon", "Custom Favicon", array('default' => array('url' => TEMPLATE_URL . '/images/favicon.ico')))
 			->upload($themeslug."_apple_touch", "Apple Touch Icon", array('default' => array('url' => TEMPLATE_URL . '/images/apple-icon.png')))
 		->subsection_end()
