@@ -118,7 +118,7 @@ color:#fff;
 
 @-moz-document url-prefix() {
 
-#sidebar.four.columns {margin-left: 1.5%; width: 32.5%; right: -2px;}
+#sidebar.four.columns {margin-left: 1.5%; width: 32.5%;}
 #sidebar_left.four.columns {margin-right: 1.5%; width: 32.5%;}
 
 }
