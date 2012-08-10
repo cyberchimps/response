@@ -109,8 +109,8 @@ color:#fff;
 
 #sidebar {*margin-top: 15px;}
 
-#sidebar.four.columns {margin-left: 1.5%; width: 32.5%; right: -.2em;}
-#sidebar.four.columns {margin-left: 1.5%\9; width: 32.5%; right: -.2em;}
+#sidebar.four.columns {margin-left: 1.2%; width: 32.5%;}
+#sidebar.four.columns {margin-left: 1.2%\9; width: 32.5%;}
 #sidebar_left.four.columns {margin-right: 1.5%; width: 32.5%;}
 #sidebar_left.four.columns {margin-right: 1.5%\9; width: 32.5%;}
 #content.eight.columns {width: 65.9%; margin-left: 0%;}
