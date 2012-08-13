@@ -73,7 +73,7 @@ function response_previous_posts() {
 	$previous_text = apply_filters('response_previous_posts_text', '&laquo; Older Entries' ); 
 	
 	echo "<div class='pagnext-posts'>";
-	next_posts_link( __( $previous_text, 'response' ));
+	next_posts_link( $previous_text );
 	echo "</div>";
 }
 
@@ -86,7 +86,7 @@ function response_newer_posts() {
 	$newer_text = apply_filters('response_newer_posts_text', 'Newer Entries &raquo;' );
 	
 	echo "<div class='pagprev-posts'>";
-	previous_posts_link( __( $newer_text, 'response' ));
+	previous_posts_link( $newer_text );
 	echo "</div>";
 }
 

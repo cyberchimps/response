@@ -25,12 +25,25 @@
 	$sliderdocs = 'http://cyberchimps.com/question/how-to-use-the-response-slider/';
 	$root = get_template_directory_uri(); 
 	
+	if ( ! isset( $content_width ) ) $content_width = 640; //Set content width
+	
 /**
 * Basic theme setup.
 */ 
 function response_theme_setup() {
-	global $content_width;
-	if ( ! isset( $content_width ) ) $content_width = 640; //Set content width
+	
+/**
+* Initialize Response Core Framework.
+*/ 
+	require_once ( get_template_directory() . '/core/core-init.php' );
+
+/**
+* Call additional files required by theme.
+*/ 
+	require_once ( get_template_directory() . '/includes/classy-options-init.php' ); // Theme options markup.
+	require_once ( get_template_directory() . '/includes/options-functions.php' ); // Custom functions based on theme options.
+	require_once ( get_template_directory() . '/includes/meta-box.php' ); // Meta options markup.
+	require_once ( get_template_directory() . '/includes/presstrends.php' ); // Meta options markup.
 	
 	add_theme_support(
 		'post-formats',
@@ -233,7 +246,7 @@ add_action('wp_head', 'response_custom_scripts');
 */ 
 function response_register_menus() {
 	register_nav_menus(
-	array( 'header-menu' => __( 'Header Menu' ))
+	array( 'header-menu' => __( 'Header Menu', 'response' ))
   );
 }
 add_action( 'init', 'response_register_menus' );
@@ -290,19 +303,6 @@ function response_widgets_init() {
 	));
 }
 add_action ('widgets_init', 'response_widgets_init');
-
-/**
-* Initialize Response Core Framework.
-*/ 
-require_once ( get_template_directory() . '/core/core-init.php' );
-
-/**
-* Call additional files required by theme.
-*/ 
-require_once ( get_template_directory() . '/includes/classy-options-init.php' ); // Theme options markup.
-require_once ( get_template_directory() . '/includes/options-functions.php' ); // Custom functions based on theme options.
-require_once ( get_template_directory() . '/includes/meta-box.php' ); // Meta options markup.
-require_once ( get_template_directory() . '/includes/presstrends.php' ); // Meta options markup.
 
 /**
 * End

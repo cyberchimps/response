@@ -32,7 +32,7 @@ function response_comments_password_required() {
 	
 	$password_text = apply_filters( 'response_password_required_text', 'This post is password protected. Enter the password to view comments.');
 	if ( post_password_required() ) { 
-		printf( __( $password_text, 'response' )); 
+		printf( $password_text ); 
 		return;
 	}
 }
@@ -52,6 +52,7 @@ function response_comments_loop() {
 			<div class="next-posts"><?php previous_comments_link() ?></div>
 			<div class="prev-posts"><?php next_comments_link() ?></div>
 		</div>
+    <div class="clear"></div>
 
 		<ol class="commentlist">
 			<?php wp_list_comments('callback=response_comment'); ?>
@@ -61,6 +62,7 @@ function response_comments_loop() {
 			<div class="next-posts"><?php previous_comments_link() ?></div>
 			<div class="prev-posts"><?php next_comments_link() ?></div>
 		</div>
+    <div class="clear"></div>
 		
 	</div><!--end comments_container-->
 	
