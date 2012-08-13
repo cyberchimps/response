@@ -2,7 +2,7 @@ Response Changelog
 
 ****************************
 
-Version 1.1.16 (08-13-12)
+Version 1.1.17 (08-13-12)
 -Theme check clean up.
 -Favicon support (off by default).
 -Sidebar fix for Chrome.
