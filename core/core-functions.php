@@ -299,7 +299,63 @@ function response_breadcrumbs() {
     echo '</div></div></div>';
  
   }
-} 
+}
+
+function response_title_tag_filter( $old_title ) {
+	global $options, $themeslug, $query, $post; 
+	
+	$blogtitle = ($options->get($themeslug.'_home_title'));
+	if (!is_404()) {
+		$title = get_post_meta($post->ID, 'seo_title' , true);
+	}
+	else {
+		$title = '';
+	}
+	
+	if (function_exists('is_tag') && is_tag()) { /*Title for tags */
+		$title_tag = get_bloginfo('name').' - Tag Archive for &quot;'.single_tag_title("", FALSE).'&quot;  ';
+	}
+	elseif (is_archive()) { /*Title for archives */ 
+		$title_tag = get_bloginfo('name').$old_title.' Archive '; 
+	}    
+	elseif (is_search()) { /*Title for search */ 
+		$title_tag = get_bloginfo('name').' - Search for &quot;'.get_search_query().'&quot;  '; 
+	}    
+	elseif (is_404()) { /*Title for 404 */
+		$title_tag = get_bloginfo('name').' - Not Found '; 
+	}
+	elseif (is_front_page() AND !is_page() AND $blogtitle == '') { /*Title if front page is latest posts and no custom title */
+		$title_tag = get_bloginfo('name').' - '.get_bloginfo('description'); 
+	}
+	elseif (is_front_page() AND !is_page() AND $blogtitle != '') { /*Title if front page is latest posts with custom title */
+		$title_tag = get_bloginfo('name').' - '.$blogtitle ; 
+	}
+	elseif (is_front_page() AND is_page() AND $title == '') { /*Title if front page is static page and no custom title */
+		$title_tag = get_bloginfo('name').' - '.get_bloginfo('description'); 
+	}
+	elseif (is_front_page() AND is_page() AND $title != '') { /*Title if front page is static page with custom title */
+		$title_tag = get_bloginfo('name').' - '.$title ; 
+	}
+	elseif (is_page() AND $title == '') { /*Title if static page is static page with no custom title */
+		$title_tag = get_bloginfo('name').$old_title; 
+	}
+	elseif (is_page() AND $title != '') { /*Title if static page is static page with custom title */
+		$title_tag = get_bloginfo('name').' - '.$title ; 
+	}
+	elseif (is_page() AND is_front_page() AND $blogtitle == '') { /*Title if blog page with no custom title */
+		$title_tag = get_bloginfo('name').$old_title; 
+	}
+	elseif ($blogtitle != '') { /*Title if blog page with custom title */ 
+		$title_tag = get_bloginfo('name').' - '.$blogtitle ; 
+	}
+	else { /*Title if blog page without custom title */
+		$title_tag = get_bloginfo('name').$old_title; 
+	}
+	
+	return $title_tag;
+}
+
+add_filter( 'wp_title', 'response_title_tag_filter', 10, 3 ) 
 
 /**
 * End
