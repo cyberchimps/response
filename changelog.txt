@@ -2,6 +2,11 @@ Response Changelog
 
 ****************************
 
+Version 1.1.18 (08-16-12)
+-Updated read me.
+-Wp title fix.
+-Meta tag language dynamic.
+
 Version 1.1.17 (08-13-12)
 -Theme check clean up.
 -Favicon support (off by default).
