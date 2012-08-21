@@ -2,6 +2,9 @@ Response Changelog
 
 ****************************
 
+Version 1.1.19 (08-21-12)
+-Custom logo url.
+
 Version 1.1.18 (08-16-12)
 -Updated read me.
 -Wp title fix.
