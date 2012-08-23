@@ -38,6 +38,14 @@ jQuery(document).ready(function($) {
       toShow.hide();
     }
   }).change();
+	$("#re_logo_url_toggle").change(function() {
+    var toShow = $("#section-re_logo_url");
+    if($(this).is(':checked')) {
+      toShow.show();
+    } else {
+      toShow.hide();
+    }
+  }).change();
    
   $.each(['twitter', 'facebook', 'gplus', 'flickr', 'linkedin', 'pinterest', 'youtube', 'googlemaps', 'email', 'rsslink'], function(i, val) {
 	  $("#section-re_" + val).each(function(){

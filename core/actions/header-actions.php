@@ -129,7 +129,13 @@ global $themeslug, $options; //Call global variables
 function response_header_sitename_content() {
 	global $themeslug, $options; //Call global variables
 	$logo = $options->get($themeslug.'_logo'); //Calls the logo URL from the theme options
-	$url = $options->get($themeslug.'_logo_url') != '' ? $options->get($themeslug.'_logo_url') : get_home_url();
+	if( $url = $options->get($themeslug.'_logo_url_toggle' ) == 1 )
+	{
+		$url = $options->get($themeslug.'_logo_url') != '' ? $options->get($themeslug.'_logo_url') : get_home_url();
+	}
+	else {
+		$url = get_home_url();
+	}
 	
 	if ($options->get($themeslug.'_custom_logo') == '1') { ?>
 	<div id="logo">
