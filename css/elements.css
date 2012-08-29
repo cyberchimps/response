@@ -2,6 +2,10 @@
 
 #orbitDemo {border: 1px solid #ccc;}
 
+#orbitDemo.orbit > a {
+  width: 100%;
+}
+
 /*============================*/
 /*===== Callout Section ======*/
 /*============================*/
