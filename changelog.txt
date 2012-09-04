@@ -2,6 +2,10 @@ Response Changelog
 
 ****************************
 
+Version 1.1.20 (09-04-12)
+-Fixed responsive slider in IE and Firefox.
+-Custom logo url option.
+
 Version 1.1.19 (08-21-12)
 -Custom logo url.
 
