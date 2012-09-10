@@ -2,6 +2,10 @@ Response Changelog
 
 ****************************
 
+Version 1.1.21 (09-10-12)
+-Fixed language files.
+-Changed footer color.
+
 Version 1.1.20 (09-04-12)
 -Fixed responsive slider in IE and Firefox.
 -Custom logo url option.
