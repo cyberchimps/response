@@ -2,6 +2,9 @@ Response Changelog
 
 ****************************
 
+Version 1.1.22 (09-18-12)
+-Changed how translations are laid out.
+
 Version 1.1.21 (09-10-12)
 -Fixed language files.
 -Changed footer color.
