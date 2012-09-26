@@ -2,6 +2,9 @@ Response Changelog
 
 ****************************
 
+Version 1.1.23 (09-25-12)
+-Setup pie.php file.
+
 Version 1.1.22 (09-18-12)
 -Changed how translations are laid out.
 
