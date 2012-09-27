@@ -34,7 +34,7 @@ function response_404_content() {
 	else {
 		$message_text = apply_filters( 'response_404_message', 'Error 404' );
 	} ?>
-	<div class="error"><?php printf( $message_text ); ?><br />	</div> 
+	<div class="error"><?php echo $message_text; ?><br />	</div> 
 	<?php
 }
 
