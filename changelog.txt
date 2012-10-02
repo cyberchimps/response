@@ -2,6 +2,9 @@ Response Changelog
 
 ****************************
 
+Version 1.1.24 (10-01-12)
+-Printf call to echo variable.
+
 Version 1.1.23 (09-25-12)
 -Setup pie.php file.
 
