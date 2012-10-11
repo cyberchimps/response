@@ -584,42 +584,46 @@ class RW_Meta_Box {
 
 	// Save data from meta box
 	function save($post_id) {
+		global $pagenow;
+		
+		// check that the save is coming from the edit post page and not the quick edit
+		if( 'admin-ajax.php' != $pagenow ) {
+			if (isset($_POST['post_type'])) {
+				$post_type = $_POST['post_type'];
+			}
+			else {
+			$post_type = 'null';
+			}
 
-		if (isset($_POST['post_type'])) {
-			$post_type = $_POST['post_type'];
-		}
-		else {
-		$post_type = 'null';
-		}
+			$post_type_object = get_post_type_object($post_type);
 
-		$post_type_object = get_post_type_object($post_type);
+			if ((defined('DOING_AUTOSAVE') && DOING_AUTOSAVE)						// check autosave
+			|| (!isset($_POST['post_ID']) || $post_id != $_POST['post_ID'])			// check revision
+			|| (!in_array($_POST['post_type'], $this->_meta_box['pages']))			// check if current post type is supported
+			|| (!check_admin_referer(basename(__FILE__), 'rw_meta_box_nonce'))		// verify nonce
+			|| (!current_user_can($post_type_object->cap->edit_post, $post_id))) {	// check permission
+				return $post_id;
+			}
 
-		if ((defined('DOING_AUTOSAVE') && DOING_AUTOSAVE)						// check autosave
-		|| (!isset($_POST['post_ID']) || $post_id != $_POST['post_ID'])			// check revision
-		|| (!in_array($_POST['post_type'], $this->_meta_box['pages']))			// check if current post type is supported
-		|| (!check_admin_referer(basename(__FILE__), 'rw_meta_box_nonce'))		// verify nonce
-		|| (!current_user_can($post_type_object->cap->edit_post, $post_id))) {	// check permission
-			return $post_id;
-		}
+			foreach($this->tabs as $tab) {
+				foreach ($tab['fields'] as $field) {
+					$name = $field['id'];
+					$type = $field['type'];
+					$old = get_post_meta($post_id, $name, !(isset($field['multiple']) && $field['multiple']));
+					$new = isset($_POST[$name]) ? $_POST[$name] : ((isset($field['multiple']) && $field['multiple']) ? array() : '');
 
-		foreach($this->tabs as $tab) {
-			foreach ($tab['fields'] as $field) {
-				$name = $field['id'];
-				$type = $field['type'];
-				$old = get_post_meta($post_id, $name, !(isset($field['multiple']) && $field['multiple']));
-				$new = isset($_POST[$name]) ? $_POST[$name] : ((isset($field['multiple']) && $field['multiple']) ? array() : '');
+					// validate meta value
+					if (class_exists('RW_Meta_Box_Validate') && method_exists('RW_Meta_Box_Validate', $field['validate_func'])) {
+						$new = call_user_func(array('RW_Meta_Box_Validate', $field['validate_func']), $new);
+					}
 
-				// validate meta value
-				if (class_exists('RW_Meta_Box_Validate') && method_exists('RW_Meta_Box_Validate', $field['validate_func'])) {
-					$new = call_user_func(array('RW_Meta_Box_Validate', $field['validate_func']), $new);
-				}
-
-				// call defined method to save meta value, if there's no methods, call common one
-				$save_func = 'save_field_' . $type;
-				if (method_exists($this, $save_func)) {
-					call_user_func(array(&$this, 'save_field_' . $type), $post_id, $field, $old, $new);
-				} else {
-					$this->save_field($post_id, $field, $old, $new);
+					// call defined method to save meta value, if there's no methods, call common one
+					$save_func = 'save_field_' . $type;
+					if (method_exists($this, $save_func)) {
+						call_user_func(array(&$this, 'save_field_' . $type), $post_id, $field, $old, $new);
+					} else {
+						$this->save_field($post_id, $field, $old, $new);
+					}
 				}
 			}
 		}
