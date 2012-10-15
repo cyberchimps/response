@@ -2,6 +2,9 @@ Response Changelog
 
 ****************************
 
+Version 1.1.26 (10-15-12)
+-Quick edit fix.
+
 Version 1.1.25 (10-08-12)
 -Archive actions fix.
 
