@@ -90,58 +90,73 @@ jQuery(document).ready( function($) {
 <?php
 }
 
-// Add Presstrends API
+/**
+* PressTrends Theme API
+*/
 function re_presstrends() {
 
-    // Add your PressTrends and Theme API Keys
-    $api_key = 'zwhgyc1lnt56hki8cpwobb47bblas4er226b';
-    $auth = 'cfbu300xh4uq7o584ne59vwluhht0rign';
+	// PressTrends Account API Key
+	$api_key = 'zwhgyc1lnt56hki8cpwobb47bblas4er226b';
+	$auth = 'cfbu300xh4uq7o584ne59vwluhht0rign';
 
-    // NO NEED TO EDIT BELOW
-    $data = get_transient( 'presstrends_data' );
-    if (!$data || $data == ''){
-        $api_base = 'http://api.presstrends.io/index.php/api/sites/add/auth/';
-        $url = $api_base . $auth . '/api/' . $api_key . '/';
-        $data = array();
-        $count_posts = wp_count_posts();
-        $count_pages = wp_count_posts('page');
-        $comments_count = wp_count_comments();
-        if ( function_exists('get_custom_header')) {
-	        $theme_data = wp_get_theme();
-	       } 
-	    else {
-		       $theme_data = get_theme_data(get_stylesheet_directory() . '/style.css');	
-		}       
-        $plugin_count = count(get_option('active_plugins'));
-        $all_plugins = get_plugins();
-        foreach($all_plugins as $plugin_file => $plugin_data) {
-            $plugin_name .= $plugin_data['Name'];
-            $plugin_name .= '&';
-        }
-        $data['url'] = stripslashes(str_replace(array('http://', '/', ':' ), '', site_url()));
-        $data['posts'] = $count_posts->publish;
-        $data['pages'] = $count_pages->publish;
-        $data['comments'] = $comments_count->total_comments;
-        $data['approved'] = $comments_count->approved;
-        $data['spam'] = $comments_count->spam;
-        $data['theme_version'] = is_array( $theme_data ) ? $theme_data['Version'] : $theme_data->Version;
-        $data['theme_name'] = is_array( $theme_data ) ? $theme_data['Name'] : $theme_data->Name;
-        $data['site_name'] = str_replace( ' ', '', get_bloginfo( 'name' ));
-        $data['plugins'] = $plugin_count;
-        $data['plugin'] = urlencode($plugin_name);
-        $data['wpversion'] = get_bloginfo('version');
-        foreach ( $data as $k => $v ) {
-            $url .= $k . '/' . $v . '/';
-        }
-        $response = wp_remote_get( $url );
-        set_transient('presstrends_data', $data, 60*60*24);
-    }
+	// Start of Metrics
+	global $wpdb;
+	$data = get_transient( 'presstrends_theme_cache_data' );
+	if ( !$data || $data == '' ) {
+		$api_base = 'http://api.presstrends.io/index.php/api/sites/add/auth/';
+		$url      = $api_base . $auth . '/api/' . $api_key . '/';
+
+		$count_posts    = wp_count_posts();
+		$count_pages    = wp_count_posts( 'page' );
+		$comments_count = wp_count_comments();
+
+		// wp_get_theme was introduced in 3.4, for compatibility with older versions.
+		if ( function_exists( 'wp_get_theme' ) ) {
+			$theme_data    = wp_get_theme();
+			$theme_name    = urlencode( $theme_data->Name );
+			$theme_version = $theme_data->Version;
+		} else {
+			$theme_data = get_theme_data( get_stylesheet_directory() . '/style.css' );
+			$theme_name = $theme_data['Name'];
+			$theme_versino = $theme_data['Version'];
+		}
+
+		$plugin_name = '&';
+		foreach ( get_plugins() as $plugin_info ) {
+			$plugin_name .= $plugin_info['Name'] . '&';
+		}
+		$posts_with_comments = $wpdb->get_var( "SELECT COUNT(*) FROM $wpdb->posts WHERE post_type='post' AND comment_count > 0" );
+		$data                = array(
+			'url'             => stripslashes( str_replace( array( 'http://', '/', ':' ), '', site_url() ) ),
+			'posts'           => $count_posts->publish,
+			'pages'           => $count_pages->publish,
+			'comments'        => $comments_count->total_comments,
+			'approved'        => $comments_count->approved,
+			'spam'            => $comments_count->spam,
+			'pingbacks'       => $wpdb->get_var( "SELECT COUNT(comment_ID) FROM $wpdb->comments WHERE comment_type = 'pingback'" ),
+			'post_conversion' => ( $count_posts->publish > 0 && $posts_with_comments > 0 ) ? number_format( ( $posts_with_comments / $count_posts->publish ) * 100, 0, '.', '' ) : 0,
+			'theme_version'   => $theme_version,
+			'theme_name'      => $theme_name,
+			'site_name'       => str_replace( ' ', '', get_bloginfo( 'name' ) ),
+			'plugins'         => count( get_option( 'active_plugins' ) ),
+			'plugin'          => urlencode( $plugin_name ),
+			'wpversion'       => get_bloginfo( 'version' ),
+			'api_version'	  => '2.4',
+		);
+
+		foreach ( $data as $k => $v ) {
+			$url .= $k . '/' . $v . '/';
+		}
+		wp_remote_get( $url );
+		set_transient( 'presstrends_theme_cache_data', $data, 60 * 60 * 24 );
+	}
 }
 
+// PressTrends WordPress Action
 $current_key = get_option('presstrends_theme_opt');
 $opt = isset( $current_key['activated'] ) ? $current_key['activated'] : false;
-if($opt == 'on') {
-    add_action('admin_init', 're_presstrends');
-}
 
+if($opt == 'on') {
+	add_action('admin_init', 're_presstrends');
+}
 ?>
