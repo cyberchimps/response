@@ -2,6 +2,9 @@ Response Changelog
 
 ****************************
 
+Version 1.1.29 (11-07-12)
+-Added password protection to elements.
+
 Version 1.1.28 (10-31-12)
 -Added Pinterst to social icons.
 -Google font fix.
