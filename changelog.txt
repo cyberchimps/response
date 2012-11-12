@@ -2,6 +2,9 @@ Response Changelog
 
 ****************************
 
+Version 1.1.30 (11-12-12)
+-Footer-actions fix.
+
 Version 1.1.29 (11-07-12)
 -Added password protection to elements.
 
