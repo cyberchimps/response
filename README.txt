@@ -1,4 +1,4 @@
-CyberChimps Free REsponsive Starter Theme 
+Response 2.0 Free Responsive Theme 
 =========================================
 
 Visit http://CyberChimps.com for more information and instructions.
