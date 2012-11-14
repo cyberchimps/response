@@ -1,0 +1,6 @@
+CyberChimps Free Changelog
+
+****************************
+
+Version 0.9 (11-09-12)
+-Initial release.
