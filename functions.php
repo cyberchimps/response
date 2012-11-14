@@ -107,8 +107,13 @@ function cyberchimps_next_previous_posts() {
 add_action( 'cyberchimps_after_content', 'cyberchimps_next_previous_posts' );
 
 // core options customization Names and URL's
+//Pro or Free
+function cyberchimps_theme_check() {
+	$level = 'free';
+	return $level;
+}
 //Theme Name
-function cyberchimps_options_theme_name(){
+function cyberchimps_options_theme_name() {
 	$text = 'Response 2.0';
 	return $text;
 }
@@ -149,30 +154,6 @@ add_filter( 'cyberchimps_documentation', 'cyberchimps_options_documentation_url'
 add_filter( 'cyberchimps_support_forum', 'cyberchimps_options_support_forum' );
 add_filter( 'cyberchimps_page_options_help', 'cyberchimps_options_page_options_help' );
 add_filter( 'cyberchimps_slider_options_help', 'cyberchimps_options_slider_options_help' );
-
-// upgrade bar for free themes
-function cyberchimps_upgrade_bar() { ?>
-	<div class="upgrade-callout">
-		<p><img src="<?php echo get_template_directory_uri() ;?>/cyberchimps/options/lib/images/chimp.png" alt="CyberChimps" />
-    <?php printf( __( 'Welcome to %1$s! Learn more now about upgrading to <a href="%2$s" target="_blank" title="%3$s">%3$s</a> today.', 'cyberchimps' ),
-		apply_filters( 'cyberchimps_current_theme_name', 'CyberChimps' ),
-		apply_filters( 'cyberchimps_upgrade_link', 'http://cyberchimps.com' ),
-		apply_filters( 'cyberchimps_upgrade_pro_title', 'Pro' )
-		 ); ?>	
-		</p>
-		<div class="social-container">
-		<div class="social">
-			<a href="https://twitter.com/cyberchimps" class="twitter-follow-button" data-show-count="false" data-size="small">Follow @cyberchimps</a>
-			<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-		</div>
-		<div class="social">
-			<iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fcyberchimps.com%2F&amp;send=false&amp;layout=button_count&amp;width=200&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;font&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:200px; height:21px;" allowTransparency="true"></iframe>
-		</div>
-		</div>
-	</div>
-<?php
-}
-add_action( 'cyberchimps_options_before_container', 'cyberchimps_upgrade_bar' );
 
 // Help Section
 function cyberchimps_options_help_header() {
