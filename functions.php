@@ -183,40 +183,8 @@ function cyberchimps_options_help_sub_header(){
 	$text = __( 'CyberChimps Professional Responsive WordPress Theme', 'cyberchimps' );
 	return $text;
 }
-function cyberchimps_options_help_text() {
-	$text = '';
-	$instruction_img = get_template_directory_uri().'/cyberchimps/options/lib/images/document.png';
-	$support_img = get_template_directory_uri().'/cyberchimps/options/lib/images/questionsupport.png';
-	$text .= '<div class="cc_help_section">
-						<div class="row-fluid"><div class="span3">
-							<a href="'.apply_filters( 'cyberchimps_documentation', 'http://cyberchimps.com' ).'" title="CyberChimps Instructions">
-								<img src="'.$instruction_img.'" alt="CyberChimps Instructions" />
-								<div class="cc_help_caption"><p>'.__( 'Instructions', 'cyberchimps' ).'</p></div>
-							</a>
-						</div>
-						<div class="span3">
-							<a href="'.apply_filters( 'cyberchimps_support_forum', 'http://cyberchimps.com' ).'" title="CyberChimps Support">
-								<img src="'.$support_img.'" alt="CyberChimps Help" />
-								<div class="cc_help_caption"><p>'.__( 'Support', 'cyberchimps' ).'</p></div>
-							</a>
-						</div>
-						</div>
-						<div class="row-fluid">
-						<div class="span6">
-						<div class="cc_help_upgrade_bar">'. sprintf( __( 'Upgrade to %1$s', 'cyberchimps' ), apply_filters( 'cyberchimps_upgrade_pro_title', 'CyberChimps Pro' ) ) .'</div>
-						</div>
-						</div>
-						</div>
-						<div class="clear"></div>';
-	$text .= sprintf( __( '<p>If you want even more amazing new features <a href="%1$s" title="%2$s">%2$s</a> which includes a Custom Features Slider, Product Element, Image Carousel, Widgetized Boxes, Callout Section, expanded typography and many more powerful new features. Please visit <a href="cyberchimps.com" title="CyberChimps">CyberChimps.com</a> to learn more!</p>', 'cyberchimps' ),
-	apply_filters( 'cyberchimps_upgrade_link', 'http://cyberchimps.com' ),
-	apply_filters( 'cyberchimps_upgrade_pro_title', 'CyberChimps Pro' )
-	);
-	return $text;
-}
 add_filter( 'cyberchimps_help_heading', 'cyberchimps_options_help_header' );
 add_filter( 'cyberchimps_help_sub_heading', 'cyberchimps_options_help_sub_header' );
-add_filter( 'cyberchimps_help_description', 'cyberchimps_options_help_text' );
 
 // Branding images and defaults
 
