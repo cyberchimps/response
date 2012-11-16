@@ -57,6 +57,15 @@ header {
 	margin-top: 15px;
   margin-bottom: 15px;
 }
+.clear{
+  clear: both;
+}
+.clear-right {
+	clear: right;
+}
+.clear-left {
+	clear: left;
+}
 
 /********************************************************************************************************************/
 /******************************************** HEADER ****************************************************************/
@@ -114,26 +123,35 @@ header #search #searchform {
 	margin-bottom: 0;
 }
 .main-navigation .navbar-inner {
-	padding: 5px 0;
+	padding: 0;
   -webkit-border-radius: 1px;
   border-radius: 1px;
 }
-.main-navigation .nav li ul li ul {
+.main-navigation .nav li a:hover {
+  color: #08C;
+  background: none;
+}
+.main-navigation .nav li.dropdown.active > .dropdown-toggle, .main-navigation .nav li.dropdown.current-menu-ancestor > .dropdown-toggle {
+	color: #fff;
+	background-color: #08c;
+	text-shadow: none;
+}
+.main-navigation .nav li.dropdown.active > .dropdown-toggle .caret, .main-navigation .nav li.dropdown.current-menu-ancestor > .dropdown-toggle .caret {
+	border-top-color: #fff;
+	border-bottom-color: #fff;
+}
+.main-navigation .nav li ul {
   list-style: none;
   margin-left: 0;
 }
-.main-navigation .nav li ul > li > ul {
- 	margin-left: 10px; 
+.main-navigation .nav > li > ul > li > ul > li > a {
+	text-indent: 10px;
 }
-.main-navigation .nav li ul li ul li a{
-  padding-left: 24px;
+.main-navigation .nav > li > ul > li > ul > li > ul > li > a {
+	text-indent: 15px;
 }
 .main-navigation .nav li.dropdown:hover ul.dropdown-menu {
   display: block;
-}
-.main-navigation .nav li ul li a:hover {
-  color: #08C;
-  background: none;
 }
 #navigation #searchform {
 	margin-right: 15px;
@@ -483,6 +501,14 @@ table#wp-calendar td {
 }
 table#wp-calendar td {
   text-align: center;
+}
+.widget-container #searchform.pull-right {
+	margin-right: 30px;
+}
+.widget-container #searchform input.input-medium {
+	float: none;
+	display: inline-block;
+	width: 100%;
 }
 
 /*==================================== SEARCH FORM ====================================================*/
