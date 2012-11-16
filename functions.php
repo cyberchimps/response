@@ -176,15 +176,6 @@ function cyberchimps_banner_default() {
 }
 add_filter( 'cyberchimps_banner_img', 'cyberchimps_banner_default' );
 
-//theme specific skin options in array. Must always include option default
-function cyberchimps_skin_color_options( $options ) {
-	$options = array(  
-			'classic' => __('Classic', 'cyberchimps')
-			);
-	return $options;
-}
-add_filter( 'cyberchimps_skin_color', 'cyberchimps_skin_color_options' );
-
 // theme specific background images
 function cyberchimps_background_image( $options ) {
 	$imagepath =  get_template_directory_uri() . '/cyberchimps/lib/images/';

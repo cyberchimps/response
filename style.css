@@ -149,6 +149,7 @@ header #search #searchform {
 article.post, article.page, article.attachment {
   margin-bottom: 15px;
   padding: 20px;
+  border: 1px solid #ddd;
 }
 .entry-content {
   margin: 20px 0;
@@ -202,6 +203,7 @@ blockquote cite:before {
 .more-content {
   margin-bottom: 15px;
   padding: 10px;
+  border: 1px solid #ddd;
   background: #fff;
 }
 .previous-post {
@@ -357,6 +359,7 @@ footer.entry-meta {
 .comments-area {
   margin-bottom: 15px;
   padding: 15px;
+  border: 1px solid #ddd;
   background: #fff;
 }
 #comments .navigation {
@@ -448,6 +451,7 @@ ol.commentlist li.odd {
 .widget-container {
   margin-bottom: 15px;
   padding: 20px;
+  border: 1px solid #ddd;
   background: #fff;
 }
 h3.widget-title {
@@ -485,106 +489,6 @@ table#wp-calendar td {
 
 #searchform {
 	margin-bottom: 5px;
-}
-/*.error404 .searchform {
-  margin: 20px 0 20px 10px;
-}
-.searchform {
-  position: relative;
-  width: 190px;
-  padding: 1px;
-  margin: 0 auto;
-  background: #DCDCDC;
-  -webkit-border-radius: 5px;
-  border-radius: 5px;
-} 
-.searchform input {
-  position: relative;
-  top: 0;
-  left: 0;
-  width: 135px;
-  height: 30px;
-  margin: 0;
-  padding: 0px 20px 0 5px;
-  border: 0;
-  background: #eee;
-  border-radius: 3px 0 0 3px;
-  -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.4) inset, 0 1px 0 rgba(255,255,255,.2);
-  box-shadow: 0 1px 1px rgba(0,0,0,.4) inset, 0 1px 0 rgba(255,255,255,.2);      
-}
-.searchform input:focus {
-  outline: 0;
-  background: #fff;
-  -webkit-box-shadow: 0 0 2px rgba(0,0,0,.8) inset;
-  box-shadow: 0 0 2px rgba(0,0,0,.8) inset;
-}
-.searchform input::-webkit-input-placeholder {
-  color: #999;
-  font-weight: normal;
-  font-style: italic;
-} 
-.searchform input:-moz-placeholder {
-  color: #999;
-  font-weight: normal;
-  font-style: italic;
-} 
-.searchform input:-ms-input-placeholder {
-  color: #999;
-  font-weight: normal;
-  font-style: italic;
-}    
-.searchform button {
-  overflow: visible;
-  position: absolute;
-  top: 1px;
-  right: 1px;
-  border: 0;
-  padding: 0;
-  cursor: pointer;
-  height: 30px;
-  width: 30px;
-  color: #fff;
-  text-transform: uppercase;
-  background: #08C;
-  background-repeat: no-repeat;
-  background-position: 5px 5px;
-  background-size: 20px 20px;
-  -webkit-border-radius: 0 3px 3px 0;
-  border-radius: 0 3px 3px 0;
-  filter: dropshadow(color=#666666, offx=0, offy=-1);      
-  text-shadow: 0 -1px 0 rgba(0, 0 ,0, .3);
-  -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.4) inset, 0 1px 0 rgba(255,255,255,.2); 
-  box-shadow: 0 1px 1px rgba(0,0,0,.4) inset, 0 1px 0 rgba(255,255,255,.2);
-}     
-.searchform button:hover{     
-  background: #005580;
-  background-repeat: no-repeat;
-  background-position: 5px 5px;
-}    
-.searchform button:active,
-.searchform button:focus{   
-  background: #005580;
-  outline: 0;   
-} 
-.searchform button:before { /* left arrow */
-  content: '';
-  position: absolute;
-  border-width: 8px 8px 8px 0;
-  border-style: solid solid solid none;
-  border-color: transparent #08C transparent;
-  top: 7px;
-  left: -7px;
-} 
-.searchform button:hover:before{
-  border-right-color: #005580;
-}
-.searchform button:focus:before,
-.searchform button:active:before{
-  border-right-color: #005580;
-}      
-.searchform button::-moz-focus-inner { /* remove extra button spacing for Mozilla Firefox */
-  border: 0;
-  padding: 0;
 }    
 
 /********************************************************************************************************************/
@@ -598,6 +502,7 @@ table#wp-calendar td {
   border: none;
 }
 #footer-widget-container {
+  border: 1px solid #ddd;
   background: #fff;
 }
 .site-footer #copyright {
@@ -618,30 +523,12 @@ table#wp-calendar td {
 /******************************************** ELEMENTS **************************************************************/
 /********************************************************************************************************************/
 
-/*==================================== CALLOUT ====================================================*/
-
-#callout-container {
-  margin-bottom: 20px;
-}
-#callout {
-  padding: 20px;
-}
-.callout-text h2.callout-title {
-  font-size: 1.6em;
-}
-.callout-text p {
-  font-size: 1.2em;
-}
-#callout_button a {
- 	margin-top: 5px;
-  float: right;
-}
-
-/*==================================== WIDGET BOXES ===============================================*/
+/*==================================== BOXES ======================================================*/
 
 .box {
   padding: 20px;
   margin-bottom: 20px;
+  border: 1px solid #ddd;
   background: #fff;
 }
 h2.box-widget-title {
@@ -652,9 +539,6 @@ h2.box-widget-title {
   font-size: 1.1em;
   line-height: 1.2em;
 }
-
-/*==================================== BOXES ======================================================*/
-
 .box a {
   display: block;
   width: 100%;
@@ -664,65 +548,13 @@ h2.box-widget-title {
 	cursor: default;
 }
 
-/*==================================== CAROUSEL ===================================================*/
-
-#cc-carousel {
-  padding: 10px 50px;
-}
-#cc-carousel ul {
-  max-height: 150px;
-  width: 100%;
-  margin: 0;
-  padding: 0; 
-}
-#cc-carousel ul li {
-  position: relative;
-  display: inline-block;
-  margin-bottom: 0;
-}
-#cc-carousel ul li .carousel_item {
-}  
-#cc-carousel ul li .carousel_caption {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  background: rgba(0,0,0,0.5);
-}
-#cc-carousel ul li .carousel_caption p {
-  color: #fff;
-  font-size: 1em;
-  font-weight: normal;
-  text-align: center;
-  margin: 0;
-}
-#cc-carousel .carousel-control {
-  top: 50%;
-  border: none;
-}
-#cc-carousel .carousel-control.left {
-  left: 5px;
-}
-#cc-carousel .carousel-control.right {
-  right: 5px;
-}
-@media (max-width: 767px) {
-  #cc-carousel [class*="span"], .row-fluid #cc-carousel [class*="span"] {
-    float: left;
-    width: 14.364640883%;
-    margin-left: 2.762430939%;
-  }
-  #cc-carousel [class*="span"]:first-child, .row-fluid #cc-carousel [class*="span"]:first-child {
-    margin-left: 0;
-  }
-}
-
 /*==================================== PORTFOLIO ===================================================*/
 
 #portfolio {
   margin-bottom: 20px;
 }
 #gallery {
+  border: 1px solid #ddd;
   background: #fff;
   padding: 20px 20px 0 20px;
 }
@@ -741,6 +573,7 @@ h2.box-widget-title {
 /*==================================== SLIDER ======================================================*/
 
 #slider {
+  border: 1px solid #ddd;
 }
 
 /*==================================== TWITTER =====================================================*/
@@ -749,6 +582,7 @@ h2.box-widget-title {
   margin-bottom: 20px;
 }
 #twitter-bar {
+  border: 1px solid #ddd;
   background: #fff;
 	padding: 20px;
 }
@@ -776,11 +610,14 @@ h2.box-widget-title {
   margin-bottom: 20px;
   padding: 10px 20px;
   font-size: 1.1em;
+  border: 1px solid #ddd;
+	background: #fff;
 }
 
 /*==================================== PAGINATION ==================================================*/
 
 .pagination ul li a {
+  border: 1px solid #ddd;
   background: #fff;
 }
 
