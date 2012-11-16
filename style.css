@@ -465,12 +465,15 @@ h3.widget-title {
   line-height: 1.8em;
   list-style: none;
 }
+table#wp-calendar {
+  width: 100%;
+}
 table#wp-calendar th {
 	font-size: 14px;
 }
 table#wp-calendar td {
 	font-size: 14px;
-  width: 14.28571428571429%;
+	width: 14.28571428571429%;
 	padding: 5px 0;
   text-align: center;
 }
