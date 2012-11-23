@@ -160,7 +160,7 @@ function response_custom_gallery_post_format( $content ) {
 				<?php endif;?>
 				</div><!--end entry-->
 
-				<div style=clear:both;></div>
+				<div style="clear:both";></div>
 	<?php	
 	$content = ob_get_clean();
 	
