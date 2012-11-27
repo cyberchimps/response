@@ -22,17 +22,6 @@
 	
 	<div id="sidebar">
 	<?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar( 'sidebar-right' ) ) : ?>
-
-		<div class="widget-container">    
-			<h3 class="widget-title">Welcome to Cyber Chimps Framework</h3>
-    		<ul>
-				<li>Thank you for using Cyber Chimps Framework!</li>
-				<li>&nbsp;</li>
-				<li>We designed Cyber Chimps Framework to be as user friendly as possible, but if you do run into trouble we provide a <a href="<?php echo apply_filters( 'cyberchimps_support_forum', 'http://cyberchimps.com' ); ?>">support forum</a>, and <a href="<?php echo apply_filters( 'cyberchimps_documentation', 'http://cyberchimps.com' ); ?>">precise documentation</a>.</li>
-				<li>&nbsp;</li>
-				<li>(To remove this Widget login to your admin account, go to Appearance, then Widgets and drag new widgets into Sidebar Widgets)</li>
-			</ul>
-    	</div>
 		
 		<div class="widget-container">    
 			<h3 class="widget-title"><?php _e('Pages', 'cyberchimps' ); ?></h3>
