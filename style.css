@@ -127,6 +127,9 @@ header #search #searchform {
   -webkit-border-radius: 1px;
   border-radius: 1px;
 }
+.main-navigation .navbar .nav > li > a {
+	color: #777;
+}
 .main-navigation .nav li a:hover {
   color: #08C;
   background: none;
@@ -156,6 +159,12 @@ header #search #searchform {
 }
 #navigation #searchform {
 	margin-right: 15px;
+}
+.navbar .btn-navbar {
+	margin-bottom: 5px;
+}
+.nav-collapse .dropdown-menu a {
+	color: #666;
 }
 
 /********************************************************************************************************************/
