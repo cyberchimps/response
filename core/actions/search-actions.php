@@ -68,7 +68,7 @@ function response_search_content() {
 
 	<?php else : ?>
 
-		<h2><?php printf( $noresults ) ; ?></h2>
+		<h2><?php echo $noresults; ?></h2>
 
 	<?php endif; ?>
 		</div><!--end content_padding-->
