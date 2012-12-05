@@ -21,7 +21,7 @@
 	<?php do_action( 'cyberchimps_before_sidebar' ); ?>
 
 	<div id="sidebar">
-	<?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar( 'sidebar-right' ) ) : ?>
+	<?php if ( !dynamic_sidebar( 'sidebar-right' ) ) : ?>
 		
 		<div class="widget-container">    
 			<h3 class="widget-title"><?php _e('Pages', 'cyberchimps' ); ?></h3>
