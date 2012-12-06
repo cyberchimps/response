@@ -138,9 +138,9 @@ function response_post_byline_content() {
 	}?>
 	
 	<div class="meta">
-		<?php if (($hidden[$themeslug.'_hide_date']) != '0'):?> <?php printf( __( 'Published on', 'response' )); ?> <a href="<?php the_permalink() ?>"><?php echo get_the_date(); ?></a>,<?php endif;?>
-		<?php if (($hidden[$themeslug.'_hide_author']) != '0'):?><?php printf( __( 'by', 'response' )); ?> <?php the_author_posts_link(); ?> <?php endif;?> 
-		<?php if (($hidden[$themeslug.'_hide_categories']) != '0'):?><?php printf( __( 'in', 'response' )); ?> <?php the_category(', ') ?>.<?php endif;?>
+		<?php if (($hidden[$themeslug.'_hide_date']) != '0'):?> <?php _e( 'Published on', 'response' ); ?> <a href="<?php the_permalink() ?>"><?php echo get_the_date(); ?></a>,<?php endif;?>
+		<?php if (($hidden[$themeslug.'_hide_author']) != '0'):?><?php _e( 'by', 'response' ); ?> <?php the_author_posts_link(); ?> <?php endif;?> 
+		<?php if (($hidden[$themeslug.'_hide_categories']) != '0'):?><?php _e( 'in', 'response' ); ?> <?php the_category(', ') ?>.<?php endif;?>
 		
 	</div> <?php
 }
