@@ -2,6 +2,12 @@ Response Free Changelog
 
 ****************************
 
+Version 2.0.4 (12-12-12)
+-Latest framework updates.
+
+Version 2.0.3 (12-7-12)
+-Background color / image fix.
+
 Version 2.0.3 (12-7-12)
 -Background color / image fix.
 
