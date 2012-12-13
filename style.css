@@ -134,7 +134,7 @@ header #search #searchform {
   color: #08C;
   background: none;
 }
-.main-navigation .nav li.dropdown.active > .dropdown-toggle, .main-navigation .nav li.dropdown.current-menu-ancestor > .dropdown-toggle {
+.main-navigation .nav li.dropdown.active > .dropdown-toggle, .main-navigation .nav li.dropdown.current-menu-ancestor > .dropdown-toggle, .main-navigation .nav > .active > a, .navbar .nav > .active > a:hover {
 	color: #fff;
 	background-color: #08c;
 	text-shadow: none;
