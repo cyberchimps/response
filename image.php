@@ -36,22 +36,24 @@ get_header(); ?>
 					<div class="entry-meta">
 						<?php
 							$metadata = wp_get_attachment_metadata();
-							printf( __( 'Published <span class="entry-date"><time class="entry-date" datetime="%1$s">%2$s</time></span> - size: <a href="%3$s" title="Link to full-size image">%4$s &times; %5$s</a> in <a href="%6$s" title="Return to %7$s" rel="gallery">%7$s</a>', 'cyberchimps' ),
+							printf( '%8$s <span class="entry-date"><time class="entry-date" datetime="%1$s">%2$s</time></span> - %9$s: <a href="%3$s" title="Link to full-size image">%4$s &times; %5$s</a> in <a href="%6$s" title="Return to %7$s" rel="gallery">%7$s</a>',
 								esc_attr( get_the_date( 'c' ) ),
 								esc_html( get_the_date() ),
 								wp_get_attachment_url(),
 								$metadata['width'],
 								$metadata['height'],
 								get_permalink( $post->post_parent ),
-								get_the_title( $post->post_parent )
+								get_the_title( $post->post_parent ),
+								__( 'Published', 'cyberchimps' ),
+								__( 'size', 'cyberchimps' )
 							);
 						?>
 						<?php edit_post_link( __( 'Edit', 'cyberchimps' ), '<span class="sep"> | </span> <span class="edit-link">', '</span>' ); ?>
 					</div><!-- .entry-meta -->
 
 					<nav id="image-navigation">
-						<span class="previous-image"><?php previous_image_link( false, __( '&larr; Previous', 'cyberchimps' ) ); ?></span>
-						<span class="next-image"><?php next_image_link( false, __( 'Next &rarr;', 'cyberchimps' ) ); ?></span>
+						<span class="previous-image"><?php previous_image_link( false, '&larr; ' . __( 'Previous', 'cyberchimps' ) ); ?></span>
+						<span class="next-image"><?php next_image_link( false, __( 'Next', 'cyberchimps' ) . ' &rarr;' ); ?></span>
 					</nav><!-- #image-navigation -->
 				</header><!-- .entry-header -->
 
@@ -132,11 +134,23 @@ get_header(); ?>
           
 				<footer class="entry-meta">
 					<?php if ( comments_open() && pings_open() ) : // Comments and trackbacks open ?>
-						<?php printf( __( '<a class="comment-link" href="#respond" title="Post a comment">Post a comment</a> or leave a trackback: <a class="trackback-link" href="%s" title="Trackback URL for your post" rel="trackback">Trackback URL</a>.', 'cyberchimps' ), get_trackback_url() ); ?>
+						<?php printf( '<a class="comment-link" href="#respond" title="%1$s">%1$s</a> %2$s: <a class="trackback-link" href="%3$s" title="%4$s" rel="trackback">%4$s</a>.',
+													__( 'Post a comment', 'cyberchimps' ),
+													__( 'or leave a trackback', 'cyberchimps' ),
+													get_trackback_url(),
+													__( 'Trackback URL', 'cyberchimps' ) 
+													); ?>
 					<?php elseif ( ! comments_open() && pings_open() ) : // Only trackbacks open ?>
-						<?php printf( __( 'Comments are closed, but you can leave a trackback: <a class="trackback-link" href="%s" title="Trackback URL for your post" rel="trackback">Trackback URL</a>.', 'cyberchimps' ), get_trackback_url() ); ?>
+						<?php printf( '%1$s: <a class="trackback-link" href="%2$s" title="%3$s" rel="trackback">%3$s</a>.',
+													__( 'Comments are closed, but you can leave a trackback', 'cyberchimps' ), 
+													get_trackback_url(),
+													__( 'Trackback URL', 'cyberchimps' )
+													 ); ?>
 					<?php elseif ( comments_open() && ! pings_open() ) : // Only comments open ?>
-						<?php _e( 'Trackbacks are closed, but you can <a class="comment-link" href="#respond" title="Post a comment">post a comment</a>.', 'cyberchimps' ); ?>
+						<?php printf( '%1$s <a class="comment-link" href="#respond" title="%2$s">%2$s</a>.',
+													__( 'Trackbacks are closed, but you can', 'cyberchimps' ),
+													__( 'post a comment', 'cyberchimps' )
+													 ); ?>
 					<?php elseif ( ! comments_open() && ! pings_open() ) : // Comments and trackbacks closed ?>
 						<?php _e( 'Both comments and trackbacks are currently closed.', 'cyberchimps' ); ?>
 					<?php endif; ?>

@@ -24,7 +24,11 @@
 	<div class="entry-content">
 		<?php if ( is_home() ) { ?>
 
-			<p><?php printf( __( 'Ready to publish your first post? <a href="%1$s">Get started here</a>.', 'cyberchimps' ), admin_url( 'post-new.php' ) ); ?></p>
+			<p><?php printf( '%1$s <a href="%2$s">%3$s</a>.',
+												__( 'Ready to publish your first post?', 'cyberchimps' ), 
+												admin_url( 'post-new.php' ),
+												__( 'Get started here', 'cyberchimps' ) 
+											); ?></p>
 
 		<?php } elseif ( is_search() ) { ?>
 
@@ -33,7 +37,7 @@
 
 		<?php } else { ?>
 
-			<p><?php _e( 'It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help.', 'cyberchimps' ); ?></p>
+			<p><?php _e( 'It seems we cannot find what you are looking for. Perhaps searching can help.', 'cyberchimps' ); ?></p>
 			<?php get_search_form(); ?>
 
 		<?php } ?>
