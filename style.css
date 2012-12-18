@@ -166,6 +166,41 @@ header #search #searchform {
 .nav-collapse .dropdown-menu a {
 	color: #666;
 }
+@media (max-width: 979px) {
+	.navbar .btn-navbar {
+		background-image: none;
+		background-color: #08c;
+	}
+	.navbar .btn-navbar:hover {
+		background-image: none;
+		background-color: #0284CA;
+	}
+	.nav-collapse .dropdown-menu .active > a {
+		color: #fff;
+	}
+	.nav-collapse .nav > li > a, .nav-collapse .dropdown-menu a {
+		font-weight: normal;
+	}
+	.navbar .nav-collapse .nav > li > a:hover, .navbar .nav-collapse .dropdown-menu a:hover {
+		color: #fff;
+		text-shadow: none;
+		background-color: #08c;
+	}
+	.navbar .nav-collapse .nav > li.current-menu-item > a, .navbar .nav-collapse .nav > li.current-menu-ancestor > a {
+		color: #fff;
+	}
+	.nav-collapse .dropdown .caret {
+		display: none;
+	}
+	.nav-collapse .dropdown-menu {
+		display: block;
+	}
+	.navbar .nav-collapse .dropdown-menu .active > a {
+		color: #fff;
+		background-image: none;
+		background-color: #08c;
+	}
+}
 
 /********************************************************************************************************************/
 /******************************************** MAIN CONTENT **********************************************************/

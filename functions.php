@@ -21,14 +21,6 @@ require_once( get_template_directory() . '/cyberchimps/init.php' );
 // Set the content width based on the theme's design and stylesheet.
 if ( ! isset( $content_width ) )
 	$content_width = 640; /* pixels */
-	
-// Enqueue core scripts and core styles
-function cyberchimps_scripts() {
-	global $post;
-
-	wp_enqueue_style( 'theme-style', get_stylesheet_directory_uri() . '/inc/css/theme.css', array('style'), '1.0' );	
-}
-add_action( 'wp_enqueue_scripts', 'cyberchimps_scripts', 20 );
 
 // Define site info
 function cyberchimps_add_site_info() { ?>
