@@ -1,0 +1,1725 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: response v2.0.5\n"
+"POT-Creation-Date: 2012-12-17 15:14-0000\n"
+"PO-Revision-Date: 2012-12-19 13:06-0000\n"
+"Last-Translator: \n"
+"Language-Team: CyberChimps\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx;esc_attr__;"
+"esc_attr_e;esc_attr_x;esc_html__;esc_html_e;esc_html_x;_n_noop;_nx_noop;"
+"translate_nooped_plural\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SearchPath-0: ../..\n"
+
+#: ../../404.php:36
+msgid "Oops! That page cannot be found."
+msgstr "Oops! Diese Seite kann nicht gefunden werden."
+
+#: ../../404.php:44
+msgid ""
+"It looks like nothing was found at this location. Maybe try searching for it?"
+msgstr ""
+"Es sieht aus wie nichts an dieser Stelle gefunden wurde. Vielleicht suchen "
+"Sie nach es?"
+
+#: ../../archive.php:36
+#, php-format
+msgid "Category Archives: %s"
+msgstr "Archiv der Kategorie: %s"
+
+#: ../../archive.php:39
+#, php-format
+msgid "Tag Archives: %s"
+msgstr "Tag Archives: %s"
+
+#: ../../archive.php:46
+#, php-format
+msgid "Author Archives: %s"
+msgstr "Archiv des Autors: %s"
+
+#: ../../archive.php:54
+#, php-format
+msgid "Daily Archives: %s"
+msgstr "Daily Archives: %s"
+
+#: ../../archive.php:57
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr "Monats-Archive: %s"
+
+#: ../../archive.php:60
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr "Jährlich Archiv: %s"
+
+#: ../../archive.php:63 ../../footer.php:35 ../../sidebar-left.php:34
+#: ../../sidebar-right.php:34 ../../sidebar.php:34
+msgid "Archives"
+msgstr "Archive"
+
+#: ../../comments.php:36
+#, php-format
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "Ein Gedanke zu &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s Gedanke zu &ldquo;%2$s&rdquo;"
+
+#: ../../comments.php:43 ../../comments.php:63
+msgid "Comment navigation"
+msgstr "Kommentieren Navigation"
+
+#: ../../comments.php:44 ../../comments.php:64
+msgid "Older Comments"
+msgstr "Ältere Kommentare"
+
+#: ../../comments.php:45 ../../comments.php:65
+msgid "Newer Comments"
+msgstr "Neuere Kommentare"
+
+#: ../../comments.php:75
+msgid "Comments are closed."
+msgstr "Kommentare sind geschlossen."
+
+#: ../../content.php:41 ../../content.php:44
+#: ../../cyberchimps/functions.php:422
+#, php-format
+msgid "Permalink to %s"
+msgstr "Permalink to %s"
+
+#: ../../content.php:61 ../../content.php:90
+msgid "Continue reading"
+msgstr "Lesen Sie weiter"
+
+#: ../../content.php:62 ../../content.php:91 ../../image.php:79
+msgid "Pages:"
+msgstr "Seiten:"
+
+#: ../../content.php:108 ../../image.php:51 ../../image.php:157
+msgid "Edit"
+msgstr "Bearbeiten"
+
+#: ../../footer.php:28 ../../sidebar-left.php:27 ../../sidebar-right.php:27
+#: ../../sidebar.php:27
+msgid "Pages"
+msgstr "Seiten"
+
+#: ../../footer.php:42 ../../sidebar-left.php:41 ../../sidebar-right.php:41
+#: ../../sidebar.php:41 ../../cyberchimps/options/options-core.php:289
+msgid "Categories"
+msgstr "Kategorien"
+
+#: ../../footer.php:49 ../../footer.php:53 ../../sidebar-left.php:48
+#: ../../sidebar-left.php:52 ../../sidebar-right.php:48
+#: ../../sidebar-right.php:52 ../../sidebar.php:48 ../../sidebar.php:52
+msgid "WordPress"
+msgstr "WordPress"
+
+#: ../../footer.php:53 ../../sidebar-left.php:52 ../../sidebar-right.php:52
+#: ../../sidebar.php:52
+msgid ""
+"Powered by WordPress, state-of-the-art semantic personal publishing platform."
+msgstr ""
+"Powered by WordPress, state-of-the-art semantischen persönlichen Publishing-"
+"Plattform."
+
+#: ../../functions.php:50
+msgid "Pingback:"
+msgstr "Pingback:"
+
+#: ../../functions.php:50 ../../functions.php:75
+msgid "(Edit)"
+msgstr "(Bearbeiten)"
+
+#: ../../functions.php:62
+msgid "says"
+msgstr "zeigt an:"
+
+#: ../../functions.php:65
+msgid "Your comment is awaiting moderation."
+msgstr ""
+"Unser Kommentarsystem wird moderiert. Dein Kommentar wird von uns nach "
+"erfolgter Prüfung veröffentlicht."
+
+#: ../../functions.php:73
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s um %2$s"
+
+#: ../../functions.php:166
+msgid "CyberChimps Professional Responsive WordPress Theme"
+msgstr "CyberChimps Professionelle Responsive WordPress Theme"
+
+#: ../../image.php:47
+msgid "Published"
+msgstr "Veröffentlicht"
+
+#: ../../image.php:48
+msgid "size"
+msgstr "size"
+
+#: ../../image.php:55
+msgid "Previous"
+msgstr "Zurück"
+
+#: ../../image.php:56
+msgid "Next"
+msgstr "Next"
+
+#: ../../image.php:138
+msgid "Post a comment"
+msgstr "Kommentar posten"
+
+#: ../../image.php:139
+msgid "or leave a trackback"
+msgstr "oder ein Trackback hinterlassen"
+
+#: ../../image.php:141 ../../image.php:147
+msgid "Trackback URL"
+msgstr "Trackback URL"
+
+#: ../../image.php:145
+msgid "Comments are closed, but you can leave a trackback"
+msgstr ""
+"Kommentare sind geschlossen, aber Sie können einen Trackback hinterlassen"
+
+#: ../../image.php:151
+msgid "Trackbacks are closed, but you can"
+msgstr "Trackbacks sind geschlossen, aber du kannst"
+
+#: ../../image.php:152
+msgid "post a comment"
+msgstr "Kommentar posten"
+
+#: ../../image.php:155
+msgid "Both comments and trackbacks are currently closed."
+msgstr "Sowohl Kommentare als auch Pings stehen momentan nicht zur Verfügung."
+
+#: ../../no-results.php:21
+msgid "Nothing Found"
+msgstr "Keine Treffer gefunden!"
+
+#: ../../no-results.php:28
+msgid "Ready to publish your first post?"
+msgstr "Bereit, um Ihren ersten Beitrag veröffentlichen?"
+
+#: ../../no-results.php:30
+msgid "Get started here"
+msgstr "Thalia"
+
+#: ../../no-results.php:35
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+"Sorry, aber nichts Ihre Suchbegriffe ein. Bitte versuchen Sie es erneut mit "
+"einigen anderen Suchbegriffen."
+
+#: ../../no-results.php:40
+msgid ""
+"It seems we cannot find what you are looking for. Perhaps searching can help."
+msgstr ""
+"Es scheint, können wir nicht finden, was Sie suchen. Vielleicht suchen "
+"helfen können."
+
+#: ../../search.php:33
+#, php-format
+msgid "Search Results for: %s"
+msgstr "Search Results for: %s"
+
+#: ../../searchform.php:19 ../../cyberchimps/options/options-core.php:243
+msgid "Search"
+msgstr "Suchen"
+
+#: ../../sidebar-left.php:58 ../../sidebar-right.php:58 ../../sidebar.php:58
+msgid "Subscribe"
+msgstr "Abonnieren"
+
+#: ../../sidebar-left.php:60 ../../sidebar-right.php:60 ../../sidebar.php:60
+msgid "Entries (RSS)"
+msgstr "Einträge (RSS)"
+
+#: ../../sidebar-left.php:61 ../../sidebar-right.php:61 ../../sidebar.php:61
+msgid "Comments (RSS)"
+msgstr "Kommentare (RSS)"
+
+#: ../../cyberchimps/functions.php:313
+msgid "View all posts by"
+msgstr "Alle Beiträge"
+
+#: ../../cyberchimps/functions.php:315
+msgid "Posted on "
+msgstr "Geschrieben am "
+
+#: ../../cyberchimps/functions.php:316
+msgid " by "
+msgstr " von "
+
+#: ../../cyberchimps/functions.php:341
+msgid "Posted in"
+msgstr "Veroeffentlicht in"
+
+#: ../../cyberchimps/functions.php:367
+msgid "Tags:"
+msgstr "Tags:"
+
+#: ../../cyberchimps/functions.php:390 ../../cyberchimps/functions.php:402
+msgid "Leave a comment"
+msgstr "Hinterlasse ein Kommentar."
+
+#: ../../cyberchimps/functions.php:393
+msgid "1 Comment"
+msgstr "1 Kommentar"
+
+#: ../../cyberchimps/functions.php:393
+#: ../../cyberchimps/options/options-core.php:291
+msgid "Comments"
+msgstr "Kommentar"
+
+#: ../../cyberchimps/functions.php:502 ../../cyberchimps/inc/meta-box.php:133
+#: ../../elements/init.php:60
+msgid "Page"
+msgstr "Seite "
+
+#: ../../cyberchimps/functions.php:602
+msgid "Continue Reading"
+msgstr "Continue Reading"
+
+#: ../../cyberchimps/functions.php:763
+msgid "Welcome"
+msgstr "Willkommen"
+
+#: ../../cyberchimps/functions.php:767
+msgid "Congratulations you have successfully installed"
+msgstr "Herzlichen Glückwunsch, Sie haben erfolgreich installiert"
+
+#: ../../cyberchimps/functions.php:769
+msgid "Your website is important to us, so please read the"
+msgstr "Ihre Website ist uns wichtig, so lesen Sie bitte die"
+
+#: ../../cyberchimps/functions.php:769
+msgid "instructions"
+msgstr "Anleitung"
+
+#: ../../cyberchimps/functions.php:769
+msgid "to learn how to use"
+msgstr "zu lernen, wie Sie mit"
+
+#: ../../cyberchimps/functions.php:771
+msgid "If you have any questions please post in our"
+msgstr "Wenn Sie Fragen haben, wenden Sie sich bitte Schreiben Sie in unseren"
+
+#: ../../cyberchimps/functions.php:771
+msgid "support forum"
+msgstr "Support-Forum"
+
+#: ../../cyberchimps/functions.php:771
+msgid "and we will get back to you as soon as we can"
+msgstr "und wir werden uns umgehend mit Ihnen so bald wie möglich"
+
+#: ../../cyberchimps/functions.php:773
+msgid "Thank you for choosing CyberChimps Professional WordPress Themes"
+msgstr "Danke für die Wahl CyberChimps Professionelle WordPress Themes"
+
+#: ../../cyberchimps/functions.php:776
+#: ../../cyberchimps/options/options-core.php:1055
+#: ../../cyberchimps/options/options-core.php:1071
+#: ../../cyberchimps/options/options-core.php:1282
+msgid "Pro"
+msgstr "DruckFindSch"
+
+#: ../../cyberchimps/functions.php:783
+msgid "Complete Installation"
+msgstr "Vollständige Installation"
+
+#: ../../cyberchimps/functions.php:800
+#: ../../cyberchimps/options/options-init.php:134
+msgid "Instructions"
+msgstr "Anleitung"
+
+#: ../../cyberchimps/functions.php:806
+#: ../../cyberchimps/options/options-init.php:133
+msgid "Support"
+msgstr "Technischer Support"
+
+#: ../../cyberchimps/functions.php:815
+msgid "Upgrade to"
+msgstr "Upgrade auf"
+
+#: ../../cyberchimps/functions.php:821
+msgid "If you want even more amazing new features upgrade to"
+msgstr "Wenn Sie noch mehr erstaunliche neue Funktionen aufrüsten"
+
+#: ../../cyberchimps/functions.php:821
+msgid ""
+"which includes a Custom Features Slider, Image Carousel, Widgetized Boxes, "
+"Callout Section, expanded typography including Google Fonts, more color "
+"skins, and many more powerful new features. Please visit"
+msgstr ""
+"welches einen benutzerdefinierten Funktionen Slider, Image Carousel, "
+"Widgetized Boxen Legende Abschnitt, erweiterte Typografie wie Google Fonts, "
+"mehr Farbe Skins und viele weitere leistungsstarke neue Funktionen. Bitte "
+"besuchen Sie"
+
+#: ../../cyberchimps/functions.php:821
+msgid "to learn more!"
+msgstr "um mehr zu erfahren!"
+
+#: ../../cyberchimps/functions.php:838
+#, php-format
+msgid "Welcome to %1$s! Learn more now about upgrading to"
+msgstr "Willkommen in %1$s ! Erfahren Sie jetzt mehr über das Upgrade auf"
+
+#: ../../cyberchimps/functions.php:838
+msgid "today."
+msgstr "heute"
+
+#: ../../cyberchimps/functions.php:888
+#: ../../cyberchimps/options/options-init.php:128
+msgid "Options"
+msgstr "Optionen"
+
+#: ../../cyberchimps/functions.php:888
+msgid " Options"
+msgstr " Optionen"
+
+#: ../../cyberchimps/init.php:79
+msgid "Primary Menu"
+msgstr "Primäre Menu"
+
+#: ../../cyberchimps/init.php:154
+msgid "Sidebar Left"
+msgstr "Sidebar Left"
+
+#: ../../cyberchimps/init.php:163
+msgid "Sidebar Right"
+msgstr "Sidebar Right"
+
+#: ../../cyberchimps/init.php:172
+#: ../../cyberchimps/options/options-core.php:2073
+msgid "Footer Widgets"
+msgstr "Footer Widgets"
+
+#: ../../cyberchimps/inc/cc-custom-background.php:98
+msgid "Or choose one of CyberChimps background images"
+msgstr "Oder wählen Sie eine der CyberChimps Hintergrundbildern"
+
+#: ../../cyberchimps/inc/meta-box-class.php:376
+msgid "Uploaded files"
+msgstr "Hochgeladene Dateien"
+
+#: ../../cyberchimps/inc/meta-box-class.php:390
+msgid "Upload new files"
+msgstr "Neue Dateien hochladen"
+
+#: ../../cyberchimps/inc/meta-box-class.php:393
+msgid "Add more file"
+msgstr "Fügen Sie weitere Dateien"
+
+#: ../../cyberchimps/inc/meta-box-class.php:418
+msgid "Uploaded images"
+msgstr "Hochgeladene Bilder"
+
+#: ../../cyberchimps/inc/meta-box-class.php:432
+msgid "Upload new images (Make sure to publish the post to save)"
+msgstr ""
+"Laden Sie neue Bilder (Achten Sie darauf, um die Post zu veröffentlichen, um "
+"zu sparen)"
+
+#: ../../cyberchimps/inc/meta-box-class.php:444
+msgid "Select a color"
+msgstr "Wählen Sie eine Farbe aus."
+
+#: ../../cyberchimps/inc/meta-box-class.php:603
+#: ../../cyberchimps/options/options-medialibrary-uploader.php:112
+msgid "Upload"
+msgstr "Upload"
+
+#: ../../cyberchimps/inc/meta-box-class.php:604
+msgid "or enter URL"
+msgstr "oder geben Sie URL"
+
+#: ../../cyberchimps/inc/meta-box.php:110
+msgid "Slider Options"
+msgstr "Slider Optionen"
+
+#: ../../cyberchimps/inc/meta-box.php:113
+msgid "Slider Image"
+msgstr "Slider Bild"
+
+#: ../../cyberchimps/inc/meta-box.php:114
+msgid "Slider Caption"
+msgstr "Slider Bildunterschrift"
+
+#: ../../cyberchimps/inc/meta-box.php:115
+msgid "Custom Slide Link"
+msgstr "Benutzerdefinierte Slide Link-"
+
+#: ../../cyberchimps/inc/meta-box.php:116
+#: ../../cyberchimps/inc/meta-box.php:203
+#: ../../cyberchimps/inc/meta-box.php:222
+#: ../../cyberchimps/inc/meta-box.php:224
+#: ../../cyberchimps/options/options-core.php:1266
+#: ../../cyberchimps/options/options-core.php:1396
+#: ../../cyberchimps/options/options-core.php:1698
+msgid "Title"
+msgstr "Title"
+
+#: ../../cyberchimps/inc/meta-box.php:117
+msgid "Caption"
+msgstr "Bildunterschrift"
+
+#: ../../cyberchimps/inc/meta-box.php:118
+#: ../../cyberchimps/inc/meta-box.php:140
+#: ../../cyberchimps/inc/meta-box.php:168
+msgid "Need Help?"
+msgstr "Sie benötigen Hilfe?"
+
+#: ../../cyberchimps/inc/meta-box.php:124
+msgid "Select Page Layout"
+msgstr "Wählen Sie Seitenlayout"
+
+#: ../../cyberchimps/inc/meta-box.php:129
+msgid "Page Title"
+msgstr "Page Title"
+
+#: ../../cyberchimps/inc/meta-box.php:130
+msgid "Page Elements"
+msgstr "Page-Elemente"
+
+#: ../../cyberchimps/inc/meta-box.php:132
+#: ../../cyberchimps/options/options-core.php:923
+#: ../../cyberchimps/options/options-core.php:928
+msgid "Boxes"
+msgstr "Boxen"
+
+#: ../../cyberchimps/inc/meta-box.php:134
+#: ../../cyberchimps/options/options-core.php:929 ../../elements/init.php:47
+#: ../../elements/init.php:59
+msgid "Portfolio Lite"
+msgstr "Portfolio Lite"
+
+#: ../../cyberchimps/inc/meta-box.php:135
+#: ../../cyberchimps/options/options-core.php:922
+#: ../../cyberchimps/options/options-core.php:931 ../../elements/init.php:49
+#: ../../elements/init.php:61
+msgid "Slider Lite"
+msgstr "Slider Lite"
+
+#: ../../cyberchimps/inc/meta-box.php:136
+#: ../../cyberchimps/options/options-core.php:932 ../../elements/init.php:50
+#: ../../elements/init.php:62
+msgid "Twitter Bar"
+msgstr "Twitter Bar"
+
+#: ../../cyberchimps/inc/meta-box.php:142
+#: ../../cyberchimps/options/options-core.php:1407
+msgid "Meta Data"
+msgstr "Meta-Daten"
+
+#: ../../cyberchimps/inc/meta-box.php:143
+#: ../../cyberchimps/options/options-core.php:1416
+msgid "Number of Columns"
+msgstr "Anzahl Spalten"
+
+#: ../../cyberchimps/inc/meta-box.php:144
+#: ../../cyberchimps/options/options-core.php:1428
+msgid "Number of Rows"
+msgstr "Anzahl der Zeilen"
+
+#: ../../cyberchimps/inc/meta-box.php:145
+#: ../../cyberchimps/options/options-core.php:1442
+msgid "Wide Posts Below Magazine"
+msgstr "Breites Beiträge Below Magazin"
+
+#: ../../cyberchimps/inc/meta-box.php:146
+msgid "Number of Wide Posts "
+msgstr "Anzahl der Wide Beiträge "
+
+#: ../../cyberchimps/inc/meta-box.php:153
+msgid "Slide One Image"
+msgstr "Schieben Ein Bild"
+
+#: ../../cyberchimps/inc/meta-box.php:154
+msgid "Slide One Link"
+msgstr "Schieben One Link"
+
+#: ../../cyberchimps/inc/meta-box.php:155
+msgid "Slide Two Image"
+msgstr "Slide Two Image"
+
+#: ../../cyberchimps/inc/meta-box.php:156
+msgid "Slide Two Link"
+msgstr "Schieben Zwei Link"
+
+#: ../../cyberchimps/inc/meta-box.php:157
+msgid "Slide Three Image"
+msgstr "Schieben Three Bild"
+
+#: ../../cyberchimps/inc/meta-box.php:158
+msgid "Slide Three Link"
+msgstr "Schieben Sie drei Link"
+
+#: ../../cyberchimps/inc/meta-box.php:160
+#: ../../cyberchimps/options/options-core.php:1468
+msgid "Slider Size"
+msgstr "Slider Größe"
+
+#: ../../cyberchimps/inc/meta-box.php:160
+#: ../../cyberchimps/options/options-core.php:1473
+msgid "Full"
+msgstr "Voll"
+
+#: ../../cyberchimps/inc/meta-box.php:160
+#: ../../cyberchimps/options/options-core.php:1474
+msgid "Half"
+msgstr "Die Hälfte"
+
+#: ../../cyberchimps/inc/meta-box.php:161
+#: ../../cyberchimps/options/options-core.php:1481
+msgid "Slider Type"
+msgstr "Diashow-Typ"
+
+#: ../../cyberchimps/inc/meta-box.php:161
+#: ../../cyberchimps/options/options-core.php:1487
+msgid "Custom"
+msgstr "Benutzerdefiniert"
+
+#: ../../cyberchimps/inc/meta-box.php:161
+#: ../../cyberchimps/options/options-core.php:1486
+msgid "Posts"
+msgstr "Beiträge"
+
+#: ../../cyberchimps/inc/meta-box.php:162
+#: ../../cyberchimps/options/options-core.php:1494
+#: ../../cyberchimps/options/options-core.php:1717
+msgid "Post Categories"
+msgstr "Beitrag Kategorien"
+
+#: ../../cyberchimps/inc/meta-box.php:162
+#: ../../cyberchimps/inc/meta-box.php:226
+msgid "All"
+msgstr "Alle"
+
+#: ../../cyberchimps/inc/meta-box.php:163
+#: ../../cyberchimps/options/options-core.php:1505
+#: ../../cyberchimps/options/options-core.php:1516
+msgid "Custom Categories"
+msgstr "Benutzerdefinierte Kategorien"
+
+#: ../../cyberchimps/inc/meta-box.php:163
+#: ../../cyberchimps/inc/meta-box.php:201
+#: ../../cyberchimps/inc/meta-box.php:229
+#: ../../cyberchimps/inc/meta-box.php:233
+#: ../../cyberchimps/options/options-core.php:1381
+#: ../../cyberchimps/options/options-core.php:1519
+#: ../../cyberchimps/options/options-core.php:1753
+#: ../../cyberchimps/options/options-core.php:1776
+msgid "You need to create a Category"
+msgstr "Sie müssen eine Kategorie erstellen"
+
+#: ../../cyberchimps/inc/meta-box.php:164
+msgid "Number of Featured Posts"
+msgstr "Anzahl der Aktuelle Beiträge"
+
+#: ../../cyberchimps/inc/meta-box.php:165
+#: ../../cyberchimps/options/options-core.php:1535
+msgid "Slider Height"
+msgstr "Slider Höhe"
+
+#: ../../cyberchimps/inc/meta-box.php:166
+msgid "Slider Speed"
+msgstr "Slider Geschwindigkeit"
+
+#: ../../cyberchimps/inc/meta-box.php:167
+#: ../../cyberchimps/options/options-core.php:1554
+msgid "Slider Arrows"
+msgstr "Slider Arrows"
+
+#: ../../cyberchimps/inc/meta-box.php:180
+#: ../../cyberchimps/options/options-core.php:1565
+msgid "Callout Title"
+msgstr "Legende Titel"
+
+#: ../../cyberchimps/inc/meta-box.php:181
+#: ../../cyberchimps/options/options-core.php:1567
+#, php-format
+msgid "%1$s's Call Out Element"
+msgstr "%1$s 's Call Out Element"
+
+#: ../../cyberchimps/inc/meta-box.php:183
+#: ../../cyberchimps/options/options-core.php:1574
+msgid "Callout Text"
+msgstr "Legende Text"
+
+#: ../../cyberchimps/inc/meta-box.php:184
+#: ../../cyberchimps/options/options-core.php:1576
+#, php-format
+msgid ""
+"Use %1$s's Call Out section on any page where you want to deliver an "
+"important message to your customer or client."
+msgstr ""
+"Verwenden Sie %1$s 's Call Out Abschnitt auf jeder Seite, wo Sie wollen, um "
+"eine wichtige Botschaft an Ihre Kunden oder Klienten zu liefern."
+
+#: ../../cyberchimps/inc/meta-box.php:186
+#: ../../cyberchimps/options/options-core.php:1583
+msgid "Callout Button"
+msgstr "Callout"
+
+#: ../../cyberchimps/inc/meta-box.php:187
+#: ../../cyberchimps/options/options-core.php:1592
+msgid "Callout Button Text"
+msgstr "Legende Button Text"
+
+#: ../../cyberchimps/inc/meta-box.php:188
+#: ../../cyberchimps/options/options-core.php:1602
+msgid "Callout Button URL"
+msgstr "Callout URL"
+
+#: ../../cyberchimps/inc/meta-box.php:189
+#: ../../cyberchimps/options/options-core.php:1612
+msgid "Custom Callout Options"
+msgstr "Benutzerdefiniertes Callout Optionen"
+
+#: ../../cyberchimps/inc/meta-box.php:190
+msgid "Custom Button Image"
+msgstr "Custom Button Bild"
+
+#: ../../cyberchimps/inc/meta-box.php:191
+msgid "Custom Background Color"
+msgstr "Hintergrundfarbe anpassen:"
+
+#: ../../cyberchimps/inc/meta-box.php:192
+msgid "Custom Title Color"
+msgstr "Benutzerdefinierte Titel Farbe"
+
+#: ../../cyberchimps/inc/meta-box.php:193
+msgid "Custom Text Color"
+msgstr "Custom Text Farbe"
+
+#: ../../cyberchimps/inc/meta-box.php:194
+msgid "Custom Button Color"
+msgstr "Custom Button Farbe"
+
+#: ../../cyberchimps/inc/meta-box.php:195
+msgid "Custom Button Text Color"
+msgstr "Custom Button Textfarbe"
+
+#: ../../cyberchimps/inc/meta-box.php:196
+msgid "Need help?"
+msgstr "Brauchen sie Hilfe?"
+
+#: ../../cyberchimps/inc/meta-box.php:198
+msgid "Custom HTML"
+msgstr "Custom HTML"
+
+#: ../../cyberchimps/inc/meta-box.php:198
+msgid "Enter your custom html here"
+msgstr "Geben Sie Ihre eigene html hier"
+
+#: ../../cyberchimps/inc/meta-box.php:200
+msgid "Images per row"
+msgstr "Bilder pro Zeile"
+
+#: ../../cyberchimps/inc/meta-box.php:200
+msgid "Two"
+msgstr "Zwei"
+
+#: ../../cyberchimps/inc/meta-box.php:200
+msgid "Three"
+msgstr "Drei"
+
+#: ../../cyberchimps/inc/meta-box.php:200
+msgid "Four"
+msgstr "Vier"
+
+#: ../../cyberchimps/inc/meta-box.php:201
+#: ../../cyberchimps/options/options-core.php:1368
+#: ../../cyberchimps/options/options-core.php:1378
+msgid "Portfolio Category"
+msgstr "Portfolio-Kategorie"
+
+#: ../../cyberchimps/inc/meta-box.php:202
+#: ../../cyberchimps/inc/meta-box.php:221
+#: ../../cyberchimps/options/options-core.php:1256
+#: ../../cyberchimps/options/options-core.php:1388
+msgid "Portfolio Title"
+msgstr "Portfolio Titel"
+
+#: ../../cyberchimps/inc/meta-box.php:203
+#: ../../cyberchimps/inc/meta-box.php:222
+msgid "Portfolio"
+msgstr "Portfolio"
+
+#: ../../cyberchimps/inc/meta-box.php:205
+#: ../../cyberchimps/options/options-core.php:1082
+msgid "First Portfolio Image"
+msgstr "Erste ansehen"
+
+#: ../../cyberchimps/inc/meta-box.php:206
+#: ../../cyberchimps/options/options-core.php:1093
+msgid "First Portfolio Image Caption"
+msgstr "Erste Portfolio Bildunterschrift"
+
+#: ../../cyberchimps/inc/meta-box.php:206
+msgid "Image 1"
+msgstr "Bild 1"
+
+#: ../../cyberchimps/inc/meta-box.php:207
+#: ../../cyberchimps/options/options-core.php:1103
+msgid "First Porfolio Link"
+msgstr "Erste Porfolio Link-"
+
+#: ../../cyberchimps/inc/meta-box.php:208
+#: ../../cyberchimps/inc/meta-box.php:212
+#: ../../cyberchimps/inc/meta-box.php:216
+#: ../../cyberchimps/inc/meta-box.php:220
+#: ../../cyberchimps/options/options-core.php:1112
+#: ../../cyberchimps/options/options-core.php:1156
+#: ../../cyberchimps/options/options-core.php:1200
+#: ../../cyberchimps/options/options-core.php:1244
+msgid "Link URL"
+msgstr "URL des Links"
+
+#: ../../cyberchimps/inc/meta-box.php:209
+#: ../../cyberchimps/options/options-core.php:1126
+msgid "Second Portfolio Image"
+msgstr "Zweitens ansehen"
+
+#: ../../cyberchimps/inc/meta-box.php:210
+#: ../../cyberchimps/options/options-core.php:1137
+msgid "Second Portfolio Image Caption"
+msgstr "Zweitens Portfolio Bildunterschrift"
+
+#: ../../cyberchimps/inc/meta-box.php:210
+msgid "Image 2"
+msgstr "Bild 2"
+
+#: ../../cyberchimps/inc/meta-box.php:211
+#: ../../cyberchimps/options/options-core.php:1147
+msgid "Second Porfolio Link"
+msgstr "Zweitens Porfolio Link-"
+
+#: ../../cyberchimps/inc/meta-box.php:213
+#: ../../cyberchimps/options/options-core.php:1170
+msgid "Third Portfolio Image"
+msgstr "Third ansehen"
+
+#: ../../cyberchimps/inc/meta-box.php:214
+#: ../../cyberchimps/options/options-core.php:1181
+msgid "Third Portfolio Image Caption"
+msgstr "Third Portfolio Bildunterschrift"
+
+#: ../../cyberchimps/inc/meta-box.php:214
+msgid "Image 3"
+msgstr "Bild 3"
+
+#: ../../cyberchimps/inc/meta-box.php:215
+#: ../../cyberchimps/options/options-core.php:1191
+msgid "Third Porfolio Link"
+msgstr "Third Porfolio Link-"
+
+#: ../../cyberchimps/inc/meta-box.php:217
+#: ../../cyberchimps/options/options-core.php:1214
+msgid "Fourth Portfolio Image"
+msgstr "Vierte ansehen"
+
+#: ../../cyberchimps/inc/meta-box.php:218
+#: ../../cyberchimps/options/options-core.php:1225
+msgid "Fourth Portfolio Image Caption"
+msgstr "Vierte Portfolio Bildunterschrift"
+
+#: ../../cyberchimps/inc/meta-box.php:218
+msgid "Image 4"
+msgstr "Bild 4"
+
+#: ../../cyberchimps/inc/meta-box.php:219
+#: ../../cyberchimps/options/options-core.php:1235
+msgid "Fourth Porfolio Link"
+msgstr "Vierte Porfolio Link-"
+
+#: ../../cyberchimps/inc/meta-box.php:226
+msgid "Post Category"
+msgstr "Beitrag Kategorie"
+
+#: ../../cyberchimps/inc/meta-box.php:227
+#: ../../cyberchimps/options/options-core.php:1727
+msgid "Images"
+msgstr "Google Recherche d'images"
+
+#: ../../cyberchimps/inc/meta-box.php:229
+msgid "Carousel Category"
+msgstr "Carousel Kategorie"
+
+#: ../../cyberchimps/inc/meta-box.php:231
+#: ../../cyberchimps/options/options-core.php:1787
+msgid "Twitter Handle"
+msgstr "Twitter Griff"
+
+#: ../../cyberchimps/inc/meta-box.php:231
+msgid "Enter your Twitter handle if using the Twitter bar"
+msgstr "Geben Sie Ihre Twitter Griff bei Verwendung des Twitter bar"
+
+#: ../../cyberchimps/inc/meta-box.php:233
+msgid "Boxes Category"
+msgstr "Boxen Kategorie"
+
+#: ../../cyberchimps/options/options-core.php:24
+msgid "Help"
+msgstr "HILFE"
+
+#: ../../cyberchimps/options/options-core.php:29
+msgid "Design"
+msgstr "Design"
+
+#: ../../cyberchimps/options/options-core.php:34
+msgid "Header"
+msgstr "Kopfzeile"
+
+#: ../../cyberchimps/options/options-core.php:39
+msgid "Blog"
+msgstr "Blog"
+
+#: ../../cyberchimps/options/options-core.php:44
+msgid "Templates"
+msgstr "Templates"
+
+#: ../../cyberchimps/options/options-core.php:49
+msgid "Footer"
+msgstr "Fusszeile"
+
+#: ../../cyberchimps/options/options-core.php:78
+msgid "Layout Options"
+msgstr "Layout-Optionen"
+
+#: ../../cyberchimps/options/options-core.php:92
+msgid "Custom Colors"
+msgstr "Benutzerdefinierte Farben"
+
+#: ../../cyberchimps/options/options-core.php:98
+msgid "Typography"
+msgstr "Typografie"
+
+#: ../../cyberchimps/options/options-core.php:112
+msgid "Header Drag &#38; Drop"
+msgstr "Header Drag & Drop"
+
+#: ../../cyberchimps/options/options-core.php:118
+msgid "Header Options"
+msgstr "Header-Optionen"
+
+#: ../../cyberchimps/options/options-core.php:124
+msgid "Social Icons"
+msgstr "Social Icons"
+
+#: ../../cyberchimps/options/options-core.php:132
+msgid "Drag & Drop"
+msgstr "Drag Drop"
+
+#: ../../cyberchimps/options/options-core.php:138
+msgid "Blog Options"
+msgstr "Blog Optionen"
+
+#: ../../cyberchimps/options/options-core.php:146
+msgid "Blog Slider Lite"
+msgstr "Blog Slider Lite"
+
+#: ../../cyberchimps/options/options-core.php:152
+msgid "Portfolio Lite Options"
+msgstr "Portfolio Lite Optionen"
+
+#: ../../cyberchimps/options/options-core.php:158 ../../elements/boxes.php:25
+#: ../../elements/boxes.php:26 ../../elements/init.php:46
+#: ../../elements/init.php:58
+msgid "Boxes Lite"
+msgstr "Boxen Lite"
+
+#: ../../cyberchimps/options/options-core.php:168
+msgid "Blog Slider"
+msgstr "Blog Slider"
+
+#: ../../cyberchimps/options/options-core.php:174
+msgid "Callout Options"
+msgstr "Legende Optionen"
+
+#: ../../cyberchimps/options/options-core.php:180
+msgid "HTML Box Options"
+msgstr "HTML Box Optionen"
+
+#: ../../cyberchimps/options/options-core.php:186
+msgid "Carousel Options"
+msgstr "Carousel Options"
+
+#: ../../cyberchimps/options/options-core.php:192
+msgid "Magazine Options"
+msgstr "Magazin Optionen"
+
+#: ../../cyberchimps/options/options-core.php:198
+msgid "Portfolio Pro Options"
+msgstr "Portfolio Pro Optionen"
+
+#: ../../cyberchimps/options/options-core.php:204
+msgid "Recent Posts Options"
+msgstr "Recent Posts Optionen"
+
+#: ../../cyberchimps/options/options-core.php:211
+msgid "Twitterbar Options"
+msgstr "TwitterBar Optionen"
+
+#: ../../cyberchimps/options/options-core.php:217
+msgid "Boxes Options"
+msgstr "Boxen Optionen"
+
+#: ../../cyberchimps/options/options-core.php:231
+msgid "Single Post"
+msgstr "Single Post"
+
+#: ../../cyberchimps/options/options-core.php:237
+msgid "Archive"
+msgstr "Archiv"
+
+#: ../../cyberchimps/options/options-core.php:257
+msgid "Footer Options"
+msgstr "Footer Optionen"
+
+#: ../../cyberchimps/options/options-core.php:288
+msgid "Author"
+msgstr "Autor"
+
+#: ../../cyberchimps/options/options-core.php:290
+msgid "Date"
+msgstr "Dateien"
+
+#: ../../cyberchimps/options/options-core.php:292
+msgid "Tags"
+msgstr "Tags"
+
+#: ../../cyberchimps/options/options-core.php:379
+msgid "Cyberchimps Help"
+msgstr "Cyberchimps Hilfe"
+
+#: ../../cyberchimps/options/options-core.php:387
+msgid "Welcome Note"
+msgstr "Willkommen Hinweis"
+
+#: ../../cyberchimps/options/options-core.php:398 ../../elements/boxes.php:156
+msgid "Responsive Design"
+msgstr "Responsive Design-"
+
+#: ../../cyberchimps/options/options-core.php:407
+msgid "Responsive Videos"
+msgstr "Responsive Videos"
+
+#: ../../cyberchimps/options/options-core.php:416
+msgid "Tablet Responsive Menu"
+msgstr "Tablet Responsive Menu"
+
+#: ../../cyberchimps/options/options-core.php:425
+#: ../../cyberchimps/options/options-customizer.php:103
+msgid "Max Width"
+msgstr "Max Breite"
+
+#: ../../cyberchimps/options/options-core.php:429
+msgid "enter the width of your site in pixels"
+msgstr "geben Sie die Breite Ihrer Website in Pixel"
+
+#: ../../cyberchimps/options/options-core.php:522
+msgid "Select a Skin Color"
+msgstr "Wählen Sie ein Farbschema"
+
+#: ../../cyberchimps/options/options-core.php:526
+msgid "Default"
+msgstr "Standardeinstellung"
+
+#: ../../cyberchimps/options/options-core.php:544
+#: ../../cyberchimps/options/options-customizer.php:130
+msgid "Text Color"
+msgstr "Textfarbe"
+
+#: ../../cyberchimps/options/options-core.php:545
+msgid "Select text color"
+msgstr "Wählen Sie Textfarbe"
+
+#: ../../cyberchimps/options/options-core.php:553
+#: ../../cyberchimps/options/options-customizer.php:142
+msgid "Link Color"
+msgstr "Link Color"
+
+#: ../../cyberchimps/options/options-core.php:554
+msgid "Select link color"
+msgstr "Wählen Linkfarbe"
+
+#: ../../cyberchimps/options/options-core.php:562
+#: ../../cyberchimps/options/options-customizer.php:154
+msgid "Link Hover Color"
+msgstr "Link Hover Farbe"
+
+#: ../../cyberchimps/options/options-core.php:563
+msgid "Select link hover color"
+msgstr "Wählen Link hover Farbe"
+
+#: ../../cyberchimps/options/options-core.php:581
+msgid "Typography Options"
+msgstr "Typografie-Optionen"
+
+#: ../../cyberchimps/options/options-core.php:591
+msgid "Google fonts"
+msgstr "Google Fonts"
+
+#: ../../cyberchimps/options/options-core.php:600
+msgid "Enter Google font"
+msgstr "Geben Sie Google font"
+
+#: ../../cyberchimps/options/options-core.php:610
+msgid "Demo Text"
+msgstr "Demo Text"
+
+#: ../../cyberchimps/options/options-core.php:622
+msgid "Header Drag/Drop"
+msgstr "Header Drag / Drop"
+
+#: ../../cyberchimps/options/options-core.php:625
+#: ../../cyberchimps/options/options-core.php:629
+msgid "Logo + Icons"
+msgstr "Logo + Icons"
+
+#: ../../cyberchimps/options/options-core.php:630
+msgid "Logo + Search"
+msgstr "Logo + Suche"
+
+#: ../../cyberchimps/options/options-core.php:631
+msgid "Logo"
+msgstr "Logo"
+
+#: ../../cyberchimps/options/options-core.php:640
+msgid "Custom Logo URL"
+msgstr "Benutzerdefinierte Logo-URL"
+
+#: ../../cyberchimps/options/options-core.php:648
+msgid "URL"
+msgstr "URL"
+
+#: ../../cyberchimps/options/options-core.php:649
+msgid "Enter URL"
+msgstr "Geben Sie die URL"
+
+#: ../../cyberchimps/options/options-core.php:659
+msgid "Custom Logo"
+msgstr "Benutzerdefiniertes Logo"
+
+#: ../../cyberchimps/options/options-core.php:667
+msgid "Logo Image"
+msgstr "Logo Bild"
+
+#: ../../cyberchimps/options/options-core.php:668
+#: ../../cyberchimps/options/options-core.php:687
+#: ../../cyberchimps/options/options-core.php:705
+#: ../../cyberchimps/options/options-core.php:1083
+#: ../../cyberchimps/options/options-core.php:1127
+#: ../../cyberchimps/options/options-core.php:1171
+#: ../../cyberchimps/options/options-core.php:1215
+#: ../../cyberchimps/options/options-core.php:1291
+#: ../../cyberchimps/options/options-core.php:1310
+#: ../../cyberchimps/options/options-core.php:1329
+msgid "Enter URL or upload file"
+msgstr "Geben Sie die URL oder Datei-Upload"
+
+#: ../../cyberchimps/options/options-core.php:678
+msgid "Custom Favicon"
+msgstr "Benutzerdefiniertes Favicon"
+
+#: ../../cyberchimps/options/options-core.php:686
+msgid "Favicon URL"
+msgstr "Favicon URL"
+
+#: ../../cyberchimps/options/options-core.php:696
+msgid "Custom Apple touch icon"
+msgstr "Benutzerdefinierte Apple-touch-Symbol"
+
+#: ../../cyberchimps/options/options-core.php:704
+msgid "Apple Touch URL"
+msgstr "Apple Touch URL"
+
+#: ../../cyberchimps/options/options-core.php:715
+msgid "Searchbar"
+msgstr "Searchbar"
+
+#: ../../cyberchimps/options/options-core.php:727
+msgid "Choose your icon style"
+msgstr "Wählen Sie Ihr Symbol-Stil"
+
+#: ../../cyberchimps/options/options-core.php:740
+msgid "Twitter"
+msgstr "Twitter"
+
+#: ../../cyberchimps/options/options-core.php:748
+msgid "Twitter URL"
+msgstr "Twitter URL"
+
+#: ../../cyberchimps/options/options-core.php:758
+msgid "Facebook"
+msgstr "Facebook"
+
+#: ../../cyberchimps/options/options-core.php:766
+msgid "Facebook URL"
+msgstr "Facebook URL"
+
+#: ../../cyberchimps/options/options-core.php:776
+msgid "Google+"
+msgstr "Google+"
+
+#: ../../cyberchimps/options/options-core.php:784
+msgid "Google+ URL"
+msgstr "Google+ URL"
+
+#: ../../cyberchimps/options/options-core.php:794
+msgid "Flickr"
+msgstr "Flickr"
+
+#: ../../cyberchimps/options/options-core.php:801
+msgid "Flickr URL"
+msgstr "Flickr URL"
+
+#: ../../cyberchimps/options/options-core.php:811
+msgid "Pinterest"
+msgstr "Pinterest"
+
+#: ../../cyberchimps/options/options-core.php:818
+msgid "Pinterest URL"
+msgstr "Pinterest URL"
+
+#: ../../cyberchimps/options/options-core.php:828
+msgid "LinkedIn"
+msgstr "LinkedIn"
+
+#: ../../cyberchimps/options/options-core.php:835
+msgid "LinkedIn URL"
+msgstr "LinkedIn URL"
+
+#: ../../cyberchimps/options/options-core.php:845
+msgid "YouTube"
+msgstr "YouTube"
+
+#: ../../cyberchimps/options/options-core.php:852
+msgid "YouTube URL"
+msgstr "YouTube URL"
+
+#: ../../cyberchimps/options/options-core.php:862
+msgid "RSS"
+msgstr "RSS"
+
+#: ../../cyberchimps/options/options-core.php:869
+msgid "RSS URL"
+msgstr "RSS URL"
+
+#: ../../cyberchimps/options/options-core.php:879
+msgid "Email"
+msgstr "E-Mail"
+
+#: ../../cyberchimps/options/options-core.php:886
+msgid "Email Address"
+msgstr "E-Mail Adresse"
+
+#: ../../cyberchimps/options/options-core.php:895
+msgid "Google Maps"
+msgstr "Google Maps"
+
+#: ../../cyberchimps/options/options-core.php:902
+msgid "Google Maps URL"
+msgstr "Google Maps URL"
+
+#: ../../cyberchimps/options/options-core.php:919
+msgid "Drag & Drop Blog Elements"
+msgstr "Drag & Drop Blog Elements"
+
+#: ../../cyberchimps/options/options-core.php:924
+#: ../../cyberchimps/options/options-core.php:930 ../../elements/init.php:48
+msgid "Post Page"
+msgstr "Post-Seite"
+
+#: ../../cyberchimps/options/options-core.php:940
+#: ../../cyberchimps/options/options-core.php:1811
+#: ../../cyberchimps/options/options-core.php:1905
+#: ../../cyberchimps/options/options-core.php:1997
+#: ../../cyberchimps/options/options-core.php:2040
+msgid "Sidebar Options"
+msgstr "Sidebar-Optionen"
+
+#: ../../cyberchimps/options/options-core.php:953
+msgid "Post Formats Icons"
+msgstr "Beitrag Formate Icons"
+
+#: ../../cyberchimps/options/options-core.php:960
+#: ../../cyberchimps/options/options-core.php:1927
+#: ../../cyberchimps/options/options-core.php:2011
+msgid "Post Excerpts"
+msgstr "Beitrag Auszüge"
+
+#: ../../cyberchimps/options/options-core.php:968
+#: ../../cyberchimps/options/options-core.php:2019
+msgid "Read More Text"
+msgstr "Mehr Text"
+
+#: ../../cyberchimps/options/options-core.php:977
+#: ../../cyberchimps/options/options-core.php:2029
+msgid "Excerpt Length"
+msgstr "Auszug Länge"
+
+#: ../../cyberchimps/options/options-core.php:986
+#: ../../cyberchimps/options/options-core.php:1835
+#: ../../cyberchimps/options/options-core.php:1936
+msgid "Featured Images"
+msgstr "Besondere Aufnahmen"
+
+#: ../../cyberchimps/options/options-core.php:997
+#: ../../cyberchimps/options/options-core.php:1853
+#: ../../cyberchimps/options/options-core.php:1946
+msgid "Post Byline Author"
+msgstr "Beitrag Verfasserzeile Autor"
+
+#: ../../cyberchimps/options/options-core.php:1007
+#: ../../cyberchimps/options/options-core.php:1863
+#: ../../cyberchimps/options/options-core.php:1956
+msgid "Post Byline Categories"
+msgstr "Beitrag Verfasserzeile Kategorien"
+
+#: ../../cyberchimps/options/options-core.php:1017
+#: ../../cyberchimps/options/options-core.php:1873
+#: ../../cyberchimps/options/options-core.php:1966
+msgid "Post Byline Date"
+msgstr "Beitrag Verfasserzeile Datum"
+
+#: ../../cyberchimps/options/options-core.php:1027
+#: ../../cyberchimps/options/options-core.php:1883
+#: ../../cyberchimps/options/options-core.php:1976
+msgid "Post Byline Comments"
+msgstr "Beitrag Verfasserzeile Kommentare"
+
+#: ../../cyberchimps/options/options-core.php:1037
+#: ../../cyberchimps/options/options-core.php:1894
+#: ../../cyberchimps/options/options-core.php:1986
+msgid "Post Byline Tags"
+msgstr "Beitrag Verfasserzeile Schlagworte"
+
+#: ../../cyberchimps/options/options-core.php:1051
+msgid "Boxes Upgrade"
+msgstr "Boxen-Upgrade"
+
+#: ../../cyberchimps/options/options-core.php:1054
+#, php-format
+msgid ""
+"Boxes Lite limits you to a total of 3 boxes throughout your whole site. "
+"Upgrade to %1$s to be able to create as many boxes as you like. Categorize "
+"them and display each category on a different page."
+msgstr ""
+"Boxen Lite beschränkt Sie auf insgesamt 3 Boxen in Ihrem gesamten Website. "
+"Upgrade auf %1$s in der Lage sein, so viele Boxen zu erstellen, wie Sie "
+"möchten. Kategorisieren und zeigt jede Kategorie auf einer anderen Seite."
+
+#: ../../cyberchimps/options/options-core.php:1067
+msgid "Portfolio Upgrade"
+msgstr "Portfolio-Upgrade"
+
+#: ../../cyberchimps/options/options-core.php:1070
+#, php-format
+msgid ""
+"Portfolio Lite limits you to a total of 4 items throughout your whole site. "
+"Upgrade to %1$s to be able to create as many portfolio items as you like. "
+"Categorize them and display each category on a different page."
+msgstr ""
+"Portfolio Lite beschränkt Sie auf insgesamt 4 Artikel in Ihrem gesamten "
+"Website. Upgrade auf %1$s in der Lage sein, so viele Portfolio-Positionen "
+"erstellen, wie Sie möchten. Kategorisieren und zeigt jede Kategorie auf "
+"einer anderen Seite."
+
+#: ../../cyberchimps/options/options-core.php:1278
+msgid "Slider Upgrade"
+msgstr "Slider-Upgrade"
+
+#: ../../cyberchimps/options/options-core.php:1281
+#, php-format
+msgid ""
+"Slider Lite limits you to a total of 3 images throughout your whole site. "
+"Upgrade to %1$s to be able to create more images. Categorize them and "
+"display each category on a different page."
+msgstr ""
+"Slider Lite beschränkt Sie auf einer Gesamtfläche von 3 Bildern in Ihrer "
+"gesamten Website. Upgrade auf %1$s in der Lage sein, um weitere Bilder zu "
+"schaffen. Kategorisieren und zeigt jede Kategorie auf einer anderen Seite."
+
+#: ../../cyberchimps/options/options-core.php:1290
+msgid "Slider Image 1"
+msgstr "Slider Bild 1"
+
+#: ../../cyberchimps/options/options-core.php:1300
+msgid "Slide 1 URL"
+msgstr "Schieben 1 URL"
+
+#: ../../cyberchimps/options/options-core.php:1309
+msgid "Slider Image 2"
+msgstr "Slider Bild 2"
+
+#: ../../cyberchimps/options/options-core.php:1319
+msgid "Slide 2 URL"
+msgstr "Schieben 2 URL"
+
+#: ../../cyberchimps/options/options-core.php:1328
+msgid "Slider Image 3"
+msgstr "Slider Bild 3"
+
+#: ../../cyberchimps/options/options-core.php:1338
+msgid "Slide 3 URL"
+msgstr "Schieben 3 URL"
+
+#: ../../cyberchimps/options/options-core.php:1354
+msgid "Images per Row"
+msgstr "Bilder pro Zeile"
+
+#: ../../cyberchimps/options/options-core.php:1451
+msgid "Number of Wide Posts"
+msgstr "Anzahl der Wide Beiträge"
+
+#: ../../cyberchimps/options/options-core.php:1526
+msgid "Number of Featured Blog Posts"
+msgstr "Anzahl der Vorgestellte Blog Posts"
+
+#: ../../cyberchimps/options/options-core.php:1545
+msgid "Slider Speed "
+msgstr "Slider Geschwindigkeit "
+
+#: ../../cyberchimps/options/options-core.php:1595
+msgid "Click Here"
+msgstr "Klicken Sie hier!"
+
+#: ../../cyberchimps/options/options-core.php:1621
+msgid "Custom Callout Button"
+msgstr "Benutzerdefiniertes Callout"
+
+#: ../../cyberchimps/options/options-core.php:1631
+msgid "Custom Callout Background Color"
+msgstr "Benutzerdefiniertes Callout Hintergrundfarbe"
+
+#: ../../cyberchimps/options/options-core.php:1641
+msgid "Custom Callout Title Color"
+msgstr "Benutzerdefiniertes Callout Titel Farbe"
+
+#: ../../cyberchimps/options/options-core.php:1651
+msgid "Custom Callout Text Color"
+msgstr "Benutzerdefiniertes Callout Text Color"
+
+#: ../../cyberchimps/options/options-core.php:1661
+msgid "Custom Callout Button Color"
+msgstr "Benutzerdefiniertes Callout Farbe"
+
+#: ../../cyberchimps/options/options-core.php:1671
+msgid "Custom Callout Button Text Color"
+msgstr "Benutzerdefiniertes Callout Text Color"
+
+#: ../../cyberchimps/options/options-core.php:1684
+msgid "HTML Box"
+msgstr "HTML Box"
+
+#: ../../cyberchimps/options/options-core.php:1687
+msgid "Enter your custom HTML code here"
+msgstr "Geben Sie Ihre eigenen HTML-Code hier"
+
+#: ../../cyberchimps/options/options-core.php:1707
+msgid "Custom Title"
+msgstr "Benutzerdefinierte Titel"
+
+#: ../../cyberchimps/options/options-core.php:1740
+#: ../../cyberchimps/options/options-core.php:1750
+#: ../../cyberchimps/options/options-core.php:1763
+#: ../../cyberchimps/options/options-core.php:1773
+msgid "Select a Category"
+msgstr "Kategorie auswählen"
+
+#: ../../cyberchimps/options/options-core.php:1812
+#: ../../cyberchimps/options/options-core.php:1906
+#: ../../cyberchimps/options/options-core.php:1998
+#: ../../cyberchimps/options/options-core.php:2041
+msgid "Images for layout."
+msgstr "Bilder für das Layout."
+
+#: ../../cyberchimps/options/options-core.php:1826
+msgid "Post title"
+msgstr "Post-Titel"
+
+#: ../../cyberchimps/options/options-core.php:1843
+#: ../../cyberchimps/options/options-core.php:1919
+msgid "Post Format Icons"
+msgstr "Beitrag Format Icons"
+
+#: ../../cyberchimps/options/options-core.php:2054
+msgid "Custom 404 Title"
+msgstr "Custom 404 Titel"
+
+#: ../../cyberchimps/options/options-core.php:2062
+msgid "Custom 404 Content"
+msgstr "Custom 404 Inhalt"
+
+#: ../../cyberchimps/options/options-core.php:2083
+msgid "Footer Copyright Text"
+msgstr "Footer Copyright Text"
+
+#: ../../cyberchimps/options/options-core.php:2092
+msgid "Google Analytics"
+msgstr "Google Analytics"
+
+#: ../../cyberchimps/options/options-core.php:2094
+msgid "Copy and paste your Google Analytics code here"
+msgstr "Kopieren und fügen Sie Ihrem Google Analytics Code hier"
+
+#: ../../cyberchimps/options/options-customizer.php:22
+msgid "Customize"
+msgstr "Anpassen"
+
+#: ../../cyberchimps/options/options-customizer.php:69
+msgid ""
+"make sure you have removed the image above before selecting one of these"
+msgstr ""
+"stellen Sie sicher, das Bild oben entfernt werden, bevor Sie eine dieser"
+
+#: ../../cyberchimps/options/options-customizer.php:116
+msgid "Skin Color"
+msgstr "Hautfarbe"
+
+#: ../../cyberchimps/options/options-customizer.php:172
+msgid "Typography Size"
+msgstr "Typography Größe"
+
+#: ../../cyberchimps/options/options-customizer.php:186
+msgid "Typography Face"
+msgstr "Typography Gesicht"
+
+#: ../../cyberchimps/options/options-customizer.php:199
+msgid "Typography Style"
+msgstr "Typography Stil"
+
+#: ../../cyberchimps/options/options-customizer.php:213
+msgid "Background Image"
+msgstr "Hintergrundbilder"
+
+#: ../../cyberchimps/options/options-init.php:34
+msgid "Theme Options Page"
+msgstr "Theme Optionen Seite"
+
+#: ../../cyberchimps/options/options-init.php:35
+#: ../../cyberchimps/options/options-init.php:1054
+msgid "Theme Options"
+msgstr "Theme Options"
+
+#: ../../cyberchimps/options/options-init.php:135
+msgid "Buy Themes"
+msgstr "Kaufen Themes"
+
+#: ../../cyberchimps/options/options-init.php:167
+msgid "Open All"
+msgstr "Alle öffnen"
+
+#: ../../cyberchimps/options/options-init.php:168
+msgid "Collapse All"
+msgstr "Alle ausblendern"
+
+#: ../../cyberchimps/options/options-init.php:175
+#: ../../cyberchimps/options/options-init.php:283
+msgid "Restore Defaults"
+msgstr "Standard wiederherstellen"
+
+#: ../../cyberchimps/options/options-init.php:175
+#: ../../cyberchimps/options/options-init.php:283
+msgid "Click OK to reset. Any theme settings will be lost!"
+msgstr ""
+"Klicken Sie auf OK, um zurückzusetzen. Alle Design-Einstellungen gehen "
+"verloren!"
+
+#: ../../cyberchimps/options/options-init.php:176
+#: ../../cyberchimps/options/options-init.php:237
+#: ../../cyberchimps/options/options-init.php:284
+msgid "Save Options"
+msgstr "Optionen speichern"
+
+#: ../../cyberchimps/options/options-init.php:269
+msgid "CyberChimps Wordpress Themes"
+msgstr "CyberChimps Wordpress Themes"
+
+#: ../../cyberchimps/options/options-init.php:393
+msgid "Link to Events plugin settings"
+msgstr "Link zu Events Plugin-Einstellungen"
+
+#: ../../cyberchimps/options/options-init.php:395
+msgid "Insert custom events info and insert install link"
+msgstr "Legen Sie benutzerdefinierte Ereignisse info und legen install Link"
+
+#: ../../cyberchimps/options/options-init.php:518
+msgid "Default Field"
+msgstr "Standard Feld"
+
+#: ../../cyberchimps/options/options-init.php:930
+msgid "Options Imported"
+msgstr "Optionen Importierte"
+
+#: ../../cyberchimps/options/options-init.php:933
+msgid "Invalid Data for Import"
+msgstr "Ungültige Daten für Import"
+
+#: ../../cyberchimps/options/options-init.php:946
+msgid "Default options restored."
+msgstr "Standardoptionen restauriert."
+
+#: ../../cyberchimps/options/options-init.php:1008
+msgid "Options saved."
+msgstr "Optionen gespeichert!!"
+
+#: ../../cyberchimps/options/options-medialibrary-uploader.php:23
+msgid "Theme Options Media"
+msgstr "Theme Options Medien"
+
+#: ../../cyberchimps/options/options-medialibrary-uploader.php:135
+msgid "View File"
+msgstr "Datei anzeigen"
+
+#: ../../cyberchimps/options/options-medialibrary-uploader.php:256
+msgid "Gallery"
+msgstr "Gallerie"
+
+#: ../../cyberchimps/options/options-medialibrary-uploader.php:256
+msgid "Previously Uploaded"
+msgstr "Vorher hochgeladen"
+
+#: ../../cyberchimps/options/options-sanitize.php:260
+msgid "No Repeat"
+msgstr "Keine Wiederholung"
+
+#: ../../cyberchimps/options/options-sanitize.php:261
+msgid "Repeat Horizontally"
+msgstr "Horizontal wiederholen"
+
+#: ../../cyberchimps/options/options-sanitize.php:262
+msgid "Repeat Vertically"
+msgstr "Vertikal wiederholen"
+
+#: ../../cyberchimps/options/options-sanitize.php:263
+msgid "Repeat All"
+msgstr "Alle wiederholen"
+
+#: ../../cyberchimps/options/options-sanitize.php:276
+msgid "Top Left"
+msgstr "Oben links"
+
+#: ../../cyberchimps/options/options-sanitize.php:277
+msgid "Top Center"
+msgstr "Oben Mitte"
+
+#: ../../cyberchimps/options/options-sanitize.php:278
+msgid "Top Right"
+msgstr "Oben rechts"
+
+#: ../../cyberchimps/options/options-sanitize.php:279
+msgid "Middle Left"
+msgstr "Mitte links"
+
+#: ../../cyberchimps/options/options-sanitize.php:280
+msgid "Middle Center"
+msgstr "Mittig"
+
+#: ../../cyberchimps/options/options-sanitize.php:281
+msgid "Middle Right"
+msgstr "Mitte rechts"
+
+#: ../../cyberchimps/options/options-sanitize.php:282
+msgid "Bottom Left"
+msgstr "Unten links"
+
+#: ../../cyberchimps/options/options-sanitize.php:283
+msgid "Bottom Center"
+msgstr "Mitte unten"
+
+#: ../../cyberchimps/options/options-sanitize.php:284
+msgid "Bottom Right"
+msgstr "Unten rechts"
+
+#: ../../cyberchimps/options/options-sanitize.php:297
+msgid "Scroll Normally"
+msgstr "Blättern Normalerweise"
+
+#: ../../cyberchimps/options/options-sanitize.php:298
+msgid "Fixed in Place"
+msgstr "Fixiert"
+
+#: ../../cyberchimps/options/options-sanitize.php:370
+msgid "Normal"
+msgstr "Normal"
+
+#: ../../cyberchimps/options/options-sanitize.php:371
+msgid "Italic"
+msgstr "Kursiv"
+
+#: ../../cyberchimps/options/options-sanitize.php:372
+msgid "Bold"
+msgstr "Fett"
+
+#: ../../cyberchimps/options/options-sanitize.php:373
+msgid "Bold Italic"
+msgstr "Fett Kursiv"
+
+#: ../../elements/boxes.php:39 ../../elements/boxes.php:41
+msgid "Boxes Lite Element"
+msgstr "Boxen Lite Element"
+
+#: ../../elements/boxes.php:42
+msgid "Box Image"
+msgstr "Box Bild"
+
+#: ../../elements/boxes.php:43
+msgid "Box URL"
+msgstr "Box URL"
+
+#: ../../elements/boxes.php:44
+msgid "Box Text"
+msgstr "Box Text"
+
+#: ../../elements/boxes.php:148
+msgid "Responsive iFeature Slider"
+msgstr "Responsive iFeature Slider"
+
+#: ../../elements/boxes.php:149
+msgid ""
+"The New Touch Friendly iFeature 5 Slider now responds to any mobile touch "
+"device."
+msgstr ""
+"Die neue Touch Freundlich iFeature 5 Slider reagiert nun auf jedem mobilen "
+"Touch-Gerät."
+
+#: ../../elements/boxes.php:157
+msgid ""
+"With iFeature Pro 5 and touch friendly responsive design you can now control "
+"your website on any device."
+msgstr ""
+"Mit iFeature Pro 5 und Touch freundliche ansprechende Design können Sie "
+"jetzt steuern Ihre Website auf jedem Gerät."
+
+#: ../../elements/boxes.php:164
+msgid "Excellent Support"
+msgstr "Hervorragende Unterstützung"
+
+#: ../../elements/boxes.php:165
+msgid ""
+"Need help? Read the instructions and please visit our dedicated Pro Support "
+"Forum"
+msgstr ""
+"Brauchen Sie Hilfe? Lesen Sie die Anweisungen und besuchen Sie unseren "
+"engagierten Pro Support Forum"
+
+#: ../../elements/twitter-bar.php:90
+msgid "No tweets to display"
+msgstr "Keine Tweets anzuzeigen"
+
+#: ../../elements/twitter-bar.php:167
+msgid "Invalid Response"
+msgstr "Ungültige Antwort"

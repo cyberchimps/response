@@ -1,0 +1,1722 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: response v2.0.5\n"
+"POT-Creation-Date: 2012-12-17 15:14-0000\n"
+"PO-Revision-Date: 2012-12-19 13:10-0000\n"
+"Last-Translator: \n"
+"Language-Team: CyberChimps\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx;esc_attr__;"
+"esc_attr_e;esc_attr_x;esc_html__;esc_html_e;esc_html_x;_n_noop;_nx_noop;"
+"translate_nooped_plural\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SearchPath-0: ../..\n"
+
+#: ../../404.php:36
+msgid "Oops! That page cannot be found."
+msgstr "Oops! Это страница не может быть найдена."
+
+#: ../../404.php:44
+msgid ""
+"It looks like nothing was found at this location. Maybe try searching for it?"
+msgstr ""
+"Похоже, ничего найдено не было на этом месте. Может быть, попробуйте "
+"поискать его?"
+
+#: ../../archive.php:36
+#, php-format
+msgid "Category Archives: %s"
+msgstr "Архив категорий: %s"
+
+#: ../../archive.php:39
+#, php-format
+msgid "Tag Archives: %s"
+msgstr "Tag Archives: %s"
+
+#: ../../archive.php:46
+#, php-format
+msgid "Author Archives: %s"
+msgstr "Архив автора: %s"
+
+#: ../../archive.php:54
+#, php-format
+msgid "Daily Archives: %s"
+msgstr "Ежедневные архивы: %s"
+
+#: ../../archive.php:57
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr "Архивы за месяц: %s"
+
+#: ../../archive.php:60
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr "Архивы за год: %s"
+
+#: ../../archive.php:63 ../../footer.php:35 ../../sidebar-left.php:34
+#: ../../sidebar-right.php:34 ../../sidebar.php:34
+msgid "Archives"
+msgstr "Архив"
+
+#: ../../comments.php:36
+#, php-format
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "Одна мысль о &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s мысль о &ldquo;%2$s&rdquo;"
+
+#: ../../comments.php:43 ../../comments.php:63
+msgid "Comment navigation"
+msgstr "Комментарий навигации"
+
+#: ../../comments.php:44 ../../comments.php:64
+msgid "Older Comments"
+msgstr "&laquo; Старые комментарии"
+
+#: ../../comments.php:45 ../../comments.php:65
+msgid "Newer Comments"
+msgstr "Новые комментарии &raquo;"
+
+#: ../../comments.php:75
+msgid "Comments are closed."
+msgstr "Комментарии закрыты"
+
+#: ../../content.php:41 ../../content.php:44
+#: ../../cyberchimps/functions.php:422
+#, php-format
+msgid "Permalink to %s"
+msgstr "Постоянная ссылка на %s"
+
+#: ../../content.php:61 ../../content.php:90
+msgid "Continue reading"
+msgstr "Продолжить чтение"
+
+#: ../../content.php:62 ../../content.php:91 ../../image.php:79
+msgid "Pages:"
+msgstr "Страницы:"
+
+#: ../../content.php:108 ../../image.php:51 ../../image.php:157
+msgid "Edit"
+msgstr "Редактировать"
+
+#: ../../footer.php:28 ../../sidebar-left.php:27 ../../sidebar-right.php:27
+#: ../../sidebar.php:27
+msgid "Pages"
+msgstr "Страницы"
+
+#: ../../footer.php:42 ../../sidebar-left.php:41 ../../sidebar-right.php:41
+#: ../../sidebar.php:41 ../../cyberchimps/options/options-core.php:289
+msgid "Categories"
+msgstr "Категории"
+
+#: ../../footer.php:49 ../../footer.php:53 ../../sidebar-left.php:48
+#: ../../sidebar-left.php:52 ../../sidebar-right.php:48
+#: ../../sidebar-right.php:52 ../../sidebar.php:48 ../../sidebar.php:52
+msgid "WordPress"
+msgstr "WordPress"
+
+#: ../../footer.php:53 ../../sidebar-left.php:52 ../../sidebar-right.php:52
+#: ../../sidebar.php:52
+msgid ""
+"Powered by WordPress, state-of-the-art semantic personal publishing platform."
+msgstr ""
+"Работает на WordPress, о состоянии современной семантической личные "
+"издательской платформой."
+
+#: ../../functions.php:50
+msgid "Pingback:"
+msgstr "Pingback:"
+
+#: ../../functions.php:50 ../../functions.php:75
+msgid "(Edit)"
+msgstr "Редактировать"
+
+#: ../../functions.php:62
+msgid "says"
+msgstr "говорит"
+
+#: ../../functions.php:65
+msgid "Your comment is awaiting moderation."
+msgstr "Ваш комментарий ожидает модерации."
+
+#: ../../functions.php:73
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s at %2$s"
+
+#: ../../functions.php:166
+msgid "CyberChimps Professional Responsive WordPress Theme"
+msgstr "CyberChimps профессионального реагирования темы WordPress"
+
+#: ../../image.php:47
+msgid "Published"
+msgstr "Опубликованно"
+
+#: ../../image.php:48
+msgid "size"
+msgstr "Size())';"
+
+#: ../../image.php:55
+msgid "Previous"
+msgstr "Пред."
+
+#: ../../image.php:56
+msgid "Next"
+msgstr "След"
+
+#: ../../image.php:138
+msgid "Post a comment"
+msgstr "Добавить комментарий"
+
+#: ../../image.php:139
+msgid "or leave a trackback"
+msgstr "или трекбек"
+
+#: ../../image.php:141 ../../image.php:147
+msgid "Trackback URL"
+msgstr "Trackback URL"
+
+#: ../../image.php:145
+msgid "Comments are closed, but you can leave a trackback"
+msgstr "Комментарии закрыты, но вы можете оставить трекбек"
+
+#: ../../image.php:151
+msgid "Trackbacks are closed, but you can"
+msgstr "Обратные ссылки являются закрытыми, но вы можете"
+
+#: ../../image.php:152
+msgid "post a comment"
+msgstr "оставить комментарий"
+
+#: ../../image.php:155
+msgid "Both comments and trackbacks are currently closed."
+msgstr "Оба замечания и обратные ссылки в настоящее время закрыты."
+
+#: ../../no-results.php:21
+msgid "Nothing Found"
+msgstr "Ничего не найдено"
+
+#: ../../no-results.php:28
+msgid "Ready to publish your first post?"
+msgstr "Готовы опубликовать свой первый пост?"
+
+#: ../../no-results.php:30
+msgid "Get started here"
+msgstr "Начните здесь"
+
+#: ../../no-results.php:35
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+"Извините, но ничего не соответствующих условиям поиска. Пожалуйста, "
+"попробуйте еще раз с некоторыми различные ключевые слова."
+
+#: ../../no-results.php:40
+msgid ""
+"It seems we cannot find what you are looking for. Perhaps searching can help."
+msgstr ""
+"Кажется, мы не можем найти то, что вы ищете. Возможно, поиск может помочь."
+
+#: ../../search.php:33
+#, php-format
+msgid "Search Results for: %s"
+msgstr "Результаты поиска для: %s"
+
+#: ../../searchform.php:19 ../../cyberchimps/options/options-core.php:243
+msgid "Search"
+msgstr "Поиск"
+
+#: ../../sidebar-left.php:58 ../../sidebar-right.php:58 ../../sidebar.php:58
+msgid "Subscribe"
+msgstr "Подпис"
+
+#: ../../sidebar-left.php:60 ../../sidebar-right.php:60 ../../sidebar.php:60
+msgid "Entries (RSS)"
+msgstr "Записи (RSS)"
+
+#: ../../sidebar-left.php:61 ../../sidebar-right.php:61 ../../sidebar.php:61
+msgid "Comments (RSS)"
+msgstr "Комментарии (RSS)"
+
+#: ../../cyberchimps/functions.php:313
+msgid "View all posts by"
+msgstr "Просмотреть все сообщения"
+
+#: ../../cyberchimps/functions.php:315
+msgid "Posted on "
+msgstr "Написал "
+
+#: ../../cyberchimps/functions.php:316
+msgid " by "
+msgstr " от "
+
+#: ../../cyberchimps/functions.php:341
+msgid "Posted in"
+msgstr "Опубликовано в"
+
+#: ../../cyberchimps/functions.php:367
+msgid "Tags:"
+msgstr "Теги:"
+
+#: ../../cyberchimps/functions.php:390 ../../cyberchimps/functions.php:402
+msgid "Leave a comment"
+msgstr "Оставь свой коментарий"
+
+#: ../../cyberchimps/functions.php:393
+msgid "1 Comment"
+msgstr "1 комментарий"
+
+#: ../../cyberchimps/functions.php:393
+#: ../../cyberchimps/options/options-core.php:291
+msgid "Comments"
+msgstr "Комментарии"
+
+#: ../../cyberchimps/functions.php:502 ../../cyberchimps/inc/meta-box.php:133
+#: ../../elements/init.php:60
+msgid "Page"
+msgstr "странице"
+
+#: ../../cyberchimps/functions.php:602
+msgid "Continue Reading"
+msgstr "Продолжить чтение"
+
+#: ../../cyberchimps/functions.php:763
+msgid "Welcome"
+msgstr "Добро пожаловать"
+
+#: ../../cyberchimps/functions.php:767
+msgid "Congratulations you have successfully installed"
+msgstr "Поздравляем, Вы успешно установили"
+
+#: ../../cyberchimps/functions.php:769
+msgid "Your website is important to us, so please read the"
+msgstr "Ваш сайт очень важна для нас, поэтому, пожалуйста, прочитайте"
+
+#: ../../cyberchimps/functions.php:769
+msgid "instructions"
+msgstr "инструкции."
+
+#: ../../cyberchimps/functions.php:769
+msgid "to learn how to use"
+msgstr "чтобы узнать, как использовать"
+
+#: ../../cyberchimps/functions.php:771
+msgid "If you have any questions please post in our"
+msgstr "Если у Вас возникли вопросы, пожалуйста, сообщение в нашей"
+
+#: ../../cyberchimps/functions.php:771
+msgid "support forum"
+msgstr "Форум поддержки"
+
+#: ../../cyberchimps/functions.php:771
+msgid "and we will get back to you as soon as we can"
+msgstr "и мы свяжемся с Вами, как только мы можем"
+
+#: ../../cyberchimps/functions.php:773
+msgid "Thank you for choosing CyberChimps Professional WordPress Themes"
+msgstr "Благодарим вас за выбор CyberChimps Профессиональные WordPress Themes"
+
+#: ../../cyberchimps/functions.php:776
+#: ../../cyberchimps/options/options-core.php:1055
+#: ../../cyberchimps/options/options-core.php:1071
+#: ../../cyberchimps/options/options-core.php:1282
+msgid "Pro"
+msgstr "Про"
+
+#: ../../cyberchimps/functions.php:783
+msgid "Complete Installation"
+msgstr "Полная установка"
+
+#: ../../cyberchimps/functions.php:800
+#: ../../cyberchimps/options/options-init.php:134
+msgid "Instructions"
+msgstr "Инструкции"
+
+#: ../../cyberchimps/functions.php:806
+#: ../../cyberchimps/options/options-init.php:133
+msgid "Support"
+msgstr "Поддержка"
+
+#: ../../cyberchimps/functions.php:815
+msgid "Upgrade to"
+msgstr "Обновление до"
+
+#: ../../cyberchimps/functions.php:821
+msgid "If you want even more amazing new features upgrade to"
+msgstr "Если вы хотите еще более удивительные новые функции обновления до"
+
+#: ../../cyberchimps/functions.php:821
+msgid ""
+"which includes a Custom Features Slider, Image Carousel, Widgetized Boxes, "
+"Callout Section, expanded typography including Google Fonts, more color "
+"skins, and many more powerful new features. Please visit"
+msgstr ""
+"который включает в себя пользовательский Slider характеристики, изображения "
+"Карусель, виджеты коробки, Выноска раздел, расширенный типографии в том "
+"числе Google шрифты, более шкуры цвет, и многие другие мощные новые "
+"возможности. Пожалуйста, посетите"
+
+#: ../../cyberchimps/functions.php:821
+msgid "to learn more!"
+msgstr "чтобы узнать больше!"
+
+#: ../../cyberchimps/functions.php:838
+#, php-format
+msgid "Welcome to %1$s! Learn more now about upgrading to"
+msgstr "Добро пожаловать на %1$s ! Узнать больше сейчас об обновлении до"
+
+#: ../../cyberchimps/functions.php:838
+msgid "today."
+msgstr "."
+
+#: ../../cyberchimps/functions.php:888
+#: ../../cyberchimps/options/options-init.php:128
+msgid "Options"
+msgstr "параметры"
+
+#: ../../cyberchimps/functions.php:888
+msgid " Options"
+msgstr " параметры"
+
+#: ../../cyberchimps/init.php:79
+msgid "Primary Menu"
+msgstr "Первичное меню"
+
+#: ../../cyberchimps/init.php:154
+msgid "Sidebar Left"
+msgstr "Левая боковая панель"
+
+#: ../../cyberchimps/init.php:163
+msgid "Sidebar Right"
+msgstr "Правая боковая панель"
+
+#: ../../cyberchimps/init.php:172
+#: ../../cyberchimps/options/options-core.php:2073
+msgid "Footer Widgets"
+msgstr "Footer Виджеты"
+
+#: ../../cyberchimps/inc/cc-custom-background.php:98
+msgid "Or choose one of CyberChimps background images"
+msgstr "Или выбрать один из CyberChimps фоновые изображения"
+
+#: ../../cyberchimps/inc/meta-box-class.php:376
+msgid "Uploaded files"
+msgstr "Загруженные файлы"
+
+#: ../../cyberchimps/inc/meta-box-class.php:390
+msgid "Upload new files"
+msgstr "Загрузите новые файлы"
+
+#: ../../cyberchimps/inc/meta-box-class.php:393
+msgid "Add more file"
+msgstr "Добавить еще файл"
+
+#: ../../cyberchimps/inc/meta-box-class.php:418
+msgid "Uploaded images"
+msgstr "Загруженные изображения"
+
+#: ../../cyberchimps/inc/meta-box-class.php:432
+msgid "Upload new images (Make sure to publish the post to save)"
+msgstr ""
+"Загрузить новое изображение (Убедитесь в том, чтобы опубликовать сообщение в "
+"сохранение)"
+
+#: ../../cyberchimps/inc/meta-box-class.php:444
+msgid "Select a color"
+msgstr "Выбрать цвет"
+
+#: ../../cyberchimps/inc/meta-box-class.php:603
+#: ../../cyberchimps/options/options-medialibrary-uploader.php:112
+msgid "Upload"
+msgstr "скачать"
+
+#: ../../cyberchimps/inc/meta-box-class.php:604
+msgid "or enter URL"
+msgstr "или введите URL"
+
+#: ../../cyberchimps/inc/meta-box.php:110
+msgid "Slider Options"
+msgstr "Slider параметры"
+
+#: ../../cyberchimps/inc/meta-box.php:113
+msgid "Slider Image"
+msgstr "Слайдер изображений"
+
+#: ../../cyberchimps/inc/meta-box.php:114
+msgid "Slider Caption"
+msgstr "Slider Caption"
+
+#: ../../cyberchimps/inc/meta-box.php:115
+msgid "Custom Slide Link"
+msgstr "Пользовательские ссылки слайдов"
+
+#: ../../cyberchimps/inc/meta-box.php:116
+#: ../../cyberchimps/inc/meta-box.php:203
+#: ../../cyberchimps/inc/meta-box.php:222
+#: ../../cyberchimps/inc/meta-box.php:224
+#: ../../cyberchimps/options/options-core.php:1266
+#: ../../cyberchimps/options/options-core.php:1396
+#: ../../cyberchimps/options/options-core.php:1698
+msgid "Title"
+msgstr "Title"
+
+#: ../../cyberchimps/inc/meta-box.php:117
+msgid "Caption"
+msgstr "Подпись"
+
+#: ../../cyberchimps/inc/meta-box.php:118
+#: ../../cyberchimps/inc/meta-box.php:140
+#: ../../cyberchimps/inc/meta-box.php:168
+msgid "Need Help?"
+msgstr "Нужна помощь?"
+
+#: ../../cyberchimps/inc/meta-box.php:124
+msgid "Select Page Layout"
+msgstr "Выберите Page Layout"
+
+#: ../../cyberchimps/inc/meta-box.php:129
+msgid "Page Title"
+msgstr "Название страницы"
+
+#: ../../cyberchimps/inc/meta-box.php:130
+msgid "Page Elements"
+msgstr "Элементы страницы"
+
+#: ../../cyberchimps/inc/meta-box.php:132
+#: ../../cyberchimps/options/options-core.php:923
+#: ../../cyberchimps/options/options-core.php:928
+msgid "Boxes"
+msgstr "Коробки"
+
+#: ../../cyberchimps/inc/meta-box.php:134
+#: ../../cyberchimps/options/options-core.php:929 ../../elements/init.php:47
+#: ../../elements/init.php:59
+msgid "Portfolio Lite"
+msgstr "Портфолио Lite"
+
+#: ../../cyberchimps/inc/meta-box.php:135
+#: ../../cyberchimps/options/options-core.php:922
+#: ../../cyberchimps/options/options-core.php:931 ../../elements/init.php:49
+#: ../../elements/init.php:61
+msgid "Slider Lite"
+msgstr "Slider Lite"
+
+#: ../../cyberchimps/inc/meta-box.php:136
+#: ../../cyberchimps/options/options-core.php:932 ../../elements/init.php:50
+#: ../../elements/init.php:62
+msgid "Twitter Bar"
+msgstr "Twitter Bar"
+
+#: ../../cyberchimps/inc/meta-box.php:142
+#: ../../cyberchimps/options/options-core.php:1407
+msgid "Meta Data"
+msgstr "Метаданные: %"
+
+#: ../../cyberchimps/inc/meta-box.php:143
+#: ../../cyberchimps/options/options-core.php:1416
+msgid "Number of Columns"
+msgstr "Количество столбцов"
+
+#: ../../cyberchimps/inc/meta-box.php:144
+#: ../../cyberchimps/options/options-core.php:1428
+msgid "Number of Rows"
+msgstr "Количество рядов"
+
+#: ../../cyberchimps/inc/meta-box.php:145
+#: ../../cyberchimps/options/options-core.php:1442
+msgid "Wide Posts Below Magazine"
+msgstr "Широкий сообщения Ниже Magazine"
+
+#: ../../cyberchimps/inc/meta-box.php:146
+msgid "Number of Wide Posts "
+msgstr "Количество Широкий сообщения "
+
+#: ../../cyberchimps/inc/meta-box.php:153
+msgid "Slide One Image"
+msgstr "Вставьте один Изображение"
+
+#: ../../cyberchimps/inc/meta-box.php:154
+msgid "Slide One Link"
+msgstr "Слайд One Link"
+
+#: ../../cyberchimps/inc/meta-box.php:155
+msgid "Slide Two Image"
+msgstr "Презентация два изображения"
+
+#: ../../cyberchimps/inc/meta-box.php:156
+msgid "Slide Two Link"
+msgstr "Вставьте два Link"
+
+#: ../../cyberchimps/inc/meta-box.php:157
+msgid "Slide Three Image"
+msgstr "Вставьте три изображения"
+
+#: ../../cyberchimps/inc/meta-box.php:158
+msgid "Slide Three Link"
+msgstr "Вставьте три Link"
+
+#: ../../cyberchimps/inc/meta-box.php:160
+#: ../../cyberchimps/options/options-core.php:1468
+msgid "Slider Size"
+msgstr "Слайдер Размеры"
+
+#: ../../cyberchimps/inc/meta-box.php:160
+#: ../../cyberchimps/options/options-core.php:1473
+msgid "Full"
+msgstr "Полное"
+
+#: ../../cyberchimps/inc/meta-box.php:160
+#: ../../cyberchimps/options/options-core.php:1474
+msgid "Half"
+msgstr "Половина"
+
+#: ../../cyberchimps/inc/meta-box.php:161
+#: ../../cyberchimps/options/options-core.php:1481
+msgid "Slider Type"
+msgstr "Слайдер Тип"
+
+#: ../../cyberchimps/inc/meta-box.php:161
+#: ../../cyberchimps/options/options-core.php:1487
+msgid "Custom"
+msgstr "Индивидуальный"
+
+#: ../../cyberchimps/inc/meta-box.php:161
+#: ../../cyberchimps/options/options-core.php:1486
+msgid "Posts"
+msgstr "Записи"
+
+#: ../../cyberchimps/inc/meta-box.php:162
+#: ../../cyberchimps/options/options-core.php:1494
+#: ../../cyberchimps/options/options-core.php:1717
+msgid "Post Categories"
+msgstr "Сообщение категории"
+
+#: ../../cyberchimps/inc/meta-box.php:162
+#: ../../cyberchimps/inc/meta-box.php:226
+msgid "All"
+msgstr "Все"
+
+#: ../../cyberchimps/inc/meta-box.php:163
+#: ../../cyberchimps/options/options-core.php:1505
+#: ../../cyberchimps/options/options-core.php:1516
+msgid "Custom Categories"
+msgstr "Пользовательские категории"
+
+#: ../../cyberchimps/inc/meta-box.php:163
+#: ../../cyberchimps/inc/meta-box.php:201
+#: ../../cyberchimps/inc/meta-box.php:229
+#: ../../cyberchimps/inc/meta-box.php:233
+#: ../../cyberchimps/options/options-core.php:1381
+#: ../../cyberchimps/options/options-core.php:1519
+#: ../../cyberchimps/options/options-core.php:1753
+#: ../../cyberchimps/options/options-core.php:1776
+msgid "You need to create a Category"
+msgstr "Вам нужно создать категории"
+
+#: ../../cyberchimps/inc/meta-box.php:164
+msgid "Number of Featured Posts"
+msgstr "Количество Лучшие сообщения"
+
+#: ../../cyberchimps/inc/meta-box.php:165
+#: ../../cyberchimps/options/options-core.php:1535
+msgid "Slider Height"
+msgstr "Слайдер высоты"
+
+#: ../../cyberchimps/inc/meta-box.php:166
+msgid "Slider Speed"
+msgstr "Slider скорость"
+
+#: ../../cyberchimps/inc/meta-box.php:167
+#: ../../cyberchimps/options/options-core.php:1554
+msgid "Slider Arrows"
+msgstr "Slider Стрелки"
+
+#: ../../cyberchimps/inc/meta-box.php:180
+#: ../../cyberchimps/options/options-core.php:1565
+msgid "Callout Title"
+msgstr "Выноска Название"
+
+#: ../../cyberchimps/inc/meta-box.php:181
+#: ../../cyberchimps/options/options-core.php:1567
+#, php-format
+msgid "%1$s's Call Out Element"
+msgstr "%1$s »с Call Out Элемент"
+
+#: ../../cyberchimps/inc/meta-box.php:183
+#: ../../cyberchimps/options/options-core.php:1574
+msgid "Callout Text"
+msgstr "Выноска текст"
+
+#: ../../cyberchimps/inc/meta-box.php:184
+#: ../../cyberchimps/options/options-core.php:1576
+#, php-format
+msgid ""
+"Use %1$s's Call Out section on any page where you want to deliver an "
+"important message to your customer or client."
+msgstr ""
+"Используйте %1$s »с Call Out раздела на любой странице, где вы хотите, чтобы "
+"доставить важное сообщение для вашего клиента или клиента."
+
+#: ../../cyberchimps/inc/meta-box.php:186
+#: ../../cyberchimps/options/options-core.php:1583
+msgid "Callout Button"
+msgstr "Выноска Button"
+
+#: ../../cyberchimps/inc/meta-box.php:187
+#: ../../cyberchimps/options/options-core.php:1592
+msgid "Callout Button Text"
+msgstr "Выноска текста кнопки"
+
+#: ../../cyberchimps/inc/meta-box.php:188
+#: ../../cyberchimps/options/options-core.php:1602
+msgid "Callout Button URL"
+msgstr "Выноска кнопка URL"
+
+#: ../../cyberchimps/inc/meta-box.php:189
+#: ../../cyberchimps/options/options-core.php:1612
+msgid "Custom Callout Options"
+msgstr "Пользовательские параметры Выноска"
+
+#: ../../cyberchimps/inc/meta-box.php:190
+msgid "Custom Button Image"
+msgstr "Custom Image Button"
+
+#: ../../cyberchimps/inc/meta-box.php:191
+msgid "Custom Background Color"
+msgstr "Пользовательский цвет фона"
+
+#: ../../cyberchimps/inc/meta-box.php:192
+msgid "Custom Title Color"
+msgstr "Custom Color Название"
+
+#: ../../cyberchimps/inc/meta-box.php:193
+msgid "Custom Text Color"
+msgstr "Custom Color текст"
+
+#: ../../cyberchimps/inc/meta-box.php:194
+msgid "Custom Button Color"
+msgstr "Custom Color Button"
+
+#: ../../cyberchimps/inc/meta-box.php:195
+msgid "Custom Button Text Color"
+msgstr "Пользовательский цвет текста кнопки"
+
+#: ../../cyberchimps/inc/meta-box.php:196
+msgid "Need help?"
+msgstr "Нужна помощь?"
+
+#: ../../cyberchimps/inc/meta-box.php:198
+msgid "Custom HTML"
+msgstr "Особый HTML"
+
+#: ../../cyberchimps/inc/meta-box.php:198
+msgid "Enter your custom html here"
+msgstr "Введите ваш пользовательский HTML здесь"
+
+#: ../../cyberchimps/inc/meta-box.php:200
+msgid "Images per row"
+msgstr "Изображения в строке"
+
+#: ../../cyberchimps/inc/meta-box.php:200
+msgid "Two"
+msgstr "Две"
+
+#: ../../cyberchimps/inc/meta-box.php:200
+msgid "Three"
+msgstr "Три"
+
+#: ../../cyberchimps/inc/meta-box.php:200
+msgid "Four"
+msgstr "Глава четвертая"
+
+#: ../../cyberchimps/inc/meta-box.php:201
+#: ../../cyberchimps/options/options-core.php:1368
+#: ../../cyberchimps/options/options-core.php:1378
+msgid "Portfolio Category"
+msgstr "Портфолио категории"
+
+#: ../../cyberchimps/inc/meta-box.php:202
+#: ../../cyberchimps/inc/meta-box.php:221
+#: ../../cyberchimps/options/options-core.php:1256
+#: ../../cyberchimps/options/options-core.php:1388
+msgid "Portfolio Title"
+msgstr "Портфолио Название"
+
+#: ../../cyberchimps/inc/meta-box.php:203
+#: ../../cyberchimps/inc/meta-box.php:222
+msgid "Portfolio"
+msgstr "Наше видео"
+
+#: ../../cyberchimps/inc/meta-box.php:205
+#: ../../cyberchimps/options/options-core.php:1082
+msgid "First Portfolio Image"
+msgstr "Первая картинка Портфолио"
+
+#: ../../cyberchimps/inc/meta-box.php:206
+#: ../../cyberchimps/options/options-core.php:1093
+msgid "First Portfolio Image Caption"
+msgstr "Первый заголовок изображения Портфолио"
+
+#: ../../cyberchimps/inc/meta-box.php:206
+msgid "Image 1"
+msgstr "Изображение 1"
+
+#: ../../cyberchimps/inc/meta-box.php:207
+#: ../../cyberchimps/options/options-core.php:1103
+msgid "First Porfolio Link"
+msgstr "Первая ссылка портфолио"
+
+#: ../../cyberchimps/inc/meta-box.php:208
+#: ../../cyberchimps/inc/meta-box.php:212
+#: ../../cyberchimps/inc/meta-box.php:216
+#: ../../cyberchimps/inc/meta-box.php:220
+#: ../../cyberchimps/options/options-core.php:1112
+#: ../../cyberchimps/options/options-core.php:1156
+#: ../../cyberchimps/options/options-core.php:1200
+#: ../../cyberchimps/options/options-core.php:1244
+msgid "Link URL"
+msgstr "Link URL"
+
+#: ../../cyberchimps/inc/meta-box.php:209
+#: ../../cyberchimps/options/options-core.php:1126
+msgid "Second Portfolio Image"
+msgstr "Второе изображение Портфолио"
+
+#: ../../cyberchimps/inc/meta-box.php:210
+#: ../../cyberchimps/options/options-core.php:1137
+msgid "Second Portfolio Image Caption"
+msgstr "Второй заголовок изображения Портфолио"
+
+#: ../../cyberchimps/inc/meta-box.php:210
+msgid "Image 2"
+msgstr "Изображение 2"
+
+#: ../../cyberchimps/inc/meta-box.php:211
+#: ../../cyberchimps/options/options-core.php:1147
+msgid "Second Porfolio Link"
+msgstr "Вторая ссылка портфолио"
+
+#: ../../cyberchimps/inc/meta-box.php:213
+#: ../../cyberchimps/options/options-core.php:1170
+msgid "Third Portfolio Image"
+msgstr "Третье изображение Портфолио"
+
+#: ../../cyberchimps/inc/meta-box.php:214
+#: ../../cyberchimps/options/options-core.php:1181
+msgid "Third Portfolio Image Caption"
+msgstr "Третий Caption изображения Портфолио"
+
+#: ../../cyberchimps/inc/meta-box.php:214
+msgid "Image 3"
+msgstr "Изображение 3"
+
+#: ../../cyberchimps/inc/meta-box.php:215
+#: ../../cyberchimps/options/options-core.php:1191
+msgid "Third Porfolio Link"
+msgstr "Третья ссылка портфолио"
+
+#: ../../cyberchimps/inc/meta-box.php:217
+#: ../../cyberchimps/options/options-core.php:1214
+msgid "Fourth Portfolio Image"
+msgstr "Четвертое изображение Портфолио"
+
+#: ../../cyberchimps/inc/meta-box.php:218
+#: ../../cyberchimps/options/options-core.php:1225
+msgid "Fourth Portfolio Image Caption"
+msgstr "Четвертый Caption изображения Портфолио"
+
+#: ../../cyberchimps/inc/meta-box.php:218
+msgid "Image 4"
+msgstr "Изображение 4."
+
+#: ../../cyberchimps/inc/meta-box.php:219
+#: ../../cyberchimps/options/options-core.php:1235
+msgid "Fourth Porfolio Link"
+msgstr "Четвертый Link портфолио"
+
+#: ../../cyberchimps/inc/meta-box.php:226
+msgid "Post Category"
+msgstr "Сообщение категории"
+
+#: ../../cyberchimps/inc/meta-box.php:227
+#: ../../cyberchimps/options/options-core.php:1727
+msgid "Images"
+msgstr "Изображения"
+
+#: ../../cyberchimps/inc/meta-box.php:229
+msgid "Carousel Category"
+msgstr "Карусель Категория"
+
+#: ../../cyberchimps/inc/meta-box.php:231
+#: ../../cyberchimps/options/options-core.php:1787
+msgid "Twitter Handle"
+msgstr "Twitter ручкой"
+
+#: ../../cyberchimps/inc/meta-box.php:231
+msgid "Enter your Twitter handle if using the Twitter bar"
+msgstr "Введите свой Twitter ручки при использовании бар Twitter"
+
+#: ../../cyberchimps/inc/meta-box.php:233
+msgid "Boxes Category"
+msgstr "Коробки категории"
+
+#: ../../cyberchimps/options/options-core.php:24
+msgid "Help"
+msgstr "Помощь"
+
+#: ../../cyberchimps/options/options-core.php:29
+msgid "Design"
+msgstr "Дизайн"
+
+#: ../../cyberchimps/options/options-core.php:34
+msgid "Header"
+msgstr "Header"
+
+#: ../../cyberchimps/options/options-core.php:39
+msgid "Blog"
+msgstr "Блог"
+
+#: ../../cyberchimps/options/options-core.php:44
+msgid "Templates"
+msgstr "Шаблоны."
+
+#: ../../cyberchimps/options/options-core.php:49
+msgid "Footer"
+msgstr "Нижний колонтитул"
+
+#: ../../cyberchimps/options/options-core.php:78
+msgid "Layout Options"
+msgstr "Варианты формата"
+
+#: ../../cyberchimps/options/options-core.php:92
+msgid "Custom Colors"
+msgstr "Настройка цвета"
+
+#: ../../cyberchimps/options/options-core.php:98
+msgid "Typography"
+msgstr "Типография"
+
+#: ../../cyberchimps/options/options-core.php:112
+msgid "Header Drag &#38; Drop"
+msgstr "Перетащите заголовок и выпадения"
+
+#: ../../cyberchimps/options/options-core.php:118
+msgid "Header Options"
+msgstr "Header параметры"
+
+#: ../../cyberchimps/options/options-core.php:124
+msgid "Social Icons"
+msgstr "Социальные иконки"
+
+#: ../../cyberchimps/options/options-core.php:132
+msgid "Drag & Drop"
+msgstr "Перетащите и Отбросьте"
+
+#: ../../cyberchimps/options/options-core.php:138
+msgid "Blog Options"
+msgstr "Настройки Блога"
+
+#: ../../cyberchimps/options/options-core.php:146
+msgid "Blog Slider Lite"
+msgstr "Блог Slider Lite"
+
+#: ../../cyberchimps/options/options-core.php:152
+msgid "Portfolio Lite Options"
+msgstr "Портфолио Lite параметры"
+
+#: ../../cyberchimps/options/options-core.php:158 ../../elements/boxes.php:25
+#: ../../elements/boxes.php:26 ../../elements/init.php:46
+#: ../../elements/init.php:58
+msgid "Boxes Lite"
+msgstr "Коробки Lite"
+
+#: ../../cyberchimps/options/options-core.php:168
+msgid "Blog Slider"
+msgstr "Блог Slider"
+
+#: ../../cyberchimps/options/options-core.php:174
+msgid "Callout Options"
+msgstr "Выноска параметры"
+
+#: ../../cyberchimps/options/options-core.php:180
+msgid "HTML Box Options"
+msgstr "Параметры HTML-Box"
+
+#: ../../cyberchimps/options/options-core.php:186
+msgid "Carousel Options"
+msgstr "Карусель параметры"
+
+#: ../../cyberchimps/options/options-core.php:192
+msgid "Magazine Options"
+msgstr "Журнал параметры"
+
+#: ../../cyberchimps/options/options-core.php:198
+msgid "Portfolio Pro Options"
+msgstr "Портфолио Pro Опции"
+
+#: ../../cyberchimps/options/options-core.php:204
+msgid "Recent Posts Options"
+msgstr "Последние Опции сообщения"
+
+#: ../../cyberchimps/options/options-core.php:211
+msgid "Twitterbar Options"
+msgstr "TwitterBar параметры"
+
+#: ../../cyberchimps/options/options-core.php:217
+msgid "Boxes Options"
+msgstr "Коробки параметры"
+
+#: ../../cyberchimps/options/options-core.php:231
+msgid "Single Post"
+msgstr "Сообщение отдельно"
+
+#: ../../cyberchimps/options/options-core.php:237
+msgid "Archive"
+msgstr "Архив"
+
+#: ../../cyberchimps/options/options-core.php:257
+msgid "Footer Options"
+msgstr "Footer опции"
+
+#: ../../cyberchimps/options/options-core.php:288
+msgid "Author"
+msgstr "Автор"
+
+#: ../../cyberchimps/options/options-core.php:290
+msgid "Date"
+msgstr "Дата"
+
+#: ../../cyberchimps/options/options-core.php:292
+msgid "Tags"
+msgstr "Теги"
+
+#: ../../cyberchimps/options/options-core.php:379
+msgid "Cyberchimps Help"
+msgstr "Cyberchimps Помощь"
+
+#: ../../cyberchimps/options/options-core.php:387
+msgid "Welcome Note"
+msgstr "Приветствуем Вас"
+
+#: ../../cyberchimps/options/options-core.php:398 ../../elements/boxes.php:156
+msgid "Responsive Design"
+msgstr "Отзывчивый Design"
+
+#: ../../cyberchimps/options/options-core.php:407
+msgid "Responsive Videos"
+msgstr "Отзывчивый Видео"
+
+#: ../../cyberchimps/options/options-core.php:416
+msgid "Tablet Responsive Menu"
+msgstr "Планшетный реагирования меню"
+
+#: ../../cyberchimps/options/options-core.php:425
+#: ../../cyberchimps/options/options-customizer.php:103
+msgid "Max Width"
+msgstr "Максимальная ширина"
+
+#: ../../cyberchimps/options/options-core.php:429
+msgid "enter the width of your site in pixels"
+msgstr "Введите ширину вашего сайта в пикселях"
+
+#: ../../cyberchimps/options/options-core.php:522
+msgid "Select a Skin Color"
+msgstr "Выберите цвет кожи"
+
+#: ../../cyberchimps/options/options-core.php:526
+msgid "Default"
+msgstr "Нарушение Соглашения"
+
+#: ../../cyberchimps/options/options-core.php:544
+#: ../../cyberchimps/options/options-customizer.php:130
+msgid "Text Color"
+msgstr "Цвет текста"
+
+#: ../../cyberchimps/options/options-core.php:545
+msgid "Select text color"
+msgstr "Выберите цвет текста"
+
+#: ../../cyberchimps/options/options-core.php:553
+#: ../../cyberchimps/options/options-customizer.php:142
+msgid "Link Color"
+msgstr "Цвет ссылки"
+
+#: ../../cyberchimps/options/options-core.php:554
+msgid "Select link color"
+msgstr "Выберите цвет ссылки"
+
+#: ../../cyberchimps/options/options-core.php:562
+#: ../../cyberchimps/options/options-customizer.php:154
+msgid "Link Hover Color"
+msgstr "Цвет Link Hover"
+
+#: ../../cyberchimps/options/options-core.php:563
+msgid "Select link hover color"
+msgstr "Выберите цвет ссылки при наведении"
+
+#: ../../cyberchimps/options/options-core.php:581
+msgid "Typography Options"
+msgstr "Типография параметры"
+
+#: ../../cyberchimps/options/options-core.php:591
+msgid "Google fonts"
+msgstr "Google шрифтов"
+
+#: ../../cyberchimps/options/options-core.php:600
+msgid "Enter Google font"
+msgstr "Введите Google шрифтов"
+
+#: ../../cyberchimps/options/options-core.php:610
+msgid "Demo Text"
+msgstr "Демо текст"
+
+#: ../../cyberchimps/options/options-core.php:622
+msgid "Header Drag/Drop"
+msgstr "Перетащите заголовок / Drop"
+
+#: ../../cyberchimps/options/options-core.php:625
+#: ../../cyberchimps/options/options-core.php:629
+msgid "Logo + Icons"
+msgstr "Логотип + Иконки"
+
+#: ../../cyberchimps/options/options-core.php:630
+msgid "Logo + Search"
+msgstr "Логотип + поиск"
+
+#: ../../cyberchimps/options/options-core.php:631
+msgid "Logo"
+msgstr "Логотип"
+
+#: ../../cyberchimps/options/options-core.php:640
+msgid "Custom Logo URL"
+msgstr "URL персонализированного логотипа"
+
+#: ../../cyberchimps/options/options-core.php:648
+msgid "URL"
+msgstr "Ссылка"
+
+#: ../../cyberchimps/options/options-core.php:649
+msgid "Enter URL"
+msgstr "Введите Url"
+
+#: ../../cyberchimps/options/options-core.php:659
+msgid "Custom Logo"
+msgstr "Собственный Logo"
+
+#: ../../cyberchimps/options/options-core.php:667
+msgid "Logo Image"
+msgstr "Изображение логотипа"
+
+#: ../../cyberchimps/options/options-core.php:668
+#: ../../cyberchimps/options/options-core.php:687
+#: ../../cyberchimps/options/options-core.php:705
+#: ../../cyberchimps/options/options-core.php:1083
+#: ../../cyberchimps/options/options-core.php:1127
+#: ../../cyberchimps/options/options-core.php:1171
+#: ../../cyberchimps/options/options-core.php:1215
+#: ../../cyberchimps/options/options-core.php:1291
+#: ../../cyberchimps/options/options-core.php:1310
+#: ../../cyberchimps/options/options-core.php:1329
+msgid "Enter URL or upload file"
+msgstr "Введите URL или загрузить файл"
+
+#: ../../cyberchimps/options/options-core.php:678
+msgid "Custom Favicon"
+msgstr "Пользовательские Favicon"
+
+#: ../../cyberchimps/options/options-core.php:686
+msgid "Favicon URL"
+msgstr "Favicon URL"
+
+#: ../../cyberchimps/options/options-core.php:696
+msgid "Custom Apple touch icon"
+msgstr "Пользовательские Apple, нажмите иконку"
+
+#: ../../cyberchimps/options/options-core.php:704
+msgid "Apple Touch URL"
+msgstr "Apple Touch URL"
+
+#: ../../cyberchimps/options/options-core.php:715
+msgid "Searchbar"
+msgstr "Searchbar"
+
+#: ../../cyberchimps/options/options-core.php:727
+msgid "Choose your icon style"
+msgstr "Выберите икона стиля"
+
+#: ../../cyberchimps/options/options-core.php:740
+msgid "Twitter"
+msgstr "Твиттер"
+
+#: ../../cyberchimps/options/options-core.php:748
+msgid "Twitter URL"
+msgstr "Twitter URL"
+
+#: ../../cyberchimps/options/options-core.php:758
+msgid "Facebook"
+msgstr "Facebook"
+
+#: ../../cyberchimps/options/options-core.php:766
+msgid "Facebook URL"
+msgstr "Facebook URL"
+
+#: ../../cyberchimps/options/options-core.php:776
+msgid "Google+"
+msgstr "Google+"
+
+#: ../../cyberchimps/options/options-core.php:784
+msgid "Google+ URL"
+msgstr "Google+ URL"
+
+#: ../../cyberchimps/options/options-core.php:794
+msgid "Flickr"
+msgstr "Flickr"
+
+#: ../../cyberchimps/options/options-core.php:801
+msgid "Flickr URL"
+msgstr "Flickr URL"
+
+#: ../../cyberchimps/options/options-core.php:811
+msgid "Pinterest"
+msgstr "Pinterest"
+
+#: ../../cyberchimps/options/options-core.php:818
+msgid "Pinterest URL"
+msgstr "Pinterest URL"
+
+#: ../../cyberchimps/options/options-core.php:828
+msgid "LinkedIn"
+msgstr "LinkedIn"
+
+#: ../../cyberchimps/options/options-core.php:835
+msgid "LinkedIn URL"
+msgstr "LinkedIn URL"
+
+#: ../../cyberchimps/options/options-core.php:845
+msgid "YouTube"
+msgstr "YouTube"
+
+#: ../../cyberchimps/options/options-core.php:852
+msgid "YouTube URL"
+msgstr "YouTube URL"
+
+#: ../../cyberchimps/options/options-core.php:862
+msgid "RSS"
+msgstr "RSS"
+
+#: ../../cyberchimps/options/options-core.php:869
+msgid "RSS URL"
+msgstr "RSS URL"
+
+#: ../../cyberchimps/options/options-core.php:879
+msgid "Email"
+msgstr "E-mail"
+
+#: ../../cyberchimps/options/options-core.php:886
+msgid "Email Address"
+msgstr "Адрес электронной почты"
+
+#: ../../cyberchimps/options/options-core.php:895
+msgid "Google Maps"
+msgstr "Карта Google"
+
+#: ../../cyberchimps/options/options-core.php:902
+msgid "Google Maps URL"
+msgstr "Google Maps URL"
+
+#: ../../cyberchimps/options/options-core.php:919
+msgid "Drag & Drop Blog Elements"
+msgstr "Перетащите и Отбросьте блоге Elements"
+
+#: ../../cyberchimps/options/options-core.php:924
+#: ../../cyberchimps/options/options-core.php:930 ../../elements/init.php:48
+msgid "Post Page"
+msgstr "Сообщение страницу"
+
+#: ../../cyberchimps/options/options-core.php:940
+#: ../../cyberchimps/options/options-core.php:1811
+#: ../../cyberchimps/options/options-core.php:1905
+#: ../../cyberchimps/options/options-core.php:1997
+#: ../../cyberchimps/options/options-core.php:2040
+msgid "Sidebar Options"
+msgstr "Боковая панель Опции"
+
+#: ../../cyberchimps/options/options-core.php:953
+msgid "Post Formats Icons"
+msgstr "Сообщение форматы Иконки"
+
+#: ../../cyberchimps/options/options-core.php:960
+#: ../../cyberchimps/options/options-core.php:1927
+#: ../../cyberchimps/options/options-core.php:2011
+msgid "Post Excerpts"
+msgstr "Сообщение Выдержки"
+
+#: ../../cyberchimps/options/options-core.php:968
+#: ../../cyberchimps/options/options-core.php:2019
+msgid "Read More Text"
+msgstr "Подробнее текста"
+
+#: ../../cyberchimps/options/options-core.php:977
+#: ../../cyberchimps/options/options-core.php:2029
+msgid "Excerpt Length"
+msgstr "Выдержки длина"
+
+#: ../../cyberchimps/options/options-core.php:986
+#: ../../cyberchimps/options/options-core.php:1835
+#: ../../cyberchimps/options/options-core.php:1936
+msgid "Featured Images"
+msgstr "Избранные изображения"
+
+#: ../../cyberchimps/options/options-core.php:997
+#: ../../cyberchimps/options/options-core.php:1853
+#: ../../cyberchimps/options/options-core.php:1946
+msgid "Post Byline Author"
+msgstr "Сообщение Автор Byline"
+
+#: ../../cyberchimps/options/options-core.php:1007
+#: ../../cyberchimps/options/options-core.php:1863
+#: ../../cyberchimps/options/options-core.php:1956
+msgid "Post Byline Categories"
+msgstr "Сообщение Byline категории"
+
+#: ../../cyberchimps/options/options-core.php:1017
+#: ../../cyberchimps/options/options-core.php:1873
+#: ../../cyberchimps/options/options-core.php:1966
+msgid "Post Byline Date"
+msgstr "Сообщение Byline дате"
+
+#: ../../cyberchimps/options/options-core.php:1027
+#: ../../cyberchimps/options/options-core.php:1883
+#: ../../cyberchimps/options/options-core.php:1976
+msgid "Post Byline Comments"
+msgstr "Сообщение Byline Комментарии"
+
+#: ../../cyberchimps/options/options-core.php:1037
+#: ../../cyberchimps/options/options-core.php:1894
+#: ../../cyberchimps/options/options-core.php:1986
+msgid "Post Byline Tags"
+msgstr "Сообщение Byline тегов"
+
+#: ../../cyberchimps/options/options-core.php:1051
+msgid "Boxes Upgrade"
+msgstr "Коробки обновления"
+
+#: ../../cyberchimps/options/options-core.php:1054
+#, php-format
+msgid ""
+"Boxes Lite limits you to a total of 3 boxes throughout your whole site. "
+"Upgrade to %1$s to be able to create as many boxes as you like. Categorize "
+"them and display each category on a different page."
+msgstr ""
+"Коробки Lite ограничивает вас в общей сложности 3 коробки на протяжении "
+"всего сайта в целом. Переход на %1$s , чтобы иметь возможность создать "
+"столько ящиков, как вам нравится. Классифицировать их и отображения каждой "
+"категории на другую страницу."
+
+#: ../../cyberchimps/options/options-core.php:1067
+msgid "Portfolio Upgrade"
+msgstr "Портфолио обновления"
+
+#: ../../cyberchimps/options/options-core.php:1070
+#, php-format
+msgid ""
+"Portfolio Lite limits you to a total of 4 items throughout your whole site. "
+"Upgrade to %1$s to be able to create as many portfolio items as you like. "
+"Categorize them and display each category on a different page."
+msgstr ""
+"Портфолио Lite ограничивает вас в общей сложности 4 пунктов на протяжении "
+"всего сайта в целом. Переход на %1$s , чтобы иметь возможность создать много "
+"элементов портфеля, как вам нравится. Классифицировать их и отображения "
+"каждой категории на другую страницу."
+
+#: ../../cyberchimps/options/options-core.php:1278
+msgid "Slider Upgrade"
+msgstr "Slider обновления"
+
+#: ../../cyberchimps/options/options-core.php:1281
+#, php-format
+msgid ""
+"Slider Lite limits you to a total of 3 images throughout your whole site. "
+"Upgrade to %1$s to be able to create more images. Categorize them and "
+"display each category on a different page."
+msgstr ""
+"Slider Lite ограничивает вас в общей сложности 3 изображения на протяжении "
+"всего сайта в целом. Переход на %1$s , чтобы иметь возможность создать "
+"несколько изображений. Классифицировать их и отображения каждой категории на "
+"другую страницу."
+
+#: ../../cyberchimps/options/options-core.php:1290
+msgid "Slider Image 1"
+msgstr "Slider Изображение 1"
+
+#: ../../cyberchimps/options/options-core.php:1300
+msgid "Slide 1 URL"
+msgstr "Слайд 1 URL"
+
+#: ../../cyberchimps/options/options-core.php:1309
+msgid "Slider Image 2"
+msgstr "Slider Изображение 2"
+
+#: ../../cyberchimps/options/options-core.php:1319
+msgid "Slide 2 URL"
+msgstr "Слайд 2 URL"
+
+#: ../../cyberchimps/options/options-core.php:1328
+msgid "Slider Image 3"
+msgstr "Slider Изображение 3"
+
+#: ../../cyberchimps/options/options-core.php:1338
+msgid "Slide 3 URL"
+msgstr "Слайд 3 URL"
+
+#: ../../cyberchimps/options/options-core.php:1354
+msgid "Images per Row"
+msgstr "Изображения в строке"
+
+#: ../../cyberchimps/options/options-core.php:1451
+msgid "Number of Wide Posts"
+msgstr "Количество Широкий сообщения"
+
+#: ../../cyberchimps/options/options-core.php:1526
+msgid "Number of Featured Blog Posts"
+msgstr "Количество Популярные записи в блоге"
+
+#: ../../cyberchimps/options/options-core.php:1545
+msgid "Slider Speed "
+msgstr "Slider скорость "
+
+#: ../../cyberchimps/options/options-core.php:1595
+msgid "Click Here"
+msgstr "Нажмите Сюда"
+
+#: ../../cyberchimps/options/options-core.php:1621
+msgid "Custom Callout Button"
+msgstr "Пользовательские кнопки Выноска"
+
+#: ../../cyberchimps/options/options-core.php:1631
+msgid "Custom Callout Background Color"
+msgstr "Пользовательские Выноска цвет фона"
+
+#: ../../cyberchimps/options/options-core.php:1641
+msgid "Custom Callout Title Color"
+msgstr "Пользовательские Выноска Название цвета"
+
+#: ../../cyberchimps/options/options-core.php:1651
+msgid "Custom Callout Text Color"
+msgstr "Пользовательские Выноска Цвет текста"
+
+#: ../../cyberchimps/options/options-core.php:1661
+msgid "Custom Callout Button Color"
+msgstr "Пользовательские Выноска цвет кнопки"
+
+#: ../../cyberchimps/options/options-core.php:1671
+msgid "Custom Callout Button Text Color"
+msgstr "Пользовательские Выноска цвет текста кнопки"
+
+#: ../../cyberchimps/options/options-core.php:1684
+msgid "HTML Box"
+msgstr "HTML Box"
+
+#: ../../cyberchimps/options/options-core.php:1687
+msgid "Enter your custom HTML code here"
+msgstr "Введите ваш пользовательский код HTML здесь"
+
+#: ../../cyberchimps/options/options-core.php:1707
+msgid "Custom Title"
+msgstr "Подпись под"
+
+#: ../../cyberchimps/options/options-core.php:1740
+#: ../../cyberchimps/options/options-core.php:1750
+#: ../../cyberchimps/options/options-core.php:1763
+#: ../../cyberchimps/options/options-core.php:1773
+msgid "Select a Category"
+msgstr "Выберите категорию"
+
+#: ../../cyberchimps/options/options-core.php:1812
+#: ../../cyberchimps/options/options-core.php:1906
+#: ../../cyberchimps/options/options-core.php:1998
+#: ../../cyberchimps/options/options-core.php:2041
+msgid "Images for layout."
+msgstr "Изображения для разметки."
+
+#: ../../cyberchimps/options/options-core.php:1826
+msgid "Post title"
+msgstr "Сообщение название"
+
+#: ../../cyberchimps/options/options-core.php:1843
+#: ../../cyberchimps/options/options-core.php:1919
+msgid "Post Format Icons"
+msgstr "Сообщение значки формата"
+
+#: ../../cyberchimps/options/options-core.php:2054
+msgid "Custom 404 Title"
+msgstr "Подпись под 404"
+
+#: ../../cyberchimps/options/options-core.php:2062
+msgid "Custom 404 Content"
+msgstr "Пользовательский контент 404"
+
+#: ../../cyberchimps/options/options-core.php:2083
+msgid "Footer Copyright Text"
+msgstr "Footer текста Copyright"
+
+#: ../../cyberchimps/options/options-core.php:2092
+msgid "Google Analytics"
+msgstr "Google Analytics"
+
+#: ../../cyberchimps/options/options-core.php:2094
+msgid "Copy and paste your Google Analytics code here"
+msgstr "Скопируйте и вставьте код Google Analytics здесь"
+
+#: ../../cyberchimps/options/options-customizer.php:22
+msgid "Customize"
+msgstr "Настроить"
+
+#: ../../cyberchimps/options/options-customizer.php:69
+msgid ""
+"make sure you have removed the image above before selecting one of these"
+msgstr ""
+"убедитесь, что Вы удалили изображение выше, прежде чем выбрать одну из этих"
+
+#: ../../cyberchimps/options/options-customizer.php:116
+msgid "Skin Color"
+msgstr "Цвет кожи"
+
+#: ../../cyberchimps/options/options-customizer.php:172
+msgid "Typography Size"
+msgstr "Типография размер"
+
+#: ../../cyberchimps/options/options-customizer.php:186
+msgid "Typography Face"
+msgstr "Типография лица"
+
+#: ../../cyberchimps/options/options-customizer.php:199
+msgid "Typography Style"
+msgstr "Типография стиль"
+
+#: ../../cyberchimps/options/options-customizer.php:213
+msgid "Background Image"
+msgstr "Фоновое изображение (Background Image)"
+
+#: ../../cyberchimps/options/options-init.php:34
+msgid "Theme Options Page"
+msgstr "Страница настроек темы"
+
+#: ../../cyberchimps/options/options-init.php:35
+#: ../../cyberchimps/options/options-init.php:1054
+msgid "Theme Options"
+msgstr "Тема параметры"
+
+#: ../../cyberchimps/options/options-init.php:135
+msgid "Buy Themes"
+msgstr "Купить темы"
+
+#: ../../cyberchimps/options/options-init.php:167
+msgid "Open All"
+msgstr "Открыть все"
+
+#: ../../cyberchimps/options/options-init.php:168
+msgid "Collapse All"
+msgstr "Свернуть вс"
+
+#: ../../cyberchimps/options/options-init.php:175
+#: ../../cyberchimps/options/options-init.php:283
+msgid "Restore Defaults"
+msgstr "Значения по умолчанию"
+
+#: ../../cyberchimps/options/options-init.php:175
+#: ../../cyberchimps/options/options-init.php:283
+msgid "Click OK to reset. Any theme settings will be lost!"
+msgstr "Нажмите OK для сброса. Любая тема настройки будут утеряны!"
+
+#: ../../cyberchimps/options/options-init.php:176
+#: ../../cyberchimps/options/options-init.php:237
+#: ../../cyberchimps/options/options-init.php:284
+msgid "Save Options"
+msgstr "Сохранить параметры"
+
+#: ../../cyberchimps/options/options-init.php:269
+msgid "CyberChimps Wordpress Themes"
+msgstr "CyberChimps Wordpress Темы"
+
+#: ../../cyberchimps/options/options-init.php:393
+msgid "Link to Events plugin settings"
+msgstr "Ссылка на настройки плагина события"
+
+#: ../../cyberchimps/options/options-init.php:395
+msgid "Insert custom events info and insert install link"
+msgstr ""
+"Вставьте пользовательских информации событий и включить установку ссылку"
+
+#: ../../cyberchimps/options/options-init.php:518
+msgid "Default Field"
+msgstr "По умолчанию поле"
+
+#: ../../cyberchimps/options/options-init.php:930
+msgid "Options Imported"
+msgstr "Параметры импортного"
+
+#: ../../cyberchimps/options/options-init.php:933
+msgid "Invalid Data for Import"
+msgstr "Неверные данные для импорта"
+
+#: ../../cyberchimps/options/options-init.php:946
+msgid "Default options restored."
+msgstr "Настройки по умолчанию восстановлены."
+
+#: ../../cyberchimps/options/options-init.php:1008
+msgid "Options saved."
+msgstr "Настройки сохранены"
+
+#: ../../cyberchimps/options/options-medialibrary-uploader.php:23
+msgid "Theme Options Media"
+msgstr "Тема Функции СМИ"
+
+#: ../../cyberchimps/options/options-medialibrary-uploader.php:135
+msgid "View File"
+msgstr "Просмотр файлов"
+
+#: ../../cyberchimps/options/options-medialibrary-uploader.php:256
+msgid "Gallery"
+msgstr "Галерея"
+
+#: ../../cyberchimps/options/options-medialibrary-uploader.php:256
+msgid "Previously Uploaded"
+msgstr "Ранее Загружен"
+
+#: ../../cyberchimps/options/options-sanitize.php:260
+msgid "No Repeat"
+msgstr "не повторится"
+
+#: ../../cyberchimps/options/options-sanitize.php:261
+msgid "Repeat Horizontally"
+msgstr "Повторять горизонтально"
+
+#: ../../cyberchimps/options/options-sanitize.php:262
+msgid "Repeat Vertically"
+msgstr "Повторите Вертикально"
+
+#: ../../cyberchimps/options/options-sanitize.php:263
+msgid "Repeat All"
+msgstr "Повторить все"
+
+#: ../../cyberchimps/options/options-sanitize.php:276
+msgid "Top Left"
+msgstr "левом верхнем"
+
+#: ../../cyberchimps/options/options-sanitize.php:277
+msgid "Top Center"
+msgstr "Лучшие центр"
+
+#: ../../cyberchimps/options/options-sanitize.php:278
+msgid "Top Right"
+msgstr "правом верхнем"
+
+#: ../../cyberchimps/options/options-sanitize.php:279
+msgid "Middle Left"
+msgstr "Ближний левый"
+
+#: ../../cyberchimps/options/options-sanitize.php:280
+msgid "Middle Center"
+msgstr "Ближний центр"
+
+#: ../../cyberchimps/options/options-sanitize.php:281
+msgid "Middle Right"
+msgstr "Посередине Справа"
+
+#: ../../cyberchimps/options/options-sanitize.php:282
+msgid "Bottom Left"
+msgstr "левом нижнем"
+
+#: ../../cyberchimps/options/options-sanitize.php:283
+msgid "Bottom Center"
+msgstr "bottom center"
+
+#: ../../cyberchimps/options/options-sanitize.php:284
+msgid "Bottom Right"
+msgstr "правом нижнем"
+
+#: ../../cyberchimps/options/options-sanitize.php:297
+msgid "Scroll Normally"
+msgstr "Выделите нормально"
+
+#: ../../cyberchimps/options/options-sanitize.php:298
+msgid "Fixed in Place"
+msgstr "Зафиксированы на месте"
+
+#: ../../cyberchimps/options/options-sanitize.php:370
+msgid "Normal"
+msgstr "Нормальная"
+
+#: ../../cyberchimps/options/options-sanitize.php:371
+msgid "Italic"
+msgstr "курсив"
+
+#: ../../cyberchimps/options/options-sanitize.php:372
+msgid "Bold"
+msgstr "Жирный"
+
+#: ../../cyberchimps/options/options-sanitize.php:373
+msgid "Bold Italic"
+msgstr "Полужирный курсив"
+
+#: ../../elements/boxes.php:39 ../../elements/boxes.php:41
+msgid "Boxes Lite Element"
+msgstr "Коробки Lite элемент"
+
+#: ../../elements/boxes.php:42
+msgid "Box Image"
+msgstr "Box Изображение"
+
+#: ../../elements/boxes.php:43
+msgid "Box URL"
+msgstr "Box URL"
+
+#: ../../elements/boxes.php:44
+msgid "Box Text"
+msgstr "Надпись"
+
+#: ../../elements/boxes.php:148
+msgid "Responsive iFeature Slider"
+msgstr "Отзывчивый Slider параметрического"
+
+#: ../../elements/boxes.php:149
+msgid ""
+"The New Touch Friendly iFeature 5 Slider now responds to any mobile touch "
+"device."
+msgstr ""
+"Новый сенсорный животными параметрического 5 Slider теперь реагирует на "
+"любое мобильное устройство связи."
+
+#: ../../elements/boxes.php:157
+msgid ""
+"With iFeature Pro 5 and touch friendly responsive design you can now control "
+"your website on any device."
+msgstr ""
+"С параметрического Pro 5 и сенсорным дружественных реагировать дизайна "
+"теперь вы можете контролировать свой веб-сайт на любом устройстве."
+
+#: ../../elements/boxes.php:164
+msgid "Excellent Support"
+msgstr "Отличная поддержка"
+
+#: ../../elements/boxes.php:165
+msgid ""
+"Need help? Read the instructions and please visit our dedicated Pro Support "
+"Forum"
+msgstr ""
+"Нужна помощь? Прочитайте инструкцию и, пожалуйста, посетите наш специальный "
+"Pro форум поддержки"
+
+#: ../../elements/twitter-bar.php:90
+msgid "No tweets to display"
+msgstr "Нет твитов, чтобы отобразить"
+
+#: ../../elements/twitter-bar.php:167
+msgid "Invalid Response"
+msgstr "Неверный ответ"

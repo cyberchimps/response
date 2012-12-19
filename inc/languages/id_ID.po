@@ -1,0 +1,1719 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: response v2.0.5\n"
+"POT-Creation-Date: 2012-12-17 15:14-0000\n"
+"PO-Revision-Date: 2012-12-19 13:09-0000\n"
+"Last-Translator: \n"
+"Language-Team: CyberChimps\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx;esc_attr__;"
+"esc_attr_e;esc_attr_x;esc_html__;esc_html_e;esc_html_x;_n_noop;_nx_noop;"
+"translate_nooped_plural\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SearchPath-0: ../..\n"
+
+#: ../../404.php:36
+msgid "Oops! That page cannot be found."
+msgstr "Ups! Halaman yang tidak dapat ditemukan."
+
+#: ../../404.php:44
+msgid ""
+"It looks like nothing was found at this location. Maybe try searching for it?"
+msgstr ""
+"Sepertinya tidak ada yang ditemukan di lokasi ini. Mungkin coba cari untuk "
+"itu?"
+
+#: ../../archive.php:36
+#, php-format
+msgid "Category Archives: %s"
+msgstr "Kategori Arsip: %s"
+
+#: ../../archive.php:39
+#, php-format
+msgid "Tag Archives: %s"
+msgstr "Tag Archives: %s"
+
+#: ../../archive.php:46
+#, php-format
+msgid "Author Archives: %s"
+msgstr "Arsip Penulis: %s"
+
+#: ../../archive.php:54
+#, php-format
+msgid "Daily Archives: %s"
+msgstr "Harian Archives: %s"
+
+#: ../../archive.php:57
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr "Arsip Bulanan: %s"
+
+#: ../../archive.php:60
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr "Arsip Tahunan: %s"
+
+#: ../../archive.php:63 ../../footer.php:35 ../../sidebar-left.php:34
+#: ../../sidebar-right.php:34 ../../sidebar.php:34
+msgid "Archives"
+msgstr "Arsip"
+
+#: ../../comments.php:36
+#, php-format
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "Satu pemikiran pada &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s pemikiran pada &ldquo;%2$s&rdquo;"
+
+#: ../../comments.php:43 ../../comments.php:63
+msgid "Comment navigation"
+msgstr "Komentar navigasi"
+
+#: ../../comments.php:44 ../../comments.php:64
+msgid "Older Comments"
+msgstr "Lama Komentar"
+
+#: ../../comments.php:45 ../../comments.php:65
+msgid "Newer Comments"
+msgstr "Komentar baru"
+
+#: ../../comments.php:75
+msgid "Comments are closed."
+msgstr "Komentar ditutup."
+
+#: ../../content.php:41 ../../content.php:44
+#: ../../cyberchimps/functions.php:422
+#, php-format
+msgid "Permalink to %s"
+msgstr "Tautkan ke %s"
+
+#: ../../content.php:61 ../../content.php:90
+msgid "Continue reading"
+msgstr "Lanjutkan membaca"
+
+#: ../../content.php:62 ../../content.php:91 ../../image.php:79
+msgid "Pages:"
+msgstr "Halaman:"
+
+#: ../../content.php:108 ../../image.php:51 ../../image.php:157
+msgid "Edit"
+msgstr "Sunting"
+
+#: ../../footer.php:28 ../../sidebar-left.php:27 ../../sidebar-right.php:27
+#: ../../sidebar.php:27
+msgid "Pages"
+msgstr "Halaman"
+
+#: ../../footer.php:42 ../../sidebar-left.php:41 ../../sidebar-right.php:41
+#: ../../sidebar.php:41 ../../cyberchimps/options/options-core.php:289
+msgid "Categories"
+msgstr "Kategori"
+
+#: ../../footer.php:49 ../../footer.php:53 ../../sidebar-left.php:48
+#: ../../sidebar-left.php:52 ../../sidebar-right.php:48
+#: ../../sidebar-right.php:52 ../../sidebar.php:48 ../../sidebar.php:52
+msgid "WordPress"
+msgstr "WordPress"
+
+#: ../../footer.php:53 ../../sidebar-left.php:52 ../../sidebar-right.php:52
+#: ../../sidebar.php:52
+msgid ""
+"Powered by WordPress, state-of-the-art semantic personal publishing platform."
+msgstr ""
+"Didukung oleh platform WordPress, state-of-the-art penerbitan semantik "
+"pribadi."
+
+#: ../../functions.php:50
+msgid "Pingback:"
+msgstr "Pingback:"
+
+#: ../../functions.php:50 ../../functions.php:75
+msgid "(Edit)"
+msgstr "(Edit)"
+
+#: ../../functions.php:62
+msgid "says"
+msgstr "berkata:"
+
+#: ../../functions.php:65
+msgid "Your comment is awaiting moderation."
+msgstr "Komentar Anda sedang menunggu moderasi."
+
+#: ../../functions.php:73
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s pada %2$s"
+
+#: ../../functions.php:166
+msgid "CyberChimps Professional Responsive WordPress Theme"
+msgstr "CyberChimps Profesional Responsif Wordpress Theme"
+
+#: ../../image.php:47
+msgid "Published"
+msgstr "Diterbitkan"
+
+#: ../../image.php:48
+msgid "size"
+msgstr "Ukuran"
+
+#: ../../image.php:55
+msgid "Previous"
+msgstr "Sebelumnya"
+
+#: ../../image.php:56
+msgid "Next"
+msgstr "Berikutnya"
+
+#: ../../image.php:138
+msgid "Post a comment"
+msgstr "Posting komentar"
+
+#: ../../image.php:139
+msgid "or leave a trackback"
+msgstr "atau meninggalkan trackback"
+
+#: ../../image.php:141 ../../image.php:147
+msgid "Trackback URL"
+msgstr "Trackback URL"
+
+#: ../../image.php:145
+msgid "Comments are closed, but you can leave a trackback"
+msgstr "Komentar ditutup, tapi Anda dapat meninggalkan trackback"
+
+#: ../../image.php:151
+msgid "Trackbacks are closed, but you can"
+msgstr "Trackbacks adalah ditutup, tetapi Anda dapat"
+
+#: ../../image.php:152
+msgid "post a comment"
+msgstr "memposting komentar"
+
+#: ../../image.php:155
+msgid "Both comments and trackbacks are currently closed."
+msgstr "Kedua komentar dan Pelacakan sedang ditutup."
+
+#: ../../no-results.php:21
+msgid "Nothing Found"
+msgstr "Tidak Ditemukan"
+
+#: ../../no-results.php:28
+msgid "Ready to publish your first post?"
+msgstr "Siap untuk mempublikasikan posting pertama Anda?"
+
+#: ../../no-results.php:30
+msgid "Get started here"
+msgstr "Persiapan di sini"
+
+#: ../../no-results.php:35
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+"Maaf, tapi tidak ada yang cocok dengan istilah pencarian Anda. Silakan coba "
+"lagi dengan beberapa kata kunci yang berbeda."
+
+#: ../../no-results.php:40
+msgid ""
+"It seems we cannot find what you are looking for. Perhaps searching can help."
+msgstr ""
+"Tampaknya kita tidak dapat menemukan apa yang Anda cari. Mungkin pencarian "
+"bisa membantu."
+
+#: ../../search.php:33
+#, php-format
+msgid "Search Results for: %s"
+msgstr "Hasil pencarian untuk: %s"
+
+#: ../../searchform.php:19 ../../cyberchimps/options/options-core.php:243
+msgid "Search"
+msgstr "Pencarian"
+
+#: ../../sidebar-left.php:58 ../../sidebar-right.php:58 ../../sidebar.php:58
+msgid "Subscribe"
+msgstr "Berlangganan"
+
+#: ../../sidebar-left.php:60 ../../sidebar-right.php:60 ../../sidebar.php:60
+msgid "Entries (RSS)"
+msgstr "Entri (RSS)"
+
+#: ../../sidebar-left.php:61 ../../sidebar-right.php:61 ../../sidebar.php:61
+msgid "Comments (RSS)"
+msgstr "Komentar (RSS)"
+
+#: ../../cyberchimps/functions.php:313
+msgid "View all posts by"
+msgstr "Lihat semua posting"
+
+#: ../../cyberchimps/functions.php:315
+msgid "Posted on "
+msgstr "Ditulis di"
+
+#: ../../cyberchimps/functions.php:316
+msgid " by "
+msgstr " oleh "
+
+#: ../../cyberchimps/functions.php:341
+msgid "Posted in"
+msgstr "Posted in"
+
+#: ../../cyberchimps/functions.php:367
+msgid "Tags:"
+msgstr "Tags"
+
+#: ../../cyberchimps/functions.php:390 ../../cyberchimps/functions.php:402
+msgid "Leave a comment"
+msgstr "Tinggalkan komentar"
+
+#: ../../cyberchimps/functions.php:393
+msgid "1 Comment"
+msgstr "1 Komentar"
+
+#: ../../cyberchimps/functions.php:393
+#: ../../cyberchimps/options/options-core.php:291
+msgid "Comments"
+msgstr "Komentar"
+
+#: ../../cyberchimps/functions.php:502 ../../cyberchimps/inc/meta-box.php:133
+#: ../../elements/init.php:60
+msgid "Page"
+msgstr "Halaman"
+
+#: ../../cyberchimps/functions.php:602
+msgid "Continue Reading"
+msgstr "Lanjutkan Membaca"
+
+#: ../../cyberchimps/functions.php:763
+msgid "Welcome"
+msgstr "Selamat Datang"
+
+#: ../../cyberchimps/functions.php:767
+msgid "Congratulations you have successfully installed"
+msgstr "Selamat Anda telah berhasil menginstal"
+
+#: ../../cyberchimps/functions.php:769
+msgid "Your website is important to us, so please read the"
+msgstr "Website Anda adalah penting bagi kami, jadi silakan baca"
+
+#: ../../cyberchimps/functions.php:769
+msgid "instructions"
+msgstr "Instruksi"
+
+#: ../../cyberchimps/functions.php:769
+msgid "to learn how to use"
+msgstr "untuk belajar bagaimana menggunakan"
+
+#: ../../cyberchimps/functions.php:771
+msgid "If you have any questions please post in our"
+msgstr "Jika Anda memiliki pertanyaan silahkan posting di kami"
+
+#: ../../cyberchimps/functions.php:771
+msgid "support forum"
+msgstr "dukungan forum"
+
+#: ../../cyberchimps/functions.php:771
+msgid "and we will get back to you as soon as we can"
+msgstr "dan kami akan kembali kepada Anda secepat kami bisa"
+
+#: ../../cyberchimps/functions.php:773
+msgid "Thank you for choosing CyberChimps Professional WordPress Themes"
+msgstr "Terima kasih telah memilih CyberChimps profesional Wordpress Themes"
+
+#: ../../cyberchimps/functions.php:776
+#: ../../cyberchimps/options/options-core.php:1055
+#: ../../cyberchimps/options/options-core.php:1071
+#: ../../cyberchimps/options/options-core.php:1282
+msgid "Pro"
+msgstr "Amsal"
+
+#: ../../cyberchimps/functions.php:783
+msgid "Complete Installation"
+msgstr "Lengkap Instalasi"
+
+#: ../../cyberchimps/functions.php:800
+#: ../../cyberchimps/options/options-init.php:134
+msgid "Instructions"
+msgstr "Instruksi"
+
+#: ../../cyberchimps/functions.php:806
+#: ../../cyberchimps/options/options-init.php:133
+msgid "Support"
+msgstr "Dukungan Teknis"
+
+#: ../../cyberchimps/functions.php:815
+msgid "Upgrade to"
+msgstr "Upgrade ke"
+
+#: ../../cyberchimps/functions.php:821
+msgid "If you want even more amazing new features upgrade to"
+msgstr "Jika Anda ingin fitur baru bahkan lebih menakjubkan upgrade ke"
+
+#: ../../cyberchimps/functions.php:821
+msgid ""
+"which includes a Custom Features Slider, Image Carousel, Widgetized Boxes, "
+"Callout Section, expanded typography including Google Fonts, more color "
+"skins, and many more powerful new features. Please visit"
+msgstr ""
+"yang mencakup Slider Fitur Custom, Carousel Gambar, box widgetized, Callout "
+"Bagian, tipografi diperluas termasuk Font Google, kulit warna yang lebih, "
+"dan banyak fitur baru yang lebih kuat. Silahkan kunjungi"
+
+#: ../../cyberchimps/functions.php:821
+msgid "to learn more!"
+msgstr "untuk mempelajari lebih lanjut!"
+
+#: ../../cyberchimps/functions.php:838
+#, php-format
+msgid "Welcome to %1$s! Learn more now about upgrading to"
+msgstr "Selamat Datang di %1$s ! Pelajari lebih sekarang tentang upgrade ke"
+
+#: ../../cyberchimps/functions.php:838
+msgid "today."
+msgstr "pada masa ini."
+
+#: ../../cyberchimps/functions.php:888
+#: ../../cyberchimps/options/options-init.php:128
+msgid "Options"
+msgstr "Pilihan"
+
+#: ../../cyberchimps/functions.php:888
+msgid " Options"
+msgstr " Pilihan"
+
+#: ../../cyberchimps/init.php:79
+msgid "Primary Menu"
+msgstr "Primer menu"
+
+#: ../../cyberchimps/init.php:154
+msgid "Sidebar Left"
+msgstr "Sidebar Kiri"
+
+#: ../../cyberchimps/init.php:163
+msgid "Sidebar Right"
+msgstr "Sidebar Kanan"
+
+#: ../../cyberchimps/init.php:172
+#: ../../cyberchimps/options/options-core.php:2073
+msgid "Footer Widgets"
+msgstr "Footer Widgets"
+
+#: ../../cyberchimps/inc/cc-custom-background.php:98
+msgid "Or choose one of CyberChimps background images"
+msgstr "Atau pilih salah satu gambar latar belakang CyberChimps"
+
+#: ../../cyberchimps/inc/meta-box-class.php:376
+msgid "Uploaded files"
+msgstr "Upload file"
+
+#: ../../cyberchimps/inc/meta-box-class.php:390
+msgid "Upload new files"
+msgstr "Upload file baru"
+
+#: ../../cyberchimps/inc/meta-box-class.php:393
+msgid "Add more file"
+msgstr "Tambahkan file lebih"
+
+#: ../../cyberchimps/inc/meta-box-class.php:418
+msgid "Uploaded images"
+msgstr "Upload gambar"
+
+#: ../../cyberchimps/inc/meta-box-class.php:432
+msgid "Upload new images (Make sure to publish the post to save)"
+msgstr ""
+"Upload gambar baru (Pastikan untuk mempublikasikan posting untuk menyimpan)"
+
+#: ../../cyberchimps/inc/meta-box-class.php:444
+msgid "Select a color"
+msgstr "Pilih warna"
+
+#: ../../cyberchimps/inc/meta-box-class.php:603
+#: ../../cyberchimps/options/options-medialibrary-uploader.php:112
+msgid "Upload"
+msgstr "Unggah"
+
+#: ../../cyberchimps/inc/meta-box-class.php:604
+msgid "or enter URL"
+msgstr "atau masukkan URL"
+
+#: ../../cyberchimps/inc/meta-box.php:110
+msgid "Slider Options"
+msgstr "Slider Pilihan"
+
+#: ../../cyberchimps/inc/meta-box.php:113
+msgid "Slider Image"
+msgstr "Slider Gambar"
+
+#: ../../cyberchimps/inc/meta-box.php:114
+msgid "Slider Caption"
+msgstr "Slider Keterangan"
+
+#: ../../cyberchimps/inc/meta-box.php:115
+msgid "Custom Slide Link"
+msgstr "Kustom Slide Tautan"
+
+#: ../../cyberchimps/inc/meta-box.php:116
+#: ../../cyberchimps/inc/meta-box.php:203
+#: ../../cyberchimps/inc/meta-box.php:222
+#: ../../cyberchimps/inc/meta-box.php:224
+#: ../../cyberchimps/options/options-core.php:1266
+#: ../../cyberchimps/options/options-core.php:1396
+#: ../../cyberchimps/options/options-core.php:1698
+msgid "Title"
+msgstr "Judul"
+
+#: ../../cyberchimps/inc/meta-box.php:117
+msgid "Caption"
+msgstr "Takarir"
+
+#: ../../cyberchimps/inc/meta-box.php:118
+#: ../../cyberchimps/inc/meta-box.php:140
+#: ../../cyberchimps/inc/meta-box.php:168
+msgid "Need Help?"
+msgstr "Butuh Bantuan?"
+
+#: ../../cyberchimps/inc/meta-box.php:124
+msgid "Select Page Layout"
+msgstr "Pilih Page Layout"
+
+#: ../../cyberchimps/inc/meta-box.php:129
+msgid "Page Title"
+msgstr "Judul Halaman"
+
+#: ../../cyberchimps/inc/meta-box.php:130
+msgid "Page Elements"
+msgstr "Elemen Halaman"
+
+#: ../../cyberchimps/inc/meta-box.php:132
+#: ../../cyberchimps/options/options-core.php:923
+#: ../../cyberchimps/options/options-core.php:928
+msgid "Boxes"
+msgstr "Kotak"
+
+#: ../../cyberchimps/inc/meta-box.php:134
+#: ../../cyberchimps/options/options-core.php:929 ../../elements/init.php:47
+#: ../../elements/init.php:59
+msgid "Portfolio Lite"
+msgstr "Portofolio Lite"
+
+#: ../../cyberchimps/inc/meta-box.php:135
+#: ../../cyberchimps/options/options-core.php:922
+#: ../../cyberchimps/options/options-core.php:931 ../../elements/init.php:49
+#: ../../elements/init.php:61
+msgid "Slider Lite"
+msgstr "Slider Lite"
+
+#: ../../cyberchimps/inc/meta-box.php:136
+#: ../../cyberchimps/options/options-core.php:932 ../../elements/init.php:50
+#: ../../elements/init.php:62
+msgid "Twitter Bar"
+msgstr "Twitter Bar"
+
+#: ../../cyberchimps/inc/meta-box.php:142
+#: ../../cyberchimps/options/options-core.php:1407
+msgid "Meta Data"
+msgstr "Meta data"
+
+#: ../../cyberchimps/inc/meta-box.php:143
+#: ../../cyberchimps/options/options-core.php:1416
+msgid "Number of Columns"
+msgstr "Jumlah Kolom"
+
+#: ../../cyberchimps/inc/meta-box.php:144
+#: ../../cyberchimps/options/options-core.php:1428
+msgid "Number of Rows"
+msgstr "Jumlah Baris"
+
+#: ../../cyberchimps/inc/meta-box.php:145
+#: ../../cyberchimps/options/options-core.php:1442
+msgid "Wide Posts Below Magazine"
+msgstr "Tulisan lebar bawah Majalah"
+
+#: ../../cyberchimps/inc/meta-box.php:146
+msgid "Number of Wide Posts "
+msgstr "Jumlah Tulisan Lebar "
+
+#: ../../cyberchimps/inc/meta-box.php:153
+msgid "Slide One Image"
+msgstr "Geser Satu Gambar"
+
+#: ../../cyberchimps/inc/meta-box.php:154
+msgid "Slide One Link"
+msgstr "Geser Satu Tautan"
+
+#: ../../cyberchimps/inc/meta-box.php:155
+msgid "Slide Two Image"
+msgstr "Slide Dua Gambar"
+
+#: ../../cyberchimps/inc/meta-box.php:156
+msgid "Slide Two Link"
+msgstr "Geser Dua Tautan"
+
+#: ../../cyberchimps/inc/meta-box.php:157
+msgid "Slide Three Image"
+msgstr "Geser Tiga Gambar"
+
+#: ../../cyberchimps/inc/meta-box.php:158
+msgid "Slide Three Link"
+msgstr "Geser Tiga Tautan"
+
+#: ../../cyberchimps/inc/meta-box.php:160
+#: ../../cyberchimps/options/options-core.php:1468
+msgid "Slider Size"
+msgstr "Slider Ukuran"
+
+#: ../../cyberchimps/inc/meta-box.php:160
+#: ../../cyberchimps/options/options-core.php:1473
+msgid "Full"
+msgstr "Seluruh"
+
+#: ../../cyberchimps/inc/meta-box.php:160
+#: ../../cyberchimps/options/options-core.php:1474
+msgid "Half"
+msgstr "Setengah"
+
+#: ../../cyberchimps/inc/meta-box.php:161
+#: ../../cyberchimps/options/options-core.php:1481
+msgid "Slider Type"
+msgstr "Slider Type"
+
+#: ../../cyberchimps/inc/meta-box.php:161
+#: ../../cyberchimps/options/options-core.php:1487
+msgid "Custom"
+msgstr "Lainnya"
+
+#: ../../cyberchimps/inc/meta-box.php:161
+#: ../../cyberchimps/options/options-core.php:1486
+msgid "Posts"
+msgstr "Posts"
+
+#: ../../cyberchimps/inc/meta-box.php:162
+#: ../../cyberchimps/options/options-core.php:1494
+#: ../../cyberchimps/options/options-core.php:1717
+msgid "Post Categories"
+msgstr "Posting Kategori"
+
+#: ../../cyberchimps/inc/meta-box.php:162
+#: ../../cyberchimps/inc/meta-box.php:226
+msgid "All"
+msgstr "Sem"
+
+#: ../../cyberchimps/inc/meta-box.php:163
+#: ../../cyberchimps/options/options-core.php:1505
+#: ../../cyberchimps/options/options-core.php:1516
+msgid "Custom Categories"
+msgstr "Kustom Kategori"
+
+#: ../../cyberchimps/inc/meta-box.php:163
+#: ../../cyberchimps/inc/meta-box.php:201
+#: ../../cyberchimps/inc/meta-box.php:229
+#: ../../cyberchimps/inc/meta-box.php:233
+#: ../../cyberchimps/options/options-core.php:1381
+#: ../../cyberchimps/options/options-core.php:1519
+#: ../../cyberchimps/options/options-core.php:1753
+#: ../../cyberchimps/options/options-core.php:1776
+msgid "You need to create a Category"
+msgstr "Anda perlu menciptakan Kategori"
+
+#: ../../cyberchimps/inc/meta-box.php:164
+msgid "Number of Featured Posts"
+msgstr "Jumlah Feature Posts"
+
+#: ../../cyberchimps/inc/meta-box.php:165
+#: ../../cyberchimps/options/options-core.php:1535
+msgid "Slider Height"
+msgstr "Slider Tinggi"
+
+#: ../../cyberchimps/inc/meta-box.php:166
+msgid "Slider Speed"
+msgstr "Slider Kecepatan"
+
+#: ../../cyberchimps/inc/meta-box.php:167
+#: ../../cyberchimps/options/options-core.php:1554
+msgid "Slider Arrows"
+msgstr "Slider Arrows"
+
+#: ../../cyberchimps/inc/meta-box.php:180
+#: ../../cyberchimps/options/options-core.php:1565
+msgid "Callout Title"
+msgstr "Callout Judul"
+
+#: ../../cyberchimps/inc/meta-box.php:181
+#: ../../cyberchimps/options/options-core.php:1567
+#, php-format
+msgid "%1$s's Call Out Element"
+msgstr "%1$s 's Panggilan Out Elemen"
+
+#: ../../cyberchimps/inc/meta-box.php:183
+#: ../../cyberchimps/options/options-core.php:1574
+msgid "Callout Text"
+msgstr "Callout Teks"
+
+#: ../../cyberchimps/inc/meta-box.php:184
+#: ../../cyberchimps/options/options-core.php:1576
+#, php-format
+msgid ""
+"Use %1$s's Call Out section on any page where you want to deliver an "
+"important message to your customer or client."
+msgstr ""
+"Gunakan %1$s 's Panggilan Out bagian pada setiap halaman di mana Anda ingin "
+"menyampaikan pesan penting kepada pelanggan atau klien."
+
+#: ../../cyberchimps/inc/meta-box.php:186
+#: ../../cyberchimps/options/options-core.php:1583
+msgid "Callout Button"
+msgstr "Callout Tombol"
+
+#: ../../cyberchimps/inc/meta-box.php:187
+#: ../../cyberchimps/options/options-core.php:1592
+msgid "Callout Button Text"
+msgstr "Callout Teks Tombol"
+
+#: ../../cyberchimps/inc/meta-box.php:188
+#: ../../cyberchimps/options/options-core.php:1602
+msgid "Callout Button URL"
+msgstr "Callout URL Tombol"
+
+#: ../../cyberchimps/inc/meta-box.php:189
+#: ../../cyberchimps/options/options-core.php:1612
+msgid "Custom Callout Options"
+msgstr "Kustom Seranta Pilihan"
+
+#: ../../cyberchimps/inc/meta-box.php:190
+msgid "Custom Button Image"
+msgstr "Tombol kustom Gambar"
+
+#: ../../cyberchimps/inc/meta-box.php:191
+msgid "Custom Background Color"
+msgstr "Kustom Warna Latar Belakang"
+
+#: ../../cyberchimps/inc/meta-box.php:192
+msgid "Custom Title Color"
+msgstr "Kustom Warna Judul"
+
+#: ../../cyberchimps/inc/meta-box.php:193
+msgid "Custom Text Color"
+msgstr "Kustom Warna Teks"
+
+#: ../../cyberchimps/inc/meta-box.php:194
+msgid "Custom Button Color"
+msgstr "Tombol kustom Warna"
+
+#: ../../cyberchimps/inc/meta-box.php:195
+msgid "Custom Button Text Color"
+msgstr "Tombol kustom Warna Teks"
+
+#: ../../cyberchimps/inc/meta-box.php:196
+msgid "Need help?"
+msgstr "Butuh bantuan?"
+
+#: ../../cyberchimps/inc/meta-box.php:198
+msgid "Custom HTML"
+msgstr "Custom HTML"
+
+#: ../../cyberchimps/inc/meta-box.php:198
+msgid "Enter your custom html here"
+msgstr "Masukkan html kustom Anda di sini"
+
+#: ../../cyberchimps/inc/meta-box.php:200
+msgid "Images per row"
+msgstr "Gambar per baris"
+
+#: ../../cyberchimps/inc/meta-box.php:200
+msgid "Two"
+msgstr ""
+
+#: ../../cyberchimps/inc/meta-box.php:200
+msgid "Three"
+msgstr "Mereka Bertiga."
+
+#: ../../cyberchimps/inc/meta-box.php:200
+msgid "Four"
+msgstr "Empat."
+
+#: ../../cyberchimps/inc/meta-box.php:201
+#: ../../cyberchimps/options/options-core.php:1368
+#: ../../cyberchimps/options/options-core.php:1378
+msgid "Portfolio Category"
+msgstr "Portofolio Kategori"
+
+#: ../../cyberchimps/inc/meta-box.php:202
+#: ../../cyberchimps/inc/meta-box.php:221
+#: ../../cyberchimps/options/options-core.php:1256
+#: ../../cyberchimps/options/options-core.php:1388
+msgid "Portfolio Title"
+msgstr "Portofolio Judul"
+
+#: ../../cyberchimps/inc/meta-box.php:203
+#: ../../cyberchimps/inc/meta-box.php:222
+msgid "Portfolio"
+msgstr "port"
+
+#: ../../cyberchimps/inc/meta-box.php:205
+#: ../../cyberchimps/options/options-core.php:1082
+msgid "First Portfolio Image"
+msgstr "Pertama Portofolio Gambar"
+
+#: ../../cyberchimps/inc/meta-box.php:206
+#: ../../cyberchimps/options/options-core.php:1093
+msgid "First Portfolio Image Caption"
+msgstr "Portofolio Pertama Gambar Caption"
+
+#: ../../cyberchimps/inc/meta-box.php:206
+msgid "Image 1"
+msgstr "Gambar 1"
+
+#: ../../cyberchimps/inc/meta-box.php:207
+#: ../../cyberchimps/options/options-core.php:1103
+msgid "First Porfolio Link"
+msgstr "Pertama porfolio Tautan"
+
+#: ../../cyberchimps/inc/meta-box.php:208
+#: ../../cyberchimps/inc/meta-box.php:212
+#: ../../cyberchimps/inc/meta-box.php:216
+#: ../../cyberchimps/inc/meta-box.php:220
+#: ../../cyberchimps/options/options-core.php:1112
+#: ../../cyberchimps/options/options-core.php:1156
+#: ../../cyberchimps/options/options-core.php:1200
+#: ../../cyberchimps/options/options-core.php:1244
+msgid "Link URL"
+msgstr "Link URL"
+
+#: ../../cyberchimps/inc/meta-box.php:209
+#: ../../cyberchimps/options/options-core.php:1126
+msgid "Second Portfolio Image"
+msgstr "Kedua Portofolio Gambar"
+
+#: ../../cyberchimps/inc/meta-box.php:210
+#: ../../cyberchimps/options/options-core.php:1137
+msgid "Second Portfolio Image Caption"
+msgstr "Portofolio kedua Gambar Caption"
+
+#: ../../cyberchimps/inc/meta-box.php:210
+msgid "Image 2"
+msgstr "Gambar 2"
+
+#: ../../cyberchimps/inc/meta-box.php:211
+#: ../../cyberchimps/options/options-core.php:1147
+msgid "Second Porfolio Link"
+msgstr "Kedua porfolio Tautan"
+
+#: ../../cyberchimps/inc/meta-box.php:213
+#: ../../cyberchimps/options/options-core.php:1170
+msgid "Third Portfolio Image"
+msgstr "Ketiga Portofolio Gambar"
+
+#: ../../cyberchimps/inc/meta-box.php:214
+#: ../../cyberchimps/options/options-core.php:1181
+msgid "Third Portfolio Image Caption"
+msgstr "Portofolio Ketiga Gambar Caption"
+
+#: ../../cyberchimps/inc/meta-box.php:214
+msgid "Image 3"
+msgstr "Gambar 3"
+
+#: ../../cyberchimps/inc/meta-box.php:215
+#: ../../cyberchimps/options/options-core.php:1191
+msgid "Third Porfolio Link"
+msgstr "Ketiga porfolio Tautan"
+
+#: ../../cyberchimps/inc/meta-box.php:217
+#: ../../cyberchimps/options/options-core.php:1214
+msgid "Fourth Portfolio Image"
+msgstr "Keempat Portofolio Gambar"
+
+#: ../../cyberchimps/inc/meta-box.php:218
+#: ../../cyberchimps/options/options-core.php:1225
+msgid "Fourth Portfolio Image Caption"
+msgstr "Portofolio Keempat Gambar Caption"
+
+#: ../../cyberchimps/inc/meta-box.php:218
+msgid "Image 4"
+msgstr "Gambar 4"
+
+#: ../../cyberchimps/inc/meta-box.php:219
+#: ../../cyberchimps/options/options-core.php:1235
+msgid "Fourth Porfolio Link"
+msgstr "Keempat porfolio Tautan"
+
+#: ../../cyberchimps/inc/meta-box.php:226
+msgid "Post Category"
+msgstr "Posting Kategori"
+
+#: ../../cyberchimps/inc/meta-box.php:227
+#: ../../cyberchimps/options/options-core.php:1727
+msgid "Images"
+msgstr "Gambar"
+
+#: ../../cyberchimps/inc/meta-box.php:229
+msgid "Carousel Category"
+msgstr "Carousel Kategori"
+
+#: ../../cyberchimps/inc/meta-box.php:231
+#: ../../cyberchimps/options/options-core.php:1787
+msgid "Twitter Handle"
+msgstr "Twitter Menangani"
+
+#: ../../cyberchimps/inc/meta-box.php:231
+msgid "Enter your Twitter handle if using the Twitter bar"
+msgstr "Masukkan menangani Twitter Anda jika menggunakan bar Twitter"
+
+#: ../../cyberchimps/inc/meta-box.php:233
+msgid "Boxes Category"
+msgstr "Kotak Kategori"
+
+#: ../../cyberchimps/options/options-core.php:24
+msgid "Help"
+msgstr "Tolong"
+
+#: ../../cyberchimps/options/options-core.php:29
+msgid "Design"
+msgstr "Design"
+
+#: ../../cyberchimps/options/options-core.php:34
+msgid "Header"
+msgstr "Header"
+
+#: ../../cyberchimps/options/options-core.php:39
+msgid "Blog"
+msgstr "Blog"
+
+#: ../../cyberchimps/options/options-core.php:44
+msgid "Templates"
+msgstr "Template"
+
+#: ../../cyberchimps/options/options-core.php:49
+msgid "Footer"
+msgstr "Footer"
+
+#: ../../cyberchimps/options/options-core.php:78
+msgid "Layout Options"
+msgstr "Layout Options"
+
+#: ../../cyberchimps/options/options-core.php:92
+msgid "Custom Colors"
+msgstr "Warna kustom"
+
+#: ../../cyberchimps/options/options-core.php:98
+msgid "Typography"
+msgstr "Tipografi"
+
+#: ../../cyberchimps/options/options-core.php:112
+msgid "Header Drag &#38; Drop"
+msgstr "Header Drag & Drop"
+
+#: ../../cyberchimps/options/options-core.php:118
+msgid "Header Options"
+msgstr "Header Options"
+
+#: ../../cyberchimps/options/options-core.php:124
+msgid "Social Icons"
+msgstr "Sosial Ikon"
+
+#: ../../cyberchimps/options/options-core.php:132
+msgid "Drag & Drop"
+msgstr "Drag & Drop"
+
+#: ../../cyberchimps/options/options-core.php:138
+msgid "Blog Options"
+msgstr "Blog Pilihan"
+
+#: ../../cyberchimps/options/options-core.php:146
+msgid "Blog Slider Lite"
+msgstr "Blog Slider Lite"
+
+#: ../../cyberchimps/options/options-core.php:152
+msgid "Portfolio Lite Options"
+msgstr "Portofolio Lite Pilihan"
+
+#: ../../cyberchimps/options/options-core.php:158 ../../elements/boxes.php:25
+#: ../../elements/boxes.php:26 ../../elements/init.php:46
+#: ../../elements/init.php:58
+msgid "Boxes Lite"
+msgstr "Kotak Lite"
+
+#: ../../cyberchimps/options/options-core.php:168
+msgid "Blog Slider"
+msgstr "Blog Slider"
+
+#: ../../cyberchimps/options/options-core.php:174
+msgid "Callout Options"
+msgstr "Seranta Pilihan"
+
+#: ../../cyberchimps/options/options-core.php:180
+msgid "HTML Box Options"
+msgstr "HTML Kotak Pilihan"
+
+#: ../../cyberchimps/options/options-core.php:186
+msgid "Carousel Options"
+msgstr "Carousel Pilihan"
+
+#: ../../cyberchimps/options/options-core.php:192
+msgid "Magazine Options"
+msgstr "Majalah Pilihan"
+
+#: ../../cyberchimps/options/options-core.php:198
+msgid "Portfolio Pro Options"
+msgstr "Portofolio Pro Pilihan"
+
+#: ../../cyberchimps/options/options-core.php:204
+msgid "Recent Posts Options"
+msgstr "Posting terbaru Options"
+
+#: ../../cyberchimps/options/options-core.php:211
+msgid "Twitterbar Options"
+msgstr "TwitterBar Pilihan"
+
+#: ../../cyberchimps/options/options-core.php:217
+msgid "Boxes Options"
+msgstr "Box Options"
+
+#: ../../cyberchimps/options/options-core.php:231
+msgid "Single Post"
+msgstr "Single Post"
+
+#: ../../cyberchimps/options/options-core.php:237
+msgid "Archive"
+msgstr "Arsipkan"
+
+#: ../../cyberchimps/options/options-core.php:257
+msgid "Footer Options"
+msgstr "Footer Pilihan"
+
+#: ../../cyberchimps/options/options-core.php:288
+msgid "Author"
+msgstr "Author"
+
+#: ../../cyberchimps/options/options-core.php:290
+msgid "Date"
+msgstr "Tanggal"
+
+#: ../../cyberchimps/options/options-core.php:292
+msgid "Tags"
+msgstr "Tags"
+
+#: ../../cyberchimps/options/options-core.php:379
+msgid "Cyberchimps Help"
+msgstr "Cyberchimps Bantuan"
+
+#: ../../cyberchimps/options/options-core.php:387
+msgid "Welcome Note"
+msgstr "Selamat Datang Perhatikan"
+
+#: ../../cyberchimps/options/options-core.php:398 ../../elements/boxes.php:156
+msgid "Responsive Design"
+msgstr "Responsif Desain"
+
+#: ../../cyberchimps/options/options-core.php:407
+msgid "Responsive Videos"
+msgstr "Responsif Video"
+
+#: ../../cyberchimps/options/options-core.php:416
+msgid "Tablet Responsive Menu"
+msgstr "Tablet Responsif menu"
+
+#: ../../cyberchimps/options/options-core.php:425
+#: ../../cyberchimps/options/options-customizer.php:103
+msgid "Max Width"
+msgstr "Max Lebar"
+
+#: ../../cyberchimps/options/options-core.php:429
+msgid "enter the width of your site in pixels"
+msgstr "masukkan lebar dari situs Anda dalam piksel"
+
+#: ../../cyberchimps/options/options-core.php:522
+msgid "Select a Skin Color"
+msgstr "Pilih Warna Kulit"
+
+#: ../../cyberchimps/options/options-core.php:526
+msgid "Default"
+msgstr "Standar"
+
+#: ../../cyberchimps/options/options-core.php:544
+#: ../../cyberchimps/options/options-customizer.php:130
+msgid "Text Color"
+msgstr "Warna Teks"
+
+#: ../../cyberchimps/options/options-core.php:545
+msgid "Select text color"
+msgstr "Pilih warna teks"
+
+#: ../../cyberchimps/options/options-core.php:553
+#: ../../cyberchimps/options/options-customizer.php:142
+msgid "Link Color"
+msgstr "Link Color"
+
+#: ../../cyberchimps/options/options-core.php:554
+msgid "Select link color"
+msgstr "Pilih warna link"
+
+#: ../../cyberchimps/options/options-core.php:562
+#: ../../cyberchimps/options/options-customizer.php:154
+msgid "Link Hover Color"
+msgstr "Link Hover Warna"
+
+#: ../../cyberchimps/options/options-core.php:563
+msgid "Select link hover color"
+msgstr "Pilih link warna melayang-layang"
+
+#: ../../cyberchimps/options/options-core.php:581
+msgid "Typography Options"
+msgstr "Tipografi Pilihan"
+
+#: ../../cyberchimps/options/options-core.php:591
+msgid "Google fonts"
+msgstr "Google font"
+
+#: ../../cyberchimps/options/options-core.php:600
+msgid "Enter Google font"
+msgstr "Masukkan huruf Google"
+
+#: ../../cyberchimps/options/options-core.php:610
+msgid "Demo Text"
+msgstr "Demo Teks"
+
+#: ../../cyberchimps/options/options-core.php:622
+msgid "Header Drag/Drop"
+msgstr "Header Drag / Drop"
+
+#: ../../cyberchimps/options/options-core.php:625
+#: ../../cyberchimps/options/options-core.php:629
+msgid "Logo + Icons"
+msgstr "Logo + Ikon"
+
+#: ../../cyberchimps/options/options-core.php:630
+msgid "Logo + Search"
+msgstr "Logo + Pencarian"
+
+#: ../../cyberchimps/options/options-core.php:631
+msgid "Logo"
+msgstr "Logo"
+
+#: ../../cyberchimps/options/options-core.php:640
+msgid "Custom Logo URL"
+msgstr "Logo kustom URL"
+
+#: ../../cyberchimps/options/options-core.php:648
+msgid "URL"
+msgstr "URL"
+
+#: ../../cyberchimps/options/options-core.php:649
+msgid "Enter URL"
+msgstr "Masukkan URL"
+
+#: ../../cyberchimps/options/options-core.php:659
+msgid "Custom Logo"
+msgstr "Logo kustom"
+
+#: ../../cyberchimps/options/options-core.php:667
+msgid "Logo Image"
+msgstr "Logo Gambar"
+
+#: ../../cyberchimps/options/options-core.php:668
+#: ../../cyberchimps/options/options-core.php:687
+#: ../../cyberchimps/options/options-core.php:705
+#: ../../cyberchimps/options/options-core.php:1083
+#: ../../cyberchimps/options/options-core.php:1127
+#: ../../cyberchimps/options/options-core.php:1171
+#: ../../cyberchimps/options/options-core.php:1215
+#: ../../cyberchimps/options/options-core.php:1291
+#: ../../cyberchimps/options/options-core.php:1310
+#: ../../cyberchimps/options/options-core.php:1329
+msgid "Enter URL or upload file"
+msgstr "Masukkan URL atau upload file"
+
+#: ../../cyberchimps/options/options-core.php:678
+msgid "Custom Favicon"
+msgstr "Kustom Favicon"
+
+#: ../../cyberchimps/options/options-core.php:686
+msgid "Favicon URL"
+msgstr "Favicon URL"
+
+#: ../../cyberchimps/options/options-core.php:696
+msgid "Custom Apple touch icon"
+msgstr "Kustom Apple sentuh ikon"
+
+#: ../../cyberchimps/options/options-core.php:704
+msgid "Apple Touch URL"
+msgstr "Apple Sentuh URL"
+
+#: ../../cyberchimps/options/options-core.php:715
+msgid "Searchbar"
+msgstr "Searchbar"
+
+#: ../../cyberchimps/options/options-core.php:727
+msgid "Choose your icon style"
+msgstr "Pilih gaya ikon Anda"
+
+#: ../../cyberchimps/options/options-core.php:740
+msgid "Twitter"
+msgstr "Twitter"
+
+#: ../../cyberchimps/options/options-core.php:748
+msgid "Twitter URL"
+msgstr "Twitter URL"
+
+#: ../../cyberchimps/options/options-core.php:758
+msgid "Facebook"
+msgstr "Facebook"
+
+#: ../../cyberchimps/options/options-core.php:766
+msgid "Facebook URL"
+msgstr "Facebook URL"
+
+#: ../../cyberchimps/options/options-core.php:776
+msgid "Google+"
+msgstr "Google+"
+
+#: ../../cyberchimps/options/options-core.php:784
+msgid "Google+ URL"
+msgstr "Google+ URL"
+
+#: ../../cyberchimps/options/options-core.php:794
+msgid "Flickr"
+msgstr "Flickr"
+
+#: ../../cyberchimps/options/options-core.php:801
+msgid "Flickr URL"
+msgstr "Flickr URL"
+
+#: ../../cyberchimps/options/options-core.php:811
+msgid "Pinterest"
+msgstr "Pinterest"
+
+#: ../../cyberchimps/options/options-core.php:818
+msgid "Pinterest URL"
+msgstr "Pinterest URL"
+
+#: ../../cyberchimps/options/options-core.php:828
+msgid "LinkedIn"
+msgstr "LinkedIn"
+
+#: ../../cyberchimps/options/options-core.php:835
+msgid "LinkedIn URL"
+msgstr "LinkedIn URL"
+
+#: ../../cyberchimps/options/options-core.php:845
+msgid "YouTube"
+msgstr "YouTube"
+
+#: ../../cyberchimps/options/options-core.php:852
+msgid "YouTube URL"
+msgstr "YouTube URL"
+
+#: ../../cyberchimps/options/options-core.php:862
+msgid "RSS"
+msgstr "RSS"
+
+#: ../../cyberchimps/options/options-core.php:869
+msgid "RSS URL"
+msgstr "RSS URL"
+
+#: ../../cyberchimps/options/options-core.php:879
+msgid "Email"
+msgstr "Email"
+
+#: ../../cyberchimps/options/options-core.php:886
+msgid "Email Address"
+msgstr "Alamat Email"
+
+#: ../../cyberchimps/options/options-core.php:895
+msgid "Google Maps"
+msgstr "Google Maps"
+
+#: ../../cyberchimps/options/options-core.php:902
+msgid "Google Maps URL"
+msgstr "Google Maps URL"
+
+#: ../../cyberchimps/options/options-core.php:919
+msgid "Drag & Drop Blog Elements"
+msgstr "Drag & Drop Elemen Blog"
+
+#: ../../cyberchimps/options/options-core.php:924
+#: ../../cyberchimps/options/options-core.php:930 ../../elements/init.php:48
+msgid "Post Page"
+msgstr "Posting Halaman"
+
+#: ../../cyberchimps/options/options-core.php:940
+#: ../../cyberchimps/options/options-core.php:1811
+#: ../../cyberchimps/options/options-core.php:1905
+#: ../../cyberchimps/options/options-core.php:1997
+#: ../../cyberchimps/options/options-core.php:2040
+msgid "Sidebar Options"
+msgstr "Sidebar Pilihan"
+
+#: ../../cyberchimps/options/options-core.php:953
+msgid "Post Formats Icons"
+msgstr "Pasang Ikon Format"
+
+#: ../../cyberchimps/options/options-core.php:960
+#: ../../cyberchimps/options/options-core.php:1927
+#: ../../cyberchimps/options/options-core.php:2011
+msgid "Post Excerpts"
+msgstr "Posting Kutipan"
+
+#: ../../cyberchimps/options/options-core.php:968
+#: ../../cyberchimps/options/options-core.php:2019
+msgid "Read More Text"
+msgstr "Baca Teks Lebih"
+
+#: ../../cyberchimps/options/options-core.php:977
+#: ../../cyberchimps/options/options-core.php:2029
+msgid "Excerpt Length"
+msgstr "Kutipan Panjang"
+
+#: ../../cyberchimps/options/options-core.php:986
+#: ../../cyberchimps/options/options-core.php:1835
+#: ../../cyberchimps/options/options-core.php:1936
+msgid "Featured Images"
+msgstr "Potret Menarik"
+
+#: ../../cyberchimps/options/options-core.php:997
+#: ../../cyberchimps/options/options-core.php:1853
+#: ../../cyberchimps/options/options-core.php:1946
+msgid "Post Byline Author"
+msgstr "Posting Penulis Byline"
+
+#: ../../cyberchimps/options/options-core.php:1007
+#: ../../cyberchimps/options/options-core.php:1863
+#: ../../cyberchimps/options/options-core.php:1956
+msgid "Post Byline Categories"
+msgstr "Posting Kategori Byline"
+
+#: ../../cyberchimps/options/options-core.php:1017
+#: ../../cyberchimps/options/options-core.php:1873
+#: ../../cyberchimps/options/options-core.php:1966
+msgid "Post Byline Date"
+msgstr "Posting Tanggal Byline"
+
+#: ../../cyberchimps/options/options-core.php:1027
+#: ../../cyberchimps/options/options-core.php:1883
+#: ../../cyberchimps/options/options-core.php:1976
+msgid "Post Byline Comments"
+msgstr "Poskan Komentar Byline"
+
+#: ../../cyberchimps/options/options-core.php:1037
+#: ../../cyberchimps/options/options-core.php:1894
+#: ../../cyberchimps/options/options-core.php:1986
+msgid "Post Byline Tags"
+msgstr "Posting Tag Byline"
+
+#: ../../cyberchimps/options/options-core.php:1051
+msgid "Boxes Upgrade"
+msgstr "Tingkatkan kotak"
+
+#: ../../cyberchimps/options/options-core.php:1054
+#, php-format
+msgid ""
+"Boxes Lite limits you to a total of 3 boxes throughout your whole site. "
+"Upgrade to %1$s to be able to create as many boxes as you like. Categorize "
+"them and display each category on a different page."
+msgstr ""
+"Kotak Lite membatasi Anda untuk total 3 kotak seluruh seluruh situs Anda. "
+"Upgrade ke %1$s untuk dapat membuat kotak sebanyak yang Anda suka. "
+"Mengkategorikan mereka dan menampilkan setiap kategori pada halaman yang "
+"berbeda."
+
+#: ../../cyberchimps/options/options-core.php:1067
+msgid "Portfolio Upgrade"
+msgstr "Peningkatan portofolio"
+
+#: ../../cyberchimps/options/options-core.php:1070
+#, php-format
+msgid ""
+"Portfolio Lite limits you to a total of 4 items throughout your whole site. "
+"Upgrade to %1$s to be able to create as many portfolio items as you like. "
+"Categorize them and display each category on a different page."
+msgstr ""
+"Portofolio Lite membatasi Anda untuk total 4 item seluruh seluruh situs "
+"Anda. Upgrade ke %1$s untuk dapat membuat sebagai item portofolio yang Anda "
+"inginkan. Mengkategorikan mereka dan menampilkan setiap kategori pada "
+"halaman yang berbeda."
+
+#: ../../cyberchimps/options/options-core.php:1278
+msgid "Slider Upgrade"
+msgstr "Slider Tingkatkan"
+
+#: ../../cyberchimps/options/options-core.php:1281
+#, php-format
+msgid ""
+"Slider Lite limits you to a total of 3 images throughout your whole site. "
+"Upgrade to %1$s to be able to create more images. Categorize them and "
+"display each category on a different page."
+msgstr ""
+"Slider Lite membatasi Anda untuk total 3 gambar seluruh seluruh situs Anda. "
+"Upgrade ke %1$s untuk dapat membuat gambar lebih. Mengkategorikan mereka dan "
+"menampilkan setiap kategori pada halaman yang berbeda."
+
+#: ../../cyberchimps/options/options-core.php:1290
+msgid "Slider Image 1"
+msgstr "Slider Gambar 1"
+
+#: ../../cyberchimps/options/options-core.php:1300
+msgid "Slide 1 URL"
+msgstr "Slide 1 URL"
+
+#: ../../cyberchimps/options/options-core.php:1309
+msgid "Slider Image 2"
+msgstr "Slider Gambar 2"
+
+#: ../../cyberchimps/options/options-core.php:1319
+msgid "Slide 2 URL"
+msgstr "Slide 2 URL"
+
+#: ../../cyberchimps/options/options-core.php:1328
+msgid "Slider Image 3"
+msgstr "Slider Gambar 3"
+
+#: ../../cyberchimps/options/options-core.php:1338
+msgid "Slide 3 URL"
+msgstr "Geser 3 URL"
+
+#: ../../cyberchimps/options/options-core.php:1354
+msgid "Images per Row"
+msgstr "Gambar per Row"
+
+#: ../../cyberchimps/options/options-core.php:1451
+msgid "Number of Wide Posts"
+msgstr "Jumlah Tulisan Lebar"
+
+#: ../../cyberchimps/options/options-core.php:1526
+msgid "Number of Featured Blog Posts"
+msgstr "Jumlah Posting Blog Feature"
+
+#: ../../cyberchimps/options/options-core.php:1545
+msgid "Slider Speed "
+msgstr "Slider Kecepatan "
+
+#: ../../cyberchimps/options/options-core.php:1595
+msgid "Click Here"
+msgstr "Klik Disini"
+
+#: ../../cyberchimps/options/options-core.php:1621
+msgid "Custom Callout Button"
+msgstr "Kustom Seranta Tombol"
+
+#: ../../cyberchimps/options/options-core.php:1631
+msgid "Custom Callout Background Color"
+msgstr "Kustom Seranta Warna Latar Belakang"
+
+#: ../../cyberchimps/options/options-core.php:1641
+msgid "Custom Callout Title Color"
+msgstr "Kustom Seranta Warna Judul"
+
+#: ../../cyberchimps/options/options-core.php:1651
+msgid "Custom Callout Text Color"
+msgstr "Kustom Seranta Warna Teks"
+
+#: ../../cyberchimps/options/options-core.php:1661
+msgid "Custom Callout Button Color"
+msgstr "Kustom Seranta Warna Tombol"
+
+#: ../../cyberchimps/options/options-core.php:1671
+msgid "Custom Callout Button Text Color"
+msgstr "Kustom Seranta Warna Teks Tombol"
+
+#: ../../cyberchimps/options/options-core.php:1684
+msgid "HTML Box"
+msgstr "HTML Box"
+
+#: ../../cyberchimps/options/options-core.php:1687
+msgid "Enter your custom HTML code here"
+msgstr "Masukkan kode HTML kustom Anda di sini"
+
+#: ../../cyberchimps/options/options-core.php:1707
+msgid "Custom Title"
+msgstr "Judul Buatan"
+
+#: ../../cyberchimps/options/options-core.php:1740
+#: ../../cyberchimps/options/options-core.php:1750
+#: ../../cyberchimps/options/options-core.php:1763
+#: ../../cyberchimps/options/options-core.php:1773
+msgid "Select a Category"
+msgstr "Pilih Kategori"
+
+#: ../../cyberchimps/options/options-core.php:1812
+#: ../../cyberchimps/options/options-core.php:1906
+#: ../../cyberchimps/options/options-core.php:1998
+#: ../../cyberchimps/options/options-core.php:2041
+msgid "Images for layout."
+msgstr "Gambar untuk tata letak."
+
+#: ../../cyberchimps/options/options-core.php:1826
+msgid "Post title"
+msgstr "Posting judul"
+
+#: ../../cyberchimps/options/options-core.php:1843
+#: ../../cyberchimps/options/options-core.php:1919
+msgid "Post Format Icons"
+msgstr "Pasang Ikon Format"
+
+#: ../../cyberchimps/options/options-core.php:2054
+msgid "Custom 404 Title"
+msgstr "Kustom 404 Judul"
+
+#: ../../cyberchimps/options/options-core.php:2062
+msgid "Custom 404 Content"
+msgstr "Kustom 404 Konten"
+
+#: ../../cyberchimps/options/options-core.php:2083
+msgid "Footer Copyright Text"
+msgstr "Footer Copyright Text"
+
+#: ../../cyberchimps/options/options-core.php:2092
+msgid "Google Analytics"
+msgstr "Google Analytics"
+
+#: ../../cyberchimps/options/options-core.php:2094
+msgid "Copy and paste your Google Analytics code here"
+msgstr "Copy dan paste kode Google Analytics Anda di sini"
+
+#: ../../cyberchimps/options/options-customizer.php:22
+msgid "Customize"
+msgstr "Sesuaikan"
+
+#: ../../cyberchimps/options/options-customizer.php:69
+msgid ""
+"make sure you have removed the image above before selecting one of these"
+msgstr ""
+"pastikan Anda telah menghapus gambar di atas sebelum memilih salah satu"
+
+#: ../../cyberchimps/options/options-customizer.php:116
+msgid "Skin Color"
+msgstr "Warna kulit"
+
+#: ../../cyberchimps/options/options-customizer.php:172
+msgid "Typography Size"
+msgstr "Tipografi Ukuran"
+
+#: ../../cyberchimps/options/options-customizer.php:186
+msgid "Typography Face"
+msgstr "Tipografi Wajah"
+
+#: ../../cyberchimps/options/options-customizer.php:199
+msgid "Typography Style"
+msgstr "Gaya tipografi"
+
+#: ../../cyberchimps/options/options-customizer.php:213
+msgid "Background Image"
+msgstr "Gambar Latar Belakang"
+
+#: ../../cyberchimps/options/options-init.php:34
+msgid "Theme Options Page"
+msgstr "Tema Pilihan Halaman"
+
+#: ../../cyberchimps/options/options-init.php:35
+#: ../../cyberchimps/options/options-init.php:1054
+msgid "Theme Options"
+msgstr "Tema Pilihan"
+
+#: ../../cyberchimps/options/options-init.php:135
+msgid "Buy Themes"
+msgstr "Beli Tema"
+
+#: ../../cyberchimps/options/options-init.php:167
+msgid "Open All"
+msgstr "Buka Semua"
+
+#: ../../cyberchimps/options/options-init.php:168
+msgid "Collapse All"
+msgstr "Tutup Semua"
+
+#: ../../cyberchimps/options/options-init.php:175
+#: ../../cyberchimps/options/options-init.php:283
+msgid "Restore Defaults"
+msgstr "Pulihkan Default"
+
+#: ../../cyberchimps/options/options-init.php:175
+#: ../../cyberchimps/options/options-init.php:283
+msgid "Click OK to reset. Any theme settings will be lost!"
+msgstr "Klik OK untuk me-reset. Setiap setting theme akan hilang!"
+
+#: ../../cyberchimps/options/options-init.php:176
+#: ../../cyberchimps/options/options-init.php:237
+#: ../../cyberchimps/options/options-init.php:284
+msgid "Save Options"
+msgstr "Simpan Opsi"
+
+#: ../../cyberchimps/options/options-init.php:269
+msgid "CyberChimps Wordpress Themes"
+msgstr "CyberChimps Wordpress Themes"
+
+#: ../../cyberchimps/options/options-init.php:393
+msgid "Link to Events plugin settings"
+msgstr "Link ke pengaturan plugin Acara"
+
+#: ../../cyberchimps/options/options-init.php:395
+msgid "Insert custom events info and insert install link"
+msgstr "Masukkan informasi peristiwa kustom dan memasukkan link install"
+
+#: ../../cyberchimps/options/options-init.php:518
+msgid "Default Field"
+msgstr "Standar Lapangan"
+
+#: ../../cyberchimps/options/options-init.php:930
+msgid "Options Imported"
+msgstr "Pilihan Impor"
+
+#: ../../cyberchimps/options/options-init.php:933
+msgid "Invalid Data for Import"
+msgstr "Valid Data Impor"
+
+#: ../../cyberchimps/options/options-init.php:946
+msgid "Default options restored."
+msgstr "Pilihan default dipulihkan."
+
+#: ../../cyberchimps/options/options-init.php:1008
+msgid "Options saved."
+msgstr "Opsi disimpan."
+
+#: ../../cyberchimps/options/options-medialibrary-uploader.php:23
+msgid "Theme Options Media"
+msgstr "Tema Pilihan Media"
+
+#: ../../cyberchimps/options/options-medialibrary-uploader.php:135
+msgid "View File"
+msgstr "Lihat Berkas"
+
+#: ../../cyberchimps/options/options-medialibrary-uploader.php:256
+msgid "Gallery"
+msgstr "Galeri"
+
+#: ../../cyberchimps/options/options-medialibrary-uploader.php:256
+msgid "Previously Uploaded"
+msgstr "Sebelumnya Uploaded"
+
+#: ../../cyberchimps/options/options-sanitize.php:260
+msgid "No Repeat"
+msgstr "Ulangi ada"
+
+#: ../../cyberchimps/options/options-sanitize.php:261
+msgid "Repeat Horizontally"
+msgstr "Ulangi Horizontal"
+
+#: ../../cyberchimps/options/options-sanitize.php:262
+msgid "Repeat Vertically"
+msgstr "Ulangi Vertikal"
+
+#: ../../cyberchimps/options/options-sanitize.php:263
+msgid "Repeat All"
+msgstr "Ulangi Semua"
+
+#: ../../cyberchimps/options/options-sanitize.php:276
+msgid "Top Left"
+msgstr "Top Kiri"
+
+#: ../../cyberchimps/options/options-sanitize.php:277
+msgid "Top Center"
+msgstr "Top Pusat"
+
+#: ../../cyberchimps/options/options-sanitize.php:278
+msgid "Top Right"
+msgstr "Top Kanan"
+
+#: ../../cyberchimps/options/options-sanitize.php:279
+msgid "Middle Left"
+msgstr "Tengah Kiri"
+
+#: ../../cyberchimps/options/options-sanitize.php:280
+msgid "Middle Center"
+msgstr "Tengah Pusat"
+
+#: ../../cyberchimps/options/options-sanitize.php:281
+msgid "Middle Right"
+msgstr "Tengah Kanan"
+
+#: ../../cyberchimps/options/options-sanitize.php:282
+msgid "Bottom Left"
+msgstr "Bawah Kiri"
+
+#: ../../cyberchimps/options/options-sanitize.php:283
+msgid "Bottom Center"
+msgstr "Bawah Pusat"
+
+#: ../../cyberchimps/options/options-sanitize.php:284
+msgid "Bottom Right"
+msgstr "Bawah Kanan"
+
+#: ../../cyberchimps/options/options-sanitize.php:297
+msgid "Scroll Normally"
+msgstr "Gulir Biasanya"
+
+#: ../../cyberchimps/options/options-sanitize.php:298
+msgid "Fixed in Place"
+msgstr "Tetap di Tempat"
+
+#: ../../cyberchimps/options/options-sanitize.php:370
+msgid "Normal"
+msgstr "Normal"
+
+#: ../../cyberchimps/options/options-sanitize.php:371
+msgid "Italic"
+msgstr "Miring"
+
+#: ../../cyberchimps/options/options-sanitize.php:372
+msgid "Bold"
+msgstr "Berani"
+
+#: ../../cyberchimps/options/options-sanitize.php:373
+msgid "Bold Italic"
+msgstr "Bold Italic"
+
+#: ../../elements/boxes.php:39 ../../elements/boxes.php:41
+msgid "Boxes Lite Element"
+msgstr "Kotak Lite Elemen"
+
+#: ../../elements/boxes.php:42
+msgid "Box Image"
+msgstr "Kotak Gambar"
+
+#: ../../elements/boxes.php:43
+msgid "Box URL"
+msgstr "Kotak URL"
+
+#: ../../elements/boxes.php:44
+msgid "Box Text"
+msgstr "Text Box"
+
+#: ../../elements/boxes.php:148
+msgid "Responsive iFeature Slider"
+msgstr "Responsif iFeature Slider"
+
+#: ../../elements/boxes.php:149
+msgid ""
+"The New Touch Friendly iFeature 5 Slider now responds to any mobile touch "
+"device."
+msgstr ""
+"Touch Ramah New iFeature 5 Slider saat menanggapi setiap perangkat sentuh "
+"ponsel."
+
+#: ../../elements/boxes.php:157
+msgid ""
+"With iFeature Pro 5 and touch friendly responsive design you can now control "
+"your website on any device."
+msgstr ""
+"Dengan desain yang ramah iFeature Pro 5 dan sentuhan responsif kini Anda "
+"dapat mengontrol website Anda pada perangkat apapun."
+
+#: ../../elements/boxes.php:164
+msgid "Excellent Support"
+msgstr "Luar Dukungan"
+
+#: ../../elements/boxes.php:165
+msgid ""
+"Need help? Read the instructions and please visit our dedicated Pro Support "
+"Forum"
+msgstr ""
+"Butuh bantuan? Baca instruksi dan silahkan kunjungi Forum Dukungan "
+"berdedikasi Pro kami"
+
+#: ../../elements/twitter-bar.php:90
+msgid "No tweets to display"
+msgstr "Tidak ada tweet untuk menampilkan"
+
+#: ../../elements/twitter-bar.php:167
+msgid "Invalid Response"
+msgstr "Respon tidak valid"
