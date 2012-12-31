@@ -53,6 +53,9 @@ pre {
   -moz-border-radius: 0;
   border-radius: 0;
 }
+code {
+	white-space: pre-wrap;
+}
 header {
 	margin-top: 15px;
   margin-bottom: 15px;
