@@ -79,7 +79,7 @@
 		</div><!-- .entry-summary -->
 	
 	<?php else :// blog post pages ?>
-  	<?php if( cyberchimps_option( 'post_excerpts' ) ): ?>
+  	<?php if( cyberchimps_get_option( 'post_excerpts', 0 ) ): ?>
   		<div class="entry-summary">
       	<?php cyberchimps_featured_image(); ?>
         <?php the_excerpt(); ?>
