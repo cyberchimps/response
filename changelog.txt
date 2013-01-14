@@ -2,6 +2,9 @@ Response Free Changelog
 
 ****************************
 
+Version 2.0.8 (1-14-13)
+-Framework improvements.
+
 Version 2.0.7 (1-6-13)
 -Framework improvements.
 
