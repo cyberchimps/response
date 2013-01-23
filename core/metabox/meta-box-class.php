@@ -586,6 +586,10 @@ class RW_Meta_Box {
 	function save($post_id) {
 		global $pagenow;
 		
+		// check if this is a revision as the revision id is different to post id. if it is get the parent post id if not then get the post id
+		$post_revision = wp_is_post_revision( $post_id );
+		$post_id = ( isset( $post_revision ) ) ? $post_revision : $post_id;
+		
 		// check that the save is coming from the edit post page and not the quick edit
 		if( 'admin-ajax.php' != $pagenow ) {
 			if (isset($_POST['post_type'])) {
