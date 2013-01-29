@@ -572,9 +572,9 @@ class RW_Meta_Box {
 			echo "<img class='image_preview' src='{$meta}' /><br/>";
 		}
 
-		echo "<input type='file' name='{$field['id']}' />";
-		echo "<br/>or enter URL<br/>";
-		echo "<input type='text' size='50' name='{$field['id']}_url' value='{$meta}'/>";
+		echo "<input type='button' class='upload_image_button' value='".__( 'Upload', 'cyberchimps' )."' />";
+		echo "<br/>".__( 'or enter URL', 'cyberchimps' )."<br/>";
+		echo "<input class='upload_image_field' type='text' size='50' name='{$field['id']}_url' value='{$meta}'/>";
 		$this->show_field_end($field, $meta);
 	}
 
@@ -852,7 +852,12 @@ function metabox_enqueue() {
 
 	wp_enqueue_script('jf-metabox-tabs');
 	
+	wp_enqueue_script('media-upload');
+	wp_enqueue_script('thickbox');
+	wp_enqueue_style('thickbox');
+	
 	wp_enqueue_script('jf-metabox-tabs');
+	wp_enqueue_script('custom', $path . 'custom.js', array('jquery') );
 	wp_enqueue_script('jquerycustom', get_template_directory_uri().'/core/library/js/jquery-custom.js', array('jquery') );
 	
 	wp_enqueue_style('metabox-tabs-css');

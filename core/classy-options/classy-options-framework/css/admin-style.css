@@ -742,3 +742,14 @@ tr {border-top: 1px solid #E7E7E7;}
 .upload {
 	max-width: 350px;
 }
+
+.upload_image_button {
+	font-size: 14px !important;
+	padding: 5px 10px !important;
+	width: 70px !important;
+}
+
+.upload-text {
+	float: right;
+	clear: right;
+}
