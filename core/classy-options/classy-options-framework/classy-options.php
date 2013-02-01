@@ -213,11 +213,13 @@ class ClassyOptions {
 				}
 
 				if ( 'upload' == $option['type'] ) {
-					if ($_FILES[$id]['name'] != '') {
-						$overrides = array('test_form' => false); 
-						$file = wp_handle_upload($_FILES[$id], $overrides);
-						$clean[$id] = $file;
-					} 
+					if( $_FILES ) {
+						if ($_FILES[$id]['name'] != '') {
+							$overrides = array('test_form' => false); 
+							$file = wp_handle_upload($_FILES[$id], $overrides);
+							$clean[$id] = $file;
+						}
+					}
 
 					elseif(isset($_POST["{$id}_text"]) && $_POST["{$id}_text"] != '') {
 						$input['file'] = array('url' => $_POST["{$id}_text"]);
