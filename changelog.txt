@@ -2,6 +2,9 @@ Response Free Changelog
 
 ****************************
 
+Version 2.1.2 (2-6-13)
+-Fix upload bug
+
 Version 2.1.0.0 (1-25-13)
 -Fix upload bug
 
