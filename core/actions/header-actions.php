@@ -212,7 +212,7 @@ function response_header_social_icons_content() {
 			<a href="<?php echo $twitter ?>" target="_blank" rel="me"><img src="<?php echo $template_dir; ?>/images/social/<?php echo $folder; ?>/twitter.png" alt="Twitter" /></a>
 		<?php endif;?>
 		<?php if ($hidetwitter == '1' AND $twitter == '' OR $hidetwitter == '' AND $twitter == '' ):?>
-			<a href="http://twitter.com" target="_blank" rel="me"><img src="<?php echo $template_dir; ?>/images/social/<?php echo $folder; ?>/twitter.png" alt="Twitter" /></a>
+			<a href="http://twitter.com/WordPress" target="_blank" rel="me"><img src="<?php echo $template_dir; ?>/images/social/<?php echo $folder; ?>/twitter.png" alt="Twitter" /></a>
 		<?php endif;?>
 		<?php if ($hidegplus == '1' AND $gplus != ''  OR $hidegplus == '' AND $gplus != '' ):?>
 			<a href="<?php echo $gplus ?>" target="_blank" rel="me"><img src="<?php echo $template_dir; ?>/images/social/<?php echo $folder; ?>/gplus.png" alt="Gplus" /></a>
