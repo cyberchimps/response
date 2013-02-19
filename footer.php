@@ -78,9 +78,9 @@ do_action('cyberchimps_before_footer_widgets'); ?>
 
 <?php do_action('cyberchimps_after_wrapper'); ?>
 
-<?php wp_footer(); ?>
-
 </div><!-- container -->
+
+<?php wp_footer(); ?>
 
 </body>
 </html>
