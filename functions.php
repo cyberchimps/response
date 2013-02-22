@@ -21,14 +21,6 @@ require_once( get_template_directory() . '/cyberchimps/init.php' );
 // Set the content width based on the theme's design and stylesheet.
 if ( ! isset( $content_width ) )
 	$content_width = 640; /* pixels */
-	
-// Enqueue core scripts and core styles
-function cyberchimps_scripts() {
-	global $post;
-
-	wp_enqueue_style( 'theme-style', get_stylesheet_directory_uri() . '/inc/css/theme.css', array('style'), '1.0' );	
-}
-add_action( 'wp_enqueue_scripts', 'cyberchimps_scripts', 20 );
 
 // Define site info
 function cyberchimps_add_site_info() { ?>
@@ -57,7 +49,9 @@ function cyberchimps_comment( $comment, $args, $depth ) {
 			<footer>
 				<div class="comment-author vcard">
 					<?php echo get_avatar( $comment, 40 ); ?>
-					<?php printf( __( '%s <span class="says">says:</span>', 'cyberchimps' ), sprintf( '<cite class="fn">%s</cite>', get_comment_author_link() ) ); ?>
+					<?php printf( '%1$s <span class="says">%2$s</span>', sprintf( '<cite class="fn">%1$s</cite>', 
+												get_comment_author_link() ),
+												__( 'says', 'cyberchimps' ) ); ?>
 				</div><!-- .comment-author .vcard -->
 				<?php if ( $comment->comment_approved == '0' ) : ?>
 					<em><?php _e( 'Your comment is awaiting moderation.', 'cyberchimps' ); ?></em>

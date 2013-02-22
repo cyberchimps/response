@@ -2,6 +2,36 @@ Response Free Changelog
 
 ****************************
 
+Version 2.1.3 (2-14-13)
+-IE8 fix for container.
+
+Version 2.1.2 (2-6-13)
+-Fix upload bug
+
+Version 2.1.0.0 (1-25-13)
+-Fix upload bug
+
+Version 2.0.9 (1-23-13)
+-js improvements, meta tag-links classes fix.
+
+Version 2.0.8 (1-14-13)
+-Framework improvements.
+
+Version 2.0.7 (1-6-13)
+-Framework improvements.
+
+Version 2.0.6 (12-29-12)
+-Code cleanup.
+
+Version 2.0.5 (12-22-12)
+-Latest framework updates.
+
+Version 2.0.4 (12-12-12)
+-Latest framework updates.
+
+Version 2.0.3 (12-7-12)
+-Background color / image fix.
+
 Version 2.0.3 (12-7-12)
 -Background color / image fix.
 

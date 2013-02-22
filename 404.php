@@ -33,7 +33,7 @@ get_header(); ?>
 					<?php if( cyberchimps_option( 'error_custom_title' ) != '' ): ?>
           <?php echo cyberchimps_option( 'error_custom_title' ); ?>
           <?php else: ?>
-					<?php _e( 'Oops! That page can&rsquo;t be found.', 'cyberchimps' ); ?></h2>
+					<?php _e( 'Oops! That page cannot be found.', 'cyberchimps' ); ?></h2>
           <?php endif; ?>
 			</header>
 

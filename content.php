@@ -58,7 +58,7 @@
   
 		<div class="entry-content">
     	<?php cyberchimps_featured_image(); ?>
-			<?php the_content( __( 'Continue reading <span class="meta-nav">&rarr;</span>', 'cyberchimps' ) ); ?>
+			<?php the_content( __( 'Continue reading', 'cyberchimps' ) . ' <span class="meta-nav">&rarr;</span>' ); ?>
 			<?php wp_link_pages( array( 'before' => '<div class="page-links">' . __( 'Pages:', 'cyberchimps' ), 'after' => '</div>' ) ); ?>
 		</div><!-- .entry-content -->
 		
@@ -79,7 +79,7 @@
 		</div><!-- .entry-summary -->
 	
 	<?php else :// blog post pages ?>
-  	<?php if( cyberchimps_option( 'post_excerpts' ) ): ?>
+  	<?php if( cyberchimps_get_option( 'post_excerpts', 0 ) ): ?>
   		<div class="entry-summary">
       	<?php cyberchimps_featured_image(); ?>
         <?php the_excerpt(); ?>
@@ -87,7 +87,7 @@
     <?php else: ?>
     	<div class="entry-content">
     		<?php cyberchimps_featured_image(); ?>
-				<?php the_content( __( 'Continue reading <span class="meta-nav">&rarr;</span>', 'cyberchimps' ) ); ?>
+				<?php the_content( __( 'Continue reading', 'cyberchimps' ) . ' <span class="meta-nav">&rarr;</span>' ); ?>
 				<?php wp_link_pages( array( 'before' => '<div class="page-links">' . __( 'Pages:', 'cyberchimps' ), 'after' => '</div>' ) ); ?>
 			</div><!-- .entry-content -->
     <?php endif; ?>

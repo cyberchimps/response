@@ -41,8 +41,8 @@
 		<?php if ( get_comment_pages_count() > 1 && get_option( 'page_comments' ) ) : // are there comments to navigate through ?>
 		<nav role="navigation" id="comment-nav-above" class="site-navigation comment-navigation">
 			<h4 class="assistive-text"><?php _e( 'Comment navigation', 'cyberchimps' ); ?></h4>
-			<div class="nav-previous"><?php previous_comments_link( __( '&larr; Older Comments', 'cyberchimps' ) ); ?></div>
-			<div class="nav-next"><?php next_comments_link( __( 'Newer Comments &rarr;', 'cyberchimps' ) ); ?></div>
+			<div class="nav-previous"><?php previous_comments_link( '&larr; ' . __( 'Older Comments', 'cyberchimps' ) ); ?></div>
+			<div class="nav-next"><?php next_comments_link( __( 'Newer Comments', 'cyberchimps' ) . ' &rarr;' ); ?></div>
 		</nav>
 		<?php endif; // check for comment navigation ?>
 
@@ -61,8 +61,8 @@
 		<?php if ( get_comment_pages_count() > 1 && get_option( 'page_comments' ) ) : // are there comments to navigate through ?>
 		<nav role="navigation" id="comment-nav-below" class="site-navigation comment-navigation">
 			<h4 class="assistive-text"><?php _e( 'Comment navigation', 'cyberchimps' ); ?></h4>
-			<div class="nav-previous"><?php previous_comments_link( __( '&larr; Older Comments', 'cyberchimps' ) ); ?></div>
-			<div class="nav-next"><?php next_comments_link( __( 'Newer Comments &rarr;', 'cyberchimps' ) ); ?></div>
+			<div class="nav-previous"><?php previous_comments_link( '&larr; ' . __( 'Older Comments', 'cyberchimps' ) ); ?></div>
+			<div class="nav-next"><?php next_comments_link( __( 'Newer Comments', 'cyberchimps' ) . ' &rarr;' ); ?></div>
 		</nav>
 		<?php endif; // check for comment navigation ?>
 

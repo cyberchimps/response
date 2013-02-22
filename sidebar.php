@@ -49,7 +49,7 @@
         	<ul>
         		<?php wp_register(); ?>
         		<li><?php wp_loginout(); ?></li>
-        		<li><a href="<?php echo esc_url( __('http://wordpress.org/', 'cyberchimps' )); ?>" target="_blank" title="<?php esc_attr_e('Powered by WordPress, state-of-the-art semantic personal publishing platform.', 'cyberchimps'); ?>"> <?php _e('WordPress', 'cyberchimps' ); ?></a></li>
+        		<li><a href="<?php echo esc_url( 'http://wordpress.org/' ); ?>" target="_blank" title="<?php esc_attr_e('Powered by WordPress, state-of-the-art semantic personal publishing platform.', 'cyberchimps'); ?>"> <?php _e('WordPress', 'cyberchimps' ); ?></a></li>
         		<?php wp_meta(); ?>
     		</ul>
 		</div>
