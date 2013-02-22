@@ -225,3 +225,10 @@ function cyberchimps_typography_styles( $styles ) {
 add_filter( 'cyberchimps_typography_sizes', 'cyberchimps_typography_sizes' );
 add_filter( 'cyberchimps_typography_faces', 'cyberchimps_typography_faces' );
 add_filter( 'cyberchimps_typography_styles', 'cyberchimps_typography_styles' );
+
+// Default for twitter bar handle
+function cyberchimps_twitter_handle_filter() {
+	return 'WordPress';
+}
+add_filter( 'cyberchimps_twitter_handle_filter', 'cyberchimps_twitter_handle_filter' );
+?>
