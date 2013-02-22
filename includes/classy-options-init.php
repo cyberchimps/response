@@ -84,7 +84,7 @@ $options
 		->subsection("Social")
 			->images($themeslug."_icon_style", "Icon set", array( 'options' => array('legacy' => TEMPLATE_URL . '/images/social/thumbs/icons-classic.png', 'default' =>
 TEMPLATE_URL . '/images/social/thumbs/icons-default.png' ), 'default' => 'default' ) )
-			->text($themeslug."_twitter", "Twitter Icon URL", array('default' => 'http://twitter.com/WordPress'))
+			->text($themeslug."_twitter", "Twitter Icon URL", array('default' => 'http://twitter.com'))
 			->checkbox($themeslug."_hide_twitter_icon", "Hide Twitter Icon", array('default' => true))
 			->text($themeslug."_facebook", "Facebook Icon URL", array('default' => 'http://facebook.com'))
 			->checkbox($themeslug."_hide_facebook_icon", "Hide Facebook Icon" , array('default' => true))
