@@ -204,12 +204,12 @@ header {padding-top: 15px;}
 #nav li ul{display:none;position:absolute;top:27px;left:7px}
 #nav li ul a{background:#fff}
 #nav ul ul li:hover ul, #nav ul ul ul li:hover ul{left:0;margin:-37px 0 11px 180px}
-#nav ul li:hover ul{display:inline-block}
+#nav ul li:hover ul{display:inline-block; margin-left: -8px;}
 #nav ul ul, #nav ul li:hover ul ul, #nav ul ul li:hover ul ul{display:none}
 #nav ul li:hover ul, #nav ul ul li:hover ul, #nav ul ul ul li:hover ul{display:block}
-#nav ul li:hover ul li a{border-top:#ddd 1px solid;border-right:#ddd 1px solid;border-bottom:#ddd 1px solid;border-left:#ddd 1px solid;margin:-1px 0 0 -8px}
-#nav ul ul li:hover ul li a{border-top:#ddd 1px solid;border-right:#ddd 1px solid;border-bottom:#ddd 1px solid;border-left:none;margin:-1px 0 0 -8px}
-#nav ul ul ul li:hover ul li a {border-top:#ddd 1px solid;border-right:#ddd 1px solid;border-bottom:#ddd 1px solid;border-left:none;margin:-1px 0 0 -9px}
+#nav ul li:hover ul li a{border-top:#ddd 1px solid;border-right:#ddd 1px solid;border-bottom:#ddd 1px solid;border-left:#ddd 1px solid;margin:-1px 0 0 0px}
+#nav ul ul li:hover ul li a{border-top:#ddd 1px solid;border-right:#ddd 1px solid;border-bottom:#ddd 1px solid;border-left:none;margin:-1px 0 0 0px}
+#nav ul ul ul li:hover ul li a {border-top:#ddd 1px solid;border-right:#ddd 1px solid;border-bottom:#ddd 1px solid;border-left:none;margin:-1px 0 0 0px}
 #nav ul li:hover ul li a{width:150px;padding:0 14px}
 #nav ul ul li:hover ul li a{width:150px;padding:0 14px}
 #nav ul ul ul li:hover ul li a{width:150px;padding:0 14px;}
