@@ -66,11 +66,7 @@ do_action('cyberchimps_before_footer_widgets'); ?>
 
 <?php do_action('cyberchimps_before_footer_container'); ?>
 
-<footer class="site-footer row-fluid">
-	
 	<?php do_action('cyberchimps_footer'); ?>
-	
-</footer><!-- .site-footer .row-fluid -->
 
 <?php do_action('cyberchimps_after_footer_container'); ?>
 
