@@ -18,6 +18,11 @@
 // Load Core
 require_once( get_template_directory() . '/cyberchimps/init.php' );
 
+function cyberchimps_text_domain() {
+	add_theme_support( "title-tag" );
+}
+add_action( 'after_setup_theme', 'cyberchimps_text_domain' );
+
 // Set the content width based on the theme's design and stylesheet.
 if ( ! isset( $content_width ) )
 	$content_width = 640; /* pixels */
