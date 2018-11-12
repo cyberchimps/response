@@ -14,23 +14,28 @@
  * @license  http://www.opensource.org/licenses/gpl-license.php GPL v2.0 (or later)
  * @link     http://www.cyberchimps.com/
  */
- 
+
 get_header(); ?>
 
 <?php do_action( 'cyberchimps_before_container'); ?>
 
+<div class="container">
+
+<div id="wrapper" class="container-fluid">
+
 <div id="container" <?php cyberchimps_filter_container_class(); ?>>
-	
+
+
 	<?php do_action( 'cyberchimps_before_content_container'); ?>
-	
+
 	<div id="content" <?php cyberchimps_filter_content_class(); ?>>
-		
+
 		<?php do_action( 'cyberchimps_before_content'); ?>
-		
+
 		<?php if ( have_posts() ) : ?>
 
 			<header class="page-header">
-				<h2 class="page-title"><?php printf( __( 'Search Results for: %s', 'cyberchimps' ), '<span>' . get_search_query() . '</span>' ); ?></h2>
+				<h2 class="page-title"><?php printf( __( 'Search Results for: %s', 'response' ), '<span>' . get_search_query() . '</span>' ); ?></h2>
 			</header>
 
 			<?php /* Start the Loop */ ?>
@@ -45,15 +50,16 @@ get_header(); ?>
 			<?php get_template_part( 'no-results', 'search' ); ?>
 
 		<?php endif; ?>
-	
-		<?php do_action( 'cyberchimps_after_content'); ?>
-		
-	</div><!-- #content -->
-	
-	<?php do_action( 'cyberchimps_after_content_container'); ?>
-		
-</div><!-- #container .row-fluid-->
 
+		<?php do_action( 'cyberchimps_after_content'); ?>
+
+	</div><!-- #content -->
+
+	<?php do_action( 'cyberchimps_after_content_container'); ?>
+
+</div><!-- #container .row-fluid-->
+</div><!-- #wrapper .container-fluid -->
+</div><!-- container -->
 <?php do_action( 'cyberchimps_after_container'); ?>
 
 <?php get_footer(); ?>

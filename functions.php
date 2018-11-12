@@ -14,27 +14,29 @@
  * @license  http://www.opensource.org/licenses/gpl-license.php GPL v2.0 (or later)
  * @link     http://www.cyberchimps.com/
  */
-
 // Load Core
 require_once( get_template_directory() . '/cyberchimps/init.php' );
+require_once( get_template_directory() . '/inc/admin-about.php' );
+require_once( get_template_directory() . '/inc/testimonial_template.php' );
+
+
 
 function cyberchimps_text_domain() {
 	add_theme_support( "title-tag" );
+
+	// Add support for full and wide align images.
+	add_theme_support( 'align-wide' );
 }
 add_action( 'after_setup_theme', 'cyberchimps_text_domain' );
-
 // Set the content width based on the theme's design and stylesheet.
 if ( ! isset( $content_width ) )
 	$content_width = 640; /* pixels */
-
 // Define site info
 function cyberchimps_add_site_info() { ?>
-	<p>&copy; Company Name</p>	
+	<p>&copy; Company Name</p>
 <?php }
 add_action('cyberchimps_site_info', 'cyberchimps_add_site_info');
-
 if ( ! function_exists( 'cyberchimps_comment' ) ) :
-
 // Template for comments and pingbacks.
 // Used as a callback by wp_list_comments() for displaying the comments.
 function cyberchimps_comment( $comment, $args, $depth ) {
@@ -44,7 +46,7 @@ function cyberchimps_comment( $comment, $args, $depth ) {
 		case 'trackback' :
 	?>
 	<li class="post pingback">
-		<p><?php _e( 'Pingback:', 'cyberchimps' ); ?> <?php comment_author_link(); ?><?php edit_comment_link( __( '(Edit)', 'cyberchimps' ), ' ' ); ?></p>
+		<p><?php _e( 'Pingback:', 'response' ); ?> <?php comment_author_link(); ?><?php edit_comment_link( __( '(Edit)', 'response' ), ' ' ); ?></p>
 	<?php
 			break;
 		default :
@@ -54,12 +56,12 @@ function cyberchimps_comment( $comment, $args, $depth ) {
 			<footer>
 				<div class="comment-author vcard">
 					<?php echo get_avatar( $comment, 40 ); ?>
-					<?php printf( '%1$s <span class="says">%2$s</span>', sprintf( '<cite class="fn">%1$s</cite>', 
+					<?php printf( '%1$s <span class="says">%2$s</span>', sprintf( '<cite class="fn">%1$s</cite>',
 												get_comment_author_link() ),
-												__( 'says', 'cyberchimps' ) ); ?>
+												__( 'says', 'response' ) ); ?>
 				</div><!-- .comment-author .vcard -->
 				<?php if ( $comment->comment_approved == '0' ) : ?>
-					<em><?php _e( 'Your comment is awaiting moderation.', 'cyberchimps' ); ?></em>
+					<em><?php _e( 'Your comment is awaiting moderation.', 'response' ); ?></em>
 					<br />
 				<?php endif; ?>
 
@@ -67,9 +69,9 @@ function cyberchimps_comment( $comment, $args, $depth ) {
 					<a href="<?php echo esc_url( get_comment_link( $comment->comment_ID ) ); ?>"><time pubdate datetime="<?php comment_time( 'c' ); ?>">
 					<?php
 						/* translators: 1: date, 2: time */
-						printf( __( '%1$s at %2$s', 'cyberchimps' ), get_comment_date(), get_comment_time() ); ?>
+						printf( __( '%1$s at %2$s', 'response' ), get_comment_date(), get_comment_time() ); ?>
 					</time></a>
-					<?php edit_comment_link( __( '(Edit)', 'cyberchimps' ), ' ' );
+					<?php edit_comment_link( __( '(Edit)', 'response' ), ' ' );
 					?>
 				</div><!-- .comment-meta .commentmetadata -->
 			</footer>
@@ -86,7 +88,6 @@ function cyberchimps_comment( $comment, $args, $depth ) {
 	endswitch;
 }
 endif; // ends check for cyberchimps_comment()
-
 // set up next and previous post links for lite themes only
 function cyberchimps_next_previous_posts() {
 	if( get_next_posts_link() || get_previous_posts_link() ): ?>
@@ -104,7 +105,6 @@ function cyberchimps_next_previous_posts() {
 	endif;
 }
 add_action( 'cyberchimps_after_content', 'cyberchimps_next_previous_posts' );
-
 // core options customization Names and URL's
 //Pro or Free
 function cyberchimps_theme_check() {
@@ -153,28 +153,24 @@ add_filter( 'cyberchimps_documentation', 'cyberchimps_options_documentation_url'
 add_filter( 'cyberchimps_support_forum', 'cyberchimps_options_support_forum' );
 add_filter( 'cyberchimps_page_options_help', 'cyberchimps_options_page_options_help' );
 add_filter( 'cyberchimps_slider_options_help', 'cyberchimps_options_slider_options_help' );
-
 // Help Section
 function cyberchimps_options_help_header() {
 	$text = 'Response 2.0';
 	return $text;
 }
 function cyberchimps_options_help_sub_header(){
-	$text = __( 'CyberChimps Professional Responsive WordPress Theme', 'cyberchimps' );
+	$text = __( 'CyberChimps Professional Responsive WordPress Theme', 'response' );
 	return $text;
 }
 add_filter( 'cyberchimps_help_heading', 'cyberchimps_options_help_header' );
 add_filter( 'cyberchimps_help_sub_heading', 'cyberchimps_options_help_sub_header' );
-
 // Branding images and defaults
-
 // Banner default
 function cyberchimps_banner_default() {
 	$url = '/images/branding/banner.jpg';
 	return $url;
 }
 add_filter( 'cyberchimps_banner_img', 'cyberchimps_banner_default' );
-
 // theme specific background images
 function cyberchimps_background_image( $options ) {
 	$imagepath =  get_template_directory_uri() . '/cyberchimps/lib/images/';
@@ -188,7 +184,6 @@ function cyberchimps_background_image( $options ) {
 	return $options;
 }
 add_filter( 'cyberchimps_background_image', 'cyberchimps_background_image' );
-
 // theme specific typography options
 function cyberchimps_typography_sizes( $sizes ) {
 	$sizes = array( '8','9','10','12','14','16','20' );
@@ -224,10 +219,38 @@ function cyberchimps_typography_styles( $styles ) {
 add_filter( 'cyberchimps_typography_sizes', 'cyberchimps_typography_sizes' );
 add_filter( 'cyberchimps_typography_faces', 'cyberchimps_typography_faces' );
 add_filter( 'cyberchimps_typography_styles', 'cyberchimps_typography_styles' );
-
 // Default for twitter bar handle
 function cyberchimps_twitter_handle_filter() {
 	return 'WordPress';
 }
 add_filter( 'cyberchimps_twitter_handle_filter', 'cyberchimps_twitter_handle_filter' );
-?>
+
+
+/**
+ *  Enqueue block styles  in editor
+ */
+function response_block_styles() {
+	wp_enqueue_style( 'gutenberg-blocks', get_stylesheet_directory_uri() . '/inc/css/gutenberg-blocks.css', array(), '1.0' );
+
+}
+add_action( 'enqueue_block_editor_assets', 'response_block_styles' );
+
+/**
+ * [response_enqueue description]
+ *
+ * @return void
+ */
+function response_enqueue() {
+	$directory_uri = get_template_directory_uri();
+	wp_enqueue_script( 'jquery-flexslider', $directory_uri . '/inc/js/jquery.flexslider.js', 'jquery', '1.0', true );
+}
+add_action( 'wp_enqueue_scripts', 'response_enqueue' );
+
+/**
+ * [response_set_defaults description]
+ */
+function response_set_defaults() {
+	remove_action('testimonial', array( CyberChimpsTestimonial::instance(), 'render_display' ));
+	add_action('testimonial', 'response_testimonial_render_display');
+}
+add_action( 'init', 'response_set_defaults' );
