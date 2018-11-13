@@ -16,7 +16,6 @@
  */
 // Load Core
 require_once( get_template_directory() . '/cyberchimps/init.php' );
-require_once( get_template_directory() . '/inc/admin-about.php' );
 require_once( get_template_directory() . '/inc/testimonial_template.php' );
 
 

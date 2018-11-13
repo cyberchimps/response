@@ -15,7 +15,7 @@ License URI: http://www.opensource.org/licenses/gpl-license.php GPL v2.0 (or lat
 /********************************************************************************************************************/
 /******************************************** MAIN HTML STYLES ******************************************************/
 /********************************************************************************************************************/
-body {color:#555}
+body {color:#555;}
 h1, h2, h3, h4, h5, h6 {
   margin-bottom: 15px;
   font-weight: 400;
@@ -31,7 +31,7 @@ tr {
   border-bottom: 1px solid #ccc;
 }
 td {
-	padding: 5px 20px;
+	padding: 10px;;
 }
 dt {
   font-weight: bold;
@@ -575,9 +575,11 @@ table#wp-calendar td {
 }
 .site-footer #copyright {
 	text-align: right;
-  margin-bottom: 20px;
+	margin-bottom: 20px;
 }
-
+.site-footer.row-fluid{
+	display: flex;
+}
 
 /********************************************************************************************************************/
 /******************************************** WORDPRESS DEFAULTS ****************************************************/
