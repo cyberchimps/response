@@ -2,7 +2,7 @@ Response Free Changelog
 
 ****************************
 
-Version 2.3 (11-12-18)
+Version 2.3 (11-14-18)
 -Added gutenberg compatibility
 -Added contact us and testimonials elements
 -Fixed text domain issue
