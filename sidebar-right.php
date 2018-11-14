@@ -24,41 +24,41 @@
 	<?php if ( !dynamic_sidebar( 'sidebar-right' ) ) : ?>
 		
 		<div class="widget-container">    
-			<h3 class="widget-title"><?php _e('Pages', 'cyberchimps' ); ?></h3>
+			<h3 class="widget-title"><?php _e('Pages', 'response' ); ?></h3>
 			<ul>
     			<?php wp_list_pages('title_li=' ); ?>
     		</ul>
     	</div>
     
 		<div class="widget-container">    
-    		<h3 class="widget-title"><?php _e( 'Archives', 'cyberchimps' ); ?></h3>
+    		<h3 class="widget-title"><?php _e( 'Archives', 'response' ); ?></h3>
     		<ul>
     			<?php wp_get_archives('type=monthly'); ?>
     		</ul>
     	</div>
         
 		<div class="widget-container">
-			<h3 class="widget-title"><?php _e('Categories', 'cyberchimps' ); ?></h3>
+			<h3 class="widget-title"><?php _e('Categories', 'response' ); ?></h3>
 			<ul>
 				<?php wp_list_categories('show_count=1&title_li='); ?>
 			</ul>
         </div>
         
         <div class="widget-container">
-        	<h3 class="widget-title"><?php _e('WordPress', 'cyberchimps' ); ?></h3>
+        	<h3 class="widget-title"><?php _e('WordPress', 'response' ); ?></h3>
         	<ul>
         		<?php wp_register(); ?>
         		<li><?php wp_loginout(); ?></li>
-        		<li><a href="<?php echo esc_url( 'http://wordpress.org/' ); ?>" target="_blank" title="<?php esc_attr_e('Powered by WordPress, state-of-the-art semantic personal publishing platform.', 'cyberchimps'); ?>"> <?php _e('WordPress', 'cyberchimps' ); ?></a></li>
+        		<li><a href="<?php echo esc_url( 'http://wordpress.org/' ); ?>" target="_blank" title="<?php esc_attr_e('Powered by WordPress, state-of-the-art semantic personal publishing platform.', 'response'); ?>"> <?php _e('WordPress', 'response' ); ?></a></li>
         		<?php wp_meta(); ?>
     		</ul>
 		</div>
 		
 		<div class="widget-container">
-			<h3 class="widget-title"><?php _e('Subscribe', 'cyberchimps' ); ?></h3>
+			<h3 class="widget-title"><?php _e('Subscribe', 'response' ); ?></h3>
 			<ul>
-				<li><a href="<?php bloginfo('rss2_url'); ?>"><?php _e('Entries (RSS)', 'cyberchimps' ); ?></a></li>
-				<li><a href="<?php bloginfo('comments_rss2_url'); ?>"><?php _e('Comments (RSS)', 'cyberchimps' ); ?></a></li>
+				<li><a href="<?php bloginfo('rss2_url'); ?>"><?php _e('Entries (RSS)', 'response' ); ?></a></li>
+				<li><a href="<?php bloginfo('comments_rss2_url'); ?>"><?php _e('Comments (RSS)', 'response' ); ?></a></li>
 			</ul>
 		</div>
 		

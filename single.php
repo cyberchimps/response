@@ -14,23 +14,28 @@
  * @license  http://www.opensource.org/licenses/gpl-license.php GPL v2.0 (or later)
  * @link     http://www.cyberchimps.com/
  */
- 
+
 get_header(); ?>
 
 <?php do_action( 'cyberchimps_before_container'); ?>
 
+<div class="container">
+
+<div id="wrapper" class="container-fluid">
+
 <div id="container" <?php cyberchimps_filter_container_class(); ?>>
-	
+
+
 	<?php do_action( 'cyberchimps_before_content_container'); ?>
-	
+
 	<div id="content" <?php cyberchimps_filter_content_class(); ?>>
-		
+
 		<?php do_action( 'cyberchimps_before_content'); ?>
-		
+
 		<?php while ( have_posts() ) : the_post(); ?>
 
 			<?php get_template_part( 'content', 'single' ); ?>
-      
+
       <div class="more-content">
 				<div class="row-fluid">
 					<div class="span6 previous-post">
@@ -49,14 +54,16 @@ get_header(); ?>
 			?>
 
 		<?php endwhile; // end of the loop. ?>
-	
+
 		<?php do_action( 'cyberchimps_after_content'); ?>
-		
+
 	</div><!-- #content -->
-	
+
 	<?php do_action( 'cyberchimps_after_content_container'); ?>
-		
+
 </div><!-- #container .row-fluid-->
+</div><!-- #wrapper .container-fluid -->
+</div><!-- container -->
 
 <?php do_action( 'cyberchimps_after_container'); ?>
 

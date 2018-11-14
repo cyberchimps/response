@@ -2,6 +2,12 @@ Response Free Changelog
 
 ****************************
 
+Version 2.3 (11-14-18)
+-Added gutenberg compatibility
+-Added contact us and testimonials elements
+-Fixed text domain issue
+-Fixed Post page Error
+
 Version 2.2 (10-24-16)
 - Changes done as per the new WordPress guideline
 
